@@ -7,6 +7,7 @@ subtitle: |-
   Born in 1989 in Vevey (CH)
   Based in Brussels
 portrait: /img/portrait_cs_carre__.jpg
+email: charlottestuby@gmail.com
 cv: /img/cv_charlottestuby_2020.pdf
 email: charlottestuby@gmail.com
 ---
