@@ -35,6 +35,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work"}
       - {label: "Order of appearance", name: "orderOfAppearance", widget: "number", default: "999"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Sous-titre", name: "subtitle", widget: "string"}
