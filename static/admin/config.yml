@@ -47,5 +47,6 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "text"}
           - {label: "Portrait", name: "portrait", widget: image}
+          - {label: "Contact email", name: "email", widget: "string", required: false}
           - {label: "Curriculum PDF", name: "cv", widget: "file", allow_multiple: false, media_library: {config: {multiple: false}}, required: false}
           - {label: "Body", name: "body", widget: "markdown"}
