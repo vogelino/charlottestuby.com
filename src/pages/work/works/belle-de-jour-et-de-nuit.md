@@ -1,4 +1,5 @@
 ---
+templateKey: work
 orderOfAppearance: 1
 title: Belle de jour et de nuit
 subtitle: Des Seins à Dessein, Lausanne (CH), 2020
@@ -9,16 +10,16 @@ portraitThumb: /img/imaccueil_accueil.jpg
 landscapeThumb: /img/imaccueil_accueil.jpg
 decorativeForm: /img/forme_noire.png
 images:
-  - Image: /img/belle-de-nuit-charlotte-stuby-des-seins-a-dessein-lausanne-2020_copie.jpg
+  - image: /img/belle-de-nuit-charlotte-stuby-des-seins-a-dessein-lausanne-2020_copie.jpg
     caption: Tapestries (dyptich) , made of silk, cotton, wool and linen 54x38cm,
       collective show, Espace Arlaud. Pictures by Nicolas Lieber
-  - Image: /img/belle-de-jour-charlotte-stuby-des-seins-a-dessein-lausanne-2020.jpg
+  - image: /img/belle-de-jour-charlotte-stuby-des-seins-a-dessein-lausanne-2020.jpg
     caption: Tapestries (dyptich) , made of silk, cotton, wool and linen 54x38cm,
       collective show, Espace Arlaud. Pictures by Nicolas Lieber
-  - Image: /img/exhibition_view_charlotte-stuby-lausanne-2020.jpg
+  - image: /img/exhibition_view_charlotte-stuby-lausanne-2020.jpg
     caption: Tapestries (dyptich) , made of silk, cotton, wool and linen 54x38cm,
       collective show, Espace Arlaud. Pictures by Nicolas Lieber
-  - Image: /img/texte-tapisserie-charlotte-stuby-spring-2020.jpg
+  - image: /img/texte-tapisserie-charlotte-stuby-spring-2020.jpg
     caption: Tapestries (dyptich) , made of silk, cotton, wool and linen 54x38cm,
       collective show, Espace Arlaud. Pictures by Nicolas Lieber
 ---

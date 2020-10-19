@@ -44,7 +44,7 @@ collections:
       - {label: "Image présentant ton project (format portrait)", name: "portraitThumb", widget: image}
       - {label: "Image présentant ton project (format paysagge)", name: "landscapeThumb", widget: image}
       - {label: "Forme décorative", name: "decorativeForm", widget: image}
-      - {label: "Gallerie d'images", name: "images", widget: "list", fields: [{label: "Image", name: "Image", widget: image}, {label: "Légende", name: "caption", widget: "string"}]}
+      - {label: "Gallerie d'images", name: "images", widget: "list", fields: [{label: "Image", name: "image", widget: image}, {label: "Légende", name: "caption", widget: "string"}]}
 
   - name: "pages"
     label: "Pages"
