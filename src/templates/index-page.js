@@ -9,7 +9,7 @@ export const IndexPageTemplate = () => <WorkRoll />
 IndexPageTemplate.propTypes = {}
 
 const IndexPage = () => (
-	<Layout>
+	<Layout page="/">
 		<IndexPageTemplate />
 	</Layout>
 )

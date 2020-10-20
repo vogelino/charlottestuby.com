@@ -41,24 +41,24 @@ WorkTemplate.propTypes = {
 }
 
 const Work = ({ data }) => {
-	const { markdownRemark: post } = data
+	const { markdownRemark: work } = data
 
 	return (
-		<Layout>
+		<Layout page={`/work/${work.fields.slug}`}>
 			<WorkTemplate
-				content={post.html}
+				content={work.html}
 				contentComponent={HTMLContent}
-				description={post.frontmatter.description}
+				description={work.frontmatter.description}
 				helmet={
-					<Helmet titleTemplate="%s | Blog">
-						<title>{`${post.frontmatter.title}`}</title>
+					<Helmet titleTemplate="%s | Projet">
+						<title>{`${work.frontmatter.title}`}</title>
 						<meta
 							name="description"
-							content={`${post.frontmatter.description}`}
+							content={`${work.frontmatter.description}`}
 						/>
 					</Helmet>
 				}
-				title={post.frontmatter.title}
+				title={work.frontmatter.title}
 			/>
 		</Layout>
 	)
@@ -76,6 +76,9 @@ export const pageQuery = graphql`
 	query WorkByID($id: String!) {
 		markdownRemark(id: { eq: $id }) {
 			id
+			fields {
+				slug
+			}
 			html
 			frontmatter {
 				date(formatString: "MMMM DD, YYYY")
