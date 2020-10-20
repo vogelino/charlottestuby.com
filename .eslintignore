@@ -1,0 +1,6 @@
+dist/**/*
+webpack/**/*
+public/**/*
+.cache/**/*
+webpack.config.babel.js
+src/*.json
