@@ -25,6 +25,7 @@
     "netlify-cms-media-library-uploadcare": "^0.5.2",
     "nib": "^1.1.2",
     "node-sass": "^4.14.0",
+    "nuka-carousel": "^4.6.1",
     "prop-types": "^15.6.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
