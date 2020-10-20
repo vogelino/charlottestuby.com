@@ -158,6 +158,8 @@ const MetaTags = () => {
 			/>
 			<link rel="mask-icon" href={SAFARI_PINNED_TAB} color="#014ce3" />
 
+			<link rel="manifest" href="/manifest.json" />
+
 			<link rel="author" href="https://www.vogelino.com" />
 
 			<link rel="stylesheet" href="/styles.css" />
