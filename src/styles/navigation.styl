@@ -1,0 +1,47 @@
+nav
+	top 0
+	left 0
+	position absolute
+	height 100%
+	width $navBarWidth
+
+
+	.about &
+		position fixed
+		top $headerHeight
+
+	.maxWidthReached.about &
+		position absolute
+		top 0
+
+	a,
+	li
+		width 120px
+		height $navBarWidth
+
+	a
+		padding 15px 0
+		text-align center
+		box-sizing border-box
+
+	ul,
+	li,
+	a
+		display block
+
+	ul
+		position absolute
+		top 0
+		left 0
+		height 100%
+		width 100%
+
+		li
+			transform-origin 0 0
+
+			&:first-child
+				transform rotate(-90deg) translateX(-240px)
+
+			&:last-child
+				transform rotate(-90deg) translateX(-60px)
+

@@ -1,0 +1,158 @@
+.about-picture,
+.about-content
+	width 50%
+	height auto
+	float left
+	box-sizing border-box
+
+	@media (max-width: $mqDesktopMaxWidth)
+		width 100%
+
+.about-picture
+	padding 0
+	margin-top -40px
+
+	.img,
+	svg
+		width 100%
+		height 100%
+		float left
+		pointer-events none
+
+	.img
+		background-size cover
+		position absolute
+		width 45%
+		height 0
+		padding-bottom 45%
+		top -40px
+		right -40px
+		border-radius 50%
+		border 20px solid $contentBackgroundColor
+
+	@media (max-width: $mqDesktopMaxWidth)
+		&
+			padding 0
+			margin-top 0
+
+		.img
+			position static
+			border-radius 0
+			width 100%
+			padding-bottom 75%
+			border none
+
+		svg
+			display none
+
+	.image-form
+		position relative
+		z-index 2
+
+	.blue-empty-form
+		position absolute
+		top 10px
+		right 45%
+		width 120px
+		height auto
+		fill none
+		stroke blue
+		stroke-width 3px
+		z-index 3
+
+	.blue-full-form
+		position absolute
+		top 70%
+		left 100px
+		width 180px
+		height auto
+		transform rotate(10deg)
+		fill blue
+		z-index 1
+		animation-delay 11s
+
+	.red-empty-form
+		position absolute
+		top 76%
+		top 36vw
+		left -210px
+		width 350px
+		height auto
+		fill none
+		stroke red
+		stroke-width 3px
+		z-index 1
+
+	.red-full-form
+		position absolute
+		bottom 40px
+		right 40px
+		width 400px
+		height auto
+		fill red
+		z-index 3
+		animation-delay 9s
+
+	.white-form
+		position absolute
+		bottom 250px
+		right -160px
+		width 130px
+		height auto
+		transform rotate(45deg)
+		fill white
+		z-index 3
+
+	.yellow-empty-form
+		position absolute
+		top -30px
+		left -170px
+		width 80px
+		height auto
+		fill none
+		stroke yellow
+		stroke-width 3px
+		z-index 3
+		width 200px
+
+	.yellow-full-form
+		position absolute
+		top 60%
+		top 25vw
+		left -180px
+		width 140px
+		height auto
+		fill yellow
+		z-index 3
+
+	.yellow-full-form-2
+		position absolute
+		top 70px
+		right -200px
+		width 100px
+		height auto
+		fill yellow
+		z-index 3
+		animation-delay 3s
+		animation-duration 22s
+		animation-direction reverse
+
+.about-content
+	padding 10%
+
+	h1
+		font-size 24px
+		margin-bottom 24px
+
+	p
+		margin-bottom 14px
+		font-size 80%
+
+	.about-text
+		margin-bottom 40px
+
+	@media (max-width: $mqTabletMaxWidth)
+		.btn
+			padding 8px 11px 9px
+			display block
+			text-align center

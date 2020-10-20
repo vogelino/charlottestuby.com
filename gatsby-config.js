@@ -1,6 +1,3 @@
-const autoprefixer = require('autoprefixer')
-const postcssReset = require('postcss-css-reset')
-
 module.exports = {
 	siteMetadata: {
 		title: 'Portfolio of Charlotte Stuby',
@@ -60,6 +57,7 @@ module.exports = {
 				],
 			},
 		},
+
 		{
 			resolve: 'gatsby-plugin-netlify-cms',
 			options: {
@@ -67,9 +65,7 @@ module.exports = {
 			},
 		},
 		{
-			resolve: 'gatsby-plugin-stylus',
 			options: {
-				use: [postcssReset, autoprefixer],
 			},
 		},
 		'gatsby-plugin-netlify', // make sure to keep it last in the array

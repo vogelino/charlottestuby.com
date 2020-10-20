@@ -1,0 +1,109 @@
+$workImageBorder = 10px;
+
+.work-header,
+.work-images,
+.work-image,
+.work-image img
+	float left
+	width 100%
+	box-sizing border-box
+
+.work-image-loading-container
+	background rgba($mainBackgroundColor, .1)
+	display inline-block
+	width 100%
+	max-width $mqDesktopMaxWidth
+	border-radius 3px
+	margin-bottom 10px
+
+@media screen and (max-width: $mqDesktopMaxWidth)
+	.work-image-loading-container
+		min-height 100px !important
+		float left
+
+@media screen and (min-width: $mqDesktopMaxWidth)
+	.work-image
+		text-align center
+
+		img
+			border-radius 3px
+			float left
+
+		&:first-child
+			margin-top 50px
+
+		&:last-child
+			margin-bottom 150px
+
+$workHeaderHeight = 90px;
+.work-container
+	padding-top $workHeaderHeight
+
+.work-image
+	padding 20px
+	margin-bottom 20px
+
+.work-image figcaption
+	max-width 960px
+	margin 0 auto
+	text-align left
+	font-size $textFontSize - 4px
+
+.work-header
+	z-index 1
+	padding 15px 20px 20px
+	height $workHeaderHeight
+	background $contentBackgroundColor
+	position fixed
+	top 0
+	left 0
+
+	.work-header-container
+		max-width 1240px
+		position relative
+		margin 0 auto
+
+	.loading-container
+		background-color $mainBackgroundColor
+		border-radius $mainRadiusSize
+		left auto
+		right 15px
+		top 15px
+		height 35px
+		width 35px
+		z-index 3
+
+.work-title
+	margin-right 20px
+
+.work-description
+	padding 0 20px 20px
+	font-size $textFontSize - 4px
+	line-height $textFontSize - 2px
+	color rgba($mainTextColor, .5)
+
+	@media (max-width: $mqTabletMaxWidth)
+		font-size $textFontSize - 6px
+		line-height $textFontSize - 4px
+
+a.work-close-button
+	border none
+	background none
+	width 25px
+	height 25px
+	font-size 40px
+	line-height 28px
+	position absolute
+	top 20px
+	right 20px
+
+	svg
+		display block
+		float left
+		fill $linkOnContentColor
+
+	&:hover svg
+		fill $linkHoverOnContentColor
+
+	&:active svg
+		fill $linkActiveOnContentColor

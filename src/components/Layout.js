@@ -4,7 +4,6 @@ import Navbar from '../components/Navbar'
 import MetaTags from './MetaTags'
 import Header from './Header'
 import ThumbnailsForms from './ThumbnailsForms'
-import '../styles/index.styl'
 
 const TemplateWrapper = ({ children, page = '' }) => (
 	<div>

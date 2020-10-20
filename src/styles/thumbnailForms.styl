@@ -1,0 +1,32 @@
+.thumbnail-forms,
+.thumbnail-forms-list
+	position absolute
+	top 0
+	left 0
+	pointer-events none
+	z-index 1
+	transition left $extraSlowTransition $smoothTransitionEase
+
+	.maxWidthReached &
+		left -20px
+
+.thumbnail-forms
+	overflow hidden
+
+.thumbnail-forms-list
+	transition top $extraSlowTransition $smoothTransitionEase
+	transition-delay $quickTransition
+
+.thumbnail-form
+	float left
+	background-position top right
+	background-repeat no-repeat
+	background-size 300px auto
+	opacity 0
+	transition opacity $extraSlowTransition $smoothTransitionEase
+
+	&.active
+		opacity 1
+
+	@media (max-width: $mqTabletMaxWidth)
+		background-size 40% auto

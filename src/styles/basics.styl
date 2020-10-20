@@ -1,0 +1,199 @@
+html,
+body,
+#root,
+main
+	position relative
+	width 100%
+	height 100%
+	min-height $bodyMinHeight
+	min-width $bodyMinWidth
+	margin 0 auto
+
+body
+	font-family $mainFontFamily
+	font-size $textFontSize
+	font-weight $textFontWeight
+	line-height $textLineHeight
+	color $mainTextColor
+	background $mainBackgroundColor
+	-webkit-font-smoothing antialiased
+
+	&.work
+		background white
+
+h1,
+h2
+	font-size $headlineFontSize
+	font-weight $headlineFontWeight
+	line-height $headlineLineHeight
+
+h3
+	font-size $subHeadlineFontSize
+	line-height $subHeadlineLineHeight
+
+h4
+	font-size $subHeadlineFontSize - 2
+	line-height $subHeadlineLineHeight
+
+h5
+	font-size $subHeadlineFontSize - 3
+	line-height $subHeadlineLineHeight - 1
+
+h6
+	font-size $subHeadlineFontSize - 4
+	line-height $subHeadlineLineHeight - 2
+
+h3,
+h4,
+h5,
+h6
+	font-weight $subHeadlineFontWeight
+
+
+@media (max-width: $mqTabletMaxWidth)
+	h2
+		font-size $headlineFontSize - 6px
+		line-height $headlineFontSize - 6px
+
+	h3
+		font-size $subHeadlineFontSize - 2px
+
+ul, li
+	list-style none
+
+a,
+a:visited,
+.interactive
+	cursor pointer
+	font-size inherit
+	font-weight inherit
+	line-height inherit
+	text-decoration none
+	color $linkOnMainColor
+	transition color $quickTransition ease-out
+
+	&:hover
+		color $linkHoverOnMainColor
+
+	&:active
+		color $linkActiveOnMainColor
+
+	&:hover:not(.active),
+	&:active:not(.active)
+		text-decoration underline
+
+	&:focus,
+	&:visited:focus,
+	&:hover:focus
+		outline none
+		border-radius $mainRadiusSize
+		background $linkFocusOnMainColor
+		text-decoration overline
+
+	&:active:focus
+		background none
+		text-decoration none
+
+
+nav li
+	a
+		font-size $navFontSize
+		font-weight $navFontWeight
+		line-height $navLineHeight
+		text-transform lowercase
+
+		.maxWidthReached &
+			border-radius $mainRadiusSize $mainRadiusSize 0 0
+
+	&.active:focus a,
+	&.active:visited:focus a,
+	&.active:hover:focus a
+		border-radius 0
+
+	&.active a,
+	&.active:hover a,
+	&.active:active a,
+	&.active:visited a
+		background $contentBackgroundColor
+		color $linkOnContentColor
+		cursor default
+
+		&:focus
+			background $linkFocusOnContentColor
+
+main
+	box-sizing border-box
+	position relative
+	overflow hidden
+	margin 0
+
+	&.about
+		overflow visible
+
+.maxWidthReached main
+	margin 0 auto
+
+@media (min-width: $mqDesktopMaxWidth)
+	body.about
+		overflow hidden
+
+body.works
+	overflow hidden
+
+.btn
+	border 1px solid $linkOnContentColor
+	border-radius $mainRadiusSize
+	padding 10px 15px 13px
+	margin 0 10px 10px 0
+	white-space nowrap
+	font-size $textFontSize - 4px
+
+img
+	transition opacity $slowTransition $smoothTransitionEase
+
+	&.loading
+		opacity 0
+
+	&.loaded
+		opacity 1
+
+.error-page
+	position absolute
+	top 0
+	left 0
+	width 100%
+	height 100%
+	min-height $bodyMinHeight
+	background $contentBackgroundColor
+	box-sizing border-box
+	box-shadow 0 500px 0 0 $contentBackgroundColor
+
+	.error-title
+		text-align center
+		margin-top 100px
+		margin-top 45vh
+		transform translateY(-50%)
+
+		h1,
+		h2
+			box-sizing border-box
+			padding 0 30px
+
+		h1
+			font-size 42px
+			line-height 42px
+			margin 20px 0
+
+		h2
+			font-weight 300
+
+		.error-logo
+			font-weight bold
+
+		.loading-indicator
+			display inline-block
+			width 40px
+			height 30px
+			margin-top 20px
+			border-radius $mainRadiusSize
+			background $mainBackgroundColor url($loadingIcon) center center no-repeat

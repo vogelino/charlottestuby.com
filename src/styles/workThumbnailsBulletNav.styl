@@ -1,0 +1,31 @@
+$bulletWidth = 8px
+
+.thumbnails-bullet-nav
+	position absolute
+	right 20px
+	bottom 20px
+	width $bulletWidth
+	height auto
+
+	.thumbnails-bullet
+		width $bulletWidth
+		height $bulletWidth
+		border-radius 50%
+		box-sizing border-box
+		border 1px solid $linkOnContentColor
+		box-shadow 0 0 0 1px rgba(white, .2), inset 0 0 0 2px rgba(white, .2)
+		margin-top $bulletWidth + $bulletWidth
+		transition all $slowTransition $smoothTransitionEase
+		background-color none
+
+		&:hover
+			border-color $linkHoverOnContentColor
+			background-color $linkHoverOnContentColor
+
+		&:focus
+			border-color $linkFocusOnContentColor
+			background-color $linkFocusOnContentColor
+
+		&.active
+			border-color $secondary
+			background-color $secondary

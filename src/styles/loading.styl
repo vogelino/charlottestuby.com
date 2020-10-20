@@ -1,0 +1,15 @@
+.loading-container
+	display inline-block
+	width 30px
+	height 20px
+	position absolute
+	top 20px
+	left 10px
+	background rgba($mainBackgroundColor, .8) url($loadingIcon) center center no-repeat
+	pointer-events none
+	opacity 0
+	transition opacity $slowTransition ease-out
+
+	&.loading
+		opacity 1
+		transition opacity $slowTransition ease-in

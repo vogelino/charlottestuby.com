@@ -1,0 +1,44 @@
+article
+	padding-left $navBarWidth
+	color $mainTextColor
+
+
+.without-navs article
+	padding-left 0
+
+article,
+section.content
+	width 100%
+	height auto
+	float left
+	position relative
+	box-sizing border-box
+
+article section.content
+	border-top-left-radius $mainRadiusSize
+	background $contentBackgroundColor
+
+	.maxWidthReached &
+		border-top-right-radius $mainRadiusSize
+
+	a,
+	.interactive
+		color $linkOnContentColor
+
+		&:hover,
+		&:visited:hover
+			color $linkHoverOnContentColor
+
+		&:active,
+		&:visited:active
+			color $linkActiveOnContentColor
+
+		&:focus,
+		&.active:focus,
+		&:visited:focus,
+		&:hover:focus
+			background $linkFocusOnContentColor
+
+.about article section.content,
+.without-navs article section.content
+	border-top-left-radius 0
