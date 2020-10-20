@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ReactMarkdown from 'react-markdown'
 import Link from '../atoms/Link'
+import { HTMLContent } from '../Content'
 import BlueEmptyForm from '../molecules/Forms/BlueEmptyForm'
 import BlueFullForm from '../molecules/Forms/BlueFullForm'
 import RedEmptyForm from '../molecules/Forms/RedEmptyForm'
@@ -33,20 +33,16 @@ const About = ({ title, text, emailAddress, subtitle, portrait, cvUrl }) => (
 			<h1>{title}</h1>
 			{subtitle && <h2>{subtitle}</h2>}
 			<div className="about-text">
-				<ReactMarkdown source={text} />
+				<HTMLContent content={text} />
 			</div>
-			{cvUrl ? (
-				<Link className="btn" href={cvUrl} title="download curriculum">
-					download curriculum
-				</Link>
-			) : (
-				<span
-					className="btn interactive"
-					onClick={() => this.downloadCv()}
-				>
-					download curriculum
-				</span>
-			)}
+			<Link
+				className="btn"
+				href={`${cvUrl}`}
+				target="__blank"
+				title="download curriculum"
+			>
+				download curriculum
+			</Link>
 			<Link
 				className="btn"
 				href={`mailto:${emailAddress}`}

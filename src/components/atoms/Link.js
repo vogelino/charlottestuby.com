@@ -2,16 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link as InternalLink } from 'gatsby'
 
-const Link = ({ children, ...rest }) => {
-	if (rest.href.startsWith('/')) {
+const Link = ({ children, href, ...rest }) => {
+	if (href.startsWith('/')) {
 		return (
-			<InternalLink target="_self" {...rest}>
-				<a {...rest}>{children}</a>
+			<InternalLink target="_self" to={href} {...rest}>
+				{children}
 			</InternalLink>
 		)
 	}
 	return (
-		<a rel="noopener noreferrer" target="_blank" {...rest}>
+		<a rel="noopener noreferrer" target="_blank" href={href} {...rest}>
 			{children}
 		</a>
 	)
