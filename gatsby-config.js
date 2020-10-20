@@ -3,6 +3,22 @@ module.exports = {
 		title: 'Portfolio of Charlotte Stuby',
 		description:
 			'A swiss artist based in Brussels specialized in textile work',
+		keywords: [
+			'Charlotte',
+			'Stuby',
+			'Artist',
+			'Tissage',
+			'Textile',
+			'Sculpture',
+			'Installation',
+			'Dessin',
+			'Photo',
+			'Switzerland',
+			'Colors',
+			'Vevey',
+			'Bruxelles',
+			'Vienne',
+		],
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
