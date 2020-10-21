@@ -78,8 +78,8 @@ a:visited,
 	&:active
 		color $linkActiveOnMainColor
 
-	&:hover:not([aria-current='page']),
-	&:active:not([aria-current='page'])
+	&:hover:not(.active),
+	&:active:not(.active)
 		text-decoration underline
 
 	&:focus,
@@ -105,15 +105,10 @@ nav li
 		@media screen and (min-width: $mqDesktopMaxWidth)
 			border-radius $mainRadiusSize $mainRadiusSize 0 0
 
-	& a[aria-current='page']:focus,
-	& a[aria-current='page']:visited:focus,
-	& a[aria-current='page']:hover:focus
-		border-radius 0
-
-	& a[aria-current='page'],
-	& a[aria-current='page']:hover,
-	& a[aria-current='page']:active,
-	& a[aria-current='page']:visited
+	& a.active,
+	& a.active:hover,
+	& a.active:active,
+	& a.active:visited
 		background $contentBackgroundColor
 		color $linkOnContentColor
 		cursor default

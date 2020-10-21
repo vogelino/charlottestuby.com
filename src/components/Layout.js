@@ -10,7 +10,9 @@ const TemplateWrapper = ({ children, page = '' }) => (
 		<MetaTags />
 		<Header />
 		<article>
-			{!page.startsWith('/work/') && <Navbar />}
+			{!page.startsWith('/work/') && (
+				<Navbar page={page.replace('/', '')} />
+			)}
 			<section className="content">{children}</section>
 		</article>
 		{page === '/work' && <ThumbnailsForms />}
