@@ -6,15 +6,15 @@ import Header from './Header'
 import ThumbnailsForms from './ThumbnailsForms'
 
 const TemplateWrapper = ({ children, page = '' }) => (
-	<div>
+	<main className={page.replace('/', '') || 'home'}>
 		<MetaTags />
+		<Header />
 		<article>
-			<Header />
 			{!page.startsWith('/work/') && <Navbar />}
-			<section>{children}</section>
+			<section className="content">{children}</section>
 		</article>
 		{page === '/work' && <ThumbnailsForms />}
-	</div>
+	</main>
 )
 
 TemplateWrapper.propTypes = {

@@ -1,44 +1,71 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import { graphql, StaticQuery } from 'gatsby'
 import Works from './pages/Works'
 // import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-class WorkRoll extends React.Component {
-	render() {
-		const { data } = this.props
-		const { edges: posts } = data.allMarkdownRemark
+const WorkRoll = ({ works }) => {
+	const [currentSlideIndex, setCurrentWorksSlide] = useState(0)
+	const [isLoading, setIsLoading] = useState(true)
+	const startLoading = () => setIsLoading(true)
+	const stopLoading = () => setIsLoading(true)
 
-		return (
-			<div>
-				{posts &&
-					posts.map(({ node: post }) => (
-						<div key={post.id}>
-							<article>
-								<header>
-									<p>
-										<Link to={post.fields.slug}>
-											{post.frontmatter.title}
-										</Link>
-										<span> &bull; </span>
-										<span>{post.frontmatter.date}</span>
-									</p>
-								</header>
-							</article>
-						</div>
-					))}
-			</div>
-		)
-	}
+	return (
+		<Works
+			works={works}
+			currentSlideIndex={currentSlideIndex}
+			setCurrentWorksSlide={setCurrentWorksSlide}
+			isLoading={isLoading}
+			startLoading={startLoading}
+			stopLoading={stopLoading}
+			navigateTo={() => {}}
+			listHeight={`calc(${works.length}00vh - ${works.lenght * 172}px)`}
+		/>
+	)
 }
 
 WorkRoll.propTypes = {
-	data: PropTypes.shape({
-		allMarkdownRemark: PropTypes.shape({
-			edges: PropTypes.array,
+	works: PropTypes.arrayOf(
+		PropTypes.shape({
+			id: PropTypes.string.isRequired,
+			title: PropTypes.string.isRequired,
+			subtitle: PropTypes.string.isRequired,
+			slug: PropTypes.string.isRequired,
+			images: PropTypes.arrayOf(
+				PropTypes.shape({
+					url: PropTypes.string,
+					caption: PropTypes.string,
+				}),
+			).isRequired,
+			landscapeThumb: PropTypes.string.isRequired,
+			portraitThumb: PropTypes.string.isRequired,
 		}),
-	}),
+	),
 }
+
+const mapWorks = ({ allMarkdownRemark: { edges: works } }) =>
+	works
+		.sort((a, b) => {
+			if (a.orderOrfAppearance < b.orderOrfAppearance) {
+				return -1
+			}
+			if (a.orderOrfAppearance > b.orderOrfAppearance) {
+				return 1
+			}
+			return 0
+		})
+		.map(({ node: { id, fields, frontmatter } }) => ({
+			id: id,
+			title: frontmatter.title,
+			subtitle: frontmatter.subtitle,
+			slug: fields.slug,
+			images: frontmatter.images.map((img) => ({
+				url: `/img/${img.image.relativePath}`,
+				caption: img.caption,
+			})),
+			landscapeThumb: `/img/${frontmatter.landscapeThumb.relativePath}`,
+			portraitThumb: `/img/${frontmatter.portraitThumb.relativePath}`,
+		}))
 
 const WorkRollWithQuery = () => (
 	<StaticQuery
@@ -81,34 +108,7 @@ const WorkRollWithQuery = () => (
 				}
 			}
 		`}
-		render={(data, count) => (
-			<Works
-				works={data.allMarkdownRemark.edges
-					.map(({ node }) => ({
-						id: node.id,
-						title: node.frontmatter.title,
-						subtitle: node.frontmatter.subtitle,
-						slug: node.frontmatter.templateKey,
-						images: node.frontmatter.images,
-						landscapeThumb:
-							node.frontmatter.landscapeThumb.relativePath,
-						portraitThumb:
-							node.frontmatter.portraitThumb.relativePath,
-					}))
-					.sort((a, b) => {
-						if (a.orderOrfAppearance < b.orderOrfAppearance) {
-							return -1
-						}
-						if (a.orderOrfAppearance > b.orderOrfAppearance) {
-							return 1
-						}
-						return 0
-					})}
-				currentSlideIndex={0}
-				navigateTo={() => {}}
-				listHeight={`${count}00vh`}
-			/>
-		)}
+		render={(data) => <WorkRoll works={mapWorks(data)} />}
 	/>
 )
 

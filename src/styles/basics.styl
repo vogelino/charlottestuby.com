@@ -78,8 +78,8 @@ a:visited,
 	&:active
 		color $linkActiveOnMainColor
 
-	&:hover:not(.active),
-	&:active:not(.active)
+	&:hover:not([aria-current='page']),
+	&:active:not([aria-current='page'])
 		text-decoration underline
 
 	&:focus,
@@ -102,18 +102,18 @@ nav li
 		line-height $navLineHeight
 		text-transform lowercase
 
-		.maxWidthReached &
+		@media screen and (min-width: $mqDesktopMaxWidth)
 			border-radius $mainRadiusSize $mainRadiusSize 0 0
 
-	&.active:focus a,
-	&.active:visited:focus a,
-	&.active:hover:focus a
+	& a[aria-current='page']:focus,
+	& a[aria-current='page']:visited:focus,
+	& a[aria-current='page']:hover:focus
 		border-radius 0
 
-	&.active a,
-	&.active:hover a,
-	&.active:active a,
-	&.active:visited a
+	& a[aria-current='page'],
+	& a[aria-current='page']:hover,
+	& a[aria-current='page']:active,
+	& a[aria-current='page']:visited
 		background $contentBackgroundColor
 		color $linkOnContentColor
 		cursor default
@@ -125,7 +125,8 @@ main
 	box-sizing border-box
 	position relative
 	overflow hidden
-	margin 0
+	margin 0 auto
+	max-width: $mqDesktopMaxWidth;
 
 	&.about
 		overflow visible

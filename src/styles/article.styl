@@ -1,6 +1,7 @@
 article
 	padding-left $navBarWidth
 	color $mainTextColor
+	position relative
 
 
 .without-navs article
@@ -9,7 +10,7 @@ article
 article,
 section.content
 	width 100%
-	height auto
+	height calc(100vh - 60px)
 	float left
 	position relative
 	box-sizing border-box
@@ -18,8 +19,12 @@ article section.content
 	border-top-left-radius $mainRadiusSize
 	background $contentBackgroundColor
 
-	.maxWidthReached &
-		border-top-right-radius $mainRadiusSize
+	.home &
+		border-top-left-radius 0
+	
+	@media screen and (min-width: $mqDesktopMaxWidth)
+		&
+			border-top-right-radius $mainRadiusSize
 
 	a,
 	.interactive
@@ -38,7 +43,3 @@ article section.content
 		&:visited:focus,
 		&:hover:focus
 			background $linkFocusOnContentColor
-
-.about article section.content,
-.without-navs article section.content
-	border-top-left-radius 0

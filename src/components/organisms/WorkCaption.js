@@ -8,8 +8,9 @@ const WorkCaption = ({ title, subtitle, slug, startLoading }) => (
 		<h2>
 			<span onClick={startLoading}>
 				<Link
-					href={`/work?slug=${slug}`}
+					href={slug}
 					title={`${title} - ${subtitle}`}
+					className="interactive"
 				>
 					{title}
 				</Link>

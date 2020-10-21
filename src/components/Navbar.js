@@ -6,8 +6,10 @@ class Navbar extends React.Component {
 		return (
 			<nav role="navigation" aria-label="main-navigation">
 				<ul>
-					<li>
+					<li className="about">
 						<Link to="/about">About</Link>
+					</li>
+					<li className="work">
 						<Link to="/work">Works</Link>
 					</li>
 				</ul>

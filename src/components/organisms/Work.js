@@ -99,8 +99,12 @@ export const workPropTypes = {
 	subtitle: PropTypes.string.isRequired,
 	description: PropTypes.string,
 	slug: PropTypes.string.isRequired,
-	images: PropTypes.arrayOf(PropTypes.shape({ url: PropTypes.string }))
-		.isRequired,
+	images: PropTypes.arrayOf(
+		PropTypes.shape({
+			url: PropTypes.string.isRequired,
+			caption: PropTypes.string,
+		}),
+	).isRequired,
 }
 
 Work.propTypes = {

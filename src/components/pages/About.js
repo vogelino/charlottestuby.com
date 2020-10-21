@@ -31,7 +31,7 @@ const About = ({ title, text, emailAddress, subtitle, portrait, cvUrl }) => (
 		</section>
 		<section className="about-content">
 			<h1>{title}</h1>
-			{subtitle && <h2>{subtitle}</h2>}
+			{subtitle && <h3>{subtitle}</h3>}
 			<div className="about-text">
 				<HTMLContent content={text} />
 			</div>
