@@ -10,7 +10,9 @@ class Navbar extends React.Component {
 						<Link to="/about">About</Link>
 					</li>
 					<li className="work">
-						<Link to="/work">Works</Link>
+						<Link aria-current="page" to="/work">
+							Works
+						</Link>
 					</li>
 				</ul>
 			</nav>
