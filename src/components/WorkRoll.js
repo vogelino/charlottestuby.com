@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
+import Works from './pages/Works'
 // import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class WorkRoll extends React.Component {
@@ -52,7 +53,6 @@ const WorkRollWithQuery = () => (
 				) {
 					edges {
 						node {
-							excerpt(pruneLength: 400)
 							id
 							fields {
 								slug
@@ -63,13 +63,52 @@ const WorkRollWithQuery = () => (
 								subtitle
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
+								images {
+									image {
+										relativePath
+									}
+									caption
+								}
+								landscapeThumb {
+									relativePath
+								}
+								portraitThumb {
+									relativePath
+								}
 							}
 						}
 					}
 				}
 			}
 		`}
-		render={(data, count) => <WorkRoll data={data} count={count} />}
+		render={(data, count) => (
+			<Works
+				works={data.allMarkdownRemark.edges
+					.map(({ node }) => ({
+						id: node.id,
+						title: node.frontmatter.title,
+						subtitle: node.frontmatter.subtitle,
+						slug: node.frontmatter.templateKey,
+						images: node.frontmatter.images,
+						landscapeThumb:
+							node.frontmatter.landscapeThumb.relativePath,
+						portraitThumb:
+							node.frontmatter.portraitThumb.relativePath,
+					}))
+					.sort((a, b) => {
+						if (a.orderOrfAppearance < b.orderOrfAppearance) {
+							return -1
+						}
+						if (a.orderOrfAppearance > b.orderOrfAppearance) {
+							return 1
+						}
+						return 0
+					})}
+				currentSlideIndex={0}
+				navigateTo={() => {}}
+				listHeight={`${count}00vh`}
+			/>
+		)}
 	/>
 )
 

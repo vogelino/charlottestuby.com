@@ -9,41 +9,57 @@ import { workPropTypes } from '../organisms/Work'
 
 const CAPTION_HEIGHT = 112
 
-const Works = ({ works, worksSlider, navigateTo, listHeight }) => (
+const Works = ({ works, currentSlideIndex, navigateTo, listHeight }) => (
 	<section className="works-list" style={{ height: listHeight }}>
-		<ThumbnailsSlider className="work-thumbnails">
+		<ThumbnailsSlider
+			className="work-thumbnails"
+			currentSlideIndex={currentSlideIndex}
+			setCurrentWorksSlide={() => {}}
+			setWorksSliderDragState={() => {}}
+		>
 			{works.map((item, index) => (
-				<WorkThumbnail key={index} navigateTo={navigateTo} {...item} />
+				<WorkThumbnail
+					key={index}
+					navigateTo={navigateTo}
+					{...item}
+					startLoading={() => {}}
+				/>
 			))}
 		</ThumbnailsSlider>
 		<div className="work-captions">
 			<ul
 				className="work-caption-track"
 				style={{
-					marginTop: worksSlider.currentSlide * CAPTION_HEIGHT * -1,
+					marginTop: currentSlideIndex * CAPTION_HEIGHT * -1,
 				}}
 			>
 				{works.map((item, index) => (
-					<WorkCaption key={index} {...item} />
+					<WorkCaption
+						key={index}
+						{...item}
+						startLoading={() => {}}
+					/>
 				))}
 			</ul>
 		</div>
 		<ThumbnailsBulletNav
 			itemsAmount={works.length}
-			activeItemIndex={worksSlider.currentSlide}
+			activeItemIndex={currentSlideIndex}
+			setCurrentWorksSlide={() => {}}
 		/>
 		<ThumbnailsArrowNav
 			itemsAmount={works.length}
-			activeItemIndex={worksSlider.currentSlide}
+			activeItemIndex={currentSlideIndex}
+			setCurrentWorksSlide={() => {}}
 		/>
 	</section>
 )
 
 Works.propTypes = {
 	works: PropTypes.arrayOf(PropTypes.shape(workPropTypes)).isRequired,
-	worksSlider: PropTypes.object.isRequired,
+	currentSlideIndex: PropTypes.number.isRequired,
 	navigateTo: PropTypes.func.isRequired,
-	listHeight: PropTypes.number.isRequired,
+	listHeight: PropTypes.string.isRequired,
 }
 
 export default Works

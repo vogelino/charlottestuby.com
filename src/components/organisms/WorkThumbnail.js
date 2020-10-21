@@ -21,37 +21,31 @@ class WorkThumbnail extends Component {
 		const clickDuration = time - this.pressedImageStartTime
 		if (clickDuration < MAX_CLICK_DURATION) {
 			this.props.startLoading()
-			this.props.navigateTo(`/work?slug=${slug}`)
+			this.props.navigateTo(`/work/${slug}`)
 		}
 		this.pressedImageStartTime = 0
 	}
 	render() {
-		const { slug, landscapeThumb, portraitThumb, ui } = this.props
+		const { slug, landscapeThumb, portraitThumb } = this.props
 		return (
 			<div
 				onMouseDown={(e) => this.setPressedImageTime(e.timeStamp)}
 				onMouseUp={(e) => this.openWork(slug, e.timeStamp)}
 				className="work-thumbnail"
-				style={{
-					height: ui.innerHeight - ui.captionHeight,
-				}}
 			>
 				<div className="work-thumb-wrapper">
-					{getThumpnailImage(landscapeThumb.url, 'landscape')}
-					{getThumpnailImage(portraitThumb.url, 'portrait')}
+					{getThumpnailImage(landscapeThumb, 'landscape')}
+					{getThumpnailImage(portraitThumb, 'portrait')}
 				</div>
 			</div>
 		)
 	}
 }
 
-const ImagePropTypes = { url: PropTypes.string }
-
 WorkThumbnail.propTypes = {
 	slug: PropTypes.string.isRequired,
-	landscapeThumb: PropTypes.shape(ImagePropTypes).isRequired,
-	portraitThumb: PropTypes.shape(ImagePropTypes).isRequired,
-	ui: PropTypes.object.isRequired,
+	landscapeThumb: PropTypes.string.isRequired,
+	portraitThumb: PropTypes.string.isRequired,
 	startLoading: PropTypes.func.isRequired,
 	navigateTo: PropTypes.func.isRequired,
 }

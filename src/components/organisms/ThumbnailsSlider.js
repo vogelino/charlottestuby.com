@@ -22,20 +22,8 @@ class ThumbnailsSlider extends Component {
 			className,
 			setCurrentWorksSlide,
 			setWorksSliderDragState,
-			worksSlider,
-			ui,
+			currentSlideIndex,
 		} = this.props
-		const {
-			bodyMinHeight,
-			captionHeight,
-			headerHeight,
-			innerHeight,
-			innerWidth,
-		} = ui
-		const height =
-			ui.height < bodyMinHeight
-				? bodyMinHeight - headerHeight - captionHeight
-				: innerHeight - captionHeight
 		const sliderConfig = {
 			autoplay: false,
 			decorators: [],
@@ -44,9 +32,9 @@ class ThumbnailsSlider extends Component {
 				setWorksSliderDragState(true)
 			},
 			afterSlide: setCurrentWorksSlide,
-			slideIndex: worksSlider.currentSlide,
-			initialSlideHeight: parseInt(height, 10),
-			initialSlideWidth: parseInt(innerWidth, 10),
+			slideIndex: currentSlideIndex,
+			initialSlideHeight: 500,
+			initialSlideWidth: 500,
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			vertical: true,
@@ -76,8 +64,7 @@ ThumbnailsSlider.propTypes = {
 	className: PropTypes.string,
 	setCurrentWorksSlide: PropTypes.func.isRequired,
 	setWorksSliderDragState: PropTypes.func.isRequired,
-	worksSlider: PropTypes.object.isRequired,
-	ui: PropTypes.object.isRequired,
+	currentSlideIndex: PropTypes.number.isRequired,
 }
 
 export default ThumbnailsSlider
