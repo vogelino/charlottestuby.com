@@ -35,13 +35,8 @@ collections:
           - { label: 'Publish Date', name: 'date', widget: 'datetime' }
           - { label: 'Description', name: 'description', widget: 'text' }
           - {
-                label: 'Image présentant ton project (format portrait)',
-                name: 'portraitThumb',
-                widget: image,
-            }
-          - {
-                label: 'Image présentant ton project (format paysagge)',
-                name: 'landscapeThumb',
+                label: 'Image présentant ton projet',
+                name: 'thumbnail',
                 widget: image,
             }
           - { label: 'Forme décorative', name: 'decorativeForm', widget: image }

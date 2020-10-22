@@ -29,10 +29,11 @@ article section.content
 	.work &
 		height auto
 		min-height calc(100vh - 60px)
-
-	.about &
-		overflow hidden
 	
+	@media screen and (max-width: $mqDesktopMaxWidth)
+		.about &
+			overflow hidden
+
 	@media screen and (min-width: $mqDesktopMaxWidth)
 		&
 			border-top-right-radius $mainRadiusSize

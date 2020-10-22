@@ -19,8 +19,7 @@ export const mapWork = ({ id, fields, frontmatter }) => ({
 	})),
 	order: frontmatter.orderOfAppearance,
 	decorativeForm: mapImage(frontmatter.decorativeForm),
-	landscapeThumb: mapImage(frontmatter.landscapeThumb),
-	portraitThumb: mapImage(frontmatter.portraitThumb),
+	thumbnail: mapImage(frontmatter.thumbnail),
 })
 
 const getSorterByKey = (key) => (a, b) => {

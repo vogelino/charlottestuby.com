@@ -32,14 +32,9 @@ WorkRoll.propTypes = {
 			title: PropTypes.string.isRequired,
 			subtitle: PropTypes.string.isRequired,
 			slug: PropTypes.string.isRequired,
-			images: PropTypes.arrayOf(
-				PropTypes.shape({
-					url: PropTypes.string,
-					caption: PropTypes.string,
-				}),
-			).isRequired,
-			landscapeThumb: PropTypes.string.isRequired,
-			portraitThumb: PropTypes.string.isRequired,
+			thumbnail: PropTypes.shape({
+				fluid: PropTypes.object.isRequired,
+			}).isRequired,
 		}),
 	),
 }

@@ -89,7 +89,7 @@ export const pageQuery = graphql`
 						orderOfAppearance
 						title
 						subtitle
-						landscapeThumb {
+						thumbnail {
 							childImageSharp {
 								fixed(width: 56, height: 56) {
 									...GatsbyImageSharpFixed

@@ -46,22 +46,15 @@ const WorkPageWithQuery = () => (
 								orderOfAppearance
 								title
 								subtitle
-								templateKey
-								date(formatString: "MMMM DD, YYYY")
-								images {
-									image {
-										relativePath
-									}
-									caption
-								}
 								decorativeForm {
 									relativePath
 								}
-								landscapeThumb {
-									relativePath
-								}
-								portraitThumb {
-									relativePath
+								thumbnail {
+									childImageSharp {
+										fluid(maxWidth: 1220) {
+											...GatsbyImageSharpFluid
+										}
+									}
 								}
 							}
 						}
