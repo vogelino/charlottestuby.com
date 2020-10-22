@@ -8,6 +8,7 @@ fontFaceMixin($mixinFontName, $mixinFileName, $mixinFontDir, $mixinFontWeight)
 			url($mixinFontDir + '/' + $mixinFileName + '.ttf?v=123')  format('truetype'),
 			url($mixinFontDir + '/' + $mixinFileName + '.svg#' + $mixinFontName + '?v=123') format('svg')
 		font-weight $mixinFontWeight
+		font-display swap
 
 $fontName = 'HKGrotesk'
 $fontDir  = '/fonts'
