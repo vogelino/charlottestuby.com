@@ -6,6 +6,9 @@
 	pointer-events none
 	z-index 1
 	transition left $extraSlowTransition $smoothTransitionEase
+	width 100vw
+	height 100vh
+	max-width 1280px
 
 	.maxWidthReached &
 		left -20px
@@ -19,11 +22,14 @@
 
 .thumbnail-form
 	float left
-	background-position top right
+	background-position top right 50px
 	background-repeat no-repeat
 	background-size 300px auto
 	opacity 0
 	transition opacity $extraSlowTransition $smoothTransitionEase
+	width 100vw
+	height 100vh
+	max-width 1280px
 
 	&.active
 		opacity 1

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-const MAX_CLICK_DURATION = 250
+const MAX_CLICK_DURATION = 100
 
 const getThumpnailImage = (url, orientation) => {
 	const backgroundImage = `url('${url}')`
@@ -21,12 +21,13 @@ class WorkThumbnail extends Component {
 		const clickDuration = time - this.pressedImageStartTime
 		if (clickDuration < MAX_CLICK_DURATION) {
 			this.props.startLoading()
-			this.props.navigateTo(`/work/${slug}`)
+			this.props.onClick(slug)
 		}
 		this.pressedImageStartTime = 0
 	}
 	render() {
 		const { slug, landscapeThumb, portraitThumb } = this.props
+		// console.log(slug, landscapeThumb, portraitThumb)
 		return (
 			<div
 				onMouseDown={(e) => this.setPressedImageTime(e.timeStamp)}
@@ -47,7 +48,7 @@ WorkThumbnail.propTypes = {
 	landscapeThumb: PropTypes.string.isRequired,
 	portraitThumb: PropTypes.string.isRequired,
 	startLoading: PropTypes.func.isRequired,
-	navigateTo: PropTypes.func.isRequired,
+	onClick: PropTypes.func.isRequired,
 }
 
 export default WorkThumbnail

@@ -1,11 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Navbar from '../components/Navbar'
+import Navbar from './Navbar'
+import ThumbnailsForms from './organisms/ThumbnailsForms'
 import MetaTags from './MetaTags'
 import Header from './Header'
-import ThumbnailsForms from './ThumbnailsForms'
 
-const TemplateWrapper = ({ children, page = '' }) => (
+const TemplateWrapper = ({
+	children,
+	page = '',
+	currentSlideIndex = 0,
+	forms = [],
+}) => (
 	<main className={page.replace('/', '') || 'home'}>
 		<MetaTags />
 		<Header />
@@ -15,13 +20,22 @@ const TemplateWrapper = ({ children, page = '' }) => (
 			)}
 			<section className="content">{children}</section>
 		</article>
-		{page === '/work' && <ThumbnailsForms />}
+		{page === '/' && (
+			<ThumbnailsForms currentSlide={currentSlideIndex} forms={forms} />
+		)}
 	</main>
 )
 
 TemplateWrapper.propTypes = {
 	children: PropTypes.node,
 	page: PropTypes.string,
+	currentSlideIndex: PropTypes.number,
+	forms: PropTypes.arrayOf(
+		PropTypes.shape({
+			id: PropTypes.string.isRequired,
+			url: PropTypes.string.isRequired,
+		}),
+	),
 }
 
 export default TemplateWrapper

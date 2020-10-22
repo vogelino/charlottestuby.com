@@ -9,18 +9,24 @@ import { workPropTypes } from '../organisms/Work'
 
 const CAPTION_HEIGHT = 112
 
-const Works = ({ works, currentSlideIndex, navigateTo, listHeight }) => (
+const Works = ({
+	works,
+	currentSlideIndex,
+	setCurrentWorksSlide,
+	navigateTo,
+	listHeight,
+}) => (
 	<section className="works-list" style={{ height: listHeight }}>
 		<ThumbnailsSlider
 			className="work-thumbnails"
 			currentSlideIndex={currentSlideIndex}
-			setCurrentWorksSlide={() => {}}
+			setCurrentWorksSlide={setCurrentWorksSlide}
 			setWorksSliderDragState={() => {}}
 		>
 			{works.map((item, index) => (
 				<WorkThumbnail
 					key={index}
-					navigateTo={navigateTo}
+					onClick={navigateTo}
 					{...item}
 					startLoading={() => {}}
 				/>
@@ -45,12 +51,12 @@ const Works = ({ works, currentSlideIndex, navigateTo, listHeight }) => (
 		<ThumbnailsBulletNav
 			itemsAmount={works.length}
 			activeItemIndex={currentSlideIndex}
-			setCurrentWorksSlide={() => {}}
+			setCurrentWorksSlide={setCurrentWorksSlide}
 		/>
 		<ThumbnailsArrowNav
 			itemsAmount={works.length}
 			activeItemIndex={currentSlideIndex}
-			setCurrentWorksSlide={() => {}}
+			setCurrentWorksSlide={setCurrentWorksSlide}
 		/>
 	</section>
 )
@@ -59,6 +65,7 @@ Works.propTypes = {
 	works: PropTypes.arrayOf(PropTypes.shape(workPropTypes)).isRequired,
 	currentSlideIndex: PropTypes.number.isRequired,
 	navigateTo: PropTypes.func.isRequired,
+	setCurrentWorksSlide: PropTypes.func.isRequired,
 	listHeight: PropTypes.string.isRequired,
 }
 

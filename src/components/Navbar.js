@@ -11,7 +11,7 @@ const Navbar = ({ page = '' }) => (
 				</Link>
 			</li>
 			<li className="work">
-				<Link to="/work" className={page === '' ? 'active' : ''}>
+				<Link to="/" className={page === '' ? 'active' : ''}>
 					Works
 				</Link>
 			</li>
