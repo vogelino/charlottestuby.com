@@ -5,13 +5,19 @@ import ThumbnailsForms from './organisms/ThumbnailsForms'
 import MetaTags from './MetaTags'
 import Header from './Header'
 
+const getPageClass = (page) => {
+	if (page.startsWith('/work/')) return 'work without-navs'
+	if (page.includes('about')) return 'about'
+	return 'home'
+}
+
 const TemplateWrapper = ({
 	children,
 	page = '',
 	currentSlideIndex = 0,
 	forms = [],
 }) => (
-	<main className={page.replace('/', '') || 'home'}>
+	<main className={getPageClass(page)}>
 		<MetaTags />
 		<Header />
 		<article>

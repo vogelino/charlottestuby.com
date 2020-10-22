@@ -10,10 +10,14 @@ article
 article,
 section.content
 	width 100%
-	height calc(100vh - 60px)
+	height auto
 	float left
 	position relative
 	box-sizing border-box
+	min-height calc(100vh - 60px)
+
+	.home &
+		height calc(100vh - 60px)
 
 article section.content
 	border-top-left-radius $mainRadiusSize
@@ -21,6 +25,13 @@ article section.content
 
 	.home &
 		border-top-left-radius 0
+
+	.work &
+		height auto
+		min-height calc(100vh - 60px)
+
+	.about &
+		overflow hidden
 	
 	@media screen and (min-width: $mqDesktopMaxWidth)
 		&

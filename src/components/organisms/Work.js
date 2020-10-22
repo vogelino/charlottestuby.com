@@ -2,10 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from '../atoms/Link'
 import List from '../atoms/List'
-import Img from '../atoms/Img'
+// import Img from '../atoms/Img'
 import ListElement from '../atoms/ListElement'
 import Icon from '../atoms/Icon'
 import WorkLink from './WorkLink'
+import GatsbyImage from 'gatsby-image'
 
 const formatDescription = (description) =>
 	description.split(',').map((part, index) =>
@@ -20,8 +21,6 @@ const formatDescription = (description) =>
 	)
 
 const Work = ({
-	startLoading,
-	loading,
 	previousWork,
 	nextWork,
 	work: { title, id, subtitle, description, slug, images },
@@ -29,12 +28,9 @@ const Work = ({
 	<div className={`work-container ${slug}`} id={id}>
 		<div className="work-header">
 			<div className="work-header-container">
-				<div
-					className={`loading-container ${loading ? 'loading' : ''}`}
-				/>
 				<h2 className="work-title">{title}</h2>
 				<h3 className="work-subtitle">{subtitle}</h3>
-				<span onClick={startLoading}>
+				<span>
 					<Link
 						href="/"
 						className="work-close-button"
@@ -49,38 +45,23 @@ const Work = ({
 			<div className="work-description">{description}</div>
 		) : null}
 		<List className="work-images">
-			{images.map(
-				({
-					url,
-					description: imgDescription,
-					fileName,
-					id: imageId,
-					minHeight,
-				}) => (
-					<ListElement
-						className="work-image"
-						id={imageId}
-						key={imageId}
-					>
-						<figure>
-							<div
-								className="work-image-loading-container"
-								style={{ minHeight }}
-							>
-								<Img
-									src={url}
-									alt={imgDescription || fileName}
-								/>
-							</div>
-						</figure>
-						{imgDescription ? (
-							<figcaption>
-								{formatDescription(imgDescription)}
-							</figcaption>
-						) : null}
-					</ListElement>
-				),
-			)}
+			{images.map(({ caption, fluid }) => (
+				<ListElement
+					className="work-image"
+					id={caption}
+					key={fluid.src}
+				>
+					<figure>
+						<div className="work-image-loading-container">
+							<GatsbyImage fluid={fluid} />
+							{/* <Img src={url} alt={caption} /> */}
+						</div>
+					</figure>
+					{caption ? (
+						<figcaption>{formatDescription(caption)}</figcaption>
+					) : null}
+				</ListElement>
+			))}
 		</List>
 		<List className="work-links">
 			<ListElement>
@@ -101,7 +82,8 @@ export const workPropTypes = {
 	slug: PropTypes.string.isRequired,
 	images: PropTypes.arrayOf(
 		PropTypes.shape({
-			url: PropTypes.string.isRequired,
+			fluid: PropTypes.object,
+			url: PropTypes.string,
 			caption: PropTypes.string,
 		}),
 	).isRequired,

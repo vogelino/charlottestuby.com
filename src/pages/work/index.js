@@ -3,6 +3,7 @@ import { graphql, StaticQuery } from 'gatsby'
 
 import Layout from '../../components/Layout'
 import WorkRoll from '../../components/WorkRoll'
+import { mapWorks } from '../../utils/mapUtil'
 
 const WorkPage = ({ works = [], forms = [] }) => {
 	const [currentSlideIndex, setCurrentWorksSlide] = useState(0)
@@ -17,34 +18,6 @@ const WorkPage = ({ works = [], forms = [] }) => {
 		</Layout>
 	)
 }
-
-const getSorterByKey = (key) => (a, b) => {
-	if (a[key] < b[key]) {
-		return -1
-	}
-	if (a[key] > b[key]) {
-		return 1
-	}
-	return 0
-}
-
-const mapWorks = ({ allMarkdownRemark: { edges: works } }) =>
-	works
-		.map(({ node: { id, fields, frontmatter } }) => ({
-			id: id,
-			title: frontmatter.title,
-			subtitle: frontmatter.subtitle,
-			slug: fields.slug,
-			images: frontmatter.images.map((img) => ({
-				url: `/img/${img.image.relativePath}`,
-				caption: img.caption,
-			})),
-			order: frontmatter.orderOfAppearance,
-			decorativeForm: `/img/${frontmatter.decorativeForm.relativePath}`,
-			landscapeThumb: `/img/${frontmatter.landscapeThumb.relativePath}`,
-			portraitThumb: `/img/${frontmatter.portraitThumb.relativePath}`,
-		}))
-		.sort(getSorterByKey('order'))
 
 const mapForms = (works) =>
 	works.map(({ id, decorativeForm }) => ({

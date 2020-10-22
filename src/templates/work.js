@@ -1,76 +1,55 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import { Helmet } from 'react-helmet'
+import Work from '../components/organisms/Work'
+import { mapWork } from '../utils/mapUtil'
 
-export const WorkTemplate = ({
-	content,
-	contentComponent,
-	description,
-	title,
-	helmet,
-}) => {
-	const PostContent = contentComponent || Content
+export const WorkTemplate = ({ data }) => {
+	const [isLoading, setIsLoading] = useState(true)
+	const startLoading = () => setIsLoading(true)
+	const stopLoading = () => setIsLoading(true)
 
-	return (
-		<section className="section">
-			{helmet || ''}
-			<div className="container content">
-				<div className="columns">
-					<div className="column is-10 is-offset-1">
-						<h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-							{title}
-						</h1>
-						<p>{description}</p>
-						<PostContent content={content} />
-					</div>
-				</div>
-			</div>
-		</section>
+	const { markdownRemark, allMarkdownRemark } = data
+	const work = mapWork(markdownRemark)
+	const works = allMarkdownRemark.edges.map(({ node }) => mapWork(node))
+	const currentWorkIdx = works.findIndex(
+		({ id: compareID }) => work.id === compareID,
 	)
-}
-
-WorkTemplate.propTypes = {
-	content: PropTypes.node.isRequired,
-	contentComponent: PropTypes.func,
-	description: PropTypes.string,
-	title: PropTypes.string,
-	helmet: PropTypes.object,
-}
-
-const Work = ({ data }) => {
-	const { markdownRemark: work } = data
+	const nextWork =
+		works[currentWorkIdx + 1 > works.length - 1 ? 0 : currentWorkIdx + 1]
+	const prevWork =
+		works[currentWorkIdx - 1 < 0 ? works.length - 1 : currentWorkIdx - 1]
 
 	return (
-		<Layout page={`/work/${work.fields.slug}`}>
-			<WorkTemplate
-				content={work.html}
-				contentComponent={HTMLContent}
-				description={work.frontmatter.description}
-				helmet={
-					<Helmet titleTemplate="%s | Projet">
-						<title>{`${work.frontmatter.title}`}</title>
-						<meta
-							name="description"
-							content={`${work.frontmatter.description}`}
-						/>
-					</Helmet>
-				}
-				title={work.frontmatter.title}
+		<Layout page={work.slug}>
+			<Helmet titleTemplate="%s | Projet">
+				<title>{`${work.title}`}</title>
+				<meta name="description" content={`${work.description}`} />
+			</Helmet>
+			<Work
+				work={work}
+				nextWork={nextWork}
+				previousWork={prevWork}
+				startLoading={startLoading}
+				stopLoading={stopLoading}
+				loading={isLoading}
 			/>
 		</Layout>
 	)
 }
 
-Work.propTypes = {
+WorkTemplate.propTypes = {
 	data: PropTypes.shape({
 		markdownRemark: PropTypes.object,
+		allMarkdownRemark: PropTypes.shape({
+			edges: PropTypes.array,
+		}),
 	}),
 }
 
-export default Work
+export default WorkTemplate
 
 export const pageQuery = graphql`
 	query WorkByID($id: String!) {
@@ -79,11 +58,46 @@ export const pageQuery = graphql`
 			fields {
 				slug
 			}
-			html
 			frontmatter {
-				date(formatString: "MMMM DD, YYYY")
 				title
+				subtitle
 				description
+				images {
+					image {
+						relativePath
+						childImageSharp {
+							fluid(maxWidth: 400) {
+								...GatsbyImageSharpFluid
+							}
+						}
+					}
+					caption
+				}
+			}
+		}
+		allMarkdownRemark(
+			sort: { order: DESC, fields: [frontmatter___orderOfAppearance] }
+			filter: { frontmatter: { templateKey: { eq: "work" } } }
+		) {
+			edges {
+				node {
+					id
+					fields {
+						slug
+					}
+					frontmatter {
+						orderOfAppearance
+						title
+						subtitle
+						landscapeThumb {
+							childImageSharp {
+								fixed(width: 56, height: 56) {
+									...GatsbyImageSharpFixed
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}

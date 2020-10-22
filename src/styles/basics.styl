@@ -119,12 +119,14 @@ nav li
 main
 	box-sizing border-box
 	position relative
-	overflow hidden
 	margin 0 auto
 	max-width: $mqDesktopMaxWidth;
 
-	&.about
-		overflow visible
+	&.home
+		overflow hidden
+	
+	&.work
+		max-width initial
 
 .maxWidthReached main
 	margin 0 auto

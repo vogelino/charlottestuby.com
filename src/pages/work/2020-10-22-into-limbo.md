@@ -9,18 +9,12 @@ portraitThumb: /img/offthegrid-bram-facebook1200x628.jpg
 landscapeThumb: /img/offthegrid-bram-facebook1200x628.jpg
 decorativeForm: /img/patate-blanche.png
 images:
-  - image: /img/intolimbo30.jpg
-    caption: "-"
-  - image: /img/intolimbo06.jpg
-    caption: "-"
-  - image: /img/intolimbo02.jpg
-    caption: "-"
-  - image: /img/intolimbo03.jpg
-    caption: "-"
-  - image: /img/intolimbo04.jpg
-    caption: "-"
-  - image: /img/intolimbo12.jpg
-    caption: "-"
-  - image: /img/text-into-limbo-charlotte-stuby-2019.jpg
-    caption: Conversation with Gerlinde Van Puymbroeck , text of the exhibition
+    - image: /img/intolimbo30.jpg
+    - image: /img/intolimbo06.jpg
+    - image: /img/intolimbo02.jpg
+    - image: /img/intolimbo03.jpg
+    - image: /img/intolimbo04.jpg
+    - image: /img/intolimbo12.jpg
+    - image: /img/text-into-limbo-charlotte-stuby-2019.jpg
+      caption: Conversation with Gerlinde Van Puymbroeck , text of the exhibition
 ---

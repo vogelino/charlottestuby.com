@@ -1,50 +1,104 @@
 backend:
-  name: git-gateway
-  branch: master
-  commit_messages:
-    create: 'Create {{collection}} “{{slug}}”'
-    update: 'Update {{collection}} “{{slug}}”'
-    delete: 'Delete {{collection}} “{{slug}}”'
-    uploadMedia: '[skip ci] Upload “{{path}}”'
-    deleteMedia: '[skip ci] Delete “{{path}}”'
+    name: git-gateway
+    branch: master
+    commit_messages:
+        create: 'Create {{collection}} “{{slug}}”'
+        update: 'Update {{collection}} “{{slug}}”'
+        delete: 'Delete {{collection}} “{{slug}}”'
+        uploadMedia: '[skip ci] Upload “{{path}}”'
+        deleteMedia: '[skip ci] Delete “{{path}}”'
 
 media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "work"
-    label: "Work"
-    folder: "src/pages/work"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work"}
-      - {label: "Order of appearance", name: "orderOfAppearance", widget: "number", default: "999"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Sous-titre", name: "subtitle", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Image présentant ton project (format portrait)", name: "portraitThumb", widget: image}
-      - {label: "Image présentant ton project (format paysagge)", name: "landscapeThumb", widget: image}
-      - {label: "Forme décorative", name: "decorativeForm", widget: image}
-      - {label: "Gallerie d'images", name: "images", widget: "list", fields: [{label: "Image", name: "image", widget: image}, {label: "Légende", name: "caption", widget: "string"}]}
+    - name: 'work'
+      label: 'Work'
+      folder: 'src/pages/work'
+      create: true
+      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+      fields:
+          - {
+                label: 'Template Key',
+                name: 'templateKey',
+                widget: 'hidden',
+                default: 'work',
+            }
+          - {
+                label: 'Order of appearance',
+                name: 'orderOfAppearance',
+                widget: 'number',
+                default: '999',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Sous-titre', name: 'subtitle', widget: 'string' }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+          - { label: 'Description', name: 'description', widget: 'text' }
+          - {
+                label: 'Image présentant ton project (format portrait)',
+                name: 'portraitThumb',
+                widget: image,
+            }
+          - {
+                label: 'Image présentant ton project (format paysagge)',
+                name: 'landscapeThumb',
+                widget: image,
+            }
+          - { label: 'Forme décorative', name: 'decorativeForm', widget: image }
+          - {
+                label: "Gallerie d'images",
+                name: 'images',
+                widget: 'list',
+                fields:
+                    [
+                        { label: 'Image', name: 'image', widget: image },
+                        {
+                            label: 'Légende',
+                            name: 'caption',
+                            widget: 'string',
+                            required: false,
+                        },
+                    ],
+            }
 
-  - name: "pages"
-    label: "Pages"
-    files:
-      - file: "src/pages/index.md"
-        label: "Landing Page"
-        name: "index"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-      - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Subtitle", name: "subtitle", widget: "text"}
-          - {label: "Portrait", name: "portrait", widget: image}
-          - {label: "Contact email", name: "email", widget: "string", required: false}
-          - {label: "Curriculum PDF", name: "cv", widget: "file", allow_multiple: false, media_library: {config: {multiple: false}}, required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
+    - name: 'pages'
+      label: 'Pages'
+      files:
+          - file: 'src/pages/index.md'
+            label: 'Landing Page'
+            name: 'index'
+            fields:
+                - {
+                      label: 'Template Key',
+                      name: 'templateKey',
+                      widget: 'hidden',
+                      default: 'index-page',
+                  }
+          - file: 'src/pages/about/index.md'
+            label: 'About'
+            name: 'about'
+            fields:
+                - {
+                      label: 'Template Key',
+                      name: 'templateKey',
+                      widget: 'hidden',
+                      default: 'about-page',
+                  }
+                - { label: 'Title', name: 'title', widget: 'string' }
+                - { label: 'Subtitle', name: 'subtitle', widget: 'text' }
+                - { label: 'Portrait', name: 'portrait', widget: image }
+                - {
+                      label: 'Contact email',
+                      name: 'email',
+                      widget: 'string',
+                      required: false,
+                  }
+                - {
+                      label: 'Curriculum PDF',
+                      name: 'cv',
+                      widget: 'file',
+                      allow_multiple: false,
+                      media_library: { config: { multiple: false } },
+                      required: false,
+                  }
+                - { label: 'Body', name: 'body', widget: 'markdown' }
