@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import List from '../atoms/List'
 import ListElement from '../atoms/ListElement'
+import GatsbyImage from 'gatsby-image'
 
 const ThumbnailsForms = ({ forms = [], currentSlide = 0 }) => (
 	<div className="thumbnail-forms">
@@ -12,14 +13,15 @@ const ThumbnailsForms = ({ forms = [], currentSlide = 0 }) => (
 				top: `calc(-${currentSlide} * 100vh - 30px)`,
 			}}
 		>
-			{forms.map(({ url, id }, index) => (
+			{forms.map(({ fluid, id }, index) => (
 				<ListElement
 					className={`thumbnail-form ${
 						index === currentSlide ? 'active' : ''
 					}`}
 					key={id}
-					style={{ backgroundImage: `url('${url}')` }}
-				/>
+				>
+					<GatsbyImage fluid={fluid} />
+				</ListElement>
 			))}
 		</List>
 	</div>
@@ -29,7 +31,7 @@ ThumbnailsForms.propTypes = {
 	forms: PropTypes.arrayOf(
 		PropTypes.shape({
 			id: PropTypes.string.isRequired,
-			url: PropTypes.string.isRequired,
+			fluid: PropTypes.object.isRequired,
 		}),
 	).isRequired,
 	currentSlide: PropTypes.number.isRequired,

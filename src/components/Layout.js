@@ -39,7 +39,7 @@ TemplateWrapper.propTypes = {
 	forms: PropTypes.arrayOf(
 		PropTypes.shape({
 			id: PropTypes.string.isRequired,
-			url: PropTypes.string.isRequired,
+			fluid: PropTypes.object.isRequired,
 		}),
 	),
 }

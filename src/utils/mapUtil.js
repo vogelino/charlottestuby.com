@@ -7,6 +7,12 @@ const mapImage = (img) => {
 	}
 }
 
+export const mapForms = (works) =>
+	works.map(({ id, decorativeForm }) => ({
+		...decorativeForm,
+		id: `form-${id}`,
+	}))
+
 export const mapWork = ({ id, fields, frontmatter }) => ({
 	id: id,
 	title: frontmatter.title,

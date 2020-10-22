@@ -3,7 +3,7 @@ import { graphql, StaticQuery } from 'gatsby'
 
 import Layout from '../../components/Layout'
 import WorkRoll from '../../components/WorkRoll'
-import { mapWorks } from '../../utils/mapUtil'
+import { mapForms, mapWorks } from '../../utils/mapUtil'
 
 const WorkPage = ({ works = [], forms = [] }) => {
 	const [currentSlideIndex, setCurrentWorksSlide] = useState(0)
@@ -18,12 +18,6 @@ const WorkPage = ({ works = [], forms = [] }) => {
 		</Layout>
 	)
 }
-
-const mapForms = (works) =>
-	works.map(({ id, decorativeForm }) => ({
-		id: `form-${id}`,
-		url: decorativeForm,
-	}))
 
 const WorkPageWithQuery = () => (
 	<StaticQuery
@@ -47,7 +41,11 @@ const WorkPageWithQuery = () => (
 								title
 								subtitle
 								decorativeForm {
-									relativePath
+									childImageSharp {
+										fluid(maxWidth: 300) {
+											...GatsbyImageSharpFluid
+										}
+									}
 								}
 								thumbnail {
 									childImageSharp {
