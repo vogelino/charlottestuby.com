@@ -56,6 +56,8 @@ const MetaTags = () => {
 			<meta property="fb:admins" content="1308822218" />
 
 			<link rel="author" href="https://www.vogelino.com" />
+
+			<link rel="preload" href="/styles.css" as="style" />
 			<link rel="stylesheet" media="screen" href="/styles.css" />
 		</Helmet>
 	)
