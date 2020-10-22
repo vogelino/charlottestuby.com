@@ -9,6 +9,7 @@
     "gatsby-plugin-manifest": "^2.4.35",
     "gatsby-plugin-netlify": "^2.2.4",
     "gatsby-plugin-netlify-cms": "^4.2.5",
+    "gatsby-plugin-preload-fonts": "^1.2.28",
     "gatsby-plugin-react-helmet": "^3.2.5",
     "gatsby-plugin-sharp": "^2.5.7",
     "gatsby-plugin-stylus": "^2.3.13",
@@ -58,7 +59,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-styles-prod": "stylus -u nib ./src/styles/index.styl -c -o ./public/styles.css",
     "build-styles-dev": "stylus -u nib ./src/styles/index.styl -o ./public/styles.css",
-    "watch-styles": "npm run build-styles-dev -- -w"
+    "watch-styles": "npm run build-styles-dev -- -w",
+    "preload-fonts": "gatsby-preload-fonts"
   },
   "devDependencies": {
     "eslint": "^7.11.0",

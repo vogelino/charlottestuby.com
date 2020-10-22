@@ -85,6 +85,7 @@ module.exports = {
 				icon: 'src/img/Icon.png',
 			},
 		},
+		`gatsby-plugin-preload-fonts`,
 		{
 			resolve: 'gatsby-plugin-netlify-cms',
 			options: {
