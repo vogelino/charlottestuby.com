@@ -15,7 +15,7 @@ const AboutPage = ({ data }) => {
 				text={post.html}
 				emailAddress={post.frontmatter.email}
 				cvUrl={post.frontmatter.cv.publicURL}
-				portrait={post.frontmatter.portrait.publicURL}
+				portrait={post.frontmatter.portrait.childImageSharp}
 			/>
 		</Layout>
 	)
@@ -39,7 +39,11 @@ export const aboutPageQuery = graphql`
 					publicURL
 				}
 				portrait {
-					publicURL
+					childImageSharp {
+						fluid(maxWidth: 960) {
+							...GatsbyImageSharpFluid
+						}
+					}
 				}
 			}
 		}

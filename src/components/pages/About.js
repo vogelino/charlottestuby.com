@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import GatsbyImage from 'gatsby-image'
 import Link from '../atoms/Link'
 import { HTMLContent } from '../Content'
 import BlueEmptyForm from '../molecules/Forms/BlueEmptyForm'
@@ -14,12 +15,9 @@ import YellowFullForm2 from '../molecules/Forms/YellowFullForm2'
 const About = ({ title, text, emailAddress, subtitle, portrait, cvUrl }) => (
 	<div id="about-content">
 		<section className="about-picture">
-			<div
-				className="img"
-				style={{
-					backgroundImage: `url(${portrait})`,
-				}}
-			/>
+			<div className="img">
+				<GatsbyImage fluid={portrait.fluid} />
+			</div>
 			<BlueEmptyForm />
 			<BlueFullForm />
 			<RedEmptyForm />
@@ -60,7 +58,9 @@ export const aboutPropTypes = {
 	text: PropTypes.string.isRequired,
 	emailAddress: PropTypes.string,
 	cvUrl: PropTypes.string,
-	portrait: PropTypes.string.isRequired,
+	portrait: PropTypes.shape({
+		fluid: PropTypes.object.isRequired,
+	}).isRequired,
 }
 
 About.propTypes = aboutPropTypes
