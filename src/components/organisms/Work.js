@@ -29,7 +29,6 @@ const Work = ({
 		<div className="work-header">
 			<div className="work-header-container">
 				<h2 className="work-title">{title}</h2>
-				<h3 className="work-subtitle">{subtitle}</h3>
 				<span>
 					<Link
 						href="/"
@@ -42,7 +41,11 @@ const Work = ({
 			</div>
 		</div>
 		{description ? (
-			<div className="work-description">{description}</div>
+			<div className="work-head">
+				<h2 className="work-title">{title}</h2>
+				<h3 className="work-subtitle">{subtitle}</h3>
+				<div className="work-description">{description}</div>
+			</div>
 		) : null}
 		<List className="work-images">
 			{images.map(({ caption, fluid }) => (

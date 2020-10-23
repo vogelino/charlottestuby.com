@@ -19,7 +19,7 @@ const TemplateWrapper = ({
 }) => (
 	<main className={getPageClass(page)}>
 		<MetaTags />
-		<Header />
+		{!page.startsWith('/work/') && <Header />}
 		<article>
 			{!page.startsWith('/work/') && (
 				<Navbar page={page.replace('/', '')} />
