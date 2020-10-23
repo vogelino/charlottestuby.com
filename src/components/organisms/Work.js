@@ -45,6 +45,13 @@ const Work = ({
 				<h2 className="work-title">{title}</h2>
 				<h3 className="work-subtitle">{subtitle}</h3>
 				<div className="work-description">{description}</div>
+				<Link
+					href="/"
+					className="work-close-button"
+					title="Back to the homepage"
+				>
+					<Icon iconId="cross" />
+				</Link>
 			</div>
 		) : null}
 		<List className="work-images">
