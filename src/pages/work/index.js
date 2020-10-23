@@ -42,15 +42,25 @@ const WorkPageWithQuery = () => (
 								subtitle
 								decorativeForm {
 									childImageSharp {
-										fluid(maxWidth: 300) {
-											...GatsbyImageSharpFluid
+										fluid(
+											maxWidth: 300
+											traceSVG: { color: "#FFFF00" }
+										) {
+											...GatsbyImageSharpFluid_withWebp_tracedSVG
 										}
 									}
 								}
 								thumbnail {
 									childImageSharp {
-										fluid(maxWidth: 1220) {
-											...GatsbyImageSharpFluid
+										fluid(
+											maxWidth: 1220
+											traceSVG: {
+												color: "#FFFF00"
+												turnPolicy: TURNPOLICY_MINORITY
+												blackOnWhite: false
+											}
+										) {
+											...GatsbyImageSharpFluid_withWebp_tracedSVG
 										}
 									}
 								}

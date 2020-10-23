@@ -66,8 +66,15 @@ export const pageQuery = graphql`
 					image {
 						relativePath
 						childImageSharp {
-							fluid(maxWidth: 400) {
-								...GatsbyImageSharpFluid
+							fluid(
+								maxWidth: 400
+								traceSVG: {
+									color: "#0000FF"
+									turnPolicy: TURNPOLICY_MINORITY
+									blackOnWhite: false
+								}
+							) {
+								...GatsbyImageSharpFluid_withWebp_tracedSVG
 							}
 						}
 					}

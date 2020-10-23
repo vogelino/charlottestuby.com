@@ -40,8 +40,15 @@ export const aboutPageQuery = graphql`
 				}
 				portrait {
 					childImageSharp {
-						fluid(maxWidth: 960) {
-							...GatsbyImageSharpFluid
+						fluid(
+							maxWidth: 960
+							traceSVG: {
+								color: "#FF0000"
+								turnPolicy: TURNPOLICY_MINORITY
+								blackOnWhite: false
+							}
+						) {
+							...GatsbyImageSharpFluid_withWebp_tracedSVG
 						}
 					}
 				}
