@@ -106,6 +106,7 @@ export const pageQuery = graphql`
 					image {
 						relativePath
 						childImageSharp {
+<<<<<<< HEAD
 							fluid(
 								maxWidth: 400
 								traceSVG: {
@@ -114,6 +115,10 @@ export const pageQuery = graphql`
 								}
 							) {
 								...GatsbyImageSharpFluid_withWebp_tracedSVG
+=======
+							fluid(maxWidth: 400) {
+								...GatsbyImageSharpFluid
+>>>>>>> parent of b05960c... Use tracedSVG loading technique
 							}
 						}
 					}

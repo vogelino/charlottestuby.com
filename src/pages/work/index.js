@@ -42,16 +42,14 @@ const WorkPageWithQuery = () => (
 								subtitle
 								decorativeForm {
 									childImageSharp {
-										fluid(
-											maxWidth: 300
-											traceSVG: { color: "#FFFF00" }
-										) {
-											...GatsbyImageSharpFluid_withWebp_tracedSVG
+										fluid(maxWidth: 300) {
+											...GatsbyImageSharpFluid
 										}
 									}
 								}
 								thumbnail {
 									childImageSharp {
+<<<<<<< HEAD
 										fluid(
 											maxWidth: 1220
 											traceSVG: {
@@ -60,6 +58,10 @@ const WorkPageWithQuery = () => (
 											}
 										) {
 											...GatsbyImageSharpFluid_withWebp_tracedSVG
+=======
+										fluid(maxWidth: 1220) {
+											...GatsbyImageSharpFluid
+>>>>>>> parent of b05960c... Use tracedSVG loading technique
 										}
 									}
 								}
