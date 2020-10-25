@@ -49,19 +49,8 @@ const WorkPageWithQuery = () => (
 								}
 								thumbnail {
 									childImageSharp {
-<<<<<<< HEAD
-										fluid(
-											maxWidth: 1220
-											traceSVG: {
-												color: "#FFFF00"
-												blackOnWhite: false
-											}
-										) {
-											...GatsbyImageSharpFluid_withWebp_tracedSVG
-=======
-										fluid(maxWidth: 1220) {
+										fluid(maxWidth: 1220, quality: 90) {
 											...GatsbyImageSharpFluid
->>>>>>> parent of b05960c... Use tracedSVG loading technique
 										}
 									}
 								}

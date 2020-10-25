@@ -40,16 +40,8 @@ export const aboutPageQuery = graphql`
 				}
 				portrait {
 					childImageSharp {
-<<<<<<< HEAD
-						fluid(
-							maxWidth: 960
-							traceSVG: { color: "#FF0000", blackOnWhite: false }
-						) {
-							...GatsbyImageSharpFluid_withWebp_tracedSVG
-=======
-						fluid(maxWidth: 960) {
+						fluid(maxWidth: 960, quality: 90) {
 							...GatsbyImageSharpFluid
->>>>>>> parent of b05960c... Use tracedSVG loading technique
 						}
 					}
 				}
