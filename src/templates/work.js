@@ -110,7 +110,6 @@ export const pageQuery = graphql`
 								maxWidth: 400
 								traceSVG: {
 									color: "#0000FF"
-									turnPolicy: TURNPOLICY_MINORITY
 									blackOnWhite: false
 								}
 							) {

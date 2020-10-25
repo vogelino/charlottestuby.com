@@ -56,7 +56,6 @@ const WorkPageWithQuery = () => (
 											maxWidth: 1220
 											traceSVG: {
 												color: "#FFFF00"
-												turnPolicy: TURNPOLICY_MINORITY
 												blackOnWhite: false
 											}
 										) {

@@ -42,11 +42,7 @@ export const aboutPageQuery = graphql`
 					childImageSharp {
 						fluid(
 							maxWidth: 960
-							traceSVG: {
-								color: "#FF0000"
-								turnPolicy: TURNPOLICY_MINORITY
-								blackOnWhite: false
-							}
+							traceSVG: { color: "#FF0000", blackOnWhite: false }
 						) {
 							...GatsbyImageSharpFluid_withWebp_tracedSVG
 						}
