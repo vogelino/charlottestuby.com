@@ -43,14 +43,14 @@ const WorkPageWithQuery = () => (
 								decorativeForm {
 									childImageSharp {
 										fluid(maxWidth: 300) {
-											...GatsbyImageSharpFluid
+											...GatsbyImageSharpFluid_withWebp
 										}
 									}
 								}
 								thumbnail {
 									childImageSharp {
 										fluid(maxWidth: 1220, quality: 90) {
-											...GatsbyImageSharpFluid
+											...GatsbyImageSharpFluid_withWebp
 										}
 									}
 								}

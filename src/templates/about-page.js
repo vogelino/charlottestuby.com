@@ -41,7 +41,7 @@ export const aboutPageQuery = graphql`
 				portrait {
 					childImageSharp {
 						fluid(maxWidth: 960, quality: 90) {
-							...GatsbyImageSharpFluid
+							...GatsbyImageSharpFluid_withWebp
 						}
 					}
 				}
