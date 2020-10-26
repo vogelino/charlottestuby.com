@@ -58,6 +58,9 @@ $workImageBorder = 10px;
 	transform translateY(-100%)
 	transition transform $slowTransition $smoothTransitionEase
 
+	@media (max-width: $mqMobileMaxWidth)
+		height 60px
+
 	.scroll-up &
 		transform translateY(0)
 
@@ -90,15 +93,24 @@ $workImageBorder = 10px;
 	max-width 1280px
 	position relative
 	margin 0 auto
-	padding 40px 20px 20px
+	padding 40px 55px 20px 20px
+
+	@media (max-width: $mqTabletMaxWidth)
+		padding-top 30px
+
+	@media (max-width: $mqMobileMaxWidth)
+		padding-top 10px
 
 	h3
 		margin-top 4px
 
 	.work-close-button
 		position absolute
-		top 60px
+		top 45px
 		right 20px
+
+		@media (max-width: $mqMobileMaxWidth)
+			top 10px
 
 .work-description
 	font-size $textFontSize - 4px
