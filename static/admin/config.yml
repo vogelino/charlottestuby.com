@@ -89,11 +89,35 @@ collections:
                       required: false,
                   }
                 - {
+                      label: 'Email button text',
+                      name: 'emailButtonText',
+                      widget: 'string',
+                      required: false,
+                  }
+                - {
                       label: 'Curriculum PDF',
                       name: 'cv',
                       widget: 'file',
                       allow_multiple: false,
                       media_library: { config: { multiple: false } },
+                      required: false,
+                  }
+                - {
+                      label: 'CV button text',
+                      name: 'cvButtonText',
+                      widget: 'string',
+                      required: false,
+                  }
+                - {
+                      label: 'Instagram username',
+                      name: 'instagramUsername',
+                      widget: 'string',
+                      required: false,
+                  }
+                - {
+                      label: 'Instagram button text',
+                      name: 'instagramButtonText',
+                      widget: 'string',
                       required: false,
                   }
                 - { label: 'Body', name: 'body', widget: 'markdown' }

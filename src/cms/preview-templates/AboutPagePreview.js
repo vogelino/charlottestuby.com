@@ -11,7 +11,11 @@ const AboutPagePreview = ({ entry }) => (
 			subtitle={entry.getIn(['data', 'subtitle'])}
 			text={entry.getIn(['data', 'body'])}
 			emailAddress={entry.getIn(['data', 'email'])}
-			cvUrl={entry.getIn(['data', 'cv', 'publicURL'])}
+			emailButtonText={entry.getIn(['data', 'emailButtonText'])}
+			instagramButtonText={entry.getIn(['data', 'instagramButtonText'])}
+			instagramUsername={entry.getIn(['data', 'instagramUsername'])}
+			cvUrl={entry.getIn(['data', 'cv'])}
+			cvButtonText={entry.getIn(['data', 'cvButtonText'])}
 			portrait={entry.getIn(['data', 'portrait']).replace('/img/', '')}
 			forms={entry.getIn(['data', 'forms']).map((form) => ({
 				id: form.get('image'),

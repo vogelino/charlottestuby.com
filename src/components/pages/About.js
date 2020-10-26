@@ -8,9 +8,13 @@ const About = ({
 	title = '',
 	text = '',
 	emailAddress = '',
+	emailButtonText = '',
+	instagramUsername = '',
+	instagramButtonText = '',
 	subtitle = '',
 	portrait = '',
 	cvUrl = '',
+	cvButtonText = '',
 	forms = [],
 }) => (
 	<div id="about-content">
@@ -45,21 +49,35 @@ const About = ({
 			<div className="about-text">
 				<ReactMarkdown source={text} />
 			</div>
-			<Link
-				className="btn"
-				href={`${cvUrl}`}
-				target="__blank"
-				title="download curriculum"
-			>
-				download curriculum
-			</Link>
-			<Link
-				className="btn"
-				href={`mailto:${emailAddress}`}
-				title="write me an email"
-			>
-				write me an email
-			</Link>
+			{cvUrl && cvButtonText && (
+				<Link
+					className="btn"
+					href={`${cvUrl}`}
+					target="__blank"
+					title={cvButtonText}
+				>
+					{cvButtonText}
+				</Link>
+			)}
+			{emailAddress && emailButtonText && (
+				<Link
+					className="btn"
+					href={`mailto:${emailAddress}`}
+					title={emailButtonText}
+				>
+					{emailButtonText}
+				</Link>
+			)}
+			{instagramUsername && instagramButtonText && (
+				<Link
+					className="btn"
+					href={`https://instagram.com/${instagramUsername}`}
+					target="__blank"
+					title={instagramButtonText}
+				>
+					{instagramButtonText}
+				</Link>
+			)}
 		</section>
 	</div>
 )
@@ -69,7 +87,11 @@ export const aboutPropTypes = {
 	subtitle: PropTypes.string.isRequired,
 	text: PropTypes.string.isRequired,
 	emailAddress: PropTypes.string,
+	emailButtonText: PropTypes.string,
 	cvUrl: PropTypes.string,
+	cvButtonText: PropTypes.string,
+	instagramUsername: PropTypes.string,
+	instagramButtonText: PropTypes.string,
 	portrait: PropTypes.oneOfType([
 		PropTypes.shape({
 			fluid: PropTypes.object.isRequired,

@@ -14,7 +14,11 @@ const AboutPage = ({ data }) => {
 				subtitle={post.frontmatter.subtitle}
 				text={post.rawMarkdownBody}
 				emailAddress={post.frontmatter.email}
+				emailButtonText={post.frontmatter.emailButtonText}
 				cvUrl={post.frontmatter.cv.publicURL}
+				cvButtonText={post.frontmatter.cvButtonText}
+				instagramUsername={post.frontmatter.instagramUsername}
+				instagramButtonText={post.frontmatter.instagramButtonText}
 				portrait={post.frontmatter.portrait.childImageSharp}
 				forms={post.frontmatter.forms.map((form) => ({
 					id: form.image.id,
@@ -41,6 +45,10 @@ export const aboutPageQuery = graphql`
 				title
 				subtitle
 				email
+				emailButtonText
+				cvButtonText
+				instagramUsername
+				instagramButtonText
 				cv {
 					publicURL
 				}
