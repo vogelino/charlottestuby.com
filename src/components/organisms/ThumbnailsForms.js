@@ -13,14 +13,14 @@ const ThumbnailsForms = ({ forms = [], currentSlide = 0 }) => (
 				top: `calc(-${currentSlide} * 100vh - 30px)`,
 			}}
 		>
-			{forms.map(({ fluid, id }, index) => (
+			{forms.map(({ relativePath, id }, index) => (
 				<ListElement
 					className={`thumbnail-form ${
 						index === currentSlide ? 'active' : ''
 					}`}
 					key={id}
 				>
-					<Image fluid={fluid} />
+					<Image relativePath={relativePath} loading="lazy" />
 				</ListElement>
 			))}
 		</List>
@@ -31,7 +31,7 @@ ThumbnailsForms.propTypes = {
 	forms: PropTypes.arrayOf(
 		PropTypes.shape({
 			id: PropTypes.string.isRequired,
-			fluid: PropTypes.object.isRequired,
+			relativePath: PropTypes.string.isRequired,
 		}),
 	).isRequired,
 	currentSlide: PropTypes.number.isRequired,

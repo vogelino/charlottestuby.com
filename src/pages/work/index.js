@@ -41,11 +41,7 @@ const WorkPageWithQuery = () => (
 								title
 								subtitle
 								decorativeForm {
-									childImageSharp {
-										fluid(maxWidth: 300) {
-											...GatsbyImageSharpFluid_withWebp_tracedSVG
-										}
-									}
+									relativePath
 								}
 								thumbnail {
 									childImageSharp {

@@ -9,7 +9,7 @@ const mapImage = (img) => {
 
 export const mapForms = (works) =>
 	works.map(({ id, decorativeForm }) => ({
-		...decorativeForm,
+		relativePath: decorativeForm.replace('/img/', ''),
 		id: `form-${id}`,
 	}))
 

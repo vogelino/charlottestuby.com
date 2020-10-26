@@ -41,7 +41,7 @@ TemplateWrapper.propTypes = {
 	forms: PropTypes.arrayOf(
 		PropTypes.shape({
 			id: PropTypes.string.isRequired,
-			fluid: PropTypes.object.isRequired,
+			relativePath: PropTypes.string.isRequired,
 		}),
 	),
 }
