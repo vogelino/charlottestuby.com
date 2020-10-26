@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Image from '../atoms/Img'
 
-const MAX_CLICK_DURATION = 100
+const MAX_CLICK_DURATION = 150
 
 class WorkThumbnail extends Component {
 	constructor(props) {
