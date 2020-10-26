@@ -51,7 +51,7 @@
   "scripts": {
     "clean": "gatsby clean",
     "start": "npm run develop & npm run watch-styles",
-    "build": "npm run clean && gatsby build && npm run build-styles-prod && npm run build-styles-cms",
+    "build": "npm run clean && npm run build-styles-cms && gatsby build && npm run build-styles-prod",
     "lint": "eslint src",
     "lint:fix": "eslint --fix \"{gatsby-*.js,src/**/*.js}\"",
     "develop": "npm run clean && gatsby develop",
