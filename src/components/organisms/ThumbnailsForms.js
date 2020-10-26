@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import List from '../atoms/List'
 import ListElement from '../atoms/ListElement'
-import GatsbyImage from 'gatsby-image'
+import Image from '../atoms/Img'
 
 const ThumbnailsForms = ({ forms = [], currentSlide = 0 }) => (
 	<div className="thumbnail-forms">
@@ -20,7 +20,7 @@ const ThumbnailsForms = ({ forms = [], currentSlide = 0 }) => (
 					}`}
 					key={id}
 				>
-					<GatsbyImage fluid={fluid} />
+					<Image fluid={fluid} />
 				</ListElement>
 			))}
 		</List>

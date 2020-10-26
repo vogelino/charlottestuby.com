@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import GatsbyImage from 'gatsby-image'
+import Image from '../atoms/Img'
 
 const MAX_CLICK_DURATION = 100
 
@@ -30,7 +30,7 @@ class WorkThumbnail extends Component {
 				className="work-thumbnail"
 			>
 				<div className="work-thumb-wrapper">
-					<GatsbyImage fluid={thumbnail.fluid} />
+					<Image fluid={thumbnail.fluid} />
 				</div>
 			</div>
 		)

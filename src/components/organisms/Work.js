@@ -5,8 +5,8 @@ import List from '../atoms/List'
 // import Img from '../atoms/Img'
 import ListElement from '../atoms/ListElement'
 import Icon from '../atoms/Icon'
+import Image from '../atoms/Img'
 import WorkLink from './WorkLink'
-import GatsbyImage from 'gatsby-image'
 
 const formatDescription = (description) =>
 	description.split(',').map((part, index) =>
@@ -63,7 +63,7 @@ const Work = ({
 				>
 					<figure>
 						<div className="work-image-loading-container">
-							<GatsbyImage fluid={fluid} />
+							<Image fluid={fluid} />
 							{/* <Img src={url} alt={caption} /> */}
 						</div>
 					</figure>

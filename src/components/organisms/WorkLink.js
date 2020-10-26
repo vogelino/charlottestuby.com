@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from '../atoms/Link'
 import Icon from '../atoms/Icon'
-import GatsbyImage from 'gatsby-image'
+import Image from '../atoms/Img'
 
 const WorkLink = ({ title, slug, thumbnail }) => (
 	<Link href={slug} title={title} className="work-link">
 		<div className="work-link-image">
-			<GatsbyImage fixed={thumbnail.fixed} />
+			<Image fixed={thumbnail.fixed} />
 		</div>
 		<div className="work-link-content">
 			<h3>{title}</h3>

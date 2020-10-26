@@ -13,15 +13,15 @@
 	margin-top -40px
 
 	.img,
-	svg
+	.about-form
+		pointer-events none
+		position absolute
+
+	.img
 		width 100%
 		height 100%
 		float left
-		pointer-events none
-
-	.img
 		background-size cover
-		position absolute
 		width 45%
 		height 0
 		padding-bottom 45%
@@ -43,100 +43,42 @@
 			padding-bottom 75%
 			border none
 
-		svg
+		.about-forms
 			display none
 
 	.image-form
 		position relative
 		z-index 2
 
-	.blue-empty-form
-		position absolute
-		top 10px
-		right 45%
-		width 120px
-		height auto
-		fill none
-		stroke blue
-		stroke-width 3px
-		z-index 3
+	.about-forms
+		pointer-events none
+		position fixed
+		top 0
+		left 0
+		width 100vw
+		height 100vh
+		overflow hidden
 
-	.blue-full-form
-		position absolute
-		top 70%
-		left 100px
-		width 180px
-		height auto
-		transform rotate(10deg)
-		fill blue
-		z-index 1
-		animation-delay 11s
+		& > div
+			position relative
+			width 100vw
+			height 100vh
 
-	.red-empty-form
-		position absolute
-		top 76%
-		top 36vw
-		left -210px
-		width 350px
-		height auto
-		fill none
-		stroke red
-		stroke-width 3px
-		z-index 1
+	.about-form
+		transform translate(-50%, -50%)
 
-	.red-full-form
-		position absolute
-		bottom 40px
-		right 40px
-		width 400px
-		height auto
-		fill red
-		z-index 3
-		animation-delay 9s
-
-	.white-form
-		position absolute
-		bottom 250px
-		right -160px
-		width 130px
-		height auto
-		transform rotate(45deg)
-		fill white
-		z-index 3
-
-	.yellow-empty-form
-		position absolute
-		top -30px
-		left -170px
-		width 80px
-		height auto
-		fill none
-		stroke yellow
-		stroke-width 3px
-		z-index 3
-		width 200px
-
-	.yellow-full-form
-		position absolute
-		top 60%
-		top 25vw
-		left -180px
-		width 140px
-		height auto
-		fill yellow
-		z-index 3
-
-	.yellow-full-form-2
-		position absolute
-		top 70px
-		right -200px
-		width 100px
-		height auto
-		fill yellow
-		z-index 3
-		animation-delay 3s
-		animation-duration 22s
-		animation-direction reverse
+		&:nth-child(2)
+			animation-delay 9s
+		&:nth-child(3)
+			animation-delay 3s
+		&:nth-child(4)
+			animation-duration 22s
+		&:nth-child(5)
+			animation-duration 30s
+			animation-delay 10s
+		&:nth-child(6)
+			animation-delay 11s
+			animation-direction reverse
 
 .about-content
 	padding 10%

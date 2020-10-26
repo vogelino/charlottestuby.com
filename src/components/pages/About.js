@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import GatsbyImage from 'gatsby-image'
 import Link from '../atoms/Link'
+import Image from '../atoms/Img'
 import { HTMLContent } from '../Content'
 
 const About = ({
@@ -16,17 +16,22 @@ const About = ({
 	<div id="about-content">
 		<section className="about-picture">
 			<div className="img">
-				<GatsbyImage fluid={portrait.fluid} />
-				{forms.map((form) => (
-					<GatsbyImage
-						key={form.id}
-						fluid={form.fluid}
-						style={{
-							top: `${form.posY}vh`,
-							left: `${form.posX}vw`,
-						}}
-					/>
-				))}
+				<Image fluid={portrait.fluid} />
+			</div>
+			<div className="about-forms">
+				<div>
+					{forms.map((form) => (
+						<Image
+							key={form.id}
+							relativePath={form.relativePath}
+							className="about-form floating"
+							style={{
+								top: `${form.posY}vh`,
+								left: `${form.posX}vw`,
+							}}
+						/>
+					))}
+				</div>
 			</div>
 		</section>
 		<section className="about-content">
@@ -66,7 +71,7 @@ export const aboutPropTypes = {
 	forms: PropTypes.arrayOf(
 		PropTypes.shape({
 			id: PropTypes.string.isRequired,
-			fluid: PropTypes.object.isRequired,
+			relativePath: PropTypes.string.isRequired,
 			posX: PropTypes.number.isRequired,
 			posY: PropTypes.number.isRequired,
 		}),

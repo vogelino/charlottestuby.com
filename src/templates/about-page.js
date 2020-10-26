@@ -16,6 +16,12 @@ const AboutPage = ({ data }) => {
 				emailAddress={post.frontmatter.email}
 				cvUrl={post.frontmatter.cv.publicURL}
 				portrait={post.frontmatter.portrait.childImageSharp}
+				forms={post.frontmatter.forms.map((form) => ({
+					id: form.image.id,
+					relativePath: form.image.relativePath,
+					posX: form.posX,
+					posY: form.posY,
+				}))}
 			/>
 		</Layout>
 	)
@@ -44,6 +50,14 @@ export const aboutPageQuery = graphql`
 							...GatsbyImageSharpFluid_withWebp
 						}
 					}
+				}
+				forms {
+					image {
+						id
+						relativePath
+					}
+					posX
+					posY
 				}
 			}
 		}
