@@ -29,6 +29,7 @@ const About = ({
 								top: `${form.posY}vh`,
 								left: `${form.posX}vw`,
 							}}
+							loading="lazy"
 						/>
 					))}
 				</div>
