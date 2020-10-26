@@ -8,7 +8,11 @@ subtitle: |-
   Based in Brussels
 portrait: /img/portrait_cs_carre__.jpg
 email: charlottestuby@gmail.com
+emailButtonText: Write me an email
 cv: /img/cv_charlottestuby_2020.pdf
+cvButtonText: Download my curriculum
+instagramUsername: charlottestuby
+instagramButtonText: Follow me on instagram
 forms:
   - image: /img/blueemptyform.svg
     posX: 20
