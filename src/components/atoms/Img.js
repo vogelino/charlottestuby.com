@@ -1,22 +1,26 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Img from 'gatsby-image'
+import GatsbyImg from 'gatsby-image'
 
 export default function Image({
-	fluid = {},
+	fluid,
+	fixed,
 	relativePath = '',
 	url = '',
 	...rest
 }) {
 	if (relativePath || url) {
-		return <img src={url || `/img/${relativePath}`} {...rest} />
+		return (
+			<img src={relativePath ? `/img/${relativePath}` : url} {...rest} />
+		)
 	}
 
-	return <Img fluid={fluid} {...rest} />
+	return <GatsbyImg fluid={fluid} fixed={fixed} {...rest} />
 }
 
 Image.propTypes = {
 	relativePath: PropTypes.string,
 	fluid: PropTypes.object,
+	fixed: PropTypes.object,
 	url: PropTypes.string,
 }

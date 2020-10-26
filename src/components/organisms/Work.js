@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from '../atoms/Link'
 import List from '../atoms/List'
-// import Img from '../atoms/Img'
 import ListElement from '../atoms/ListElement'
 import Icon from '../atoms/Icon'
 import Image from '../atoms/Img'
@@ -55,16 +54,19 @@ const Work = ({
 			</div>
 		) : null}
 		<List className="work-images">
-			{images.map(({ caption, fluid }) => (
+			{images.map(({ caption, url, fluid }) => (
 				<ListElement
 					className="work-image"
 					id={caption}
-					key={fluid.src}
+					key={(fluid && fluid.src) || url}
 				>
 					<figure>
 						<div className="work-image-loading-container">
-							<Image fluid={fluid} />
-							{/* <Img src={url} alt={caption} /> */}
+							{fluid ? (
+								<Image fluid={fluid} />
+							) : (
+								<Image relativePath={url} />
+							)}
 						</div>
 					</figure>
 					{caption ? (
@@ -74,12 +76,16 @@ const Work = ({
 			))}
 		</List>
 		<List className="work-links">
-			<ListElement>
-				<WorkLink {...previousWork} />
-			</ListElement>
-			<ListElement>
-				<WorkLink {...nextWork} />
-			</ListElement>
+			{previousWork && (
+				<ListElement>
+					<WorkLink {...previousWork} />
+				</ListElement>
+			)}
+			{nextWork && (
+				<ListElement>
+					<WorkLink {...nextWork} />
+				</ListElement>
+			)}
 		</List>
 	</div>
 )
@@ -93,16 +99,23 @@ export const workPropTypes = {
 	images: PropTypes.arrayOf(
 		PropTypes.shape({
 			fluid: PropTypes.object,
+			fixed: PropTypes.object,
 			url: PropTypes.string,
 			caption: PropTypes.string,
 		}),
 	).isRequired,
+	thumbnail: PropTypes.oneOfType([
+		PropTypes.shape({
+			fixed: PropTypes.object,
+		}),
+		PropTypes.string,
+	]).isRequired,
 }
 
 Work.propTypes = {
 	work: PropTypes.shape(workPropTypes).isRequired,
-	previousWork: PropTypes.shape(workPropTypes).isRequired,
-	nextWork: PropTypes.shape(workPropTypes).isRequired,
+	previousWork: PropTypes.shape(workPropTypes),
+	nextWork: PropTypes.shape(workPropTypes),
 	startLoading: PropTypes.func.isRequired,
 	loading: PropTypes.bool.isRequired,
 }

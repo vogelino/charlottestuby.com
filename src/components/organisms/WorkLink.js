@@ -7,7 +7,11 @@ import Image from '../atoms/Img'
 const WorkLink = ({ title, slug, thumbnail }) => (
 	<Link href={slug} title={title} className="work-link">
 		<div className="work-link-image">
-			<Image fixed={thumbnail.fixed} />
+			{typeof thumbnail === 'string' ? (
+				<Image relativePath={thumbnail} />
+			) : (
+				<Image fixed={thumbnail.fixed} />
+			)}
 		</div>
 		<div className="work-link-content">
 			<h3>{title}</h3>
@@ -20,9 +24,12 @@ const WorkLink = ({ title, slug, thumbnail }) => (
 WorkLink.propTypes = {
 	title: PropTypes.string.isRequired,
 	slug: PropTypes.string.isRequired,
-	thumbnail: PropTypes.shape({
-		fixed: PropTypes.object.isRequired,
-	}).isRequired,
+	thumbnail: PropTypes.oneOfType([
+		PropTypes.shape({
+			fixed: PropTypes.object.isRequired,
+		}),
+		PropTypes.string,
+	]).isRequired,
 }
 
 export default WorkLink

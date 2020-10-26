@@ -5,7 +5,11 @@ import Link from './atoms/Link'
 const Header = ({ isPreview = false }) => (
 	<header>
 		<h1>
-			<Link className="logo" href={isPreview ? '#' : '/'}>
+			<Link
+				className="logo"
+				href={isPreview ? '#' : '/'}
+				title="Charlotte Stuby's logo"
+			>
 				Charlotte Stuby
 			</Link>
 		</h1>

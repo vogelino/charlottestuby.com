@@ -9,6 +9,7 @@ const Navbar = ({ page = '', isPreview = false }) => (
 				<Link
 					href={isPreview ? '#' : '/about'}
 					className={page === 'about' ? 'active' : ''}
+					title="About Charlotte and her work"
 				>
 					About
 				</Link>
@@ -17,6 +18,7 @@ const Navbar = ({ page = '', isPreview = false }) => (
 				<Link
 					href={isPreview ? '#' : '/'}
 					className={page === '' ? 'active' : ''}
+					title="Discover Charlotte Stuby's artworks, exhibits and projectsw"
 				>
 					Works
 				</Link>
