@@ -51,7 +51,7 @@
   "scripts": {
     "clean": "gatsby clean",
     "start": "npm run develop & npm run watch-styles",
-    "build": "npm run clean && gatsby build && npm run build-styles-prod",
+    "build": "npm run clean && gatsby build && npm run build-styles-prod && npm run build-styles-cms",
     "lint": "eslint src",
     "lint:fix": "eslint --fix \"{gatsby-*.js,src/**/*.js}\"",
     "develop": "npm run clean && gatsby develop",
@@ -59,6 +59,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-styles-prod": "stylus -u nib ./src/styles/index.styl -c -o ./public/styles.css",
     "build-styles-dev": "stylus -u nib ./src/styles/index.styl -o ./public/styles.css",
+    "build-styles-cms": "stylus -u nib ./src/styles/index.styl -o ./src/cms/styles.css",
     "watch-styles": "npm run build-styles-dev -- -w",
     "preload-fonts": "gatsby-preload-fonts"
   },
