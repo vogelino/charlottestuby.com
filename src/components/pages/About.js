@@ -3,29 +3,31 @@ import PropTypes from 'prop-types'
 import GatsbyImage from 'gatsby-image'
 import Link from '../atoms/Link'
 import { HTMLContent } from '../Content'
-import BlueEmptyForm from '../molecules/Forms/BlueEmptyForm'
-import BlueFullForm from '../molecules/Forms/BlueFullForm'
-import RedEmptyForm from '../molecules/Forms/RedEmptyForm'
-import RedFullForm from '../molecules/Forms/RedFullForm'
-import WhiteForm from '../molecules/Forms/WhiteForm'
-import YellowEmptyForm from '../molecules/Forms/YellowEmptyForm'
-import YellowFullForm from '../molecules/Forms/YellowFullForm'
-import YellowFullForm2 from '../molecules/Forms/YellowFullForm2'
 
-const About = ({ title, text, emailAddress, subtitle, portrait, cvUrl }) => (
+const About = ({
+	title = '',
+	text = '',
+	emailAddress = '',
+	subtitle = '',
+	portrait = { fluid: {} },
+	cvUrl = '',
+	forms = [],
+}) => (
 	<div id="about-content">
 		<section className="about-picture">
 			<div className="img">
 				<GatsbyImage fluid={portrait.fluid} />
+				{forms.map((form) => (
+					<GatsbyImage
+						key={form.id}
+						fluid={form.fluid}
+						style={{
+							top: `${form.posY}vh`,
+							left: `${form.posX}vw`,
+						}}
+					/>
+				))}
 			</div>
-			<BlueEmptyForm />
-			<BlueFullForm />
-			<RedEmptyForm />
-			<RedFullForm />
-			<WhiteForm />
-			<YellowEmptyForm />
-			<YellowFullForm />
-			<YellowFullForm2 />
 		</section>
 		<section className="about-content">
 			<h1>{title}</h1>
@@ -61,6 +63,14 @@ export const aboutPropTypes = {
 	portrait: PropTypes.shape({
 		fluid: PropTypes.object.isRequired,
 	}).isRequired,
+	forms: PropTypes.arrayOf(
+		PropTypes.shape({
+			id: PropTypes.string.isRequired,
+			fluid: PropTypes.object.isRequired,
+			posX: PropTypes.number.isRequired,
+			posY: PropTypes.number.isRequired,
+		}),
+	),
 }
 
 About.propTypes = aboutPropTypes
