@@ -97,3 +97,27 @@ collections:
                       required: false,
                   }
                 - { label: 'Body', name: 'body', widget: 'markdown' }
+                - {
+                      label: 'Formes',
+                      name: 'forms',
+                      widget: 'list',
+                      fields:
+                          [
+                              {
+                                  label: 'Image',
+                                  name: 'image',
+                                  widget: image,
+                                  allow_multiple: false,
+                              },
+                              {
+                                  label: 'Left position (in percent)',
+                                  name: 'posX',
+                                  widget: 'number',
+                              },
+                              {
+                                  label: 'Top position (in percent)',
+                                  name: 'posY',
+                                  widget: 'number',
+                              },
+                          ],
+                  }
