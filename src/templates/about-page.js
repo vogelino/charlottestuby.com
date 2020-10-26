@@ -12,7 +12,7 @@ const AboutPage = ({ data }) => {
 			<About
 				title={post.frontmatter.title}
 				subtitle={post.frontmatter.subtitle}
-				text={post.html}
+				text={post.rawMarkdownBody}
 				emailAddress={post.frontmatter.email}
 				cvUrl={post.frontmatter.cv.publicURL}
 				portrait={post.frontmatter.portrait.childImageSharp}
@@ -36,7 +36,7 @@ export default AboutPage
 export const aboutPageQuery = graphql`
 	query AboutPage($id: String!) {
 		markdownRemark(id: { eq: $id }) {
-			html
+			rawMarkdownBody
 			frontmatter {
 				title
 				subtitle

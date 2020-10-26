@@ -2,21 +2,25 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from '../atoms/Link'
 import Image from '../atoms/Img'
-import { HTMLContent } from '../Content'
+import ReactMarkdown from 'react-markdown'
 
 const About = ({
 	title = '',
 	text = '',
 	emailAddress = '',
 	subtitle = '',
-	portrait = { fluid: {} },
+	portrait = '',
 	cvUrl = '',
 	forms = [],
 }) => (
 	<div id="about-content">
 		<section className="about-picture">
 			<div className="img">
-				<Image fluid={portrait.fluid} />
+				{portrait.fluid ? (
+					<Image fluid={portrait.fluid} />
+				) : (
+					<Image relativePath={portrait} />
+				)}
 			</div>
 			<div className="about-forms">
 				<div>
@@ -39,7 +43,7 @@ const About = ({
 			<h1>{title}</h1>
 			{subtitle && <h3>{subtitle}</h3>}
 			<div className="about-text">
-				<HTMLContent content={text} />
+				<ReactMarkdown source={text} />
 			</div>
 			<Link
 				className="btn"
@@ -66,9 +70,12 @@ export const aboutPropTypes = {
 	text: PropTypes.string.isRequired,
 	emailAddress: PropTypes.string,
 	cvUrl: PropTypes.string,
-	portrait: PropTypes.shape({
-		fluid: PropTypes.object.isRequired,
-	}).isRequired,
+	portrait: PropTypes.oneOfType([
+		PropTypes.shape({
+			fluid: PropTypes.object.isRequired,
+		}),
+		PropTypes.string,
+	]).isRequired,
 	forms: PropTypes.arrayOf(
 		PropTypes.shape({
 			id: PropTypes.string.isRequired,

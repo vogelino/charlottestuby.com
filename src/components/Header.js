@@ -1,14 +1,19 @@
-import { Link } from 'gatsby'
 import React from 'react'
+import PropTypes from 'prop-types'
+import Link from './atoms/Link'
 
-const Header = () => (
+const Header = ({ isPreview = false }) => (
 	<header>
 		<h1>
-			<Link className="logo" to="/">
+			<Link className="logo" href={isPreview ? '#' : '/'}>
 				Charlotte Stuby
 			</Link>
 		</h1>
 	</header>
 )
+
+Header.propTypes = {
+	isPreview: PropTypes.bool,
+}
 
 export default Header

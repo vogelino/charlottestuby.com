@@ -3,12 +3,13 @@ import PropTypes from 'prop-types'
 import { Link as InternalLink } from 'gatsby'
 
 const Link = ({ children, href, className, ...rest }) => {
+	const linkClassName = `${href === '#' ? 'empty-link' : ''} ${className}`
 	if (href.startsWith('/')) {
 		return (
 			<InternalLink
 				target="_self"
 				to={href}
-				className={className}
+				className={linkClassName}
 				{...rest}
 			>
 				{children}
@@ -20,7 +21,7 @@ const Link = ({ children, href, className, ...rest }) => {
 			rel="noopener noreferrer"
 			target="_blank"
 			href={href}
-			className={className}
+			className={linkClassName}
 			{...rest}
 		>
 			{children}

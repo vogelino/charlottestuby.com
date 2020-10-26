@@ -1,17 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import Link from './atoms/Link'
 
-const Navbar = ({ page = '' }) => (
+const Navbar = ({ page = '', isPreview = false }) => (
 	<nav role="navigation" aria-label="main-navigation">
 		<ul>
 			<li className="about">
-				<Link to="/about" className={page === 'about' ? 'active' : ''}>
+				<Link
+					href={isPreview ? '#' : '/about'}
+					className={page === 'about' ? 'active' : ''}
+				>
 					About
 				</Link>
 			</li>
 			<li className="work">
-				<Link to="/" className={page === '' ? 'active' : ''}>
+				<Link
+					href={isPreview ? '#' : '/'}
+					className={page === '' ? 'active' : ''}
+				>
 					Works
 				</Link>
 			</li>
@@ -21,6 +27,7 @@ const Navbar = ({ page = '' }) => (
 
 Navbar.propTypes = {
 	page: PropTypes.string.isRequired,
+	isPreview: PropTypes.bool,
 }
 
 export default Navbar

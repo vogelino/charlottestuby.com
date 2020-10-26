@@ -16,13 +16,14 @@ const TemplateWrapper = ({
 	page = '',
 	currentSlideIndex = 0,
 	forms = [],
+	isPreview = false,
 }) => (
 	<main className={getPageClass(page)}>
-		<MetaTags />
-		{!page.startsWith('/work/') && <Header />}
+		{!isPreview && <MetaTags />}
+		{!page.startsWith('/work/') && <Header isPreview={isPreview} />}
 		<article>
 			{!page.startsWith('/work/') && (
-				<Navbar page={page.replace('/', '')} />
+				<Navbar page={page.replace('/', '')} isPreview={isPreview} />
 			)}
 			<section className="content">{children}</section>
 		</article>
@@ -35,6 +36,7 @@ const TemplateWrapper = ({
 TemplateWrapper.propTypes = {
 	children: PropTypes.node,
 	page: PropTypes.string,
+	isPreview: PropTypes.bool,
 	currentSlideIndex: PropTypes.number,
 	forms: PropTypes.arrayOf(
 		PropTypes.shape({
