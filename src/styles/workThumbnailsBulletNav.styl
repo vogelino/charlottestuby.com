@@ -13,11 +13,12 @@ $bulletWidth = 8px
 		height $bulletWidth
 		border-radius 50%
 		box-sizing border-box
-		border 1px solid $linkOnContentColor
-		box-shadow 0 0 0 1px rgba(white, .2), inset 0 0 0 2px rgba(white, .2)
+		border 1px solid white
+		box-shadow 0 0 0 1px rgba(black, .2), inset 0 0 0 2px rgba(black, .2)
 		margin-top $bulletWidth + $bulletWidth
 		transition all $slowTransition $smoothTransitionEase
 		background-color none
+		pointer cursor
 
 		&:hover
 			border-color $linkHoverOnContentColor
@@ -30,3 +31,4 @@ $bulletWidth = 8px
 		&.active
 			border-color $secondary
 			background-color $secondary
+			box-shadow none
