@@ -1097,10 +1097,11 @@ body,
 main {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
   min-height: 100vh;
   min-width: 320px;
   margin: 0 auto;
+  -webkit-overflow-scrolling: touch;
 }
 body {
   font-family: 'HKGrotesk', 'Akzident Grotesk', Arial, sans-serif;
@@ -2047,6 +2048,11 @@ article section.content .work-thumbnail a:focus {
   -ms-transition: -ms-transform 400ms cubic-bezier(0.19, 1, 0.22, 1);
   transition: transform 400ms cubic-bezier(0.19, 1, 0.22, 1);
 }
+@media (max-width: 400px) {
+  .work-header {
+    height: 60px;
+  }
+}
 .scroll-up .work-header {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -2090,15 +2096,30 @@ article section.content .work-thumbnail a:focus {
   max-width: 1280px;
   position: relative;
   margin: 0 auto;
-  padding: 40px 20px 20px;
+  padding: 40px 55px 20px 20px;
+}
+@media (max-width: 600px) {
+  .work-head {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .work-head {
+    padding-top: 10px;
+  }
 }
 .work-head h3 {
   margin-top: 4px;
 }
 .work-head .work-close-button {
   position: absolute;
-  top: 60px;
+  top: 45px;
   right: 20px;
+}
+@media (max-width: 400px) {
+  .work-head .work-close-button {
+    top: 10px;
+  }
 }
 .work-description {
   font-size: 16px;

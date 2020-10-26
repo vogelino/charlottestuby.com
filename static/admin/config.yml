@@ -1,6 +1,9 @@
 backend:
-    name: git-gateway
+    name: github
     branch: master
+    repo: vogelino/charlottestuby-netlifycms
+    base_url: https://charlottestuby.vogelino.com/
+    auth_endpoint: api/auth
     commit_messages:
         create: 'Create {{collection}} “{{slug}}”'
         update: 'Update {{collection}} “{{slug}}”'
