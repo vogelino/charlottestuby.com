@@ -2,7 +2,7 @@
 templateKey: work
 orderOfAppearance: 2
 title: Into Limbo
-subtitle: off the Grid, Leuven (BE), Autumn 2019
+subtitle: Off the Grid, Leuven (BE), Autumn 2019
 date: 2020-10-22T18:24:51.324Z
 description: collective show, curated by Bram van Breda. Pictures by Matthijs van der Burgt
 thumbnail: /img/offthegrid-bram-facebook1200x628.jpg
