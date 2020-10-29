@@ -6,12 +6,7 @@ const Link = ({ children, href, className, ...rest }) => {
 	const linkClassName = `${href === '#' ? 'empty-link' : ''} ${className}`
 	if (href.startsWith('/')) {
 		return (
-			<InternalLink
-				target="_self"
-				to={href}
-				className={linkClassName}
-				{...rest}
-			>
+			<InternalLink to={href} className={linkClassName} {...rest}>
 				{children}
 			</InternalLink>
 		)
