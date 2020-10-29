@@ -14,6 +14,7 @@
 	height $captionHeight
 	position absolute
 	top calc(100vh - 60px)
+	top calc((var(--vh, 1vh) * 100) - 60px)
 	transform translateY(-100%)
 	left 0
 	clearfix()
@@ -58,6 +59,7 @@ article section.content .work-thumbnail a:focus
 		background url($pattern1) repeat fixed center center
 		background-size 60px 60px
 		height calc(100vh - 60px) !important
+		height calc((var(--vh, 1vh) * 100) - 60px) !important
 
 		.home &
 			border-top-left-radius 0

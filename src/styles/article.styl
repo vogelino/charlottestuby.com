@@ -15,9 +15,11 @@ section.content
 	position relative
 	box-sizing border-box
 	min-height calc(100vh - 60px)
+	min-height calc((var(--vh, 1vh) * 100) - 60px)
 
 	.home &
 		height calc(100vh - 60px)
+		height calc((var(--vh, 1vh) * 100) - 60px)
 
 article section.content
 	border-top-left-radius $mainRadiusSize
@@ -29,6 +31,7 @@ article section.content
 	.work &
 		height auto
 		min-height calc(100vh - 60px)
+		min-height calc((var(--vh, 1vh) * 100) - 60px)
 		border-radius 0
 	
 	@media screen and (max-width: $mqDesktopMaxWidth)

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import Navbar from './Navbar'
 import ThumbnailsForms from './organisms/ThumbnailsForms'
@@ -11,27 +11,49 @@ const getPageClass = (page) => {
 	return 'home'
 }
 
+const setVh = () => {
+	let vh = window.innerHeight * 0.01
+	document.documentElement.style.setProperty('--vh', `${vh}px`)
+}
+
 const TemplateWrapper = ({
 	children,
 	page = '',
 	currentSlideIndex = 0,
 	forms = [],
 	isPreview = false,
-}) => (
-	<main className={getPageClass(page)}>
-		{!isPreview && <MetaTags />}
-		{!page.startsWith('/work/') && <Header isPreview={isPreview} />}
-		<article>
-			{!page.startsWith('/work/') && (
-				<Navbar page={page.replace('/', '')} isPreview={isPreview} />
+}) => {
+	useEffect(() => {
+		setVh()
+		window.addEventListener('resize', setVh)
+
+		return () => {
+			window.removeEventListener('resize', setVh)
+		}
+	}, [])
+
+	return (
+		<main className={getPageClass(page)}>
+			{!isPreview && <MetaTags />}
+			{!page.startsWith('/work/') && <Header isPreview={isPreview} />}
+			<article>
+				{!page.startsWith('/work/') && (
+					<Navbar
+						page={page.replace('/', '')}
+						isPreview={isPreview}
+					/>
+				)}
+				<section className="content">{children}</section>
+			</article>
+			{page === '/' && (
+				<ThumbnailsForms
+					currentSlide={currentSlideIndex}
+					forms={forms}
+				/>
 			)}
-			<section className="content">{children}</section>
-		</article>
-		{page === '/' && (
-			<ThumbnailsForms currentSlide={currentSlideIndex} forms={forms} />
-		)}
-	</main>
-)
+		</main>
+	)
+}
 
 TemplateWrapper.propTypes = {
 	children: PropTypes.node,

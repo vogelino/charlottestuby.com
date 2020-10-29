@@ -10,7 +10,7 @@ const ThumbnailsForms = ({ forms = [], currentSlide = 0 }) => (
 			className="thumbnail-forms-list"
 			style={{
 				height: `${forms.length}00vh`,
-				top: `calc(-${currentSlide} * 100vh - 30px)`,
+				top: `calc(-${currentSlide} * (var(--vh, 1vh) * 100) - 30px)`,
 			}}
 		>
 			{forms.map(({ relativePath, id }, index) => (
