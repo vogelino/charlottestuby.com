@@ -1,25 +1,27 @@
+const siteMetadata = {
+	title: 'Portfolio of Charlotte Stuby',
+	description: 'A swiss artist based in Brussels specialized in textile work',
+	keywords: [
+		'Charlotte',
+		'Stuby',
+		'Artist',
+		'Tissage',
+		'Textile',
+		'Sculpture',
+		'Installation',
+		'Dessin',
+		'Photo',
+		'Switzerland',
+		'Colors',
+		'Vevey',
+		'Bruxelles',
+		'Vienne',
+	],
+	siteUrl: process.env.VERCEL_URL || `https://charlottestuby.com`,
+}
+
 module.exports = {
-	siteMetadata: {
-		title: 'Portfolio of Charlotte Stuby',
-		description:
-			'A swiss artist based in Brussels specialized in textile work',
-		keywords: [
-			'Charlotte',
-			'Stuby',
-			'Artist',
-			'Tissage',
-			'Textile',
-			'Sculpture',
-			'Installation',
-			'Dessin',
-			'Photo',
-			'Switzerland',
-			'Colors',
-			'Vevey',
-			'Bruxelles',
-			'Vienne',
-		],
-	},
+	siteMetadata,
 	plugins: [
 		'gatsby-plugin-react-helmet',
 		{
@@ -73,12 +75,12 @@ module.exports = {
 				],
 			},
 		},
+		`gatsby-plugin-sitemap`,
 		{
 			resolve: 'gatsby-plugin-manifest',
 			options: {
-				name:
-					'Online portfolio of Charlotte stuby, a swiss artist based in Brussels',
-				short_name: 'Charlotte Stuby',
+				name: siteMetadata.description,
+				short_name: siteMetadata.title,
 				start_url: '/',
 				background_color: '#014ce3',
 				display: 'standalone',
