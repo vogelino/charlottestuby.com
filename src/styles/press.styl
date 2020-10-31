@@ -36,6 +36,9 @@
         text-align center
         grid-gap 16px
 
+        @media screen and (max-width: $mqMobileMaxWidth)
+            grid-template-rows 200px auto
+
     path
         stroke-width 3px
         transition stroke-width 100ms ease-out
