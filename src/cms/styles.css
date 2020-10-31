@@ -2397,15 +2397,15 @@ a.work-close-button:active svg {
   }
 }
 .press-link path {
-  stroke: #ccf;
-  -webkit-transition: stroke 100ms ease-out;
-  -moz-transition: stroke 100ms ease-out;
-  -o-transition: stroke 100ms ease-out;
-  -ms-transition: stroke 100ms ease-out;
-  transition: stroke 100ms ease-out;
+  stroke-width: 3px;
+  -webkit-transition: stroke-width 100ms ease-out;
+  -moz-transition: stroke-width 100ms ease-out;
+  -o-transition: stroke-width 100ms ease-out;
+  -ms-transition: stroke-width 100ms ease-out;
+  transition: stroke-width 100ms ease-out;
 }
 .press-link:hover path {
-  stroke: var(--linkColor, #00f);
+  stroke-width: 6px;
 }
 .press-link:hover .press-link-url {
   text-decoration: underline !important;

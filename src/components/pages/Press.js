@@ -41,7 +41,7 @@ const PressLi = ({
 					version="1.1"
 					className="press-link-svg"
 					style={{
-						'--linkColor': color,
+						stroke: color,
 					}}
 				>
 					<defs>
