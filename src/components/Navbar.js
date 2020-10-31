@@ -5,6 +5,15 @@ import Link from './atoms/Link'
 const Navbar = ({ page = '', isPreview = false }) => (
 	<nav role="navigation" aria-label="main-navigation">
 		<ul>
+			<li className="press">
+				<Link
+					href={isPreview ? '#' : '/press'}
+					className={page === 'press' ? 'active' : ''}
+					title="Read about Charlotte Stuby and her work in the press"
+				>
+					Press
+				</Link>
+			</li>
 			<li className="about">
 				<Link
 					href={isPreview ? '#' : '/about'}

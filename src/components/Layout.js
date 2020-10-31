@@ -8,6 +8,7 @@ import Header from './Header'
 const getPageClass = (page) => {
 	if (page.startsWith('/work/')) return 'work without-navs'
 	if (page.includes('about')) return 'about'
+	if (page.includes('press')) return 'press'
 	return 'home'
 }
 
