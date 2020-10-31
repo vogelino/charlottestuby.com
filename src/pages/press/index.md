@@ -5,7 +5,7 @@ pressList:
     url: https://dorrellmerritt.co.uk/Charlotte-Stuby-Interview
     screenshot: /img/wepresent-a-fascinating-dive-into-the-art-and-history-of-tarot.png
     pdfFile: /img/wepresent-a-fascinating-dive-into-the-art-and-history-of-tarot.png
-    color: "#FF00FF"
+    color: "#0000FF"
   - date: Oct. 2020
     title: The art of the Tarot
     pdfFile: /img/cv_charlottestuby_2020.pdf
