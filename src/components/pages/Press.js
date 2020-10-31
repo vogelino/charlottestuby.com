@@ -1,22 +1,94 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
-import Image from '../atoms/Img'
 import Link from '../atoms/Link'
+import { createBlob } from '../../utils/blobUtil'
+
+const PressLi = ({
+	id,
+	title,
+	date,
+	url,
+	file,
+	screenshot,
+	color = 'blue',
+}) => {
+	const blobRef = useRef()
+	const blobPathRef = useRef()
+
+	useEffect(() => {
+		const commonConfig = {
+			numPoints: 10,
+			centerX: 150,
+			centerY: 150,
+			minRadius: 120,
+			maxRadius: 125,
+			minDuration: 1,
+			maxDuration: 2,
+		}
+		createBlob({
+			...commonConfig,
+			clipPathElement: blobRef.current,
+			pathElement: blobPathRef.current,
+		})
+	}, [id])
+
+	return (
+		<div className="press-link">
+			<Link href={url || file} title={title}>
+				<svg
+					viewBox="0 0 300 300"
+					xmlns="https://www.w3.org/2000/svg"
+					version="1.1"
+					className="press-link-svg"
+					style={{
+						'--linkColor': color,
+					}}
+				>
+					<defs>
+						<clipPath id={`path-${id}`}>
+							<path ref={blobRef} />
+						</clipPath>
+					</defs>
+					<image
+						href={screenshot}
+						clipPath={`url(#path-${id})`}
+						width="300"
+						height="300"
+						preserveAspectRatio="xMinYMin slice"
+						className="press-link-image"
+					/>
+					<path
+						ref={blobPathRef}
+						fill="transparent"
+						strokeWidth={3}
+					/>
+				</svg>
+				<div className="press-link-content">
+					<h3 className="press-link-date">{date}</h3>
+					<h2 className="press-link-title">{title}</h2>
+					<h4 className="press-link-url">
+						{url ? new URL(url).host : 'PDF'}
+					</h4>
+				</div>
+			</Link>
+		</div>
+	)
+}
+
+PressLi.propTypes = {
+	id: PropTypes.string.isRequired,
+	title: PropTypes.string.isRequired,
+	date: PropTypes.string.isRequired,
+	url: PropTypes.string,
+	file: PropTypes.string,
+	screenshot: PropTypes.string.isRequired,
+}
 
 const Press = ({ pressList = [] }) => (
 	<div id="press-content">
 		<section className="press-content">
-			{pressList.map(({ title, date, url, file, screenshot }) => (
-				<div key={title} className="press-link">
-					<Image fluid={screenshot.fluid} className="press-image" />
-					<h3 className="press-date">{date}</h3>
-					<h2 className="press-title">{title}</h2>
-					<p className="press-link">
-						<Link href={url || file} title={title}>
-							{url ? new URL(url).host : 'PDF'}
-						</Link>
-					</p>
-				</div>
+			{pressList.map((li, idx) => (
+				<PressLi key={`li-${idx}`} id={`li-${idx}`} {...li} />
 			))}
 		</section>
 	</div>
@@ -25,13 +97,8 @@ const Press = ({ pressList = [] }) => (
 export const aboutPropTypes = {
 	pressList: PropTypes.arrayOf(
 		PropTypes.shape({
-			title: PropTypes.string.isRequired,
-			date: PropTypes.string.isRequired,
-			url: PropTypes.string,
-			file: PropTypes.string,
-			screenshot: PropTypes.shape({
-				fluid: PropTypes.object.isRequired,
-			}).isRequired,
+			...PressLi.propTypes,
+			id: undefined,
 		}),
 	),
 }

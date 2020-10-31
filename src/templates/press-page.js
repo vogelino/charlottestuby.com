@@ -17,7 +17,7 @@ const PressPage = ({ data }) => {
 						date,
 						url,
 						file: file?.publicURL || '',
-						screenshot: screenshot.childImageSharp,
+						screenshot: screenshot.childImageSharp.fixed.src,
 					}),
 				)}
 			/>
@@ -44,8 +44,8 @@ export const pressPageQuery = graphql`
 					}
 					screenshot {
 						childImageSharp {
-							fluid(maxWidth: 600, quality: 90) {
-								...GatsbyImageSharpFluid_withWebp
+							fixed(width: 600, height: 600, quality: 90) {
+								...GatsbyImageSharpFixed_withWebp
 							}
 						}
 					}

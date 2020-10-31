@@ -1,2 +1,56 @@
 .press-content
     position relative
+    padding 10vmin
+    display grid
+    grid-template-columns repeat(2, 1fr)
+    grid-gap 10vmin
+    box-sizing border-box
+
+    @media screen and (max-width: $mqTabletLargeMaxWidth)
+        grid-template-columns 1fr
+
+    &:hover *
+        text-decoration none !important
+
+.press-link-svg
+    width 300px
+    height 300px
+
+    @media screen and (max-width: $mqMobileMaxWidth)
+        width 200px
+        height 200px
+
+.press-link
+    display grid
+    grid-template-rows 300px auto
+    justify-content center
+    justify-items center
+    text-align center
+    grid-gap 16px
+
+    @media screen and (max-width: $mqMobileMaxWidth)
+        grid-template-rows 200px auto
+
+    path
+        stroke lighten($primary, 40)
+
+    &:hover
+        path
+            stroke var(--linkColor, blue)
+
+        .press-link-url
+            text-decoration underline !important
+
+.press-link-content
+    display grid
+    grid-gap 8px
+
+.press-link-date
+    color desaturate(lighten($primary, 20), 50)
+    text-transform uppercase
+    font-size 14px
+    font-weight bold
+    letter-spacing 0.2em
+
+.press-link-url
+    color $mainTextColor
