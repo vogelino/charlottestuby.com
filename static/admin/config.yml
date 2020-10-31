@@ -166,3 +166,9 @@ collections:
                       - label: Screenshot (Of Webpage or PDF)
                         name: screenshot
                         widget: image
+                      - label: Color
+                        name: color
+                        widget: string
+                        pattern:
+                            - ^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$
+                            - Must be an color string in HEX format (eg. \#BADASS)

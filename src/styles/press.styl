@@ -1,13 +1,11 @@
 .press-content
     position relative
     padding 10vmin
-    display grid
-    grid-template-columns repeat(2, 1fr)
-    grid-gap 10vmin
     box-sizing border-box
-
-    @media screen and (max-width: $mqTabletLargeMaxWidth)
-        grid-template-columns 1fr
+    display flex
+    justify-content center
+    justify-items center
+    flex-wrap wrap
 
     &:hover *
         text-decoration none !important
@@ -21,22 +19,31 @@
         height 200px
 
 .press-link
+    width 50%
+    margin-bottom 10vmin
     display grid
-    grid-template-rows 300px auto
     justify-content center
     justify-items center
-    text-align center
-    grid-gap 16px
 
-    @media screen and (max-width: $mqMobileMaxWidth)
-        grid-template-rows 200px auto
+
+    & > a
+        display inline-grid
+        grid-template-rows 300px auto
+        justify-content center
+        justify-items center
+        text-align center
+        grid-gap 16px
+
+        @media screen and (max-width: $mqMobileMaxWidth)
+            width 100%
 
     path
-        stroke lighten($primary, 40)
+        stroke var(--linkColorLight, lighten($primary, 40)) 
+        transition stroke 100ms ease-out
 
     &:hover
         path
-            stroke var(--linkColor, blue)
+            stroke var(--linkColor, $primary)
 
         .press-link-url
             text-decoration underline !important

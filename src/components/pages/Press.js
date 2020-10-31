@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
+import lighten from '@bit/styled-components.polished.color.lighten'
 import Link from '../atoms/Link'
 import { createBlob } from '../../utils/blobUtil'
 
@@ -42,6 +43,7 @@ const PressLi = ({
 					className="press-link-svg"
 					style={{
 						'--linkColor': color,
+						'--linkColorLight': lighten(0.8, color),
 					}}
 				>
 					<defs>
@@ -87,7 +89,15 @@ PressLi.propTypes = {
 const Press = ({ pressList = [] }) => (
 	<div id="press-content">
 		<section className="press-content">
-			{pressList.map((li, idx) => (
+			{[
+				pressList[0],
+				pressList[0],
+				pressList[0],
+				pressList[0],
+				pressList[0],
+				pressList[0],
+				pressList[0],
+			].map((li, idx) => (
 				<PressLi key={`li-${idx}`} id={`li-${idx}`} {...li} />
 			))}
 		</section>
