@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import WorkTemplate from '../../components/organisms/Work'
 import Layout from '../../components/Layout'
+import '../../styles/css/common.css'
+import '../../styles/css/work.css'
 
 const WorkPreview = ({ entry }) => (
 	<Layout page={`/work/${entry.get('slug')}`} isPreview>

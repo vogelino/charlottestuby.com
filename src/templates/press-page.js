@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Press from '../components/pages/Press'
+import '../styles/css/common.css'
+import '../styles/css/press.css'
 
 const PressPage = ({ data }) => {
 	const {

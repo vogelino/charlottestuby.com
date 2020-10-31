@@ -5,6 +5,8 @@ import Layout from '../components/Layout'
 import { Helmet } from 'react-helmet'
 import Work from '../components/organisms/Work'
 import { mapWork } from '../utils/mapUtil'
+import '../styles/css/common.css'
+import '../styles/css/work.css'
 
 let LAST_SRCOLL_POS = 0
 let MIN_SCROLL_DIS = 80

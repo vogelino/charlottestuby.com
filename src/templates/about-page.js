@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import About from '../components/pages/About'
+import '../styles/css/common.css'
+import '../styles/css/about.css'
 
 const AboutPage = ({ data }) => {
 	const { markdownRemark: post } = data

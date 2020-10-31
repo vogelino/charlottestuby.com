@@ -11,3 +11,4 @@ dist/
 
 .vercel
 vercel.json
+src/styles/css

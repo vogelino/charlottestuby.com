@@ -4,6 +4,8 @@ import { graphql, StaticQuery } from 'gatsby'
 import Layout from '../../components/Layout'
 import WorkRoll from '../../components/WorkRoll'
 import { mapForms, mapWorks } from '../../utils/mapUtil'
+import '../../styles/css/common.css'
+import '../../styles/css/work.css'
 
 const WorkPage = ({ works = [], forms = [] }) => {
 	const [currentSlideIndex, setCurrentWorksSlide] = useState(0)

@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import About from '../../components/pages/About'
 import Layout from '../../components/Layout'
-import '../../cms/styles.css'
+import '../../styles/css/common.css'
+import '../../styles/css/about.css'
 
 const AboutPagePreview = ({ entry }) => (
 	<Layout page="/about" isPreview>

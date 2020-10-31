@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Press from '../../components/pages/Press'
 import Layout from '../../components/Layout'
-import '../../cms/styles.css'
+import '../../styles/css/common.css'
+import '../../styles/css/press.css'
 
 const PressPagePreview = ({ entry }) => (
 	<Layout page="/press" isPreview>
