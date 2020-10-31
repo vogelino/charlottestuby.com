@@ -76,6 +76,7 @@ module.exports = {
 			},
 		},
 		`gatsby-plugin-sitemap`,
+		`gatsby-plugin-robots-txt`,
 		{
 			resolve: 'gatsby-plugin-manifest',
 			options: {
