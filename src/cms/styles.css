@@ -2408,6 +2408,11 @@ a.work-close-button:active svg {
   text-align: center;
   grid-gap: 16px;
 }
+@media screen and (max-width: 400px) {
+  .press-link > a {
+    grid-template-rows: 200px auto;
+  }
+}
 .press-link path {
   stroke-width: 3px;
   -webkit-transition: stroke-width 100ms ease-out;
