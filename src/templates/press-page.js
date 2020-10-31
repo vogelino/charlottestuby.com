@@ -7,16 +7,20 @@ import Press from '../components/pages/Press'
 const PressPage = ({ data }) => {
 	const {
 		markdownRemark: { frontmatter: post },
+		site: {
+			siteMetadata: { siteUrl },
+		},
 	} = data
 	return (
 		<Layout page="/press">
 			<Press
 				pressList={post.pressList.map(
-					({ title, date, url, file, screenshot }) => ({
+					({ title, date, url, pdfFile, screenshot, color }) => ({
 						title,
 						date,
 						url,
-						file: file?.publicURL || '',
+						color,
+						file: pdfFile ? `${siteUrl}${pdfFile.publicURL}` : '',
 						screenshot: screenshot.childImageSharp.fixed.src,
 					}),
 				)}
@@ -33,6 +37,11 @@ export default PressPage
 
 export const pressPageQuery = graphql`
 	query PressPage($id: String!) {
+		site {
+			siteMetadata {
+				siteUrl
+			}
+		}
 		markdownRemark(id: { eq: $id }) {
 			frontmatter {
 				pressList {
@@ -49,6 +58,7 @@ export const pressPageQuery = graphql`
 							}
 						}
 					}
+					color
 				}
 			}
 		}

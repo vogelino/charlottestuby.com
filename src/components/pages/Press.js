@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
-import lighten from '@bit/styled-components.polished.color.lighten'
 import Link from '../atoms/Link'
 import { createBlob } from '../../utils/blobUtil'
 
@@ -35,7 +34,7 @@ const PressLi = ({
 
 	return (
 		<div className="press-link">
-			<Link href={url || file} title={title}>
+			<Link href={url || file} title={title} target="__blank">
 				<svg
 					viewBox="0 0 300 300"
 					xmlns="https://www.w3.org/2000/svg"
@@ -43,7 +42,6 @@ const PressLi = ({
 					className="press-link-svg"
 					style={{
 						'--linkColor': color,
-						'--linkColorLight': lighten(0.8, color),
 					}}
 				>
 					<defs>
@@ -59,11 +57,7 @@ const PressLi = ({
 						preserveAspectRatio="xMinYMin slice"
 						className="press-link-image"
 					/>
-					<path
-						ref={blobPathRef}
-						fill="transparent"
-						strokeWidth={3}
-					/>
+					<path ref={blobPathRef} fill="transparent" />
 				</svg>
 				<div className="press-link-content">
 					<h3 className="press-link-date">{date}</h3>
@@ -89,15 +83,7 @@ PressLi.propTypes = {
 const Press = ({ pressList = [] }) => (
 	<div id="press-content">
 		<section className="press-content">
-			{[
-				pressList[0],
-				pressList[0],
-				pressList[0],
-				pressList[0],
-				pressList[0],
-				pressList[0],
-				pressList[0],
-			].map((li, idx) => (
+			{pressList.map((li, idx) => (
 				<PressLi key={`li-${idx}`} id={`li-${idx}`} {...li} />
 			))}
 		</section>

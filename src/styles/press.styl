@@ -38,12 +38,13 @@
             width 100%
 
     path
-        stroke var(--linkColorLight, lighten($primary, 40)) 
-        transition stroke 100ms ease-out
+        stroke var(--linkColor, $primary)
+        stroke-width 3px
+        transition stroke-width 100ms ease-out
 
     &:hover
         path
-            stroke var(--linkColor, $primary)
+            stroke-width 6px
 
         .press-link-url
             text-decoration underline !important

@@ -2,11 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link as InternalLink } from 'gatsby'
 
-const Link = ({ children, href, className, ...rest }) => {
+const Link = ({ children, href, className, target, ...rest }) => {
 	const linkClassName = `${href === '#' ? 'empty-link' : ''} ${className}`
 	if (href.startsWith('/')) {
 		return (
-			<InternalLink to={href} className={linkClassName} {...rest}>
+			<InternalLink
+				to={href}
+				className={linkClassName}
+				target={target || '__self'}
+				{...rest}
+			>
 				{children}
 			</InternalLink>
 		)
@@ -14,7 +19,7 @@ const Link = ({ children, href, className, ...rest }) => {
 	return (
 		<a
 			rel="noopener noreferrer"
-			target="_blank"
+			target={target || '__blank'}
 			href={href}
 			className={linkClassName}
 			{...rest}
@@ -28,6 +33,7 @@ Link.propTypes = {
 	href: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,
 	className: PropTypes.string,
+	target: PropTypes.string,
 	children: PropTypes.oneOfType([
 		PropTypes.string,
 		PropTypes.number,
