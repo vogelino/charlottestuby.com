@@ -11,4 +11,9 @@ pressList:
     screenshot: /img/wepresent-a-fascinating-dive-into-the-art-and-history-of-tarot.png
     pdfFile: /img/wepresent-a-fascinating-dive-into-the-art-and-history-of-tarot.png
     color: "#0000FF"
+  - date: Mar. 2020
+    title: Lorem ipsum dolor sit amet
+    url: https://github.com/netlify/netlify-cms/issues/54
+    screenshot: /img/exhibition_view_charlotte-stuby-lausanne-2020.jpg
+    color: "#ffe03f"
 ---
