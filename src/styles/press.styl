@@ -19,12 +19,14 @@
         height 200px
 
 .press-link
-    width 50%
+    flex 1 0 50%
     margin-bottom 10vmin
     display grid
     justify-content center
     justify-items center
 
+    @media screen and (max-width: $mqTabletLargeMaxWidth)
+        flex 0 0 100%
 
     & > a
         display inline-grid
@@ -33,9 +35,6 @@
         justify-items center
         text-align center
         grid-gap 16px
-
-        @media screen and (max-width: $mqMobileMaxWidth)
-            width 100%
 
     path
         stroke-width 3px

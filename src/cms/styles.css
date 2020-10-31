@@ -2367,7 +2367,13 @@ a.work-close-button:active svg {
   }
 }
 .press-link {
-  width: 50%;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 0 50%;
+  -ms-flex: 1 0 50%;
+  flex: 1 0 50%;
   margin-bottom: 10vmin;
   display: grid;
   -webkit-box-pack: center;
@@ -2377,6 +2383,17 @@ a.work-close-button:active svg {
   -webkit-justify-content: center;
   justify-content: center;
   justify-items: center;
+}
+@media screen and (max-width: 960px) {
+  .press-link {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
 }
 .press-link > a {
   display: inline-grid;
@@ -2390,11 +2407,6 @@ a.work-close-button:active svg {
   justify-items: center;
   text-align: center;
   grid-gap: 16px;
-}
-@media screen and (max-width: 400px) {
-  .press-link > a {
-    width: 100%;
-  }
 }
 .press-link path {
   stroke-width: 3px;
