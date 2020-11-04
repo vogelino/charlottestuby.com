@@ -1,0 +1,19 @@
+fontFaceMixin($mixinFontName, $mixinFileName, $mixinFontDir, $mixinFontWeight)
+	@font-face
+		font-family $mixinFontName
+		src url($mixinFontDir + '/' + $mixinFileName + '.eot?v=123')
+		src url($mixinFontDir + '/' + $mixinFileName + '.eot#iefix?v=123') format('embedded-opentype'),
+			url($mixinFontDir + '/' + $mixinFileName + '.woff2?v=123') format('woff2'),
+			url($mixinFontDir + '/' + $mixinFileName + '.woff?v=123') format('woff'),
+			url($mixinFontDir + '/' + $mixinFileName + '.ttf?v=123')  format('truetype'),
+			url($mixinFontDir + '/' + $mixinFileName + '.svg#' + $mixinFontName + '?v=123') format('svg')
+		font-weight $mixinFontWeight
+		font-display swap
+
+$fontName = 'HKGrotesk'
+$fontDir  = '/fonts'
+
+fontFaceMixin($fontName, 'hkgrotesk-bold', 		$fontDir, 600);
+fontFaceMixin($fontName, 'hkgrotesk-light', 	$fontDir, 300);
+fontFaceMixin($fontName, 'hkgrotesk-medium', 	$fontDir, 500);
+fontFaceMixin($fontName, 'hkgrotesk-regular', 	$fontDir, 400);

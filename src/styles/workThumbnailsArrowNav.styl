@@ -1,0 +1,52 @@
+.thumbnails-arrow-nav
+	position absolute
+	width $navBarWidth
+	height auto
+	top calc(100vh - 172px)
+	top calc((var(--vh, 1vh) * 100) - 172px)
+	left $navBarWidth * -1
+
+	.thumbnails-arrow
+		display block
+		width $navBarWidth
+		height $navBarWidth
+		text-align center
+		cursor pointer
+		line-height $navBarWidth
+		background none
+
+		svg
+			width 25px
+			height 25px
+			fill $linkOnMainColor
+			transition fill $quickTransition $smoothTransitionEase
+
+		&:hover svg
+			fill $linkHoverOnMainColor
+
+		&:active svg
+			fill $linkActiveOnMainColor
+
+		&:focus svg
+			fill $linkFocusOnMainColor
+
+	a.thumbnails-arrow
+		color $linkOnMainColor
+		text-decoration none
+
+		&:hover
+			color $linkHoverOnMainColor
+
+		&:focus
+			color $linkFocusOnMainColor
+
+	span.thumbnails-arrow
+		color $linkHoverOnContentColor
+
+		&,
+		&:hover,
+		&:active,
+			svg
+				fill $linkOnMainColor
+				cursor default
+				opacity .6

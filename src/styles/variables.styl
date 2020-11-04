@@ -1,0 +1,95 @@
+
+// COLOR PROPERTIES
+$primary				= blue
+$secondary				= red
+$tertiary				= yellow
+$white					= white
+$black					= #000030
+
+	// BACKGROUND COLORS
+	$mainBackgroundColor	= $primary
+	$contentBackgroundColor = $white
+
+	// TEXT COLORS
+	$mainTextColor			= $black
+
+		// LINKS
+			// ON MAIN COLOR
+			$linkOnMainColor			= $white
+			$linkHoverOnMainColor		= blend(rgba($linkOnMainColor, .8), $mainBackgroundColor)
+			$linkActiveOnMainColor		= blend(rgba($linkOnMainColor, .6), $mainBackgroundColor)
+			$linkFocusOnMainColor		= blend(rgba($linkOnMainColor, .2), $mainBackgroundColor)
+
+			// ON MAIN COLOR
+			$linkOnContentColor			= $primary
+			$linkHoverOnContentColor	= darken($linkOnContentColor, 10)
+			$linkActiveOnContentColor	= blend(rgba($linkOnContentColor, .6), $contentBackgroundColor)
+			$linkFocusOnContentColor	= blend(rgba($linkOnContentColor, .1), $contentBackgroundColor)
+
+// TYPOGRAPHY
+$mainFontFamily 		= 'HKGrotesk', 'Akzident Grotesk', Arial, sans-serif
+
+$lightFontWeight		= 300
+$regularFontWeight		= 400
+$mediumFontWeight		= 400
+$boldFontWeight			= 400
+
+	// FONT SIZE
+	$textFontSize 			= 20px
+	$headlineFontSize 		= 24px
+	$subHeadlineFontSize	= 18px
+	$navFontSize 			= 22px
+	$logoFontSize 			= 24px
+	$buttonFontSize			= $subHeadlineFontSize
+
+	// LINE HEIGHT
+	$textLineHeight			= $textFontSize + ($textFontSize / 4)
+	$headlineLineHeight		= $headlineFontSize + ($headlineFontSize / 6)
+	$subHeadlineLineHeight	= $subHeadlineFontSize + ($subHeadlineFontSize / 5)
+	$navLineHeight			= $navFontSize
+	$logoLineHeight			= $logoFontSize
+	$buttonLineHeight		= $buttonFontSize
+
+	// FONT WEIGHT
+	$textFontWeight			= $lightFontWeight
+	$headlineFontWeight		= $mediumFontWeight
+	$subHeadlineFontWeight	= $lightFontWeight
+	$navFontWeight			= $regularFontWeight
+	$logoFontWeight			= $boldFontWeight
+	$buttonFontWeight		= $textFontWeight
+
+// TRANSITIONS DURATIONS AND EASES
+$quickTransition		= 100ms
+$mediumTransition		= 200ms
+$slowTransition			= 400ms
+$extraSlowTransition	= 2000ms
+
+$smoothTransitionEase	= cubic-bezier(0.190, 1.000, 0.220, 1.000)
+
+// MEDIA QUERIES
+$mqDesktopMaxWidth					= 1280px
+$mqTabletLargeMaxWidth				= 960px
+$mqTabletMaxWidth					= 600px
+$mqMobileMaxWidth					= 400px
+
+// PATTERNS
+$pattern1				= 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTAgNTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUwIDUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6IzAwMDBGRjt9LnN0MXtmaWxsOiNGRjAwMDA7fS5zdDJ7ZmlsbDojRkZGRjAwO308L3N0eWxlPjx0aXRsZT5wYXR0ZXJuPC90aXRsZT48Zz48cmVjdCBjbGFzcz0ic3QwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiLz48L2c+PGc+PHBhdGggY2xhc3M9InN0MSIgZD0iTTMwLDI3LjJjLTAuNSwwLTAuOS0wLjMtMS0wLjhjLTAuMi0xLjMtMC4zLTIuNy0wLjEtNGMwLjItMS41LDEtMi45LDIuMy0zLjhsMC4xLTAuMWMxLTAuNSwyLjEtMC44LDMuMS0xLjFjMi0wLjgsMy4yLTIuNywzLjEtNC44YzAtMC42LDAuNC0xLDEtMWMwLjYsMCwxLDAuNCwxLDFjMC4xLDMtMS43LDUuNy00LjUsNi43bC0wLjEsMGMtMC45LDAuMi0xLjgsMC41LTIuNywwLjljLTAuOCwwLjYtMS4zLDEuNC0xLjQsMi4zYy0wLjEsMS4xLTAuMSwyLjMsMC4xLDMuNGMwLjEsMC41LTAuMywxLjEtMC44LDEuMkMzMC4xLDI3LjIsMzAuMSwyNy4yLDMwLDI3LjJ6Ii8+PC9nPjxnPjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMiwxNC43Yy0wLjUsMC0wLjktMC40LTEtMC45Yy0wLjItMi4zLTAuMi00LjcsMS41LTYuMmMxLjEtMS4xLDIuNi0xLjMsNC0xLjVjMS0wLjIsMi0wLjMsMi43LTAuOGMxLTAuNywxLjQtMS45LDEuMS0zLjFjLTAuMS0wLjUsMC4yLTEuMSwwLjctMS4yYzAuNS0wLjEsMS4xLDAuMiwxLjIsMC43YzAuNSwyLTAuMiw0LjEtMS45LDUuMmMtMS4xLDAuNy0yLjMsMC45LTMuNSwxLjFjLTEuMSwwLjItMi4yLDAuNC0yLjksMWMtMSwxLTEsMi44LTAuOCw0LjZDMTMsMTQuMSwxMi42LDE0LjYsMTIsMTQuN0MxMi4xLDE0LjcsMTIsMTQuNywxMiwxNC43eiIvPjwvZz48Zz48cGF0aCBjbGFzcz0ic3QxIiBkPSJNMi42LDM3Yy0wLjQsMC0wLjgtMC4zLTEtMC43Yy0wLjMtMS4yLTAuNC0yLjQtMC40LTMuNmMwLjEtMS40LDAuOC0yLjgsMS45LTMuNmwwLjItMC4xYzAuOC0wLjQsMS43LTAuOCwyLjYtMS4xYzEuMi0wLjcsMS42LTIuMywxLTMuNWMtMC4zLTAuNS0wLjEtMS4xLDAuNC0xLjRjMC41LTAuMywxLjEtMC4xLDEuNCwwLjRjMS4yLDIuMiwwLjQsNS0xLjgsNi4ybC0wLjIsMC4xYy0wLjgsMC4zLTEuNiwwLjYtMi40LDFjLTAuNiwwLjUtMSwxLjItMSwyYzAsMSwwLjEsMiwwLjMsM2MwLjEsMC41LTAuMiwxLjEtMC43LDEuMkMyLjgsMzcsMi43LDM3LDIuNiwzN3oiLz48L2c+PGc+PHBhdGggY2xhc3M9InN0MSIgZD0iTTM5LjYsNDUuN2MtMC4zLDAtMC42LTAuMS0wLjgtMC4zYy0xLjktMi4yLTItNS41LTAuMi03LjhjMC42LTAuNywxLjMtMS4yLDEuOS0xLjhjMC45LTAuNywxLjctMS4zLDItMi4yYzAuNC0xLjItMC4zLTIuNS0xLjYtMi45Yy0wLjEsMC0wLjEsMC0wLjItMC4xYy0wLjUtMC4xLTAuOS0wLjYtMC44LTEuMmMwLjEtMC41LDAuNi0wLjksMS4yLTAuOGMwLjEsMCwwLjMsMC4xLDAuNCwwLjFjMS4xLDAuMywyLDEuMSwyLjYsMi4xczAuNywyLjIsMC4zLDMuM2MtMC41LDEuNS0xLjcsMi40LTIuNywzLjFjLTAuNiwwLjUtMS4yLDAuOS0xLjYsMS40QzM5LDQwLjMsMzksNDIuNSw0MC40LDQ0YzAuNCwwLjQsMC4zLDEtMC4xLDEuNEM0MC4xLDQ1LjYsMzkuOCw0NS43LDM5LjYsNDUuN3oiLz48L2c+PGc+PHBhdGggY2xhc3M9InN0MSIgZD0iTTExLjEsNDkuN2MtMC40LDAtMC44LTAuMy0xLTAuN0M5LjksNDgsMTAsNDcsMTAuNSw0Ni4xYzAuNS0wLjksMS4yLTEuNSwyLjItMS44YzAuNC0wLjEsMC43LTAuMSwxLjEtMC4yYzAsMCwwLDAsMCwwYzAuNiwwLDEuMSwwLjIsMS42LDAuM2MwLjQsMC4xLDAuOCwwLjIsMS4xLDAuMmMwLjktMC4xLDEuNi0wLjgsMS44LTEuN2MwLjItMS4yLDAuMi0yLjQsMC0zLjZjLTAuMS0wLjUsMC4yLTEuMSwwLjgtMS4yYzAuNS0wLjEsMS4xLDAuMiwxLjIsMC44YzAuMywxLjUsMC4zLDMsMCw0LjRjLTAuNCwxLjgtMS45LDMuMS0zLjYsMy4zYy0wLjcsMC0xLjMtMC4xLTEuOC0wLjNjLTAuNC0wLjEtMC44LTAuMi0xLjEtMC4yYy0wLjIsMC0wLjMsMC0wLjUsMC4xYy0wLjQsMC4xLTAuOCwwLjQtMSwwLjhzLTAuMywwLjgtMC4xLDEuM2MwLjIsMC41LTAuMSwxLjEtMC43LDEuMkMxMS4zLDQ5LjYsMTEuMiw0OS43LDExLjEsNDkuN3oiLz48L2c+PGc+PHBhdGggY2xhc3M9InN0MiIgZD0iTTQ1LjEsMTMuOWMtMC4zLDAtMC41LTAuMS0wLjctMC4zYy0wLjktMC45LTEuMS0yLjItMC43LTMuM2MwLjQtMC45LDEtMS43LDEuNy0yLjRjMC41LTAuNSwxLTEsMS40LTEuNmMwLjMtMC43LDAuMy0xLjUsMC0yLjNjLTAuMi0wLjUsMC0xLjEsMC41LTEuM2MwLjUtMC4yLDEuMSwwLDEuMywwLjVjMC42LDEuMywwLjYsMi44LDAsNC4xQzQ4LDgsNDcuNCw4LjcsNDYuOCw5LjNjLTAuNSwwLjQtMC45LDEtMS4yLDEuNmMtMC4yLDAuNC0wLjEsMC45LDAuMiwxLjJjMC40LDAuNCwwLjQsMSwwLDEuNEM0NS42LDEzLjgsNDUuNCwxMy45LDQ1LjEsMTMuOXoiLz48L2c+PC9zdmc+'
+
+// LOADING
+$loadingIcon			= '/static/images/loading-bubbles.svg'
+
+// MIN DIMENSIONS
+$bodyMinWidth			= 320px
+$bodyMinHeight			= 480px
+
+// RADIUSES
+$mainRadiusSize			= 6px
+
+// HEADER
+$headerHeight 			= 60px
+
+// NAVIGATION
+$navBarWidth			= 60px
+
+// WORK SLIDER
+$captionHeight 			= 112px

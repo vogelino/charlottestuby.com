@@ -1,0 +1,96 @@
+.works-list
+	width 100%
+	height 100%
+	position relative
+	box-sizing border-box
+
+.work-captions,
+.work-thumbnails
+	overflow hidden
+
+.work-captions
+	background $contentBackgroundColor
+	width 100%
+	height $captionHeight
+	position absolute
+	top calc(100vh - 60px)
+	top calc((var(--vh, 1vh) * 100) - 60px)
+	transform translateY(-100%)
+	left 0
+	clearfix()
+
+	.work-caption-track
+		width 100%
+		height auto
+		transition margin $slowTransition $smoothTransitionEase
+		transition-delay $quickTransition
+		margin-top 0
+
+		.work-caption
+			position relative
+			width 100%
+			height $captionHeight
+			box-sizing border-box
+			padding 25px 30px
+
+	h2
+		margin-bottom 3px
+
+.work-thumbnails,
+.work-thumbnail,
+.work-thumbnail a,
+.work-thumbnail figure
+	width 100%
+	height calc(100vh - 60px)
+	position relative
+	box-sizing border-box
+
+article section.content .work-thumbnail a:focus
+	background none
+	border none
+	box-shadow none
+
+.work-thumbnails
+	min-height $bodyMinHeight - $headerHeight
+
+	.slider-frame
+		border-top-left-radius $mainRadiusSize
+		background $mainBackgroundColor
+		background url($pattern1) repeat fixed center center
+		background-size 60px 60px
+		height calc(100vh - 60px) !important
+		height calc((var(--vh, 1vh) * 100) - 60px) !important
+
+		@media screen and (min-width: $mqDesktopMaxWidth)
+			&
+				border-top-right-radius $mainRadiusSize
+
+	.slider-frame,
+	.slider-list,
+	.slider-slide,
+	.work-thumbnail
+		min-height $bodyMinHeight - $captionHeight - $headerHeight
+
+.work-thumbnail
+	float left
+	width 100%
+
+	.work-thumb-wrapper
+		position absolute
+		top 0
+		left 0
+		width 100%
+		height 100%
+
+		.gatsby-image-wrapper
+			width 100%
+			height 100%
+			background-size cover
+			background-position center center
+			background-repeat no-repeat
+			cursor pointer
+			transform scale(1)
+			transition transform $slowTransition $smoothTransitionEase
+
+			&:hover
+				transform scale(1.02)

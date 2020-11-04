@@ -1,0 +1,120 @@
+$workLinkHeight = 86px
+$workLinkSmallHeight = 66px
+
+.work-links,
+.work-link,
+.work-link-content
+	width 100%
+
+.work-links a.work-link
+	&:hover,
+	&:active,
+	&:focus,
+	&:focus:hover,
+	&:focus:active
+		background none
+
+.work-links
+	clearfix()
+	margin 0 auto
+	max-width 960px
+	padding 20px 0
+
+	li
+		width 50%
+		float left
+
+		@media (max-width: 740px)
+			width 100%
+
+.work-link
+	width 100%
+	float left
+	box-sizing border-box
+	padding 20px
+	height $workLinkHeight
+	position relative
+
+	h3
+		font-weight 500
+
+	&:hover h3
+		text-decoration underline
+
+	.work-link-image
+		width $workLinkHeight - 30
+		height $workLinkHeight - 30
+		margin 0
+		background-size 100% auto
+		background-size cover
+		background-position center center
+		position absolute
+		top 20px
+		left 40px
+		border-radius 50%
+		box-shadow 0 0 0 1px rgba(0,0,0,.1)
+		overflow hidden
+
+	.work-link-content
+		position relative
+		width 100%
+		box-sizing border-box
+		padding 20px 60px 20px ($workLinkHeight + 60)
+		float right
+		display grid
+		align-content center
+		align-items center
+
+		.svg-icon.arrow-right
+			display block
+
+	.svg-icon
+		display none
+		position absolute
+		top 50%
+		right 30px
+		transform translateY(-50%) scale(.6)
+
+	@media (max-width: 740px)
+		&
+			height $workLinkSmallHeight + 40
+
+		.work-link-content
+			height $workLinkSmallHeight
+			padding 20px 60px 20px ($workLinkSmallHeight + 60)
+
+		.work-link-image
+			width $workLinkSmallHeight
+			height $workLinkSmallHeight
+
+		h2
+			font-size $headlineFontSize - 6px
+			line-height $headlineFontSize - 6px
+
+		h3
+			font-size $subHeadlineFontSize - 2px
+
+		.svg-icon
+			right 0
+
+.work-links li:nth-child(odd) .work-link
+	text-align right
+
+	.svg-icon.arrow-right
+		display none
+
+	.svg-icon.arrow-left
+		display block
+		right auto
+		left 0
+
+	.work-link-content
+		padding 20px ($workLinkHeight + 60) 20px 40px
+		float left
+
+		@media (max-width: 740px)
+			padding 20px ($workLinkSmallHeight + 60) 20px 40px
+
+	.work-link-image
+		left auto
+		right 40px

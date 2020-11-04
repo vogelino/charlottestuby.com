@@ -1,47 +1,78 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
+  "name": "charlottestuby-cms",
+  "description": "Charlotte stuby's online portfolio",
   "version": "1.1.3",
-  "author": "Austin Green",
+  "author": "Lucas Vogel <contact@vogelino.com> (http://vogelino.com)",
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "gatsby": "^2.20.35",
     "gatsby-image": "^2.3.5",
+    "gatsby-plugin-manifest": "^2.4.35",
     "gatsby-plugin-netlify": "^2.2.4",
     "gatsby-plugin-netlify-cms": "^4.2.5",
+    "gatsby-plugin-preload-fonts": "^1.2.28",
     "gatsby-plugin-react-helmet": "^3.2.5",
+    "gatsby-plugin-robots-txt": "^1.5.3",
     "gatsby-plugin-sharp": "^2.5.7",
+    "gatsby-plugin-sitemap": "^2.4.17",
+    "gatsby-plugin-stylus": "^2.3.13",
     "gatsby-remark-copy-linked-files": "^2.2.4",
     "gatsby-remark-images": "^3.2.6",
     "gatsby-remark-relative-images": "^0.3.0",
     "gatsby-source-filesystem": "^2.2.5",
     "gatsby-transformer-remark": "^2.7.5",
     "gatsby-transformer-sharp": "^2.4.7",
-    "lodash": "^4.17.15",
-    "lodash-webpack-plugin": "^0.11.4",
+    "gsap": "^3.5.1",
     "netlify-cms-app": "^2.9.6",
     "netlify-cms-media-library-cloudinary": "^1.3.2",
     "netlify-cms-media-library-uploadcare": "^0.5.2",
-    "node-sass": "^4.14.0",
+    "nib": "^1.1.2",
+    "nuka-carousel": "^4.6.1",
     "prop-types": "^15.6.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^6.0.0",
-    "uuid": "^7.0.0"
+    "react-markdown": "^5.0.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "netlify",
+    "netlify cms",
+    "portfolio",
+    "artist",
+    "swiss",
+    "brussels",
+    "textile"
   ],
+  "homepage": "http://charlottestuby.com",
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "clean": "gatsby clean",
-    "start": "npm run develop",
-    "build": "npm run clean && gatsby build",
-    "develop": "npm run clean && gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx serve public",
+    "build": "npm run clean && npm run build-styles && gatsby build",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix \"{gatsby-*.js,src/**/*.js}\"",
+    "dev": "npm run clean && (npm run build-styles:watch & gatsby develop)",
+    "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-styles": "npm run build-styles-common & npm run build-styles-home & npm run build-styles-about & npm run build-styles-press & npm run build-styles-work",
+    "build-styles:watch": "npm run build-styles-common -- -w & npm run build-styles-home -- -w & npm run build-styles-about -- -w & npm run build-styles-press -- -w & npm run build-styles-work -- -w",
+    "build-styles-common": "node_modules/.bin/stylus ./src/styles/common.styl -o ./src/styles/css/common.css",
+    "build-styles-home": "node_modules/.bin/stylus ./src/styles/index.styl -o ./src/styles/css/index.css",
+    "build-styles-about": "node_modules/.bin/stylus ./src/styles/about.styl -o ./src/styles/css/about.css",
+    "build-styles-press": "node_modules/.bin/stylus ./src/styles/press.styl -o ./src/styles/css/press.css",
+    "build-styles-work": "node_modules/.bin/stylus ./src/styles/works.styl -o ./src/styles/css/work.css",
+    "preload-fonts": "gatsby-preload-fonts"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier": "^2.1.2"
   }
 }

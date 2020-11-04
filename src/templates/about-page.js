@@ -2,62 +2,74 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
-
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
-
-  return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
-
-AboutPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
-}
+import About from '../components/pages/About'
+import '../styles/css/common.css'
+import '../styles/css/about.css'
 
 const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data
+	const { markdownRemark: post } = data
 
-  return (
-    <Layout>
-      <AboutPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
-      />
-    </Layout>
-  )
+	return (
+		<Layout page="/about">
+			<About
+				title={post.frontmatter.title}
+				subtitle={post.frontmatter.subtitle}
+				text={post.rawMarkdownBody}
+				emailAddress={post.frontmatter.email}
+				emailButtonText={post.frontmatter.emailButtonText}
+				cvUrl={post.frontmatter.cv.publicURL}
+				cvButtonText={post.frontmatter.cvButtonText}
+				instagramUsername={post.frontmatter.instagramUsername}
+				instagramButtonText={post.frontmatter.instagramButtonText}
+				portrait={post.frontmatter.portrait.childImageSharp}
+				forms={post.frontmatter.forms.map((form) => ({
+					id: form.image.id,
+					relativePath: form.image.relativePath,
+					posX: form.posX,
+					posY: form.posY,
+				}))}
+			/>
+		</Layout>
+	)
 }
 
 AboutPage.propTypes = {
-  data: PropTypes.object.isRequired,
+	data: PropTypes.object.isRequired,
 }
 
 export default AboutPage
 
 export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title
-      }
-    }
-  }
+	query AboutPage($id: String!) {
+		markdownRemark(id: { eq: $id }) {
+			rawMarkdownBody
+			frontmatter {
+				title
+				subtitle
+				email
+				emailButtonText
+				cvButtonText
+				instagramUsername
+				instagramButtonText
+				cv {
+					publicURL
+				}
+				portrait {
+					childImageSharp {
+						fluid(maxWidth: 960, quality: 90) {
+							...GatsbyImageSharpFluid_withWebp
+						}
+					}
+				}
+				forms {
+					image {
+						id
+						relativePath
+					}
+					posX
+					posY
+				}
+			}
+		}
+	}
 `

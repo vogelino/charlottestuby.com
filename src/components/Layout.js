@@ -1,57 +1,72 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
+import React, { useEffect } from 'react'
+import PropTypes from 'prop-types'
+import Navbar from './Navbar'
+import ThumbnailsForms from './organisms/ThumbnailsForms'
+import MetaTags from './MetaTags'
+import Header from './Header'
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
-  return (
-    <div>
-      <Helmet>
-        <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+const getPageClass = (page) => {
+	if (page.startsWith('/work/')) return 'work without-navs'
+	if (page.includes('about')) return 'about'
+	if (page.includes('press')) return 'press'
+	return 'home'
+}
 
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href={`${withPrefix('/')}img/apple-touch-icon.png`}
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/favicon-32x32.png`}
-          sizes="32x32"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/favicon-16x16.png`}
-          sizes="16x16"
-        />
+const setVh = () => {
+	let vh = window.innerHeight * 0.01
+	document.documentElement.style.setProperty('--vh', `${vh}px`)
+}
 
-        <link
-          rel="mask-icon"
-          href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
-          color="#ff4400"
-        />
-        <meta name="theme-color" content="#fff" />
+const TemplateWrapper = ({
+	children,
+	page = '',
+	currentSlideIndex = 0,
+	forms = [],
+	isPreview = false,
+}) => {
+	useEffect(() => {
+		setVh()
+		window.addEventListener('resize', setVh)
 
-        <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
-        <meta
-          property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
-        />
-      </Helmet>
-      <Navbar />
-      <div>{children}</div>
-      <Footer />
-    </div>
-  )
+		return () => {
+			window.removeEventListener('resize', setVh)
+		}
+	}, [])
+
+	return (
+		<main className={getPageClass(page)}>
+			{!isPreview && <MetaTags />}
+			{!page.startsWith('/work/') && <Header isPreview={isPreview} />}
+			<article>
+				{!page.startsWith('/work/') && (
+					<Navbar
+						page={page.replace('/', '')}
+						isPreview={isPreview}
+					/>
+				)}
+				<section className="content">{children}</section>
+			</article>
+			{page === '/' && (
+				<ThumbnailsForms
+					currentSlide={currentSlideIndex}
+					forms={forms}
+				/>
+			)}
+		</main>
+	)
+}
+
+TemplateWrapper.propTypes = {
+	children: PropTypes.node,
+	page: PropTypes.string,
+	isPreview: PropTypes.bool,
+	currentSlideIndex: PropTypes.number,
+	forms: PropTypes.arrayOf(
+		PropTypes.shape({
+			id: PropTypes.string.isRequired,
+			relativePath: PropTypes.string.isRequired,
+		}),
+	),
 }
 
 export default TemplateWrapper

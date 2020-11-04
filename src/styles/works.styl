@@ -1,0 +1,134 @@
+@import './variables.styl'
+$workImageBorder = 10px;
+
+.work-header,
+.work-images,
+.work-image,
+.work-image img
+	float left
+	width 100%
+	box-sizing border-box
+
+.work-image-loading-container
+	background rgba($mainBackgroundColor, .1)
+	display inline-block
+	width 100%
+	max-width $mqDesktopMaxWidth
+	border-radius 3px
+	margin-bottom 10px
+
+@media screen and (max-width: $mqDesktopMaxWidth)
+	.work-image-loading-container
+		min-height 100px !important
+		float left
+
+@media screen and (min-width: $mqDesktopMaxWidth)
+	.work-image
+		text-align center
+
+		img
+			border-radius 3px
+			float left
+
+		&:first-child
+			margin-top 50px
+
+		&:last-child
+			margin-bottom 150px
+
+.work-container
+	padding-top 15px
+
+.work-image
+	padding 20px
+	margin-bottom 20px
+
+.work-image figcaption
+	max-width 960px
+	margin 0 auto
+	text-align left
+	font-size $textFontSize - 4px
+
+.work-header
+	z-index 1
+	height 80px
+	background $contentBackgroundColor
+	position fixed
+	top 0
+	left 0
+	transform translateY(-100%)
+	transition transform $slowTransition $smoothTransitionEase
+
+	@media (max-width: $mqMobileMaxWidth)
+		height 60px
+
+	.scroll-up &
+		transform translateY(0)
+
+	.work-header-container
+		max-width 1280px
+		position relative
+		margin 0 auto
+		padding 0 20px
+		display grid
+		grid-template-columns 1fr 25px
+		grid-gap 10px
+		height 100%
+		align-items center
+		align-content center
+
+	.work-title
+		margin-bottom 4px
+
+.work-head
+	max-width 1280px
+	position relative
+	margin 0 auto
+	padding 40px 55px 20px 20px
+
+	@media (max-width: $mqTabletMaxWidth)
+		padding-top 30px
+
+	@media (max-width: $mqMobileMaxWidth)
+		padding-top 10px
+
+	h3
+		margin-top 4px
+
+	.work-close-button
+		position absolute
+		top 45px
+		right 20px
+
+		@media (max-width: $mqMobileMaxWidth)
+			top 10px
+
+.work-description
+	font-size $textFontSize - 4px
+	line-height $textFontSize - 2px
+	color $mainTextColor
+	max-width: 1280px;
+	margin 12px auto 0
+
+	@media (max-width: $mqTabletMaxWidth)
+		font-size $textFontSize - 6px
+		line-height $textFontSize - 4px
+
+a.work-close-button
+	border none
+	background none
+	width 25px
+	height 25px
+	font-size 40px
+	line-height 28px
+
+	svg
+		display block
+		float left
+		fill $linkOnContentColor
+
+	&:hover svg
+		fill $linkHoverOnContentColor
+
+	&:active svg
+		fill $linkActiveOnContentColor
