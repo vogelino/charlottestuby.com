@@ -2,17 +2,24 @@
 
 .about-picture,
 .about-content
-	width 50%
 	height auto
 	float left
-	box-sizing border-box
 
-	@media (max-width: $mqDesktopMaxWidth)
+.about-content
+	width 370px
+
+	@media (max-width: $mqTabletLargeMaxWidth)
 		width 100%
+		box-sizing border-box
 
 .about-picture
+	width 50%
 	padding 0
 	margin-top -40px
+	box-sizing border-box
+
+	@media (max-width: $mqTabletLargeMaxWidth)
+		width 100%
 
 	.img,
 	.about-form
@@ -38,7 +45,7 @@
 			width 100%
 			height auto
 
-	@media (max-width: $mqDesktopMaxWidth)
+	@media (max-width: $mqTabletLargeMaxWidth)
 		&
 			padding 0
 			margin-top 0
@@ -107,7 +114,7 @@
 	.about-text
 		margin-bottom 40px
 
-	@media (max-width: $mqTabletMaxWidth)
+	@media (max-width: $mqTabletLargeMaxWidth)
 		.btn
 			padding 8px 11px 9px
 			display block
