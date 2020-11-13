@@ -14,15 +14,6 @@ const Navbar = ({ page = '', isPreview = false }) => (
 					Press
 				</Link>
 			</li>
-			<li className="about">
-				<Link
-					href={isPreview ? '#' : '/about'}
-					className={page === 'about' ? 'active' : ''}
-					title="About Charlotte and her work"
-				>
-					About
-				</Link>
-			</li>
 			<li className="work">
 				<Link
 					href={isPreview ? '#' : '/'}
@@ -30,6 +21,15 @@ const Navbar = ({ page = '', isPreview = false }) => (
 					title="Discover Charlotte Stuby's artworks, exhibits and projectsw"
 				>
 					Works
+				</Link>
+			</li>
+			<li className="about">
+				<Link
+					href={isPreview ? '#' : '/about'}
+					className={page === 'about' ? 'active' : ''}
+					title="About Charlotte and her work"
+				>
+					About
 				</Link>
 			</li>
 		</ul>
