@@ -22,8 +22,8 @@ const PressLi = ({
 			centerY: 150,
 			minRadius: 120,
 			maxRadius: 125,
-			minDuration: 1,
-			maxDuration: 2,
+			minDuration: 3,
+			maxDuration: 7,
 		}
 		createBlob({
 			...commonConfig,
