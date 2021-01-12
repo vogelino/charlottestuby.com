@@ -12,5 +12,6 @@ images:
   - image: /img/exhibition-view-des-seins-a-dessein-charlottestuby-lausanne-2020.jpg
   - image: /img/texte-tapisserie-charlotte-stuby-spring-2020.jpg
   - image: /img/belle-de-nuit-charlottestuby-des-seins-a-dessein-lausanne-2020.jpg
+    caption: ""
   - image: /img/belle-de-jour-charlottestuby-des-seins-a-desseins-lausanne-2020.jpg
 ---
