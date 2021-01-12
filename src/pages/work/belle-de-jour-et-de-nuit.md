@@ -10,7 +10,7 @@ thumbnail: /img/imaccueil_accueil.jpg
 decorativeForm: /img/bluefullform.svg
 images:
   - image: /img/belle-de-nuit-charlotte-stuby-des-seins-a-dessein-lausanne-2020_copie.jpg
-  - image: /img/belle-de-nuit-charlotte-stuby-des-seins-a-dessein-lausanne-2020.jpg
   - image: /img/exhibition-view-des-seins-a-dessein-charlottestuby-lausanne-2020.jpg
   - image: /img/texte-tapisserie-charlotte-stuby-spring-2020.jpg
+  - image: /img/belle-de-jour-charlotte-stuby-des-seins-a-dessein-lausanne-2020.jpg
 ---
