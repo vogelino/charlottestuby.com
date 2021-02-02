@@ -9,4 +9,9 @@ thumbnail: /img/vespa-charlottestuby-ghent-2017.jpg
 decorativeForm: /img/forme_noire.png
 images:
   - image: /img/vespa2-charlottestuby-ghent-2017.jpg
+  - image: /img/exhibition-view-charlottestuby-ghent-2017.jpg
+  - image: /img/frame-charlottestuby-ghent-2017.jpg
+  - image: /img/mirror-charlottestuby-ghent-2017.jpg
+  - image: /img/clock-charlottestuby-ghent-2017.jpg
+  - image: /img/camera-charlottestuby-ghent-2017.jpg
 ---
