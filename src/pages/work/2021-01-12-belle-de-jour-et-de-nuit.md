@@ -2,10 +2,10 @@
 templateKey: work
 orderOfAppearance: 1
 title: Belle de jour et de nuit
-subtitle: Des Seins à Dessein, Lausanne (CH), 2020
+subtitle: Des Seins à Dessein, Lausanne (CH), Autumn 2020
 date: 2021-01-12T16:05:04.042Z
 description: Tapestries (dyptich) , made of silk, cotton, wool and linen
-  54x38cm, collective show, Espace Arlaud. Pictures by Nicolas Lieber
+  54x38cm, Collective Show, Espace Arlaud. Pictures by Nicolas Lieber
 thumbnail: /img/250_seins-dessein-sceno_p2a0706.jpg
 decorativeForm: /img/bluefullform.svg
 images:
