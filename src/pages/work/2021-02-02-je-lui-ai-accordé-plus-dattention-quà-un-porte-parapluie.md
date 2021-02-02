@@ -9,4 +9,6 @@ thumbnail: /img/placette_charlotte_stuby_julien_gremaud_2018_web_01.jpg
 decorativeForm: /img/forme_noire.png
 images:
   - image: /img/placette_charlotte_stuby_julien_gremaud_2018_web_01.jpg
+  - image: /img/placette_charlotte_stuby_julien_gremaud_2018_web_08.jpg
+  - image: /img/placette_charlotte_stuby_julien_gremaud_2018_web_11.jpg
 ---
