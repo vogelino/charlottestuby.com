@@ -8,4 +8,11 @@ description: in collaboration with Hugo Ruyant and Juliet Merie. Pictures by
   Fabien Silvestre Suzor
 thumbnail: /img/cover_age-de-roseau-charlottestuby-2019.jpg
 decorativeForm: /img/bluefullform.svg
+images:
+  - image: /img/exhibitionview-charlottestuby-2019.jpg
+  - image: /img/exhibitionview2-sagacity-charlottestuby-2019.jpg
+  - image: /img/exhibitionview2-charlottestuby-sagacity-2019.jpg
+  - image: /img/medaillon-charlottestuby-sagacity-2019.jpg
+  - image: /img/yellow-collage-sagacity-charlottestuby-2019.jpg
+  - image: /img/shelf-charlottestuby-sagacity-2019.jpg
 ---
