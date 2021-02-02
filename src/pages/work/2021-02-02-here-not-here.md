@@ -14,4 +14,7 @@ images:
   - image: /img/mirror-charlottestuby-ghent-2017.jpg
   - image: /img/clock-charlottestuby-ghent-2017.jpg
   - image: /img/camera-charlottestuby-ghent-2017.jpg
+  - image: /img/fire-extinguisher-charlottestuby-2017.jpg
+  - image: /img/joro-and-ali-charlottestuby-ghent-2017.jpg
+  - image: /img/flag-charlottestuby-ghent-2017.jpg
 ---
