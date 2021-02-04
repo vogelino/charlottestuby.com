@@ -28,13 +28,15 @@ images:
     caption: "Rafale interrompue, Diploma project, ECAL, Lausanne (CH), Spring 2013.
       Pictures: Julien Gremaud"
   - image: /img/cogito-ananas-patch-multiple-solo-rats-show-lausanne-2014-charlottestuby.jpg
-    caption: 'Le Cogito-Ananas (patch) part of the exhibtion "Multiple Solo RATS
-      Show", 15x15cm, Lausanne (CH), Autumn 2014. Picture: Julien Gremaud'
-  - image: /img/le-coquillage-de-parole-patch-multiple-solo-rats-show-charlottestuby.jpg
-    caption: 'Le Coquillage de Parole (patch), sewing, 15x15cm, Lausanne (CH),
-      Autumn 2Le Coquillage de Parole (patch), part of the exhibition "Multiple
-      Solo RATS show, 15x15cm, Lausanne (CH), Autumn 2014. Pictures: Julien
+    caption: 'Le Cogito-Ananas (patch), sewing, 15x15cm, part of the exhibtion
+      "Multiple Solo RATS Show", Lausanne (CH), Autumn 2014. Picture: Julien
       Gremaud'
+  - image: /img/le-coquillage-de-parole-patch-multiple-solo-rats-show-charlottestuby.jpg
+    caption: 'Le Coquillage de Parole (patch), sewing, 15x15cm, part of the
+      exhibition "Multiple Solo RATS show" , Lausanne (CH), Autumn 2014.
+      Pictures: Julien Gremaud'
   - image: /img/stacy-rats-charlottestuby-lausanne-2016.jpg
+    caption: Sur le plaid (clock), fabrics and clock mechanism, 18x25cm, part of the
+      exhibition "Stacy" Lausanne (CH), Summer 2016
   - image: /img/mat-charlottestuby-neuchatel-2017.jpg
 ---
