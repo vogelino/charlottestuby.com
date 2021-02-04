@@ -39,4 +39,7 @@ images:
     caption: Sur le plaid (clock), fabrics and clock mechanism, 18x25cm, part of the
       exhibition "Stacy" Lausanne (CH), Summer 2016
   - image: /img/mat-charlottestuby-neuchatel-2017.jpg
+    caption: '"Les vagues vident leurs poches devant mes yeux", print and embroidery
+      on fabric, 200x300cm, Mât, Neuchâtel (CH), Autumn 2017. Pictures: Martin
+      Jakob'
 ---
