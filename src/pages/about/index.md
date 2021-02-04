@@ -14,11 +14,11 @@ cvButtonText: Curriculum
 instagramUsername: charlottestuby
 instagramButtonText: Instagram
 forms:
-  - image: /img/bluefullform.svg
-    posX: 20
-    posY: 80
-  - image: /img/bluefullform.svg
-    posX: 80
-    posY: 40
+  - image: /img/vase.svg
+    posX: 3
+    posY: 6
+  - image: /img/serpentin-blanc.svg
+    posX: 2
+    posY: -8
 ---
 Regarding my art practice, I can define it as a work about mainly objets and installations produced by varied materials as concrete, wood, metal but mostly sewing and embroidery. Constantly questioning mental images, daily architecture and identities. My installations talk about situations or memories referring to duration, function and evolution of objects such a track or a sign. The variety of objects contains either a banality or a mistake.
