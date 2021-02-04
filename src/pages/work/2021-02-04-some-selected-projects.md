@@ -18,4 +18,6 @@ images:
   - image: /img/diplome-2013-charlottestuby-lausanne.jpg
   - image: /img/cogito-ananas-patch-multiple-solo-rats-show-lausanne-2014-charlottestuby.jpg
   - image: /img/le-coquillage-de-parole-patch-multiple-solo-rats-show-charlottestuby.jpg
+  - image: /img/stacy-rats-charlottestuby-lausanne-2016.jpg
+  - image: /img/mat-charlottestuby-neuchatel-2017.jpg
 ---
