@@ -2,14 +2,8 @@
 templateKey: press-page
 pressList:
   - date: Oct. 2020
-    title: The art of the Tarot
-    pdfFile: /img/cv_charlottestuby_2020.pdf
-    screenshot: /img/text-into-limbo-charlotte-stuby-2019.jpg
+    title: Des Seins à Dessein, Espace Arlaud, Lausanne, Autumn 2020
+    pdfFile: /img/121259228_1289646231407547_6082962902921635519_o.jpg
+    screenshot: /img/121292371_1289646191407551_6778417121686675172_o.jpg
     color: "#FF0000"
-  - date: Feb. 2020
-    title: Interview by Dorrell Merritt
-    url: https://dorrellmerritt.co.uk/Charlotte-Stuby-Interview
-    screenshot: /img/wepresent-a-fascinating-dive-into-the-art-and-history-of-tarot.png
-    pdfFile: /img/wepresent-a-fascinating-dive-into-the-art-and-history-of-tarot.png
-    color: "#0000FF"
 ---
