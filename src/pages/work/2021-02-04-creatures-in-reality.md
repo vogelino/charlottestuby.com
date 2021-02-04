@@ -13,4 +13,8 @@ thumbnail: /img/1a-creatures-in-reality-2018-charlottestuby.jpg
 decorativeForm: /img/bluefullform.svg
 images:
   - image: /img/1a-creatures-in-reality-2018-charlottestuby.jpg
+  - image: /img/2a-creatures-in-reality-2018-charlottestuby.jpg
+  - image: /img/3a-creatures-in-reality-2018-charlottestuby.jpg
+  - image: /img/4b-creatures-in-reality-2018-charlottestuby.jpg
+  - image: /img/6a-creatures-in-reality-2018-charlottestuby.jpg
 ---
