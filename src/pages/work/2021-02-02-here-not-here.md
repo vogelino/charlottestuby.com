@@ -1,7 +1,7 @@
 ---
 templateKey: work
 orderOfAppearance: 11
-title: Here not here
+title: '"Here not here"'
 subtitle: LUCA School of Arts, Gent (BE), 2017
 date: 2021-02-02T11:59:48.272Z
 description: "Museum of Moving Practice, 019, Pictures: Michiel De Cleene, Tom De Visscher "
