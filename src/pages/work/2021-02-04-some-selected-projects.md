@@ -14,8 +14,6 @@ images:
   - image: /img/ton-maillot-charlottestuby-2014.jpg
     caption: Ton Maillot, fabrics, embroidery dimensions variable, Vienna (AT),
       Summer 2013
-  - image: /img/yours-truly-mary-charlottestuby-2017.jpg
-  - image: /img/nenie-charlottestuby-brussels2013.jpg
   - image: /img/tapestry-brussels-2016-charlottestuby.jpg
     caption: Untitled (tapestry), cotton, ficelle, 30x25cm, Brussels (BE), Autumn 2016
   - image: /img/nénie-charlotte-brussels-2017.jpg
