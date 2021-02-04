@@ -16,4 +16,6 @@ images:
   - image: /img/nénie-charlotte-brussels-2017.jpg
   - image: /img/diplome2-2013-charlottestuby-lausanne.jpg
   - image: /img/diplome-2013-charlottestuby-lausanne.jpg
+  - image: /img/cogito-ananas-patch-multiple-solo-rats-show-lausanne-2014-charlottestuby.jpg
+  - image: /img/le-coquillage-de-parole-patch-multiple-solo-rats-show-charlottestuby.jpg
 ---
