@@ -17,4 +17,6 @@ images:
   - image: /img/3a-creatures-in-reality-2018-charlottestuby.jpg
   - image: /img/4b-creatures-in-reality-2018-charlottestuby.jpg
   - image: /img/6a-creatures-in-reality-2018-charlottestuby.jpg
+  - image: /img/7a-creatures-in-reality-2018-charlottestuby.jpg
+  - image: /img/9a-creatures-in-reality-2018-charlottestuby.jpg
 ---
