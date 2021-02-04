@@ -7,7 +7,7 @@ date: 2021-01-12T16:05:04.042Z
 description: Tapestries (dyptich) , made of silk, cotton, wool and linen
   54x38cm, Collective Show, Espace Arlaud. Pictures by Nicolas Lieber
 thumbnail: /img/working-progress-charlotte-stuby-lausanne-2020.jpg
-decorativeForm: /img/soleil.svg
+decorativeForm: /img/soleil-40x40.svg
 images:
   - image: /img/belle-de-nuit-charlottestuby-des-seins-a-dessein-lausanne-2020.jpg
     caption: ""
