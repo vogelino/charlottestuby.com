@@ -13,4 +13,5 @@ images:
   - image: /img/yours-truly-mary-charlottestuby-2017.jpg
   - image: /img/nenie-charlottestuby-brussels2013.jpg
   - image: /img/tapestry-brussels-2016-charlottestuby.jpg
+  - image: /img/nénie-charlotte-brussels-2017.jpg
 ---
