@@ -7,7 +7,7 @@ date: 2020-10-22T18:24:51.324Z
 description: collective show, curated by Bram van Breda. Pictures by Matthijs
   van der Burgt, autumn 2020
 thumbnail: /img/offthegrid-bram-facebook1200x628.jpg
-decorativeForm: /img/offthegrid-bram-facebook1200x628.jpg
+decorativeForm: /img/patch.svg
 images:
   - image: /img/intolimbo30.jpg
   - image: /img/intolimbo06.jpg
