@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 9
+orderOfAppearance: 8
 title: "\"Je lui ai accordé plus d'attention qu'à un porte-parapluie\""
 subtitle: La Placette, Lausanne (CH), Spring 2018
 date: 2021-02-02T12:58:17.545Z
