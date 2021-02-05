@@ -6,7 +6,7 @@ subtitle: LUCA School of Arts, Gent (BE), 2017
 date: 2021-02-02T11:59:48.272Z
 description: "Museum of Moving Practice, 019, Pictures: Michiel De Cleene, Tom De Visscher "
 thumbnail: /img/vespa-charlottestuby-ghent-2017.jpg
-decorativeForm: /img/forme-rouge27x83.svg
+decorativeForm: /img/patch-vase-bis.svg
 images:
   - image: /img/vespa2-charlottestuby-ghent-2017.jpg
   - image: /img/exhibition-view-charlottestuby-ghent-2017.jpg
