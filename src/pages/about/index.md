@@ -33,3 +33,7 @@ forms:
     posY: 36
 ---
 Regarding my art practice, I can define it as a work about mainly objets and installations produced by varied materials as concrete, wood, metal but mostly sewing and embroidery. Constantly questioning mental images, daily architecture and identities. My installations talk about situations or memories referring to duration, function and evolution of objects such a track or a sign. The variety of objects contains either a banality or a mistake.
+
+
+
+charlottestuby@gmail.com
