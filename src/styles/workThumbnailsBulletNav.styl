@@ -2,11 +2,16 @@ $bulletWidth = 8px
 
 .thumbnails-bullet-nav
 	position absolute
-	right 20px
-	top calc(50vh - 96px)
-	width $bulletWidth
-	height auto
-	transform translateY(-100%)
+	height calc((100 * var(--vh, 1vh)) - 172px)
+	width auto
+	top 0
+	right 0
+	box-sizing border-box
+	display flex
+	flex-flow column-reverse
+	flex-wrap wrap-reverse
+	padding-bottom $bulletWidth + $bulletWidth
+	padding-right $bulletWidth + $bulletWidth
 
 	.thumbnails-bullet
 		width $bulletWidth
@@ -16,6 +21,7 @@ $bulletWidth = 8px
 		border 1px solid white
 		box-shadow 0 0 0 1px rgba(black, .2), inset 0 0 0 2px rgba(black, .2)
 		margin-top $bulletWidth + $bulletWidth
+		margin-left $bulletWidth + $bulletWidth
 		transition all $slowTransition $smoothTransitionEase
 		background-color none
 		cursor pointer
