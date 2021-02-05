@@ -8,7 +8,7 @@ description: 'part of "Can We Talk In Private?", an exhibition initiated by
   Tjobo Kho as the third in a serie of exhibitions and events curated by De
   Cleene De Cleene that centre around parking lot. Pictures: Michiel De Cleene'
 thumbnail: /img/4-gone-fishing-charlottestuby_carre.jpg
-decorativeForm: /img/splash45x45.svg
+decorativeForm: /img/patch-rond-bis.svg
 images:
   - image: /img/mdc_dcdc_019_p3_016_cstuby_lr.jpg
   - image: /img/mdc_dcdc_019_p3_015_cstuby_lr.jpg
