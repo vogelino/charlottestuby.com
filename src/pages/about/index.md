@@ -20,5 +20,14 @@ forms:
   - image: /img/forme-rouge.svg
     posX: 13
     posY: 44
+  - image: /img/soleil-bis.svg
+    posX: 10
+    posY: 20
+  - image: /img/lune-bis.svg
+    posX: -22
+    posY: 26
+  - image: /img/patch-rond-bis.svg
+    posX: -1
+    posY: 2
 ---
 Regarding my art practice, I can define it as a work about mainly objets and installations produced by varied materials as concrete, wood, metal but mostly sewing and embroidery. Constantly questioning mental images, daily architecture and identities. My installations talk about situations or memories referring to duration, function and evolution of objects such a track or a sign. The variety of objects contains either a banality or a mistake.
