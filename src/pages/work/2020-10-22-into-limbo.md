@@ -6,7 +6,7 @@ subtitle: Off the Grid, Leuven (BE), Autumn 2019
 date: 2020-10-22T18:24:51.324Z
 description: collective show, curated by Bram van Breda. Pictures by Matthijs
   van der Burgt, autumn 2020
-thumbnail: /img/offthegrid-bram-facebook1200x628.jpg
+thumbnail: /img/image-page-accueil-into-limbo-charlottestuby.jpg
 decorativeForm: /img/patch-bis.svg
 images:
   - image: /img/intolimbo30.jpg
