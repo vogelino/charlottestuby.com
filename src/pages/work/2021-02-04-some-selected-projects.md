@@ -5,7 +5,7 @@ title: Some selected projects
 subtitle: Belgium, Switzerland 2013-2020
 date: 2021-02-04T13:10:50.409Z
 description: "-"
-thumbnail: /img/ca_va_aller_charlottestuby_brussels-2020.jpg
+thumbnail: /img/page-accueil-selected-projects-charlottestuby.jpg
 decorativeForm: /img/lune-bis.svg
 images:
   - image: /img/ca_va_aller_charlottestuby_brussels-2020.jpg
