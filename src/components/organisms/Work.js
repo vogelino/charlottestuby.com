@@ -68,10 +68,12 @@ const Work = ({
 								<Image relativePath={url} />
 							)}
 						</div>
+						{caption ? (
+							<figcaption>
+								{formatDescription(caption)}
+							</figcaption>
+						) : null}
 					</figure>
-					{caption ? (
-						<figcaption>{formatDescription(caption)}</figcaption>
-					) : null}
 				</ListElement>
 			))}
 		</List>
