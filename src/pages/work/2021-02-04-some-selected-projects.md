@@ -8,7 +8,7 @@ description: "-"
 thumbnail: /img/stacy-rats-charlottestuby-lausanne-2016.jpg
 decorativeForm: /img/lune-bis.svg
 images:
-  - image: /img/ca_va_aller_charlottestuby_brussels-2020.jpg
+  - image: /img/page-accueil-selected-projects-charlottestuby.jpg
     caption: embroidery on textile, 30x42cm, for COVID-19 Valentin 61, Brussels,
       Spring 2020
   - image: /img/ton-maillot-charlottestuby-2014.jpg
