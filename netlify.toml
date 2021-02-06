@@ -1,8 +1,0 @@
-[build]
-  publish = "public"
-  command = "npm run build"
-  functions = "lambda"
-[build.environment]
-  NODE_VERSION = "13"
-  NPM_VERSION = "6"
-  NPM_FLAGS = "--no-ignore-optional"
