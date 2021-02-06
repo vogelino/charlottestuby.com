@@ -9,7 +9,7 @@ description: >-
   paperback, English, 10 euros
 
   (if interested, send me an email! )
-thumbnail: /img/1a-creatures-in-reality-2018-charlottestuby.jpg
+thumbnail: /img/image_page-accueil-charlottestuby.jpg
 decorativeForm: /img/plan-de-travail-1.svg
 images:
   - image: /img/1a-creatures-in-reality-2018-charlottestuby.jpg
