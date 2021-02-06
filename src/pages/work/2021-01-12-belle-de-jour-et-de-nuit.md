@@ -6,7 +6,7 @@ subtitle: Des Seins à Dessein, Lausanne (CH), Autumn 2020
 date: 2021-01-12T16:05:04.042Z
 description: Tapestries (dyptich) , made of silk, cotton, wool and linen
   54x38cm, Collective Show, Espace Arlaud. Pictures by Nicolas Lieber
-thumbnail: /img/belle-de-nuit-charlottestuby-des-seins-a-dessein-lausanne-2020.jpg
+thumbnail: /img/page-accueil-tapisserie-charlottestuby.jpg
 decorativeForm: /img/soleil-bis.svg
 images:
   - image: /img/belle-de-nuit-charlottestuby-des-seins-a-dessein-lausanne-2020.jpg
