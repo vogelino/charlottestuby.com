@@ -1,7 +1,7 @@
 ---
 path: /about
 templateKey: about-page
-title: Hallo
+title: ☺︎
 subtitle: |-
   I am a swiss artist.
 
@@ -19,12 +19,9 @@ forms:
   - image: /img/vase.svg
     posX: 41
     posY: 20
-  - image: /img/forme-rouge.svg
-    posX: 10
-    posY: 30
   - image: /img/vague-bis.svg
-    posX: 72
-    posY: 4
+    posX: 80
+    posY: 80
   - image: /img/lune-bis.svg
     posX: 10
     posY: 50
