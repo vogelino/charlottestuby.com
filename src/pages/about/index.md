@@ -20,10 +20,10 @@ forms:
     posX: 41
     posY: 20
   - image: /img/vague-bis.svg
-    posX: 2
-    posY: 24
+    posX: 0
+    posY: 2
   - image: /img/lune-bis.svg
-    posX: 30
+    posX: 10
     posY: 22
   - image: /img/patch-rond-bis.svg
     posX: 66
