@@ -1,7 +1,7 @@
 ---
 path: /about
 templateKey: about-page
-title: "                     ☺︎"
+title: ☺︎ ✌︎ ⚐
 subtitle: |-
   I am a swiss artist.
 
@@ -9,7 +9,7 @@ subtitle: |-
 
   Based in Brussels
 portrait: /img/portrait_cs_carre__.jpg
-email: charlottestuby@gmail.com
+email: " ✉︎ charlottestuby@gmail.com"
 emailButtonText: Email
 cv: /img/cv_charlottestuby_march-2021.pdf
 cvButtonText: Curriculum
