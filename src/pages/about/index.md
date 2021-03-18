@@ -26,8 +26,8 @@ forms:
     posX: 72
     posY: 4
   - image: /img/lune-bis.svg
-    posX: 20
-    posY: 18
+    posX: 10
+    posY: 50
   - image: /img/patch-rond-bis.svg
     posX: 66
     posY: 36
