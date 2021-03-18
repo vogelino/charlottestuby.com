@@ -5,7 +5,6 @@ title: Hallo
 subtitle: |-
   I am a swiss artist.
 
-
   Born in 1989 in Vevey (CH). 
 
   Based in Brussels
@@ -37,6 +36,10 @@ forms:
 
 **"L'ennui régnait au dehors", Pano, Vevey (CH), visible  until mid-April 2021.**
 
-Regarding my art practice, I can define it as a work about mainly objets and installations produced by varied materials as concrete, wood, metal but mostly sewing and embroidery. Constantly questioning mental images, daily architecture and identities. My installations talk about situations or memories referring to duration, function and evolution of objects such a track or a sign. The variety of objects contains either a banality or a mistake.
+
+
+My work consists mainly of textile installations. My compositions are functional while carrying narratives. Through the use of "appliqué", quilting, embroidery or tapestry, I recreate a world strewn with clues and traces, symbols, sometimes logos and references drawn from the popular imagination and from my own memories. 
+
+It’s very instinctive for me to work with bright, vibrant and bold colours which create contrasts directly. Moreover, working most of the time with primary colors, it must come from the fascination I have for heraldic, flags and identity symbols. In general, my installations assembles and recomposes observations, memories and fascinations coming from the space I exhibit, from my envrionnement and my own history. The thing I like the most is when an object has to be activated to exist, when it depends on that. A car cover without the car is an obsolete object.
 
 charlottestuby@gmail.com
