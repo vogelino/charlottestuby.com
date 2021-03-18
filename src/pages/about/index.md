@@ -20,14 +20,14 @@ forms:
     posX: 41
     posY: 20
   - image: /img/forme-rouge.svg
-    posX: -13
+    posX: 10
     posY: 44
   - image: /img/vague-bis.svg
     posX: 24
     posY: -72
   - image: /img/lune-bis.svg
-    posX: 17
-    posY: 70
+    posX: 20
+    posY: 50
   - image: /img/patch-rond-bis.svg
     posX: 66
     posY: 36
