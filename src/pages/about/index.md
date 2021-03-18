@@ -1,7 +1,7 @@
 ---
 path: /about
 templateKey: about-page
-title: ☺︎
+title: "                     ☺︎"
 subtitle: |-
   I am a swiss artist.
 
