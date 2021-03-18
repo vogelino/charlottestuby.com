@@ -23,8 +23,8 @@ forms:
     posX: 10
     posY: 30
   - image: /img/vague-bis.svg
-    posX: 24
-    posY: 12
+    posX: 72
+    posY: 4
   - image: /img/lune-bis.svg
     posX: 20
     posY: 18
