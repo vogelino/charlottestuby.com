@@ -24,7 +24,7 @@ forms:
     posY: 44
   - image: /img/vague-bis.svg
     posX: 24
-    posY: -72
+    posY: 24
   - image: /img/lune-bis.svg
     posX: 20
     posY: 50
