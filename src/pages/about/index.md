@@ -22,8 +22,8 @@ forms:
   - image: /img/vague-bis.svg
     posX: 0
     posY: 2
-  - image: /img/lune-bis.svg
-    posX: 10
+  - image: /img/patch-bis.svg
+    posX: 30
     posY: 22
   - image: /img/patch-rond-bis.svg
     posX: 66
