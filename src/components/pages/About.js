@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import Link from '../atoms/Link'
 import Image from '../atoms/Img'
@@ -44,8 +44,14 @@ const About = ({
 			</div>
 		</section>
 		<section className="about-content">
-			<h1>{title}</h1>
-			{subtitle && <h3>{subtitle}</h3>}
+			<h1>
+				<ReactMarkdown source={title} />
+			</h1>
+			{subtitle && (
+				<h3>
+					<ReactMarkdown source={subtitle} />
+				</h3>
+			)}
 			<div className="about-text">
 				<ReactMarkdown source={text} />
 			</div>
