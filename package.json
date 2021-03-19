@@ -57,7 +57,6 @@
     "lint:fix": "eslint --fix \"{gatsby-*.js,src/**/*.js}\"",
     "dev": "npm run clean && (npm run build-styles:watch & gatsby develop)",
     "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build-styles": "npm run build-styles-common & npm run build-styles-home & npm run build-styles-about & npm run build-styles-press & npm run build-styles-work",
     "build-styles:watch": "npm run build-styles-common -- -w & npm run build-styles-home -- -w & npm run build-styles-about -- -w & npm run build-styles-press -- -w & npm run build-styles-work -- -w",
     "build-styles-common": "node_modules/.bin/stylus ./src/styles/common.styl -o ./src/styles/css/common.css",
