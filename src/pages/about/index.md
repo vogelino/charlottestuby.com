@@ -28,6 +28,9 @@ forms:
   - image: /img/soleil.svg
     posX: 90
     posY: 10
+  - image: /img/boudin.svg
+    posX: 4
+    posY: 10
 ---
 ### **Current exhibition:**
 
