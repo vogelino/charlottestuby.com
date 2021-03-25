@@ -26,8 +26,8 @@ forms:
     posX: 66
     posY: 36
   - image: /img/soleil.svg
-    posX: 4
-    posY: 18
+    posX: 90
+    posY: 10
 ---
 ### **Current exhibition:**
 
