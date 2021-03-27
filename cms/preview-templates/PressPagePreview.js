@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 import PropTypes from 'prop-types'
-import Press from '../../../components/pages/Press'
-import Layout from '../../../components/Layout'
+import Press from '../../components/pages/Press'
+import Layout from '../../components/Layout'
 
 const PressPagePreview = ({ entry }) => (
 	<Layout page="/press" isPreview>
