@@ -20,13 +20,7 @@ const About = ({
 	<div id="about-content">
 		<section className="about-picture">
 			<div className="img">
-				<Image
-					src={portrait}
-					width="400"
-					height="400"
-					objectFit="cover"
-					layout="responsive"
-				/>
+				<Image src={portrait} width="400" height="400" objectFit="cover" layout="responsive" />
 			</div>
 			<div className="about-forms">
 				<div>
@@ -61,28 +55,15 @@ const About = ({
 				</h3>
 			)}
 			<div className="about-text">
-				{typeof text === 'string' ? (
-					<ReactMarkdown source={text} />
-				) : (
-					text
-				)}
+				{typeof text === 'string' ? <ReactMarkdown source={text} /> : text}
 			</div>
 			{cvUrl && cvButtonText && (
-				<Link
-					className="btn"
-					href={`${cvUrl}`}
-					target="__blank"
-					title={cvButtonText}
-				>
+				<Link className="btn" href={`${cvUrl}`} target="__blank" title={cvButtonText}>
 					{cvButtonText}
 				</Link>
 			)}
 			{emailAddress && emailButtonText && (
-				<Link
-					className="btn"
-					href={`mailto:${emailAddress}`}
-					title={emailButtonText}
-				>
+				<Link className="btn" href={`mailto:${emailAddress}`} title={emailButtonText}>
 					{emailButtonText}
 				</Link>
 			)}
@@ -116,7 +97,7 @@ export const aboutPropTypes = {
 			image: PropTypes.string.isRequired,
 			posX: PropTypes.number.isRequired,
 			posY: PropTypes.number.isRequired,
-		}),
+		})
 	),
 }
 

@@ -15,17 +15,10 @@ const ThumbnailsForms = ({ forms = [], currentSlide = 0 }) => (
 		>
 			{forms.map(({ decorativeForm, id }, index) => (
 				<ListElement
-					className={`thumbnail-form ${
-						index === currentSlide ? 'active' : ''
-					}`}
+					className={`thumbnail-form ${index === currentSlide ? 'active' : ''}`}
 					key={id}
 				>
-					<Image
-						src={decorativeForm}
-						width="300"
-						height="300"
-						layout="intrinsic"
-					/>
+					<Image src={decorativeForm} width="300" height="300" layout="intrinsic" />
 				</ListElement>
 			))}
 		</List>
@@ -37,7 +30,7 @@ ThumbnailsForms.propTypes = {
 		PropTypes.shape({
 			decorativeForm: PropTypes.string.isRequired,
 			id: PropTypes.string.isRequired,
-		}),
+		})
 	).isRequired,
 	currentSlide: PropTypes.number.isRequired,
 }

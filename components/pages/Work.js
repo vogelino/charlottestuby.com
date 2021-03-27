@@ -16,7 +16,7 @@ const formatDescription = (description) =>
 				{index === 1 ? '' : ','}
 				{part}
 			</span>
-		),
+		)
 	)
 
 const Work = ({
@@ -29,11 +29,7 @@ const Work = ({
 			<div className="work-header-container">
 				<h2 className="work-title">{title}</h2>
 				<span>
-					<Link
-						href="/"
-						className="work-close-button"
-						title="Back to the homepage"
-					>
+					<Link href="/" className="work-close-button" title="Back to the homepage">
 						<Icon iconId="cross" />
 					</Link>
 				</span>
@@ -44,11 +40,7 @@ const Work = ({
 				<h2 className="work-title">{title}</h2>
 				<h3 className="work-subtitle">{subtitle}</h3>
 				<div className="work-description">{description}</div>
-				<Link
-					href="/"
-					className="work-close-button"
-					title="Back to the homepage"
-				>
+				<Link href="/" className="work-close-button" title="Back to the homepage">
 					<Icon iconId="cross" />
 				</Link>
 			</div>
@@ -58,17 +50,9 @@ const Work = ({
 				<ListElement className="work-image" key={image}>
 					<figure>
 						<div className="work-image-loading-container">
-							<Image
-								src={image}
-								layout="fill"
-								objectFit="contain"
-							/>
+							<Image src={image} layout="fill" objectFit="contain" />
 						</div>
-						{caption ? (
-							<figcaption>
-								{formatDescription(caption)}
-							</figcaption>
-						) : null}
+						{caption ? <figcaption>{formatDescription(caption)}</figcaption> : null}
 					</figure>
 				</ListElement>
 			))}
@@ -98,7 +82,7 @@ export const workPropTypes = {
 		PropTypes.shape({
 			image: PropTypes.string,
 			caption: PropTypes.string,
-		}),
+		})
 	).isRequired,
 	thumbnail: PropTypes.oneOfType([
 		PropTypes.shape({
