@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
-import Link from '../atoms/Link'
+import Link from '../Link'
 import { createBlob } from '../../utils/blobUtil'
 
 const PressLi = ({

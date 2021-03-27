@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import Navbar from './Navbar'
-import ThumbnailsForms from './organisms/ThumbnailsForms'
+import ThumbnailsForms from './ThumbnailsForms'
 import MetaTags from './MetaTags'
 import Header from './Header'
 

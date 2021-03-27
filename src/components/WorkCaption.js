@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from '../atoms/Link'
-import ListElement from '../atoms/ListElement'
+import Link from './Link'
+import ListElement from './ListElement'
 
 const WorkCaption = ({ title, subtitle, slug, startLoading }) => (
 	<ListElement className="work-caption">

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from '../atoms/Link'
-import Image from '../atoms/Img'
+import Link from '../Link'
+import Image from '../Img'
 import ReactMarkdown from 'react-markdown'
 
 const About = ({

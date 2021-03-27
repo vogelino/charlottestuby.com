@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from '../atoms/Link'
-import List from '../atoms/List'
-import ListElement from '../atoms/ListElement'
+import Link from './Link'
+import List from './List'
+import ListElement from './ListElement'
 
 const getNavLinkClass = (pagePath, pathname) => {
 	if (pathname === '/' && pagePath === '/works') {

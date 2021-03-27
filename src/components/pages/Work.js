@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from '../atoms/Link'
-import List from '../atoms/List'
-import ListElement from '../atoms/ListElement'
-import Icon from '../atoms/Icon'
-import Image from '../atoms/Img'
-import WorkLink from '../organisms/WorkLink'
+import Link from '../Link'
+import List from '../List'
+import ListElement from '../ListElement'
+import Icon from '../Icon'
+import Image from '../Img'
+import WorkLink from '../WorkLink'
 
 const formatDescription = (description) =>
 	description.split(',').map((part, index) =>

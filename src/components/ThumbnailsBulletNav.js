@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import List from '../atoms/List'
-import ListElement from '../atoms/ListElement'
+import List from './List'
+import ListElement from './ListElement'
 
 const ThumbnailsBulletNav = ({
 	itemsAmount,

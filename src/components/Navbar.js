@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from './atoms/Link'
+import Link from './Link'
 
 const Navbar = ({ page = '', isPreview = false }) => (
 	<nav role="navigation" aria-label="main-navigation">

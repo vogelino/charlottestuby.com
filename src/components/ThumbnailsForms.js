@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import List from '../atoms/List'
-import ListElement from '../atoms/ListElement'
-import Image from '../atoms/Img'
+import List from './List'
+import ListElement from './ListElement'
+import Image from './Img'
 
 const ThumbnailsForms = ({ forms = [], currentSlide = 0 }) => (
 	<div className="thumbnail-forms">

@@ -1,23 +1,17 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import Link from './atoms/Link'
+import Link from './Link'
+import MainTitle from './MainTitle'
 
-const Header = ({ isPreview = false }) => (
+const Header = () => (
 	<header>
-		<h1>
-			<Link
-				className="logo"
-				href={isPreview ? '#' : '/'}
-				title="Charlotte Stuby's logo"
-			>
+		<MainTitle>
+			<Link className="logo" href="/" title="Homepage">
 				Charlotte Stuby
 			</Link>
-		</h1>
+		</MainTitle>
 	</header>
 )
 
-Header.propTypes = {
-	isPreview: PropTypes.bool,
-}
+Header.propTypes = {}
 
 export default Header

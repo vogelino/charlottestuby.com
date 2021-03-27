@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import InteractiveText from '../atoms/InteractiveText'
-import Icon from '../atoms/Icon'
+import InteractiveText from './InteractiveText'
+import Icon from './Icon'
 
 const ThumbnailsArrowNav = ({
 	itemsAmount,

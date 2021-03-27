@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Image from '../atoms/Img'
-import Link from '../atoms/Link'
+import Image from './Img'
+import Link from './Link'
 
 const WorkThumbnail = ({ thumbnail, title, slug }) => (
 	<Link href={slug} className="work-thumbnail" title={title}>
