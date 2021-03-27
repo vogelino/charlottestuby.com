@@ -1,37 +1,14 @@
 {
   "name": "charlottestuby.com",
   "description": "Charlotte stuby's online portfolio",
-  "version": "1.1.3",
+  "version": "2",
   "author": "Lucas Vogel <contact@vogelino.com> (https://vogelino.com)",
-  "dependencies": {
-    "gatsby": "3.1.2",
-    "gatsby-image": "3.1.0",
-    "gatsby-plugin-manifest": "3.1.0",
-    "gatsby-plugin-netlify": "3.1.0",
-    "gatsby-plugin-netlify-cms": "5.1.0",
-    "gatsby-plugin-preload-fonts": "2.1.0",
-    "gatsby-plugin-react-helmet": "4.1.0",
-    "gatsby-plugin-robots-txt": "1.5.5",
-    "gatsby-plugin-sharp": "3.1.2",
-    "gatsby-plugin-sitemap": "3.1.0",
-    "gatsby-plugin-stylus": "3.1.0",
-    "gatsby-remark-copy-linked-files": "3.1.0",
-    "gatsby-remark-images": "4.1.1",
-    "gatsby-remark-relative-images": "2.0.2",
-    "gatsby-source-filesystem": "3.1.0",
-    "gatsby-transformer-remark": "3.1.0",
-    "gatsby-transformer-sharp": "3.1.0",
-    "gsap": "3.6.1",
-    "netlify-cms-app": "2.14.32",
-    "netlify-cms-media-library-cloudinary": "1.3.10",
-    "netlify-cms-media-library-uploadcare": "0.5.10",
-    "nib": "1.1.2",
-    "nuka-carousel": "4.7.7",
-    "prop-types": "15.7.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-helmet": "6.1.0",
-    "react-markdown": "5.0.3"
+  "main": "n/a",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
   },
   "keywords": [
     "gatsby",
@@ -45,30 +22,42 @@
   ],
   "homepage": "https://charlottestuby.com",
   "license": "MIT",
-  "main": "n/a",
-  "scripts": {
-    "clean": "gatsby clean",
-    "start": "npx serve public",
-    "build": "npm run clean && npm run build-styles && gatsby build",
-    "lint": "eslint src",
-    "lint:fix": "eslint --fix \"{gatsby-*.js,src/**/*.js}\"",
-    "dev": "npm run clean && (npm run build-styles:watch & gatsby develop)",
-    "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
-    "build-styles": "npm run build-styles-common & npm run build-styles-home & npm run build-styles-about & npm run build-styles-press & npm run build-styles-work",
-    "build-styles:watch": "npm run build-styles-common -- -w & npm run build-styles-home -- -w & npm run build-styles-about -- -w & npm run build-styles-press -- -w & npm run build-styles-work -- -w",
-    "build-styles-common": "node_modules/.bin/stylus ./src/styles/common.styl -o ./src/styles/css/common.css",
-    "build-styles-home": "node_modules/.bin/stylus ./src/styles/index.styl -o ./src/styles/css/index.css",
-    "build-styles-about": "node_modules/.bin/stylus ./src/styles/about.styl -o ./src/styles/css/about.css",
-    "build-styles-press": "node_modules/.bin/stylus ./src/styles/press.styl -o ./src/styles/css/press.css",
-    "build-styles-work": "node_modules/.bin/stylus ./src/styles/works.styl -o ./src/styles/css/work.css",
-    "preload-fonts": "gatsby-preload-fonts"
+  "dependencies": {
+    "frontmatter-markdown-loader": "3.6.2",
+    "gray-matter": "4.0.2",
+    "gsap": "3.6.1",
+    "next": "10.0.9",
+    "nuka-carousel": "4.7.7",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-markdown": "5.0.3"
   },
   "devDependencies": {
+    "@babel/core": "7.13.13",
+    "@babel/preset-react": "7.13.13",
+    "babel-eslint": "10.1.0",
     "eslint": "7.22.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-prettier": "3.3.1",
-    "eslint-plugin-react": "7.23.1",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "husky": "5.1.2",
+    "jest": "26.6.3",
+    "lint-staged": "10.5.4",
     "prettier": "2.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+      "pre-commit": "lint-staged && npm test -- -o --coverage --watchAll=false --passWithNoTests"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

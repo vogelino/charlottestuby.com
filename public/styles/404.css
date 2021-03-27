@@ -1,0 +1,6 @@
+.four-o-four {
+	height: 100%;
+	display: grid;
+	place-items: center;
+	place-content: center;
+}

@@ -1,14 +1,8 @@
-# Project dependencies
 node_modules
-.cache/
-# Build directory
-public/
-static/admin/*.bundle.*
-.DS_Store
-yarn-error.log
-.env
-dist/
+.next
+.storybook
+dist
+npm-*.*
+tmux-*.*
 
-.vercel
-vercel.json
-src/styles/css
+.now
