@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import { Helmet } from 'react-helmet'
-import Work from '../components/organisms/Work'
+import Work from '../components/pages/Work'
 import { mapWork } from '../utils/mapUtil'
 import '../styles/css/common.css'
 import '../styles/css/work.css'
@@ -40,7 +40,7 @@ const onScroll = () => {
 	LAST_SRCOLL_POS = currentScroll
 }
 
-export const WorkTemplate = ({ data }) => {
+const WorkTemplate = ({ data }) => {
 	const [isLoading, setIsLoading] = useState(true)
 	const startLoading = () => setIsLoading(true)
 	const stopLoading = () => setIsLoading(true)
@@ -93,7 +93,7 @@ WorkTemplate.propTypes = {
 
 export default WorkTemplate
 
-export const pageQuery = graphql`
+export const query = graphql`
 	query WorkByID($id: String!) {
 		markdownRemark(id: { eq: $id }) {
 			id

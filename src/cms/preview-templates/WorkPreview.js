@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import WorkTemplate from '../../components/organisms/Work'
+import WorkTemplate from '../../components/pages/Work'
 import Layout from '../../components/Layout'
 import '../../styles/css/common.css'
 import '../../styles/css/work.css'

@@ -37,7 +37,7 @@ PressPage.propTypes = {
 
 export default PressPage
 
-export const pressPageQuery = graphql`
+export const query = graphql`
 	query PressPage($id: String!) {
 		site {
 			siteMetadata {

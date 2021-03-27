@@ -1,6 +1,5 @@
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
-const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 exports.createPages = ({ actions, graphql }) => {
 	const { createPage } = actions
@@ -31,10 +30,12 @@ exports.createPages = ({ actions, graphql }) => {
 
 		posts.forEach((edge) => {
 			const id = edge.node.id
+			const slug = edge.node.fields.slug
+			console.log(slug)
 			createPage({
-				path: edge.node.fields.slug,
+				path: slug,
 				component: path.resolve(
-					`src/templates/${String(
+					`${__dirname}/src/templates/${String(
 						edge.node.frontmatter.templateKey,
 					)}.js`,
 				),
@@ -49,7 +50,6 @@ exports.createPages = ({ actions, graphql }) => {
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
 	const { createNodeField } = actions
-	fmImagesToRelative(node) // convert image paths for gatsby images
 
 	if (node.internal.type === `MarkdownRemark`) {
 		const value = createFilePath({ node, getNode })

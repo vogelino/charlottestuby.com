@@ -5,7 +5,7 @@ import List from '../atoms/List'
 import ListElement from '../atoms/ListElement'
 import Icon from '../atoms/Icon'
 import Image from '../atoms/Img'
-import WorkLink from './WorkLink'
+import WorkLink from '../organisms/WorkLink'
 
 const formatDescription = (description) =>
 	description.split(',').map((part, index) =>
