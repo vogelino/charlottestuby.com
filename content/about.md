@@ -17,7 +17,7 @@ instagramUsername: charlottestuby
 instagramButtonText: Instagram
 forms:
   - image: /img/patch-vase-bis.svg
-    posX: 20
+    posX: 50
     posY: 20
   - image: /img/vague-bis.svg
     posX: 0
