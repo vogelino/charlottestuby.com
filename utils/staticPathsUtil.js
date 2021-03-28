@@ -16,7 +16,7 @@ const getWorkContentBySlug = async (slug) => {
 	const fileName = `${slug}.md`
 	const fileContents = fs.readFileSync(path.join(worksPath, fileName), 'utf8')
 	const { data } = matter(fileContents)
-	return mapWork({ ...data, slug })
+	return mapWork(Object.assign({}, data, { slug }))
 }
 
 module.exports.getWorkContentBySlug = getWorkContentBySlug
