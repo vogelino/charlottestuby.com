@@ -10,7 +10,7 @@ backend:
     delete: "Delete {{collection}} “{{slug}}”"
     uploadMedia: "[skip ci] Upload “{{path}}”"
     deleteMedia: "[skip ci] Delete “{{path}}”"
-media_folder: /img
+media_folder: /public/img
 public_folder: /img
 collections:
   - name: work
