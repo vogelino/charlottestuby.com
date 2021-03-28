@@ -17,16 +17,16 @@ instagramUsername: charlottestuby
 instagramButtonText: Instagram
 forms:
   - image: /img/vase.svg
-    posX: 50
-    posY: 20
+    posX: 45
+    posY: 50
   - image: /img/vague.svg
-    posX: 0
-    posY: 2
-  - image: /img/patch-rond.svg
-    posX: 66
+    posX: 10
+    posY: 40
+  - image: /img/patch.svg
+    posX: 74
     posY: 36
   - image: /img/soleil.svg
-    posX: 90
+    posX: 35
     posY: 10
 ---
 ### **Current exhibition:**
