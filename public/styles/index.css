@@ -233,6 +233,6 @@ article section.content .work-thumbnail a:focus {
 }
 @media (max-width: 600px) {
 	.thumbnail-form {
-		background-size: 40% auto;
+		transform: translate(19vmax, -28vmax) scale(0.6);
 	}
 }
