@@ -35,10 +35,10 @@ const About = ({
 						>
 							<Image
 								src={form.image}
-								width="400"
-								height="400"
+								width="300"
+								height="300"
 								layout="intrinsic"
-								objectFit="cover"
+								objectFit="contain"
 							/>
 						</span>
 					))}
