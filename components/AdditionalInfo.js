@@ -1,9 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const AdditionalInfo = ({ children, ...rest }) => (
-	<small {...rest}>{children}</small>
-)
+const AdditionalInfo = ({ children, ...rest }) => <small {...rest}>{children}</small>
 
 AdditionalInfo.propTypes = {
 	children: PropTypes.oneOfType([

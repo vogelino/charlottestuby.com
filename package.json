@@ -8,7 +8,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export"
+    "export": "npm run build && next export",
+    "lint": "eslint .",
+    "lint-fix": "npm run lint -- --fix"
   },
   "keywords": [
     "gatsby",

@@ -72,8 +72,7 @@ function cardinal(data, closed, tension) {
 		var x2 = p2.x - ((p3.x - p1.x) / 6) * tension
 		var y2 = p2.y - ((p3.y - p1.y) / 6) * tension
 
-		path +=
-			' ' + x1 + ' ' + y1 + ' ' + x2 + ' ' + y2 + ' ' + p2.x + ' ' + p2.y
+		path += ' ' + x1 + ' ' + y1 + ' ' + x2 + ' ' + y2 + ' ' + p2.x + ' ' + p2.y
 	}
 
 	return closed ? path + 'z' : path

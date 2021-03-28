@@ -7,11 +7,7 @@ const WorkCaption = ({ title, subtitle, slug, startLoading }) => (
 	<ListElement className="work-caption">
 		<h2>
 			<button onClick={startLoading}>
-				<Link
-					href={slug}
-					title={`${title} - ${subtitle}`}
-					className="interactive"
-				>
+				<Link href={slug} title={`${title} - ${subtitle}`} className="interactive">
 					{title}
 				</Link>
 			</button>

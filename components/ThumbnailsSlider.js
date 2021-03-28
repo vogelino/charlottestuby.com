@@ -49,11 +49,7 @@ class ThumbnailsSlider extends Component {
 
 	render() {
 		const { children, className } = this.props
-		return this.loaded ? (
-			this.getSlider()
-		) : (
-			<div className={className}>{children}</div>
-		)
+		return this.loaded ? this.getSlider() : <div className={className}>{children}</div>
 	}
 }
 

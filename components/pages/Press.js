@@ -3,15 +3,7 @@ import PropTypes from 'prop-types'
 import Link from '../Link'
 import { createBlob } from '../../utils/blobUtil'
 
-const PressLi = ({
-	id,
-	title,
-	date,
-	url,
-	file,
-	screenshot,
-	color = 'blue',
-}) => {
+const PressLi = ({ id, title, date, url, file, screenshot, color = 'blue' }) => {
 	const blobRef = useRef()
 	const blobPathRef = useRef()
 
@@ -62,9 +54,7 @@ const PressLi = ({
 				<div className="press-link-content">
 					<h3 className="press-link-date">{date}</h3>
 					<h2 className="press-link-title">{title}</h2>
-					<h4 className="press-link-url">
-						{url ? new URL(url).host : 'PDF'}
-					</h4>
+					<h4 className="press-link-url">{url ? new URL(url).host : 'PDF'}</h4>
 				</div>
 			</Link>
 		</div>
@@ -95,7 +85,7 @@ export const aboutPropTypes = {
 		PropTypes.shape({
 			...PressLi.propTypes,
 			id: undefined,
-		}),
+		})
 	),
 }
 

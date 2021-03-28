@@ -3,11 +3,7 @@ import PropTypes from 'prop-types'
 import InteractiveText from './InteractiveText'
 import Icon from './Icon'
 
-const ThumbnailsArrowNav = ({
-	itemsAmount,
-	activeItemIndex,
-	setCurrentWorksSlide,
-}) => {
+const ThumbnailsArrowNav = ({ itemsAmount, activeItemIndex, setCurrentWorksSlide }) => {
 	const hasPrev = activeItemIndex > 0
 	const hasNext = activeItemIndex + 1 < itemsAmount
 	const goPrev = () => {
@@ -19,10 +15,7 @@ const ThumbnailsArrowNav = ({
 	return (
 		<div className="thumbnails-arrow-nav">
 			{hasPrev ? (
-				<InteractiveText
-					onClick={goPrev}
-					className="thumbnails-arrow arrow-prev"
-				>
+				<InteractiveText onClick={goPrev} className="thumbnails-arrow arrow-prev">
 					<Icon iconId="arrow-up" />
 				</InteractiveText>
 			) : (
@@ -31,10 +24,7 @@ const ThumbnailsArrowNav = ({
 				</span>
 			)}
 			{hasNext ? (
-				<InteractiveText
-					onClick={goNext}
-					className="thumbnails-arrow arrow-next"
-				>
+				<InteractiveText onClick={goNext} className="thumbnails-arrow arrow-next">
 					<Icon iconId="arrow-down" />
 				</InteractiveText>
 			) : (

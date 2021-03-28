@@ -3,20 +3,13 @@ import PropTypes from 'prop-types'
 import List from './List'
 import ListElement from './ListElement'
 
-const ThumbnailsBulletNav = ({
-	itemsAmount,
-	activeItemIndex,
-	setCurrentWorksSlide,
-}) => (
+const ThumbnailsBulletNav = ({ itemsAmount, activeItemIndex, setCurrentWorksSlide }) => (
 	<List className="thumbnails-bullet-nav">
 		{Array.from(Array(itemsAmount).keys()).map((index) => (
 			<ListElement
 				key={index}
 				onClick={() => setCurrentWorksSlide(index)}
-				className={[
-					'thumbnails-bullet',
-					index === activeItemIndex ? 'active' : '',
-				].join(' ')}
+				className={['thumbnails-bullet', index === activeItemIndex ? 'active' : ''].join(' ')}
 			/>
 		))}
 	</List>

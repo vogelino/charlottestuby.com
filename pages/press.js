@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Layout from '../components/Layout'
 import Press from '../components/pages/Press'
 import { attributes } from '../content/press.md'
