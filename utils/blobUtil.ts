@@ -6,7 +6,7 @@ interface PointType {
 }
 
 interface OptionsInputType {
-	clipPathElement: SVGClipPathElement
+	clipPathElement: SVGPathElement
 	pathElement: SVGPathElement
 	numPoints: number
 	minDuration: number

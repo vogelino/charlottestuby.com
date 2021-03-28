@@ -26,6 +26,7 @@ const PressLi: FC<PressListType> = ({ id, title, date, url, file, screenshot, co
 			minDuration: 3,
 			maxDuration: 7,
 		}
+		if (!blobRef.current || !blobPathRef.current) return
 		createBlob({
 			...commonConfig,
 			clipPathElement: blobRef.current,
