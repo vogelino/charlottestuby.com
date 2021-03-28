@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
-import Navbar from './Navbar'
+import Navigation from './Navigation'
 import ThumbnailsForms from './ThumbnailsForms'
 import MetaTags from './MetaTags'
 import Header from './Header'
@@ -39,19 +39,11 @@ const TemplateWrapper = ({
 			{!page.startsWith('/work/') && <Header isPreview={isPreview} />}
 			<article>
 				{!page.startsWith('/work/') && (
-					<Navbar
-						page={page.replace('/', '')}
-						isPreview={isPreview}
-					/>
+					<Navigation page={page.replace('/', '')} isPreview={isPreview} />
 				)}
 				<section className="content">{children}</section>
 			</article>
-			{page === '/' && (
-				<ThumbnailsForms
-					currentSlide={currentSlideIndex}
-					forms={forms}
-				/>
-			)}
+			{page === '/' && <ThumbnailsForms currentSlide={currentSlideIndex} forms={forms} />}
 		</main>
 	)
 }
@@ -65,7 +57,7 @@ TemplateWrapper.propTypes = {
 		PropTypes.shape({
 			decorativeForm: PropTypes.string.isRequired,
 			id: PropTypes.string.isRequired,
-		}),
+		})
 	),
 }
 

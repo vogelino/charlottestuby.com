@@ -7,11 +7,7 @@ const Link = ({ children, href, className, target, ...rest }) => {
 	if (href.startsWith('/')) {
 		return (
 			<InternalLink href={href}>
-				<a
-					className={linkClassName}
-					target={target || '__self'}
-					{...rest}
-				>
+				<a className={linkClassName} target={target || undefined} {...rest}>
 					{children}
 				</a>
 			</InternalLink>

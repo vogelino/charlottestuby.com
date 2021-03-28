@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from './Link'
+import Link from '../Link'
 
-const Navbar = ({ page = '', isPreview = false }) => (
+const Navigation = ({ page = '', isPreview = false }) => (
 	<nav role="navigation" aria-label="main-navigation">
 		<ul>
 			<li className="press">
@@ -36,9 +36,9 @@ const Navbar = ({ page = '', isPreview = false }) => (
 	</nav>
 )
 
-Navbar.propTypes = {
+Navigation.propTypes = {
 	page: PropTypes.string.isRequired,
 	isPreview: PropTypes.bool,
 }
 
-export default Navbar
+export default Navigation

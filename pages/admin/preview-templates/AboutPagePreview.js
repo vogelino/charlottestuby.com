@@ -1,14 +1,10 @@
 import React from 'react'
-import Head from 'next/head'
 import PropTypes from 'prop-types'
 import About from '../../../components/pages/About'
 import Layout from '../../../components/Layout'
 
 const AboutPagePreview = ({ entry }) => (
 	<Layout page="/about" isPreview>
-		<Head>
-			<link rel="stylesheet" href="/styles/about.css" />
-		</Head>
 		<About
 			title={entry.getIn(['data', 'title'])}
 			subtitle={entry.getIn(['data', 'subtitle'])}

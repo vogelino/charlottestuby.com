@@ -21,9 +21,7 @@ const Works = ({ works = [], forms = [] }) => {
 			<section
 				className="works-list"
 				style={{
-					height: `calc(${works.length}00vh - ${
-						works.length * 172
-					}px)`,
+					height: `calc(${works.length}00vh - ${works.length * 172}px)`,
 				}}
 			>
 				<ThumbnailsSlider
@@ -33,11 +31,7 @@ const Works = ({ works = [], forms = [] }) => {
 					setWorksSliderDragState={() => {}}
 				>
 					{works.map((item, index) => (
-						<WorkThumbnail
-							key={index}
-							{...item}
-							startLoading={() => {}}
-						/>
+						<WorkThumbnail key={index} {...item} startLoading={() => {}} />
 					))}
 				</ThumbnailsSlider>
 				<div className="work-captions">
@@ -48,11 +42,7 @@ const Works = ({ works = [], forms = [] }) => {
 						}}
 					>
 						{works.map((item, index) => (
-							<WorkCaption
-								key={index}
-								{...item}
-								startLoading={() => {}}
-							/>
+							<WorkCaption key={index} {...item} startLoading={() => {}} />
 						))}
 					</ul>
 				</div>
@@ -77,7 +67,7 @@ Works.propTypes = {
 		PropTypes.shape({
 			id: PropTypes.string.isRequired,
 			decorativeForm: PropTypes.string.isRequired,
-		}),
+		})
 	),
 }
 
