@@ -54,11 +54,6 @@ const MetaTags: FC = () => {
 			<link href="/favicons/favicon-16x16.png" type="image/png" rel="icon" />
 			<link href="/favicons/favicon-32x32.png" type="image/png" rel="icon" />
 			<link href="/favicons/apple-touch-icon.png" type="image/png" rel="apple-touch-icon" />
-
-			<link rel="stylesheet" href="/styles/reset.css" />
-			<link rel="stylesheet" href="/styles/fonts.css" />
-			<link rel="stylesheet" href="/styles/animations.css" />
-			<link rel="stylesheet" href="/styles/common.css" />
 		</Head>
 	)
 }

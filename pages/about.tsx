@@ -1,5 +1,4 @@
 import { FC } from 'react'
-import Head from 'next/head'
 import Layout from '../components/Layout'
 import About from '../components/pages/About'
 import { attributes, react as MarkdownContent } from '../content/about.md'
@@ -33,9 +32,6 @@ const AboutPage: FC<AboutPageType> = () => {
 
 	return (
 		<Layout page="/about">
-			<Head>
-				<link rel="stylesheet" href="/styles/about.css" />
-			</Head>
 			<About
 				title={title}
 				subtitle={subtitle}

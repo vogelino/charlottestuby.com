@@ -1,5 +1,4 @@
 import { FC, useState } from 'react'
-import Head from 'next/head'
 import { WorkType, FormType } from '../../types'
 import WorkThumbnail from '../WorkThumbnail'
 import WorkCaption from '../WorkCaption'
@@ -19,9 +18,6 @@ const Works: FC<WorksType> = ({ works = [], forms = [] }) => {
 	const [currentSlideIndex, setCurrentWorksSlide] = useState(0)
 	return (
 		<Layout page="/" forms={forms} currentSlideIndex={currentSlideIndex}>
-			<Head>
-				<link rel="stylesheet" href="/styles/index.css" />
-			</Head>
 			<section
 				className="works-list"
 				style={{

@@ -43,7 +43,6 @@ const WorkTemplate: FC<WorkPageType> = ({ work, nextWork, prevWork }) => (
 		<Head>
 			<title>{`${work.title} | Projet`}</title>
 			<meta name="description" content={`${work.description}`} />
-			<link rel="stylesheet" href="/styles/work.css" />
 		</Head>
 		<Work work={work} nextWork={nextWork} previousWork={prevWork} />
 	</Layout>
