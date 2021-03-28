@@ -4,7 +4,7 @@ pressList:
   - date: Feb. 2020
     url: https://dorrellmerritt.co.uk/Charlotte-Stuby-Interview
     title: interview by Dorrell Merritt
-    screenshot: /img/capture-d’écran-2021-02-04-à-16.01.27.png
+    screenshot: /img/capture-d’écran-2021-02-04-à-16.01.27.png
     color: "#F6FF00"
   - date: Oct. 2020
     title: Des Seins à Dessein, Espace Arlaud, Lausanne, Autumn 2020
