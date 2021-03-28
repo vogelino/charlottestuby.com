@@ -7,7 +7,7 @@ const getWorksPath = () => {
 	return worksPath
 }
 
-const markdowmFilepathToSlug = (filePath) => filePath.replaceAll('/', '').replace(/\.md$/g, '')
+const markdowmFilepathToSlug = (filePath) => filePath.replace(/\//g, '').replace(/\.md$/g, '')
 
 const getWorkContentBySlug = async (slug) => {
 	const path = require('path')
