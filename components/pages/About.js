@@ -33,13 +33,7 @@ const About = ({
 								left: `${form.posX}vw`,
 							}}
 						>
-							<Image
-								src={form.image}
-								width="300"
-								height="300"
-								layout="intrinsic"
-								objectFit="contain"
-							/>
+							<Image src={form.image} width="300" height="300" layout="fixed" objectFit="contain" />
 						</span>
 					))}
 				</div>
