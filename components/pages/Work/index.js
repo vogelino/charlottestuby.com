@@ -80,7 +80,7 @@ const Work = ({
 					</ListElement>
 				))}
 			</List>
-			<List className="work-link">
+			<List className="work-links">
 				{previousWork && (
 					<ListElement>
 						<WorkLink {...previousWork} />
