@@ -16,13 +16,13 @@ cvButtonText: Curriculum
 instagramUsername: charlottestuby
 instagramButtonText: Instagram
 forms:
-  - image: /img/patch-vase-bis.svg
+  - image: /img/vase.svg
     posX: 50
     posY: 20
-  - image: /img/vague-bis.svg
+  - image: /img/vague.svg
     posX: 0
     posY: 2
-  - image: /img/patch-rond-bis.svg
+  - image: /img/patch-rond.svg
     posX: 66
     posY: 36
   - image: /img/soleil.svg

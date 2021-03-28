@@ -225,6 +225,8 @@ article section.content .work-thumbnail a:focus {
 	max-width: 1280px;
 	text-align: right;
 	margin-right: 50px;
+	box-sizing: border-box;
+	padding: 32px 0 0 0;
 }
 .thumbnail-form.active {
 	opacity: 1;

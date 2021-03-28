@@ -6,7 +6,7 @@ subtitle: Belgium, Switzerland 2013-2020
 date: 2021-02-04T13:10:50.409Z
 description: "-"
 thumbnail: /img/stacy-rats-charlottestuby-lausanne-2016.jpg
-decorativeForm: /img/lune-bis.svg
+decorativeForm: /img/lune.svg
 images:
   - image: /img/page-accueil-selected-projects-charlottestuby.jpg
     caption: embroidery on textile, 30x42cm, for COVID-19 Valentin 61, Brussels,

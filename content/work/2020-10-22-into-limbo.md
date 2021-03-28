@@ -7,7 +7,7 @@ date: 2020-10-22T18:24:51.324Z
 description: collective show, curated by Bram van Breda. Pictures by Matthijs
   van der Burgt, autumn 2020
 thumbnail: /img/image-page-accueil-into-limbo-charlottestuby.jpg
-decorativeForm: /img/patch-bis.svg
+decorativeForm: /img/patch-2.svg
 images:
   - image: /img/intolimbo30.jpg
   - image: /img/intolimbo06.jpg

@@ -10,7 +10,7 @@ const ThumbnailsForms = ({ forms = [], currentSlide = 0 }) => (
 			className="thumbnail-forms-list"
 			style={{
 				height: `${forms.length}00vh`,
-				top: `calc(-${currentSlide} * (var(--vh, 1vh) * 100) - 30px)`,
+				top: `calc(-${currentSlide} * (var(--vh, 1vh) * 100))`,
 			}}
 		>
 			{forms.map(({ decorativeForm, id }, index) => (
@@ -18,7 +18,7 @@ const ThumbnailsForms = ({ forms = [], currentSlide = 0 }) => (
 					className={`thumbnail-form ${index === currentSlide ? 'active' : ''}`}
 					key={id}
 				>
-					<Image src={decorativeForm} width="300" height="300" layout="intrinsic" />
+					<Image src={decorativeForm} width="300" height="300" layout="fixed" />
 				</ListElement>
 			))}
 		</List>
