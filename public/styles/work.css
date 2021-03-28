@@ -46,7 +46,7 @@
 		height: 60px;
 	}
 }
-.scroll-up .work-header {
+.work-header.scroll-up {
 	transform: translateY(0);
 }
 .work-header .work-header-container {
