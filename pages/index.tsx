@@ -1,19 +1,7 @@
 import { FC } from 'react'
 import WorksPage from '@components/pages/Works'
 import { getAllWorksContents } from '@utils/staticPathsUtil'
-
-interface WorkType {
-	id: string
-	title: string
-	subtitle: string
-	description: string
-	slug: string
-	images: string[]
-	order: number
-	decorativeForm: string
-	thumbnail: string
-}
-
+import { WorkType } from '../types'
 interface WorksPageType {
 	works: WorkType[]
 }

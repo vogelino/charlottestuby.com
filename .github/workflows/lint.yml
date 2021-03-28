@@ -16,3 +16,5 @@ jobs:
           node-version: v15.0.1
       - run: npm install -ci
       - run: npm run lint
+      - run: npm run type-check
+      - run: npm run test

@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, ReactNode } from 'react'
 import Link from '../Link'
 import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
@@ -11,7 +11,7 @@ interface FormType {
 
 interface AboutPageType {
 	title: string
-	text: string
+	text: ReactNode
 	emailAddress: string
 	emailButtonText: string
 	instagramUsername: string
