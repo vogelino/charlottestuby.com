@@ -1,0 +1,224 @@
+.work-header,
+.work-images,
+.work-image,
+.work-image img {
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+}
+.work-image-loading-container img {
+	border-radius: 3px;
+}
+.work-image-loading-container {
+	display: block;
+	width: 100%;
+	max-width: 1310px;
+	margin: 0 auto 10px auto;
+	height: calc(100vh - 220px);
+	position: relative;
+}
+.work-container {
+	padding-top: 15px;
+}
+.work-image {
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.work-image figcaption {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 16px;
+}
+.work-header {
+	z-index: 1;
+	height: 80px;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transform: translateY(-100%);
+	transition: transform 400ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+@media (max-width: 400px) {
+	.work-header {
+		height: 60px;
+	}
+}
+.scroll-up .work-header {
+	transform: translateY(0);
+}
+.work-header .work-header-container {
+	max-width: 1280px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: grid;
+	grid-template-columns: 1fr 25px;
+	grid-gap: 10px;
+	height: 100%;
+	align-items: center;
+	align-content: center;
+}
+.work-header .work-title {
+	margin-bottom: 4px;
+}
+.work-head {
+	max-width: 1280px;
+	position: relative;
+	margin: 0 auto;
+	padding: 40px 55px 20px 20px;
+}
+@media (max-width: 600px) {
+	.work-head {
+		padding-top: 30px;
+	}
+}
+@media (max-width: 400px) {
+	.work-head {
+		padding-top: 10px;
+	}
+}
+.work-head h3 {
+	margin-top: 4px;
+}
+.work-head .work-close-button {
+	position: absolute;
+	top: 45px;
+	right: 20px;
+}
+@media (max-width: 400px) {
+	.work-head .work-close-button {
+		top: 10px;
+	}
+}
+.work-description {
+	font-size: 16px;
+	line-height: 18px;
+	color: #000030;
+	max-width: 1280px;
+	margin: 12px auto 0;
+}
+@media (max-width: 600px) {
+	.work-description {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+a.work-close-button {
+	border: none;
+	background: none;
+	width: 25px;
+	height: 25px;
+	font-size: 40px;
+	line-height: 28px;
+}
+a.work-close-button svg {
+	display: block;
+	float: left;
+	fill: #00f;
+}
+a.work-close-button:hover svg {
+	fill: #00c;
+}
+a.work-close-button:active svg {
+	fill: #66f;
+}
+.work-links,
+.work-link,
+.work-link-content {
+	width: 100%;
+}
+.work-links a.work-link:hover,
+.work-links a.work-link:active,
+.work-links a.work-link:focus,
+.work-links a.work-link:focus:hover,
+.work-links a.work-link:focus:active {
+	background: none;
+}
+.work-links {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 20px 20px 40px;
+	box-sizing: border-box;
+	display: grid;
+
+	grid-template-columns: repeat(2, 1fr);
+	gap: 40px;
+}
+@media (max-width: 600px) {
+	.work-links {
+		grid-template-columns: 1fr;
+	}
+}
+.work-link {
+	width: 100%;
+	box-sizing: border-box;
+	position: relative;
+	display: grid;
+	grid-template: 'worklinkimage worklinkcontent';
+	grid-template-columns: 66px 1fr;
+	gap: 32px;
+}
+.work-link h3 {
+	font-weight: 500;
+	grid-area: content;
+}
+.work-link:hover h3 {
+	text-decoration: underline;
+}
+.work-link .work-link-image {
+	grid-area: worklinkimage;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin: 0;
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+.work-link .work-link-content {
+	grid-area: worklinkcontent;
+	display: grid;
+	align-content: center;
+	align-items: center;
+	grid-template: 'content arrow';
+	grid-template-columns: 1fr 32px;
+	gap: 16px;
+}
+.work-link .svg-icon {
+	grid-area: arrow;
+	transform: rotate(0) scale(0.6);
+}
+@media (max-width: 740px) {
+	.work-link h2 {
+		font-size: 18px;
+		line-height: 18px;
+	}
+	.work-link h3 {
+		font-size: 16px;
+	}
+}
+.work-links li:nth-child(odd) .svg-icon {
+	transform: rotate(-180deg) scale(0.6);
+}
+.work-links li:nth-child(odd) .work-link-content {
+	grid-template: 'arrow content';
+	grid-template-columns: 32px 1fr;
+}
+@media (max-width: 600px) {
+	.work-links li:nth-child(even) .work-link {
+		grid-template: 'worklinkcontent worklinkimage';
+		grid-template-columns: 1fr 66px;
+		text-align: right;
+	}
+}
+
+@media (min-width: 600px) {
+	.work-links li:nth-child(odd) .work-link {
+		grid-template: 'worklinkcontent worklinkimage';
+		grid-template-columns: 1fr 66px;
+		text-align: right;
+	}
+}

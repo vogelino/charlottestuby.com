@@ -1,6 +1,5 @@
-dist/**/*
-webpack/**/*
-public/**/*
-.cache/**/*
-webpack.config.babel.js
-src/*.json
+node_modules
+.next
+*.config.js
+*.setup.js
+.*.js
