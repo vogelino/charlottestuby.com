@@ -6,3 +6,4 @@ dist
 npm-*.*
 tmux-*.*
 .now
+.vercel
