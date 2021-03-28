@@ -4,7 +4,7 @@ import useSiteMetadata from './SiteMetadata'
 
 const MetaTags = () => {
 	const { title, description, keywords = [], siteUrl } = useSiteMetadata()
-	const SOCIAL_THUMBNAIL = `${siteUrl || 'https://localhost:3000'}/img/social-thumbnail.jpg`
+	const SOCIAL_THUMBNAIL = `${siteUrl || 'https://localhost:3000'}/social-thumbnail.jpg`
 
 	return (
 		<Head>
@@ -44,7 +44,17 @@ const MetaTags = () => {
 			<meta property="fb:appid" content="186064998091648" />
 			<meta property="fb:admins" content="1308822218" />
 
+			<link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
 			<link rel="author" href="https://www.vogelino.com" />
+
+			<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+			<link href="/favicons/android-chrome-192x192.png" type="image/png" rel="icon" />
+			<link href="/favicons/android-chrome-512x512.png" type="image/png" rel="icon" />
+			<link href="/favicons/favicon-16x16.png" type="image/png" rel="icon" />
+			<link href="/favicons/favicon-32x32.png" type="image/png" rel="icon" />
+			<link href="/favicons/apple-touch-icon.png" type="image/png" rel="apple-touch-icon" />
+
 			<link rel="stylesheet" href="/styles/reset.css" />
 			<link rel="stylesheet" href="/styles/fonts.css" />
 			<link rel="stylesheet" href="/styles/animations.css" />
