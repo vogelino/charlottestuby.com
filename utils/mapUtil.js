@@ -1,4 +1,4 @@
-export const mapWork = ({
+module.exports.mapWork = ({
 	title,
 	subtitle,
 	description,
@@ -19,7 +19,7 @@ export const mapWork = ({
 	thumbnail: thumbnail,
 })
 
-export const getSorterByKey = (key) => (a, b) => {
+module.exports.getSorterByKey = (key) => (a, b) => {
 	if (a[key] < b[key]) {
 		return -1
 	}

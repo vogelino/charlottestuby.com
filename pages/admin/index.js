@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
-import AboutPagePreview from './preview-templates/AboutPagePreview'
-import PressPagePreview from './preview-templates/PressPagePreview'
-import WorkPreview from './preview-templates/WorkPreview'
+import AboutPagePreview from '../../components/preview-templates/AboutPagePreview'
+import PressPagePreview from '../../components/preview-templates/PressPagePreview'
+import WorkPreview from '../../components/preview-templates/WorkPreview'
 
 const importScripts = async () => {
 	const [{ default: CMS }, { default: uploadcare }, { default: cloudinary }] = await Promise.all([

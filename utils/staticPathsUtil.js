@@ -1,16 +1,15 @@
-import matter from 'gray-matter'
-import { getSorterByKey, mapWork } from './mapUtil'
+const matter = require('gray-matter')
+const { getSorterByKey, mapWork } = require('./mapUtil')
 
 const getWorksPath = () => {
 	const path = require('path')
-	const worksPath = path.join(process.cwd(), __dirname, 'content/work')
+	const worksPath = path.join(process.cwd(), 'content/work')
 	return worksPath
 }
 
-const markdowmFilepathToSlug = (filePath) =>
-	filePath.replaceAll('/', '').replace(/\.md$/g, '')
+const markdowmFilepathToSlug = (filePath) => filePath.replaceAll('/', '').replace(/\.md$/g, '')
 
-export const getWorkContentBySlug = async (slug) => {
+const getWorkContentBySlug = async (slug) => {
 	const path = require('path')
 	const fs = require('fs')
 	const worksPath = getWorksPath()
@@ -20,14 +19,15 @@ export const getWorkContentBySlug = async (slug) => {
 	return mapWork({ ...data, slug })
 }
 
-export const getAllWorksContents = async () => {
+module.exports.getWorkContentBySlug = getWorkContentBySlug
+module.exports.getAllWorksContents = async () => {
 	const fs = require('fs')
 	const worksPath = getWorksPath()
 
 	console.log(worksPath)
 	const paths = fs.readdirSync(worksPath)
 	const works = await Promise.all(
-		paths.map((file) => getWorkContentBySlug(markdowmFilepathToSlug(file))),
+		paths.map((file) => getWorkContentBySlug(markdowmFilepathToSlug(file)))
 	)
 
 	return works.sort(getSorterByKey('order'))

@@ -1,5 +1,9 @@
 module.exports = {
-  webpack(config) {
+  webpack(config, { isServer }) {
+    if (isServer) {
+      require('./scripts/generate-sitemap');
+    }
+
     config.module.rules.push({
       test: /\.md$/,
       use: {
