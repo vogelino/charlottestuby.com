@@ -41,6 +41,6 @@ images:
       on fabric, 200x300cm, Mât, Neuchâtel (CH), Autumn 2017. Pictures: Martin
       Jakob'
   - image: /img/toute-une-eternite-en-extra-eeeeh-charlottestuby-nyon-2020.jpg
-    caption: Toute une éternité en extra, residency with Romain Tallet, EEEEH, Nyon,
-      Summer 2020
+    caption: Toute une éternité en extra, residency with Romain Tallet, EEEEH, Nyon
+      (CH), Summer 2020
 ---
