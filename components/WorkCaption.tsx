@@ -12,7 +12,7 @@ const WorkCaption: FC<WorkCaptionType> = ({ title, subtitle, slug }) => (
 	<ListElement className="work-caption">
 		<h2>
 			<button>
-				<Link href={slug} className="interactive">
+				<Link href={`/work/${slug}`} className="interactive">
 					{title}
 				</Link>
 			</button>
