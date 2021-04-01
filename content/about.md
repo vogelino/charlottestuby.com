@@ -29,8 +29,8 @@ forms:
     posX: 35
     posY: 10
   - image: /img/trace.svg
-    posX: 10
-    posY: 60
+    posX: 1
+    posY: 20
 ---
 ### **Current exhibition:**
 
