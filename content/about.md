@@ -28,6 +28,9 @@ forms:
   - image: /img/soleil.svg
     posX: 35
     posY: 10
+  - image: /img/trace.svg
+    posX: 10
+    posY: 60
 ---
 ### **Current exhibition:**
 
