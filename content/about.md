@@ -16,9 +16,6 @@ cvButtonText: Curriculum
 instagramUsername: charlottestuby
 instagramButtonText: Instagram
 forms:
-  - image: /img/trace.svg
-    posX: 60
-    posY: 12
   - image: /img/patch.svg
     posX: 80
     posY: 30
@@ -31,6 +28,9 @@ forms:
   - image: /img/soleil.svg
     posX: 5
     posY: 60
+  - image: /img/trace.svg
+    posX: 2
+    posY: 2
 ---
 ### **Current exhibition:**
 
