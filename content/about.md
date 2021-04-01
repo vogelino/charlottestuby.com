@@ -17,26 +17,20 @@ instagramUsername: charlottestuby
 instagramButtonText: Instagram
 forms:
   - image: /img/trace.svg
-    posX: 80
-    posY: 40
-  - image: /img/trace-bleue.svg
     posX: 60
-    posY: 20
-  - image: /img/trace-violette.svg
-    posX: 10
-    posY: 90
-  - image: /img/trace-jaune.svg
-    posX: 76
+    posY: 12
+  - image: /img/patch.svg
+    posX: 80
     posY: 30
-  - image: /img/trace-blanche.svg
-    posX: 20
-    posY: 70
-  - image: /img/trace-rouge2.svg
-    posX: 1
-    posY: 40
-  - image: /img/trace-jaune-2.svg
+  - image: /img/vague.svg
+    posX: 80
+    posY: 50
+  - image: /img/trace-bleue.svg
     posX: 2
-    posY: 70
+    posY: 1
+  - image: /img/soleil.svg
+    posX: 5
+    posY: 60
 ---
 ### **Current exhibition:**
 
