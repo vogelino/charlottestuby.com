@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 5
+orderOfAppearance: 6
 title: '"Gone Fishing"'
 subtitle: 019, Ghent (BE), Autumn 2019
 date: 2021-01-12T17:31:33.810Z
