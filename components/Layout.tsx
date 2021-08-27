@@ -41,7 +41,7 @@ const TemplateWrapper: FC<TemplateWrapperType> = ({
 	}, [page])
 
 	return (
-		<main className={getPageClass(page)}>
+		<main className={getPageClass(page)} className="website-main">
 			{!isPreview && <MetaTags />}
 			{!page.startsWith('/work/') && <Header />}
 			<article>

@@ -119,6 +119,9 @@ a.work-close-button svg {
 	float: left;
 	fill: #00f;
 }
+a.work-close-button:focus svg {
+	fill: #fff;
+}
 a.work-close-button:hover svg {
 	fill: #00c;
 }
@@ -136,6 +139,7 @@ a.work-close-button:active svg {
 .work-links a.work-link:focus:hover,
 .work-links a.work-link:focus:active {
 	background: none;
+	color: blue;
 }
 .work-links {
 	margin: 0 auto;

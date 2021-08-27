@@ -1,71 +1,76 @@
 .press-content {
-  position: relative;
-  padding: 10vmin;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  flex-wrap: wrap;
+	position: relative;
+	padding: 10vmin;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	flex-wrap: wrap;
 }
 .press-content:hover * {
-  text-decoration: none !important;
+	text-decoration: none !important;
 }
 .press-link-svg {
-  width: 300px;
-  height: 300px;
+	width: 300px;
+	height: 300px;
 }
 @media screen and (max-width: 400px) {
-  .press-link-svg {
-    width: 200px;
-    height: 200px;
-  }
+	.press-link-svg {
+		width: 200px;
+		height: 200px;
+	}
 }
 .press-link {
-  flex: 1 0 50%;
-  margin-bottom: 10vmin;
-  display: grid;
-  justify-content: center;
-  justify-items: center;
+	flex: 1 0 50%;
+	margin-bottom: 10vmin;
+	display: grid;
+	justify-content: center;
+	justify-items: center;
 }
 @media screen and (max-width: 960px) {
-  .press-link {
-    flex: 0 0 100%;
-  }
+	.press-link {
+		flex: 0 0 100%;
+	}
 }
 .press-link > a {
-  display: inline-grid;
-  grid-template-rows: 300px auto;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
-  grid-gap: 16px;
+	display: inline-grid;
+	grid-template-rows: 300px auto;
+	justify-content: center;
+	justify-items: center;
+	text-align: center;
+	grid-gap: 16px;
 }
 @media screen and (max-width: 400px) {
-  .press-link > a {
-    grid-template-rows: 200px auto;
-  }
+	.press-link > a {
+		grid-template-rows: 200px auto;
+	}
 }
 .press-link path {
-  stroke-width: 3px;
-  transition: stroke-width 100ms ease-out;
+	stroke-width: 3px;
+	transition: stroke-width 100ms ease-out;
 }
 .press-link:hover path {
-  stroke-width: 6px;
+	stroke-width: 6px;
 }
 .press-link:hover .press-link-url {
-  text-decoration: underline !important;
+	text-decoration: underline !important;
 }
 .press-link-content {
-  display: grid;
-  grid-gap: 8px;
+	display: grid;
+	grid-gap: 8px;
 }
 .press-link-date {
-  color: #8c8cd9;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bold;
-  letter-spacing: 0.2em;
+	color: #8c8cd9;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.2em;
 }
 .press-link-url {
-  color: #000030;
+	color: #000030;
+}
+
+a:hover .press-link-url,
+a:focus .press-link-url {
+	color: inherit;
 }

@@ -3,7 +3,7 @@ import Link from '../Link'
 import MainTitle from '../MainTitle'
 
 const Header: FC = () => (
-	<header>
+	<header className="main-header">
 		<MainTitle>
 			<Link className="logo" href="/">
 				Charlotte Stuby
