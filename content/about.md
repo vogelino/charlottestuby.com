@@ -34,7 +34,11 @@ forms:
 ---
 ### **Current exhibition:**
 
-### **"L'ennui régnait au dehors", Pano, Vevey (CH), visible  until mid-May 2021. www.panovevey.ch**
+### **"Horse cover & visage stupéfait", Balkkon,** 
+
+### **Neuchtel(CH),  visible until 24th October 2021**
+
+
 
 My work consists mainly of textile installations. My compositions are functional while carrying narratives. Through the use of "appliqué", quilting, embroidery or tapestry, I recreate a world strewn with clues and traces, symbols, sometimes logos and references drawn from the popular imagination and from my own memories. 
 
