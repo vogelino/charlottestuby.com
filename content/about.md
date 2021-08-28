@@ -36,7 +36,7 @@ forms:
 
 ### **"Horse cover & visage stupéfait", Balkkon,** 
 
-### **Neuchtel(CH),  visible until 24th October 2021**
+### **Neuchatel (CH),  visible until 24th October 2021**
 
 
 
