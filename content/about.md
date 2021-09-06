@@ -11,7 +11,7 @@ subtitle: |-
 portrait: /img/portrait_cs_carre__.jpg
 email: " ✉︎ charlottestuby@gmail.com"
 emailButtonText: Email
-cv: /img/cv_charlottestuby_march-2021.pdf
+cv: /img/cv_français-charlottestuby-sept21.pdf
 cvButtonText: Curriculum
 instagramUsername: charlottestuby
 instagramButtonText: Instagram
