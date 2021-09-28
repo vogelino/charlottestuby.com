@@ -9,7 +9,7 @@ subtitle: |-
 
   Based in Brussels.
 portrait: /img/portrait_cs_carre__.jpg
-email: " ✉︎ charlottestuby@gmail.com"
+email: charlottestuby@gmail.com
 emailButtonText: Email
 cv: /img/cv_english_september_2021-charlottestuby.pdf
 cvButtonText: Curriculum
