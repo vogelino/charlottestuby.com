@@ -9,9 +9,9 @@ subtitle: |-
 
   Based in Brussels.
 portrait: /img/portrait_cs_carre__.jpg
-email: " ✉︎ charlottestuby@gmail.com"
+email: charlottestuby@gmail.com
 emailButtonText: Email
-cv: /img/cv_charlottestuby_march-2021.pdf
+cv: /img/cv_english_september_2021-charlottestuby.pdf
 cvButtonText: Curriculum
 instagramUsername: charlottestuby
 instagramButtonText: Instagram
@@ -34,7 +34,9 @@ forms:
 ---
 ### **Current exhibition:**
 
-### **"L'ennui régnait au dehors", Pano, Vevey (CH), visible  until mid-May 2021. www.panovevey.ch**
+### **"Horse cover & visage stupéfait", Balkkon, Neuchatel (CH),  visible until 24th October 2021**
+
+
 
 My work consists mainly of textile installations. My compositions are functional while carrying narratives. Through the use of "appliqué", quilting, embroidery or tapestry, I recreate a world strewn with clues and traces, symbols, sometimes logos and references drawn from the popular imagination and from my own memories. 
 
