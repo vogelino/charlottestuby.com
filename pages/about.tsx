@@ -38,7 +38,7 @@ const AboutPage: FC<AboutPageType> = () => {
 				text={<MarkdownContent />}
 				emailAddress={email}
 				emailButtonText={emailButtonText}
-				cvUrl={cv.publicURL}
+				cvUrl={cv}
 				cvButtonText={cvButtonText}
 				instagramUsername={instagramUsername}
 				instagramButtonText={instagramButtonText}
