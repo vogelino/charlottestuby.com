@@ -13,5 +13,4 @@ images:
   - image: /img/pano-jaune-charlottestuby-vevey-2021.jpg
   - image: /img/pano-vert-charlottestuby-vevey-2021.jpg
   - image: /img/pano-genet-charlottestuby-vevey-2021.jpg
-  - image: /img/shooting_cata15420.jpg
 ---
