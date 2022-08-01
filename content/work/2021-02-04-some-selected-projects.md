@@ -2,7 +2,7 @@
 templateKey: work
 orderOfAppearance: 999
 title: Some selected projects
-subtitle: Belgium, Switzerland 2013-2020
+subtitle: Belgium, Switzerland 2013-2022
 date: 2021-02-04T13:10:50.409Z
 description: "-"
 thumbnail: /img/bike-cover-yellow-charlottestuby-brussels-2018.jpg
@@ -14,8 +14,8 @@ images:
       with an expressive face weave, woven with reflective yarns, Le Balkkon,
       Neuchâtel (CH), 2021
   - image: /img/page-accueil-selected-projects-charlottestuby.jpg
-    caption: embroidery on textile, 30x42cm, for COVID-19 Valentin 61, Brussels,
-      Spring 2020
+    caption: Embroidery on textile, 30x42cm, for COVID-19 Valentin 61, Brussels
+      (BE), Spring 2020
   - image: /img/nénie-charlotte-brussels-2017.jpg
     caption: Nénie, waterproof fabric, lithography, embroidery, metal stick,
       30x35cm, Brussels (BE), Spring 2017
@@ -44,6 +44,4 @@ images:
   - image: /img/diplome-2013-charlottestuby-lausanne.jpg
     caption: "Rafale interrompue, Diploma project, ECAL, Lausanne (CH), Spring 2013.
       Pictures: Julien Gremaud"
-  - image: /img/champion-segway-rochet-sedin-charlotte.-stuby-2021.jpg
-    caption: Champion Segway, etching, 20x25cm, Rochet Sedin, Brussels, Spring 2021
 ---
