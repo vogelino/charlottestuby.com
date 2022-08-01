@@ -6,7 +6,7 @@ subtitle: Belgium, Switzerland 2013-2022
 date: 2021-02-04T13:10:50.409Z
 description: "-"
 thumbnail: /img/bike-cover-yellow-charlottestuby-brussels-2018.jpg
-decorativeForm: /img/fichier-2.svg
+decorativeForm: /img/fichier-7.svg
 images:
   - image: /img/horse-cover-charlottestuby-balkkon-neuchatel-2021.jpg
     caption: Horse cover, proposal for a tailor-made cover. Between absurdity and
