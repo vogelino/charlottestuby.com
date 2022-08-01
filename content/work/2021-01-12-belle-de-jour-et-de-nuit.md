@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 3
+orderOfAppearance: 4
 title: '"Belle de jour et de nuit"'
 subtitle: Des Seins à Dessein, Lausanne (CH), Autumn 2020
 date: 2021-01-12T16:05:04.042Z
