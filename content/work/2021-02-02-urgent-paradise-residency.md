@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 10
+orderOfAppearance: 11
 title: '"Urgent Paradise Residency"'
 subtitle: Lausanne (CH), Winter 2018
 date: 2021-02-02T13:07:15.012Z
