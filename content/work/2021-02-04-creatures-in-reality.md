@@ -10,7 +10,7 @@ description: >-
 
   (if interested, send me an email! )
 thumbnail: /img/image_page-accueil-charlottestuby.jpg
-decorativeForm: /img/savon.svg
+decorativeForm: /img/fichier-4.svg
 images:
   - image: /img/1a-creatures-in-reality-2018-charlottestuby.jpg
   - image: /img/2a-creatures-in-reality-2018-charlottestuby.jpg
