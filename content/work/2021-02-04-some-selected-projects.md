@@ -9,10 +9,10 @@ thumbnail: /img/bike-cover-yellow-charlottestuby-brussels-2018.jpg
 decorativeForm: /img/lune.svg
 images:
   - image: /img/horse-cover-charlottestuby-balkkon-neuchatel-2021.jpg
-    caption: Proposal for a tailor-made cover. Between absurdity and functionality.
-      Revealing, protecting or concealing the object? Combined with an
-      expressive face weave, woven with reflective yarns, Le Balkkon, Neuchâtel
-      (CH), 2021
+    caption: Horse cover, proposal for a tailor-made cover. Between absurdity and
+      functionality. Revealing, protecting or concealing the object? Combined
+      with an expressive face weave, woven with reflective yarns, Le Balkkon,
+      Neuchâtel (CH), 2021
   - image: /img/page-accueil-selected-projects-charlottestuby.jpg
     caption: embroidery on textile, 30x42cm, for COVID-19 Valentin 61, Brussels,
       Spring 2020
