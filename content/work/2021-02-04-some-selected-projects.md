@@ -5,7 +5,7 @@ title: Some selected projects
 subtitle: Belgium, Switzerland 2013-2020
 date: 2021-02-04T13:10:50.409Z
 description: "-"
-thumbnail: /img/horse-cover-charlottestuby-balkkon-neuchatel-2021.jpg
+thumbnail: /img/bike-cover-yellow-charlottestuby-brussels-2018.jpg
 decorativeForm: /img/lune.svg
 images:
   - image: /img/horse-cover-charlottestuby-balkkon-neuchatel-2021.jpg
