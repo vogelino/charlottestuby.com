@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 8
+orderOfAppearance: 9
 title: '"Creatures in Reality"'
 subtitle: Ghent (BE), Autumn 2018
 date: 2021-02-04T11:54:30.098Z
