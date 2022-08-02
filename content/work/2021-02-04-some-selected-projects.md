@@ -44,4 +44,6 @@ images:
   - image: /img/diplome-2013-charlottestuby-lausanne.jpg
     caption: "Rafale interrompue, Diploma project, ECAL, Lausanne (CH), Spring 2013.
       Pictures: Julien Gremaud"
+  - image: /img/aquarius-charlottestuby-brussels-2022.jpg
+    caption: Aquarius, textile collage, 55x68cm, Galerie Vertige, Brussels, Spring 2022
 ---
