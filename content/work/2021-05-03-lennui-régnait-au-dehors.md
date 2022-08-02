@@ -6,7 +6,7 @@ subtitle: Pano, Vevey (CH), Spring 2021
 date: 2021-05-03T11:52:47.269Z
 description: with Genêt Mayor, Pictures by Julien Gremaud
 thumbnail: /img/shooting_cata15420.jpg
-decorativeForm: /img/lune-bis.svg
+decorativeForm: /img/2ronds.svg
 images:
   - image: /img/pano-charlottestuby-vevey-2021.jpg
   - image: /img/pano-charlottestuby-bleu-vevey-2021.jpg
