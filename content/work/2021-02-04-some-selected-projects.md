@@ -8,6 +8,9 @@ description: "-"
 thumbnail: /img/chair-cover-charlottestuby-gent-2022jpg-copie.jpg
 decorativeForm: /img/boukle-en-feu.svg
 images:
+  - image: /img/chair-cover-charlottestuby-gent-2022jpg.jpg
+    caption: '"Chair cover", part of Speaking chairs, a proposition by Onbetaalbaar,
+      Ghent (BE), 2022'
   - image: /img/horse-cover-charlottestuby-balkkon-neuchatel-2021.jpg
     caption: Horse cover, proposal for a tailor-made cover. Between absurdity and
       functionality. Revealing, protecting or concealing the object? Combined
@@ -46,7 +49,4 @@ images:
   - image: /img/diplome-2013-charlottestuby-lausanne.jpg
     caption: "Rafale interrompue, Diploma project, ECAL, Lausanne (CH), Spring 2013.
       Pictures: Julien Gremaud"
-  - image: /img/chair-cover-charlottestuby-gent-2022jpg.jpg
-    caption: '"Chair cover", part of Speaking chairs, a proposition by Onbetaalbaar,
-      Ghent (BE), 2022'
 ---
