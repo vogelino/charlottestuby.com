@@ -5,7 +5,7 @@ title: Some selected projects
 subtitle: Belgium, Switzerland 2013-2022
 date: 2021-02-04T13:10:50.409Z
 description: "-"
-thumbnail: /img/bike-cover-yellow-charlottestuby-brussels-2018.jpg
+thumbnail: /img/chair-cover-charlottestuby-gent-2022jpg.jpg
 decorativeForm: /img/splash-bleu.svg
 images:
   - image: /img/horse-cover-charlottestuby-balkkon-neuchatel-2021.jpg
@@ -46,4 +46,7 @@ images:
   - image: /img/diplome-2013-charlottestuby-lausanne.jpg
     caption: "Rafale interrompue, Diploma project, ECAL, Lausanne (CH), Spring 2013.
       Pictures: Julien Gremaud"
+  - image: /img/chair-cover-charlottestuby-gent-2022jpg.jpg
+    caption: '"Chair cover", part of Speaking chairs, a proposition by Onbetaalbaar,
+      Ghent (BE), 2022'
 ---
