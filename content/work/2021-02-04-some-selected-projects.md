@@ -5,8 +5,8 @@ title: Some selected projects
 subtitle: Belgium, Switzerland 2013-2022
 date: 2021-02-04T13:10:50.409Z
 description: "-"
-thumbnail: /img/chair-cover-charlottestuby-gent-2022jpg.jpg
-decorativeForm: /img/splash-bleu.svg
+thumbnail: /img/chair-cover-charlottestuby-gent-2022jpg-copie.jpg
+decorativeForm: /img/trait-vitesse.svg
 images:
   - image: /img/horse-cover-charlottestuby-balkkon-neuchatel-2021.jpg
     caption: Horse cover, proposal for a tailor-made cover. Between absurdity and
