@@ -8,7 +8,7 @@ subtitle: |-
   Born in 1989 in Vevey (CH). 
 
   Based in Brussels.
-portrait: /img/portrait_cs_carre__.jpg
+portrait: /img/charlotte-stuby-portrait-lou-merie-2022.jpg
 email: charlottestuby@gmail.com
 emailButtonText: Email
 cv: /img/cv_english_september_2021-charlottestuby.pdf
