@@ -11,8 +11,6 @@ images:
   - image: /img/chair-cover-charlottestuby-gent-2022jpg.jpg
     caption: '"Chair cover", part of Speaking chairs, a proposition by Onbetaalbaar,
       Ghent (BE), 2022'
-  - image: /img/collage_charlotte-stuby-2023-brussels.jpg
-    caption: Everywhen, textile collage, Brussels, Winter 2023
   - image: /img/aquarius-charlottestuby-brussels-2022.jpg
     caption: Aquarius, textile collage, 55x68cm, Galerie Vertige, Brussels, Spring 2022
   - image: /img/horse-cover-charlottestuby-balkkon-neuchatel-2021.jpg
