@@ -11,7 +11,7 @@ subtitle: |-
 portrait: /img/charlotte-stuby-portrait-lou-merie-2022.jpg
 email: charlottestuby@gmail.com
 emailButtonText: Email
-cv: /img/cv_english_september_2021-charlottestuby.pdf
+cv: /img/cv_english_march-2023-charlottestuby.pdf
 cvButtonText: Curriculum
 instagramUsername: charlottestuby
 instagramButtonText: Instagram
