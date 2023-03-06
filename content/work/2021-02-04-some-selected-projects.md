@@ -42,4 +42,6 @@ images:
   - image: /img/diplome2-2013-charlottestuby-lausanne.jpg
     caption: "Rafale interrompue, Diploma project, ECAL, Lausanne (CH), Spring 2013.
       Pictures: Julien Gremaud"
+  - image: /img/collage_charlotte-stuby-2023-brussels.jpg
+    caption: Everywhen, textile collage, Brussels, Winter 2023
 ---
