@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 10
+orderOfAppearance: 13
 title: "162"
 subtitle: La Placette, Lausanne (CH), Spring 2018
 date: 2021-02-02T12:58:17.545Z
