@@ -1,7 +1,7 @@
 ---
 templateKey: work
 orderOfAppearance: 1
-title: Handle With Joy, in collaboration with Sarah Margnetti and Susanne Fischer
+title: '"Handle With Joy", in collaboration with Sarah Margnetti and Susanne Fischer'
 subtitle: at DBKA Paddock, Brussels (BE), Winter 2023
 date: 2023-04-03T13:28:10.741Z
 description: " Pictures by Lola Pertsowsky"
