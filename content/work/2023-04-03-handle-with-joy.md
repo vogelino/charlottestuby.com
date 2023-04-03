@@ -4,8 +4,8 @@ orderOfAppearance: 1
 title: '"Handle With Joy"'
 subtitle: at DBKA Paddock, Brussels, Winter 2023
 date: 2023-04-03T13:28:10.741Z
-description: at DBKA Paddock, Brussels, Winter 2023. In collaboration with Sarah
-  Margnetti and Susanne Fischer. Pictures by Lola Pertsowsky
+description: In collaboration with Sarah Margnetti and Susanne Fischer. Pictures
+  by Lola Pertsowsky
 thumbnail: /img/carre_charlottestuby-handlewithjoy-2023.jpg
 decorativeForm: /img/damier.svg
 images:
