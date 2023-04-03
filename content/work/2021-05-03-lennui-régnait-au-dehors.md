@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 4
+orderOfAppearance: 6
 title: "\"L'ennui régnait au dehors\""
 subtitle: Pano, Vevey (CH), Spring 2021
 date: 2021-05-03T11:52:47.269Z
