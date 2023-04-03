@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 9
+orderOfAppearance: 11
 title: "\"l'âge de roseau\""
 subtitle: Sagacity, Brussels (BE), Spring 2019
 date: 2021-02-02T12:50:33.297Z
