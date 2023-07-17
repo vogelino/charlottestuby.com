@@ -11,8 +11,16 @@ images:
   - image: /img/chair-cover-charlottestuby-gent-2022jpg.jpg
     caption: '"Chair cover", part of Speaking chairs, a proposition by Onbetaalbaar,
       Ghent (BE), 2022'
+  - image: /img/lada-white-charlottestuby-brussels-2023.jpg
+    caption: Lada (white), mixed textile, 31x40cm, Brussels, 2023. Picture by
+      Mélanie Peduzzi
+  - image: /img/lada-red-charlottestuby-brussels-2023.jpg
+    caption: Lada (red), mixed textile, 31x40cm, Brussels, 2023. Picture by Mélanie
+      Peduzzi
   - image: /img/aquarius-charlottestuby-brussels-2022.jpg
     caption: Aquarius, textile collage, 55x68cm, Galerie Vertige, Brussels, Spring 2022
+  - image: /img/vesta_charlotte-stuby-2023-brussels.jpg
+    caption: Vesta (red), mixed textile, 55x68cm, brussels, 2023
   - image: /img/horse-cover-charlottestuby-balkkon-neuchatel-2021.jpg
     caption: Horse cover, proposal for a tailor-made cover. Between absurdity and
       functionality. Revealing, protecting or concealing the object? Combined
@@ -42,12 +50,4 @@ images:
   - image: /img/diplome2-2013-charlottestuby-lausanne.jpg
     caption: "Rafale interrompue, Diploma project, ECAL, Lausanne (CH), Spring 2013.
       Pictures: Julien Gremaud"
-  - image: /img/vesta_charlotte-stuby-2023-brussels.jpg
-    caption: Vesta (red), mixed textile, 55x68cm, brussels, 2023
-  - image: /img/lada-white-charlottestuby-brussels-2023.jpg
-    caption: Lada (white), mixed textile, 31x40cm, Brussels, 2023. Picture by
-      Mélanie Peduzzi
-  - image: /img/lada-red-charlottestuby-brussels-2023.jpg
-    caption: Lada (red), mixed textile, 31x40cm, Brussels, 2023. Picture by Mélanie
-      Peduzzi
 ---
