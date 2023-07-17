@@ -16,4 +16,9 @@ pressList:
     pdfFile: /img/article_delaloye-24h-charlottestuby-2020.jpg
     screenshot: /img/screenshot-article_delaloye-24h-charlottestuby-2020.jpg
     color: "#FF0000"
+  - date: Jul. 2023
+    title: Interview on Murmur
+    url: https://www.artemurmur.com/interview-with-charlotte-stuby
+    screenshot: /img/capture-d’écran-2023-07-17-à-09.53.57.png
+    color: "#0000FF"
 ---
