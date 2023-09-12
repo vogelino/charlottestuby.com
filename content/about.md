@@ -34,7 +34,7 @@ forms:
 ---
 Ongoing show: 
 
-\- "I try to imagine how your texture felt like" collective show Yper Museum, in Ypres (BE), from 10.09 until 12.11.23
+ "I try to imagine how your texture felt like" collective show Yper Museum, in Ypres (BE), from 10.09 until 12.11.23.
 
 My work consists mainly of textile installations. My compositions are functional while carrying narratives. Through the use of "appliqué", quilting, embroidery or tapestry, I recreate a world strewn with clues and traces, symbols, sometimes logos and references drawn from the popular imagination and from my own memories. 
 
