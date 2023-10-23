@@ -3,7 +3,6 @@ path: /about
 templateKey: about-page
 title: ⚐
 subtitle: |
-  
   Based between Brussels (BE) and Vevey (CH)
 portrait: /img/charlotte-stuby-portrait-lou-merie-2022.jpg
 email: charlottestuby@gmail.com
