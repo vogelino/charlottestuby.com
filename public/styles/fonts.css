@@ -1,7 +1,8 @@
 @font-face {
 	font-family: 'HKGrotesk';
 	src: url('/fonts/hkgrotesk-bold.eot?v=123');
-	src: url('/fonts/hkgrotesk-bold.eot#iefix?v=123') format('embedded-opentype'),
+	src:
+		url('/fonts/hkgrotesk-bold.eot#iefix?v=123') format('embedded-opentype'),
 		url('/fonts/hkgrotesk-bold.woff2?v=123') format('woff2'),
 		url('/fonts/hkgrotesk-bold.woff?v=123') format('woff'),
 		url('/fonts/hkgrotesk-bold.ttf?v=123') format('truetype'),
@@ -12,7 +13,8 @@
 @font-face {
 	font-family: 'HKGrotesk';
 	src: url('/fonts/hkgrotesk-light.eot?v=123');
-	src: url('/fonts/hkgrotesk-light.eot#iefix?v=123') format('embedded-opentype'),
+	src:
+		url('/fonts/hkgrotesk-light.eot#iefix?v=123') format('embedded-opentype'),
 		url('/fonts/hkgrotesk-light.woff2?v=123') format('woff2'),
 		url('/fonts/hkgrotesk-light.woff?v=123') format('woff'),
 		url('/fonts/hkgrotesk-light.ttf?v=123') format('truetype'),
@@ -23,7 +25,8 @@
 @font-face {
 	font-family: 'HKGrotesk';
 	src: url('/fonts/hkgrotesk-medium.eot?v=123');
-	src: url('/fonts/hkgrotesk-medium.eot#iefix?v=123') format('embedded-opentype'),
+	src:
+		url('/fonts/hkgrotesk-medium.eot#iefix?v=123') format('embedded-opentype'),
 		url('/fonts/hkgrotesk-medium.woff2?v=123') format('woff2'),
 		url('/fonts/hkgrotesk-medium.woff?v=123') format('woff'),
 		url('/fonts/hkgrotesk-medium.ttf?v=123') format('truetype'),
@@ -34,7 +37,8 @@
 @font-face {
 	font-family: 'HKGrotesk';
 	src: url('/fonts/hkgrotesk-regular.eot?v=123');
-	src: url('/fonts/hkgrotesk-regular.eot#iefix?v=123') format('embedded-opentype'),
+	src:
+		url('/fonts/hkgrotesk-regular.eot#iefix?v=123') format('embedded-opentype'),
 		url('/fonts/hkgrotesk-regular.woff2?v=123') format('woff2'),
 		url('/fonts/hkgrotesk-regular.woff?v=123') format('woff'),
 		url('/fonts/hkgrotesk-regular.ttf?v=123') format('truetype'),

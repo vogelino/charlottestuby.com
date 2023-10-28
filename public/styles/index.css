@@ -118,7 +118,9 @@ article section.content .work-thumbnail a:focus {
 	border-radius: 50%;
 	box-sizing: border-box;
 	border: 1px solid #fff;
-	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+	box-shadow:
+		0 0 0 1px rgba(0, 0, 0, 0.2),
+		inset 0 0 0 2px rgba(0, 0, 0, 0.2);
 	margin-top: 16px;
 	margin-left: 16px;
 	transition: all 400ms cubic-bezier(0.19, 1, 0.22, 1);

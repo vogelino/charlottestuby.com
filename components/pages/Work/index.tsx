@@ -3,7 +3,7 @@ import Link from '../../Link'
 import List from '../../List'
 import ListElement from '../../ListElement'
 import Icon from '../../Icon'
-import Image from "next/image"
+import Image from 'next/image'
 import WorkLink from '../../WorkLink'
 import { WorkType } from '../../../types'
 
@@ -53,7 +53,7 @@ const Work: FC<WorkPropType> = ({
 	}, [])
 
 	return (
-        <div className={`work-container ${slug}`} id={id}>
+		<div className={`work-container ${slug}`} id={id}>
 			<div className={`work-header ${isScrollingUp && 'scroll-up'}`}>
 				<div className="work-header-container">
 					<h2 className="work-title">{title}</h2>
@@ -80,13 +80,14 @@ const Work: FC<WorkPropType> = ({
 						<figure>
 							<div className="work-image-loading-container">
 								<Image
-                                    alt=""
-                                    src={image}
-                                    fill
-                                    sizes="100vw"
-                                    style={{
-                                        objectFit: "contain"
-                                    }} />
+									alt=""
+									src={image}
+									fill
+									sizes="100vw"
+									style={{
+										objectFit: 'contain',
+									}}
+								/>
 							</div>
 							{caption ? <figcaption>{formatDescription(caption)}</figcaption> : null}
 						</figure>
@@ -106,7 +107,7 @@ const Work: FC<WorkPropType> = ({
 				)}
 			</List>
 		</div>
-    );
+	)
 }
 
 export default Work

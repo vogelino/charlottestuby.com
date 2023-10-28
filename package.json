@@ -1,50 +1,51 @@
 {
-  "name": "charlottestuby.com",
-  "description": "Charlotte stuby's online portfolio",
-  "version": "2.0.0",
-  "author": "Lucas Vogel <contact@vogelino.com> (https://vogelino.com)",
-  "main": "n/a",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "export": "npm run build && next export",
-    "lint-fix": "npm run lint -- --fix"
-  },
-  "keywords": [
-    "gatsby",
-    "decap",
-    "decap cms",
-    "portfolio",
-    "artist",
-    "swiss",
-    "brussels",
-    "textile"
-  ],
-  "homepage": "https://charlottestuby.com",
-  "license": "MIT",
-  "dependencies": {
-    "@splidejs/react-splide": "0.7.12",
-    "decap-cms-app": "3.0.12",
-    "decap-cms-media-library-cloudinary": "3.0.1",
-    "decap-cms-media-library-uploadcare": "3.0.0",
-    "eslint-config-next": "14.0.0",
-    "frontmatter-markdown-loader": "3.7.0",
-    "gray-matter": "4.0.3",
-    "gsap": "3.12.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-markdown": "8.0.7"
-  },
-  "devDependencies": {
-    "@babel/core": "7.22.20",
-    "@babel/preset-react": "7.22.15",
-    "@types/node": "20.6.3",
-    "@types/react": "18.2.22",
-    "@typescript-eslint/eslint-plugin": "6.7.2",
-    "@typescript-eslint/parser": "6.7.2",
-    "babel-eslint": "10.1.0",
-    "next": "13.5.2"
-  }
+	"name": "charlottestuby.com",
+	"description": "Charlotte stuby's online portfolio",
+	"version": "2.0.0",
+	"author": "Lucas Vogel <contact@vogelino.com> (https://vogelino.com)",
+	"main": "n/a",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"export": "npm run build && next export",
+		"format": "npx prettier . --write",
+		"lint-fix": "npm run lint -- --fix"
+	},
+	"keywords": [
+		"gatsby",
+		"decap",
+		"decap cms",
+		"portfolio",
+		"artist",
+		"swiss",
+		"brussels",
+		"textile"
+	],
+	"homepage": "https://charlottestuby.com",
+	"license": "MIT",
+	"dependencies": {
+		"@splidejs/react-splide": "0.7.12",
+		"decap-cms-app": "3.0.12",
+		"decap-cms-media-library-cloudinary": "3.0.1",
+		"decap-cms-media-library-uploadcare": "3.0.0",
+		"eslint-config-next": "14.0.0",
+		"frontmatter-markdown-loader": "3.7.0",
+		"gray-matter": "4.0.3",
+		"gsap": "3.12.2",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-markdown": "8.0.7"
+	},
+	"devDependencies": {
+		"@babel/core": "7.22.20",
+		"@babel/preset-react": "7.22.15",
+		"@types/node": "20.6.3",
+		"@types/react": "18.2.22",
+		"@typescript-eslint/eslint-plugin": "6.7.2",
+		"@typescript-eslint/parser": "6.7.2",
+		"babel-eslint": "10.1.0",
+		"next": "13.5.2"
+	}
 }

@@ -4,7 +4,7 @@ orderOfAppearance: 16
 title: '"Here not here"'
 subtitle: LUCA School of Arts, Gent (BE), 2017
 date: 2021-02-02T11:59:48.272Z
-description: "Museum of Moving Practice, 019, Pictures: Michiel De Cleene, Tom De Visscher "
+description: 'Museum of Moving Practice, 019, Pictures: Michiel De Cleene, Tom De Visscher '
 thumbnail: /img/image_page-accueil-vespa-charlottestuby.jpg
 decorativeForm: /img/vase.svg
 images:

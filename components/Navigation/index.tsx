@@ -10,10 +10,7 @@ const Navigation: FC<NavigationType> = ({ page = '', isPreview = false }) => (
 	<nav role="navigation" aria-label="main-navigation" className="main-nav">
 		<ul>
 			<li className="press">
-				<Link
-					href={isPreview ? '#' : '/press'}
-					className={page === 'press' ? 'active' : ''}
-				>
+				<Link href={isPreview ? '#' : '/press'} className={page === 'press' ? 'active' : ''}>
 					Press
 				</Link>
 			</li>
@@ -23,10 +20,7 @@ const Navigation: FC<NavigationType> = ({ page = '', isPreview = false }) => (
 				</Link>
 			</li>
 			<li className="about">
-				<Link
-					href={isPreview ? '#' : '/about'}
-					className={page === 'about' ? 'active' : ''}
-				>
+				<Link href={isPreview ? '#' : '/about'} className={page === 'about' ? 'active' : ''}>
 					About
 				</Link>
 			</li>

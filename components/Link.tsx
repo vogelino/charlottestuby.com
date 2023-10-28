@@ -13,7 +13,7 @@ const Link: FC<LinkType> = ({ children, href, className, target }) => {
 	if (href.startsWith('/')) {
 		return (
 			<InternalLink href={href} className={linkClassName} target={target || undefined}>
-					{children}
+				{children}
 			</InternalLink>
 		)
 	}
