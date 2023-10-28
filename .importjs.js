@@ -4,6 +4,6 @@ module.exports = {
 			.replace('./components/', '@components/')
 			.replace('./utils/', '@utils/')
 			.replace('./content/', '@content/')
-			.replace(/\.ts$/gs, '')
+			.replace(/\.ts$/gs, '');
 	},
 }

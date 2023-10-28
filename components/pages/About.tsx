@@ -1,6 +1,6 @@
 import { FC, ReactNode } from 'react'
 import Link from '../Link'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import ReactMarkdown from 'react-markdown'
 
 interface FormType {

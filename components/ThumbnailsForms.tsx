@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import List from './List'
 import ListElement from './ListElement'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import { FormType } from '../types'
 
 interface ThumbnailsFormsType {

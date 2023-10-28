@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import Link from './Link'
 import Icon from './Icon'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 interface WorkLinkType {
 	title: string
