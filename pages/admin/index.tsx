@@ -17,10 +17,12 @@ const importScripts = async (): Promise<{
 }> => {
 	const [{ default: CMS }, { default: uploadcare }, { default: cloudinary }] = await Promise.all([
 		import('netlify-cms-app'),
+		// @ts-ignore
 		import('netlify-cms-media-library-uploadcare'),
+		// @ts-ignore
 		import('netlify-cms-media-library-cloudinary'),
 	])
-	return { CMS: (CMS as unknown) as CMSType, uploadcare, cloudinary }
+	return { CMS: CMS as unknown as CMSType, uploadcare, cloudinary }
 }
 
 const initCMS = async (): Promise<void> => {
@@ -38,9 +40,9 @@ const initCMS = async (): Promise<void> => {
 	CMS.registerPreviewStyle('/styles/about.css')
 	CMS.registerPreviewStyle('/styles/press.css')
 	CMS.registerPreviewStyle('/styles/work.css')
-	CMS.registerPreviewTemplate('about', AboutPagePreview)
-	CMS.registerPreviewTemplate('press', PressPagePreview)
-	CMS.registerPreviewTemplate('work', WorkPreview)
+	CMS.registerPreviewTemplate('about', AboutPagePreview as unknown as ReactNode)
+	CMS.registerPreviewTemplate('press', PressPagePreview as unknown as ReactNode)
+	CMS.registerPreviewTemplate('work', WorkPreview as unknown as ReactNode)
 }
 
 const NetlifyCMS: FC = () => {

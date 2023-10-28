@@ -2,6 +2,7 @@ import { FC } from 'react'
 import Layout from '../components/Layout'
 import About from '../components/pages/About'
 import { attributes, react as MarkdownContent } from '../content/about.md'
+import { AboutFormType } from 'types'
 
 interface AboutPageType {
 	title: string
@@ -13,7 +14,7 @@ interface AboutPageType {
 	instagramUsername: string
 	instagramButtonText: string
 	portrait: string
-	forms: string[]
+	forms: AboutFormType[]
 }
 
 const AboutPage: FC<AboutPageType> = () => {
@@ -28,7 +29,7 @@ const AboutPage: FC<AboutPageType> = () => {
 		instagramButtonText,
 		portrait,
 		forms,
-	} = attributes
+	} = attributes as unknown as AboutPageType
 
 	return (
 		<Layout page="/about">

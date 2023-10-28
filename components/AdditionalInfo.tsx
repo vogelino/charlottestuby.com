@@ -1,5 +1,7 @@
-import { FC } from 'react'
+import { FC, ReactNode } from 'react'
 
-const AdditionalInfo: FC = ({ children, ...rest }) => <small {...rest}>{children}</small>
+const AdditionalInfo: FC<{ children: ReactNode }> = ({ children, ...rest }) => (
+	<small {...rest}>{children}</small>
+)
 
 export default AdditionalInfo

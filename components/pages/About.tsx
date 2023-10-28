@@ -1,15 +1,15 @@
 import { FC, ReactNode } from 'react'
 import Link from '../Link'
-import Image from "next/image"
+import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 
-interface FormType {
+export interface FormType {
 	image: string
 	posX: number
 	posY: number
 }
 
-interface AboutPageType {
+export interface AboutPageType {
 	title: string
 	text: ReactNode
 	emailAddress: string
@@ -40,16 +40,17 @@ const About: FC<AboutPageType> = ({
 		<section className="about-picture">
 			<div className="img">
 				<Image
-                    alt=""
-                    src={portrait}
-                    width="400"
-                    height="400"
-                    sizes="100vw"
-                    style={{
-                        width: "100%",
-                        height: "auto",
-                        objectFit: "cover"
-                    }} />
+					alt=""
+					src={portrait}
+					width="400"
+					height="400"
+					sizes="100vw"
+					style={{
+						width: '100%',
+						height: 'auto',
+						objectFit: 'cover',
+					}}
+				/>
 			</div>
 			<div className="about-forms">
 				<div>
@@ -63,13 +64,14 @@ const About: FC<AboutPageType> = ({
 							}}
 						>
 							<Image
-                                alt=""
-                                src={form.image}
-                                width="300"
-                                height="300"
-                                style={{
-                                    objectFit: "contain"
-                                }} />
+								alt=""
+								src={form.image}
+								width="300"
+								height="300"
+								style={{
+									objectFit: 'contain',
+								}}
+							/>
 						</span>
 					))}
 				</div>

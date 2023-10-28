@@ -6,7 +6,7 @@ import { PressLinkType } from '../types'
 import useSiteMetadata from '../components/SiteMetadata'
 
 const PressPage: FC = () => {
-	const pressList: PressLinkType[] = attributes.pressList
+	const pressList = attributes.pressList as PressLinkType[]
 	const { siteUrl } = useSiteMetadata()
 
 	return (

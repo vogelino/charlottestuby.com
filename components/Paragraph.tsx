@@ -1,9 +1,7 @@
-import { FC } from 'react'
+import { FC, ReactNode } from 'react'
 
-const Paragraph: FC = ({ children, ...rest }) => <p {...rest}>{children}</p>
-
-Paragraph.defaultProps = {
-	className: {},
-}
+const Paragraph: FC<{ children: ReactNode }> = ({ children, ...rest }) => (
+	<p {...rest}>{children}</p>
+)
 
 export default Paragraph
