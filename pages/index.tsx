@@ -2,6 +2,8 @@ import { FC } from 'react'
 import WorksPage from '@components/pages/Works'
 import { getAllWorksContents } from '@utils/staticPathsUtil'
 import { WorkType } from '../types'
+import '@splidejs/react-splide/css/core'
+
 interface WorksPageType {
 	works: WorkType[]
 }

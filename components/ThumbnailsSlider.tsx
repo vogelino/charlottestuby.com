@@ -1,5 +1,5 @@
-import Slider from 'nuka-carousel'
-import React, { Component, ReactNode } from 'react'
+import { Splide, SplideTrack } from '@splidejs/react-splide'
+import React, { FC, ReactNode, useEffect, useRef } from 'react'
 
 interface ThumbnailsSliderType {
 	className: string
@@ -9,61 +9,46 @@ interface ThumbnailsSliderType {
 	children: ReactNode
 }
 
-class ThumbnailsSlider extends Component<ThumbnailsSliderType> {
-	loaded: boolean
+const ThumbnailsSlider: FC<ThumbnailsSliderType> = ({
+	className,
+	setCurrentWorksSlide,
+	setWorksSliderDragState = () => undefined,
+	currentSlideIndex,
+	children,
+}) => {
+	const slider = useRef<Splide>(null)
 
-	constructor(props: ThumbnailsSliderType) {
-		super(props)
+	useEffect(() => {
+		slider.current?.go(currentSlideIndex)
+	}, [currentSlideIndex])
 
-		this.loaded = false
-
-		this.getSlider = this.getSlider.bind(this)
-	}
-
-	componentDidMount(): void {
-		this.loaded = true
-		this.forceUpdate()
-	}
-
-	getSlider(): ReactNode {
-		const {
-			children,
-			className,
-			setCurrentWorksSlide,
-			setWorksSliderDragState = () => undefined,
-			currentSlideIndex,
-		} = this.props
-		const sliderConfig = {
-			autoplay: false,
-			decorators: [],
-			dragging: true,
-			data: () => {
-				setWorksSliderDragState(true)
-			},
-			afterSlide: setCurrentWorksSlide,
-			slideIndex: currentSlideIndex,
-			initialSlideHeight: 500,
-			initialSlideWidth: 500,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			vertical: true,
-			className,
-			renderTopCenterControls: () => null,
-			renderCenterLeftControls: () => null,
-			renderCenterRightControls: () => null,
-			renderBottomCenterControls: () => null,
-		}
-		return <Slider {...sliderConfig}>{children}</Slider>
-	}
-
-	render(): ReactNode {
-		const { children, className } = this.props
-		return this.loaded ? this.getSlider() : <div className={className}>{children}</div>
-	}
+	return (
+		<Splide
+			ref={slider}
+			hasTrack={false}
+			className={className}
+			options={{
+				type: 'slide',
+				rewind: false,
+				perPage: 1,
+				perMove: 1,
+				direction: 'ttb',
+				height: '100vh',
+				width: '100vw',
+				gap: 0,
+				pagination: false,
+				arrows: false,
+				drag: true,
+				cover: true,
+				autoplay: false,
+				start: currentSlideIndex,
+			}}
+			onDrag={() => setWorksSliderDragState(true)}
+			onUpdated={(splide) => setCurrentWorksSlide(splide.index)}
+		>
+			<SplideTrack>{children}</SplideTrack>
+		</Splide>
+	)
 }
-
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-ThumbnailsSlider.mixins = [Slider.ControllerMixin]
 
 export default ThumbnailsSlider
