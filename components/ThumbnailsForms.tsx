@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import List from './List'
 import ListElement from './ListElement'
-import Image from "next/legacy/image"
+import Image from "next/image"
 import { FormType } from '../types'
 
 interface ThumbnailsFormsType {
@@ -23,7 +23,7 @@ const ThumbnailsForms: FC<ThumbnailsFormsType> = ({ forms = [], currentSlide = 0
 					className={`thumbnail-form ${index === currentSlide ? 'active' : ''}`}
 					key={id}
 				>
-					<Image alt="" src={decorativeForm} width="300" height="300" layout="fixed" />
+					<Image alt="" src={decorativeForm} width="300" height="300" />
 				</ListElement>
 			))}
 		</List>

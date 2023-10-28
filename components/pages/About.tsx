@@ -1,6 +1,6 @@
 import { FC, ReactNode } from 'react'
 import Link from '../Link'
-import Image from "next/legacy/image"
+import Image from "next/image"
 import ReactMarkdown from 'react-markdown'
 
 interface FormType {
@@ -40,13 +40,16 @@ const About: FC<AboutPageType> = ({
 		<section className="about-picture">
 			<div className="img">
 				<Image
-					alt=""
-					src={portrait}
-					width="400"
-					height="400"
-					objectFit="cover"
-					layout="responsive"
-				/>
+                    alt=""
+                    src={portrait}
+                    width="400"
+                    height="400"
+                    sizes="100vw"
+                    style={{
+                        width: "100%",
+                        height: "auto",
+                        objectFit: "cover"
+                    }} />
 			</div>
 			<div className="about-forms">
 				<div>
@@ -60,13 +63,13 @@ const About: FC<AboutPageType> = ({
 							}}
 						>
 							<Image
-								alt=""
-								src={form.image}
-								width="300"
-								height="300"
-								layout="fixed"
-								objectFit="contain"
-							/>
+                                alt=""
+                                src={form.image}
+                                width="300"
+                                height="300"
+                                style={{
+                                    objectFit: "contain"
+                                }} />
 						</span>
 					))}
 				</div>
