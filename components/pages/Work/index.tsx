@@ -79,7 +79,7 @@ const Work: FC<WorkPropType> = ({
 					<ListElement className="work-image" key={image}>
 						<figure>
 							<div className="work-image-loading-container">
-								<Image src={image} layout="fill" objectFit="contain" />
+								<Image alt="" src={image} layout="fill" objectFit="contain" />
 							</div>
 							{caption ? <figcaption>{formatDescription(caption)}</figcaption> : null}
 						</figure>

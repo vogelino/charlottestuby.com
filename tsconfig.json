@@ -21,11 +21,18 @@
     "target": "esnext",
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["./components/*"],
-      "@utils/*": ["./utils/*"],
-      "@content/*": ["./content/*"]
+      "@components/*": [
+        "./components/*"
+      ],
+      "@utils/*": [
+        "./utils/*"
+      ],
+      "@content/*": [
+        "./content/*"
+      ]
     },
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "incremental": true
   },
   "include": [
     "next-env.d.ts",
@@ -43,6 +50,6 @@
     ".eslintrc.js",
     ".importjs.js",
     "*.config.js",
-    ".prettierrc.js",
+    ".prettierrc.js"
   ]
 }

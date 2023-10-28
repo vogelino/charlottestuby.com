@@ -10,6 +10,7 @@ interface TemplateWrapperType {
 	currentSlideIndex?: number
 	forms?: FormType[]
 	isPreview?: boolean
+	children: React.ReactNode
 }
 
 const getPageClass = (page: string): string => {

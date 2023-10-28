@@ -23,7 +23,7 @@ const ThumbnailsForms: FC<ThumbnailsFormsType> = ({ forms = [], currentSlide = 0
 					className={`thumbnail-form ${index === currentSlide ? 'active' : ''}`}
 					key={id}
 				>
-					<Image src={decorativeForm} width="300" height="300" layout="fixed" />
+					<Image alt="" src={decorativeForm} width="300" height="300" layout="fixed" />
 				</ListElement>
 			))}
 		</List>

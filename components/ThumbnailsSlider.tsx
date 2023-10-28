@@ -6,6 +6,7 @@ interface ThumbnailsSliderType {
 	setCurrentWorksSlide: (currentSlideIndex: number) => void
 	setWorksSliderDragState?: (isBeingDragged: boolean) => void
 	currentSlideIndex: number
+	children: ReactNode
 }
 
 class ThumbnailsSlider extends Component<ThumbnailsSliderType> {

@@ -39,7 +39,14 @@ const About: FC<AboutPageType> = ({
 	<div id="about-content">
 		<section className="about-picture">
 			<div className="img">
-				<Image src={portrait} width="400" height="400" objectFit="cover" layout="responsive" />
+				<Image
+					alt=""
+					src={portrait}
+					width="400"
+					height="400"
+					objectFit="cover"
+					layout="responsive"
+				/>
 			</div>
 			<div className="about-forms">
 				<div>
@@ -52,7 +59,14 @@ const About: FC<AboutPageType> = ({
 								left: `${form.posX}vw`,
 							}}
 						>
-							<Image src={form.image} width="300" height="300" layout="fixed" objectFit="contain" />
+							<Image
+								alt=""
+								src={form.image}
+								width="300"
+								height="300"
+								layout="fixed"
+								objectFit="contain"
+							/>
 						</span>
 					))}
 				</div>
@@ -60,15 +74,15 @@ const About: FC<AboutPageType> = ({
 		</section>
 		<section className="about-content">
 			<h1>
-				<ReactMarkdown source={title} />
+				<ReactMarkdown children={title} />
 			</h1>
 			{subtitle && (
 				<h3>
-					<ReactMarkdown source={subtitle} />
+					<ReactMarkdown children={subtitle} />
 				</h3>
 			)}
 			<div className="about-text">
-				{typeof text === 'string' ? <ReactMarkdown source={text} /> : text}
+				{typeof text === 'string' ? <ReactMarkdown children={text} /> : text}
 			</div>
 			{cvUrl && cvButtonText && (
 				<Link className="btn" href={`${cvUrl}`} target="__blank">

@@ -9,9 +9,7 @@ const NotFoundPage: FC = () => (
 			<h1 className="error-title">NOT FOUND</h1>
 			<p>You just hit a route that doesn&#39;t exist...</p>
 			<br />
-			<Link href="/">
-				<a>Try your luck on the home page!</a>
-			</Link>
+			<Link href="/">Try your luck on the home page!</Link>
 		</div>
 	</Layout>
 )

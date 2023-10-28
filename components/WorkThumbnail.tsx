@@ -10,7 +10,7 @@ interface WorkThumbnailType {
 const WorkThumbnail: FC<WorkThumbnailType> = ({ thumbnail, slug }) => (
 	<Link href={`/work/${slug}`} className="work-thumbnail">
 		<div className="work-thumb-wrapper">
-			<Image src={thumbnail} layout="fill" objectFit="cover" />
+			<Image alt="" src={thumbnail} layout="fill" objectFit="cover" />
 		</div>
 	</Link>
 )
