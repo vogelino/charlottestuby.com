@@ -16,11 +16,11 @@ const importScripts = async (): Promise<{
 	cloudinary: unknown
 }> => {
 	const [{ default: CMS }, { default: uploadcare }, { default: cloudinary }] = await Promise.all([
-		import('netlify-cms-app'),
+		import('decap-cms-app'),
 		// @ts-ignore
-		import('netlify-cms-media-library-uploadcare'),
+		import('decap-cms-media-library-uploadcare'),
 		// @ts-ignore
-		import('netlify-cms-media-library-cloudinary'),
+		import('decap-cms-media-library-cloudinary'),
 	])
 	return { CMS: CMS as unknown as CMSType, uploadcare, cloudinary }
 }
