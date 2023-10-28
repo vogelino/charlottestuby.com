@@ -79,15 +79,15 @@ const About: FC<AboutPageType> = ({
 		</section>
 		<section className="about-content">
 			<h1>
-				<ReactMarkdown children={title} />
+				<ReactMarkdown>{title}</ReactMarkdown>
 			</h1>
 			{subtitle && (
 				<h3>
-					<ReactMarkdown children={subtitle} />
+					<ReactMarkdown>{subtitle}</ReactMarkdown>
 				</h3>
 			)}
 			<div className="about-text">
-				{typeof text === 'string' ? <ReactMarkdown children={text} /> : text}
+				{typeof text === 'string' ? <ReactMarkdown>{text}</ReactMarkdown> : text}
 			</div>
 			{cvUrl && cvButtonText && (
 				<Link className="btn" href={`${cvUrl}`} target="__blank">
