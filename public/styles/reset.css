@@ -78,6 +78,15 @@ video {
 body {
 	line-height: 1;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figcaption {
+	text-wrap: balance;
+}
 article,
 aside,
 details,
@@ -159,4 +168,10 @@ button {
 	text-align: left;
 	margin: 0;
 	padding: 0;
+}
+p {
+	text-wrap: pretty;
+}
+*:focus {
+	outline: none;
 }

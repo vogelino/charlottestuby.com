@@ -29,7 +29,8 @@ const Navigation: FC<NavigationType> = ({ page = '', isPreview = false }) => (
 					href={isPreview ? '#' : '/stuby-and-fischer'}
 					className={page === 'stuby-and-fischer' ? 'active' : ''}
 				>
-					<span>Stuby &amp; Fischer</span>
+					<span className="lg">Stuby &amp; Fischer</span>
+					<span className="sm">S &amp; F</span>
 				</Link>
 			</li>
 		</ul>

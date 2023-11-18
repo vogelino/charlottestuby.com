@@ -24,39 +24,41 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 	buttonText = null,
 	buttonLink = null,
 }) => (
-	<div id="stuby-and-fischer-content">
-		{introImage && (
-			<section className="stuby-and-fischer-picture">
-				<div className="img">
-					<Image
-						alt=""
-						src={introImage}
-						width="400"
-						height="400"
-						sizes="100vw"
-						style={{
-							width: '100%',
-							height: 'auto',
-							objectFit: 'cover',
-						}}
-					/>
+	<>
+		<div className="intro">
+			<section className="intro-content">
+				<h1>
+					<ReactMarkdown>{title}</ReactMarkdown>
+				</h1>
+				<div className="intro-text">
+					{typeof text === 'string' ? <ReactMarkdown>{text}</ReactMarkdown> : text}
 				</div>
+				{buttonText && buttonLink && (
+					<Link className="btn" href={buttonLink}>
+						{buttonText}
+					</Link>
+				)}
 			</section>
-		)}
-		<section className="stuby-and-fischer-content">
-			<h1>
-				<ReactMarkdown>{title}</ReactMarkdown>
-			</h1>
-			<div className="stuby-and-fischer-text">
-				{typeof text === 'string' ? <ReactMarkdown>{text}</ReactMarkdown> : text}
-			</div>
-			{buttonText && buttonLink && (
-				<Link className="btn" href={buttonLink}>
-					{buttonText}
-				</Link>
+			{introImage && (
+				<section className="intro-picture">
+					<div className="img">
+						<Image
+							alt=""
+							src={introImage}
+							width="400"
+							height="400"
+							sizes="100vw"
+							style={{
+								width: '100%',
+								height: 'auto',
+								objectFit: 'cover',
+							}}
+						/>
+					</div>
+				</section>
 			)}
-		</section>
-	</div>
+		</div>
+	</>
 )
 
 export default StubyAndFischer

@@ -1,0 +1,49 @@
+.stuby-and-fischer {
+	.content {
+		overflow: hidden;
+	}
+
+	.intro {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.intro-picture {
+		order: -1;
+	}
+
+	.intro-content {
+		padding: 10%;
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.intro-text .frontmatter-markdown {
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+		font-size: 80%;
+	}
+
+	@media screen and (min-width: 740px) {
+		.intro {
+			grid-template-columns: 3fr 2fr;
+		}
+		.intro-picture {
+			order: 1;
+		}
+	}
+
+	@media screen and (min-width: 960px) {
+		.intro {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
+	@media screen and (min-width: 1280px) {
+		.intro {
+			grid-template-columns: 5fr 4fr;
+		}
+	}
+}

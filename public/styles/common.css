@@ -12,16 +12,35 @@ main.website-main {
 	-webkit-overflow-scrolling: touch;
 }
 body {
+	--brand: #00f;
+	--white: #fff;
+	--brandHover: #00c;
+	--brandActive: #66f;
+	--brandFocus: #33f;
+	--brandText: #09090c;
+
 	font-family: 'HKGrotesk', 'Akzident Grotesk', Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	line-height: 25px;
-	color: #000030;
-	background: #00f;
 	-webkit-font-smoothing: antialiased;
+	color: var(--brandText, #000030);
+	background: var(--brand, #00f);
+	transition: background 400ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+html,
+body {
+	overflow-x: hidden;
 }
 body.work {
-	background: #fff;
+	background: var(--white, #fff);
+}
+
+body.stuby-and-fischer {
+	--brand: #293b51;
+	--brandHover: #455a76;
+	--brandActive: #293b51;
+	--brandFocus: #e6e6ff;
 }
 main.website-main h1,
 main.website-main h2 {
@@ -92,24 +111,20 @@ main.website-main a:visited:active:not(.active),
 main.website-main .interactive:active:not(.active) {
 	text-decoration: underline;
 }
-main.website-main a:focus,
-main.website-main a:visited:focus,
-main.website-main .interactive:focus,
-main.website-main a:visited:visited:focus,
-main.website-main .interactive:visited:focus,
-main.website-main a:hover:focus,
-main.website-main a:visited:hover:focus,
-main.website-main .interactive:hover:focus {
+main.website-main a:focus-visible,
+main.website-main a:visited:focus-visible,
+main.website-main .interactive:focus-visible,
+main.website-main a:visited:visited:focus-visible,
+main.website-main .interactive:visited:focus-visible,
+main.website-main a:hover:focus-visible,
+main.website-main a:visited:hover:focus-visible,
+main.website-main .interactive:hover:focus-visible {
 	outline: none;
 	border-radius: 6px;
-	background: #33f;
+	background: var(--brandFocus, #33f);
+	color: var(--white, #fff);
+	text-decoration-color: var(--white, #fff);
 	text-decoration: overline;
-}
-main.website-main a:active:focus,
-main.website-main a:visited:active:focus,
-main.website-main .interactive:active:focus {
-	background: none;
-	text-decoration: none;
 }
 main.website-main a.empty-link,
 main.website-main a:visited.empty-link,
@@ -121,7 +136,7 @@ nav.main-nav li a {
 	font-weight: 400;
 	line-height: 22px;
 	text-transform: lowercase;
-	color: #fff;
+	color: var(--white, #fff);
 }
 @media screen and (min-width: 1280px) {
 	nav.main-nav li a {
@@ -132,15 +147,15 @@ nav.main-nav li a.active,
 nav.main-nav li a.active:hover,
 nav.main-nav li a.active:active,
 nav.main-nav li a.active:visited {
-	background: #fff;
-	color: #00f;
+	background: var(--white, #fff);
+	color: var(--brand, #00f);
 	cursor: default;
 }
-nav.main-nav li a.active:focus,
-nav.main-nav li a.active:hover:focus,
-nav.main-nav li a.active:active:focus,
-nav.main-nav li a.active:visited:focus {
-	background: #e6e6ff;
+nav.main-nav li a.active:focus-visible,
+nav.main-nav li a.active:hover:focus-visible,
+nav.main-nav li a.active:active:focus-visible,
+nav.main-nav li a.active:visited:focus-visible {
+	background: var(--brandFocus, #e6e6ff);
 }
 main.website-main {
 	box-sizing: border-box;
@@ -166,7 +181,7 @@ body.works {
 	overflow: hidden;
 }
 .btn {
-	border: 1px solid #00f;
+	border: 1px solid var(--brand, #00f);
 	border-radius: 6px;
 	padding: 10px 15px 13px;
 	margin: 0 10px 10px 0;
@@ -189,9 +204,9 @@ img.loaded {
 	width: 100%;
 	height: 100%;
 	min-height: 480px;
-	background: #fff;
+	background: var(--white, #fff);
 	box-sizing: border-box;
-	box-shadow: 0 500px 0 0 #fff;
+	box-shadow: 0 500px 0 0 var(--white, #fff);
 }
 .error-page .error-title {
 	text-align: center;
@@ -226,7 +241,7 @@ header.main-header h1 {
 	margin-left: 60px;
 }
 header.main-header a.logo {
-	color: #fff;
+	color: var(--white, #fff);
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 24px;
@@ -234,16 +249,15 @@ header.main-header a.logo {
 nav.main-nav {
 	top: 0;
 	left: 0;
-	position: absolute;
+	position: sticky;
 	height: 100%;
-	width: 60px;
+	flex-shrink: 0;
 }
 .maxWidthReached.about nav.main-nav {
-	position: absolute;
+	position: sticky;
 	top: 0;
 }
 nav.main-nav a {
-	padding: 24px 0;
 	text-align: center;
 	box-sizing: border-box;
 }
@@ -253,11 +267,11 @@ nav.main-nav a {
 	display: block;
 }
 nav.main-nav ul {
-	position: absolute;
+	position: sticky;
 	top: 0;
 	left: 0;
 	height: 100%;
-	width: 100%;
+	min-width: 60px;
 	display: flex;
 	flex-direction: row;
 	writing-mode: vertical-lr;
@@ -267,27 +281,40 @@ nav.main-nav ul {
 nav.main-nav ul li {
 	white-space: nowrap;
 	display: flex;
-	width: 100%;
 	transform: scale(-1, -1);
 }
 nav.main-nav ul li a {
 	display: flex;
 	align-items: center;
 	place-content: center;
-	min-height: 120px;
+	padding: 16px;
+}
+@media screen and (min-height: 600px) {
+	nav.main-nav ul li a {
+		min-height: 120px;
+		padding: 24px 16px;
+	}
 }
 nav.main-nav ul li a span {
 	display: inline-block;
 	margin-left: 6px;
 }
+nav.main-nav ul li.stuby-and-fischer .lg {
+	display: none;
+}
+@media screen and (min-height: 720px) {
+	nav.main-nav ul li.stuby-and-fischer a span.lg {
+		display: inline;
+	}
+	nav.main-nav ul li.stuby-and-fischer a span.sm {
+		display: none;
+	}
+}
 
 article {
-	padding-left: 60px;
-	color: #000030;
+	color: var(--brandText, #000030);
 	position: relative;
-}
-.without-navs article {
-	padding-left: 0;
+	display: flex;
 }
 article,
 section.content {
@@ -306,7 +333,7 @@ section.content {
 }
 article section.content {
 	border-top-left-radius: 6px;
-	background: #fff;
+	background: var(--white, #fff);
 }
 .about article section.content {
 	border-top-left-radius: 0;
@@ -329,29 +356,29 @@ article section.content {
 }
 article section.content a,
 article section.content .interactive {
-	color: #00f;
+	color: var(--brand, #00f);
 }
 article section.content a:hover,
 article section.content .interactive:hover,
 article section.content a:visited:hover,
 article section.content .interactive:visited:hover {
-	color: #00c;
+	color: var(--brandHover, #00c);
 }
 article section.content a:active,
 article section.content .interactive:active,
 article section.content a:visited:active,
 article section.content .interactive:visited:active {
-	color: #66f;
+	color: var(--brandActive, #66f);
 }
-article section.content a:focus,
-article section.content .interactive:focus,
-article section.content a.active:focus,
-article section.content .interactive.active:focus,
-article section.content a:visited:focus,
-article section.content .interactive:visited:focus,
-article section.content a:hover:focus,
-article section.content .interactive:hover:focus {
-	background: #e6e6ff;
+article section.content a:focus-visible,
+article section.content .interactive:focus-visible,
+article section.content a.active:focus-visible,
+article section.content .interactive.active:focus-visible,
+article section.content a:visited:focus-visible,
+article section.content .interactive:visited:focus-visible,
+article section.content a:hover:focus-visible,
+article section.content .interactive:hover:focus-visible {
+	background: var(--brandFocus, #e6e6ff);
 }
 .svg-icon {
 	width: 25px;

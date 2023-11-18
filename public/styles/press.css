@@ -67,10 +67,10 @@
 	letter-spacing: 0.2em;
 }
 .press-link-url {
-	color: #000030;
+	color: var(--brandText, #000030);
 }
 
 a:hover .press-link-url,
-a:focus .press-link-url {
+a:focus-visible .press-link-url {
 	color: inherit;
 }

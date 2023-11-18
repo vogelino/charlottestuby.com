@@ -48,7 +48,7 @@
 	right: -40px;
 	border-radius: 50%;
 	overflow: hidden;
-	border: 20px solid #fff;
+	border: 20px solid var(--white, #fff);
 }
 .about-picture .img img {
 	display: block;
@@ -67,6 +67,7 @@
 		padding-bottom: 75%;
 		border: none;
 		left: 0;
+		top: 0;
 	}
 	.about-picture .img img {
 		display: block;

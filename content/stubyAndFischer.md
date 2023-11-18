@@ -2,7 +2,7 @@
 path: /stuby-and-fischer
 templateKey: stuby-and-fischer
 title: Charlotte Stuby & Susanne Fischer
-introImage: /img/charlotte-and-fischer-handle-with-joy.jpg
+introImage: /img/stuby-and-fischer-handle-with-joy.png
 buttonText: null
 buttonLink: null
 ---
