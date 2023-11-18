@@ -9,19 +9,27 @@ interface NavigationType {
 const Navigation: FC<NavigationType> = ({ page = '', isPreview = false }) => (
 	<nav role="navigation" aria-label="main-navigation" className="main-nav">
 		<ul>
-			<li className="press">
-				<Link href={isPreview ? '#' : '/press'} className={page === 'press' ? 'active' : ''}>
-					Press
+			<li className="about">
+				<Link href={isPreview ? '#' : '/about'} className={page === 'about' ? 'active' : ''}>
+					<span>About</span>
 				</Link>
 			</li>
 			<li className="work">
 				<Link href={isPreview ? '#' : '/'} className={page === '' ? 'active' : ''}>
-					Works
+					<span>Works</span>
 				</Link>
 			</li>
-			<li className="about">
-				<Link href={isPreview ? '#' : '/about'} className={page === 'about' ? 'active' : ''}>
-					About
+			<li className="press">
+				<Link href={isPreview ? '#' : '/press'} className={page === 'press' ? 'active' : ''}>
+					<span>Press</span>
+				</Link>
+			</li>
+			<li className="stuby-and-fischer">
+				<Link
+					href={isPreview ? '#' : '/stuby-and-fischer'}
+					className={page === 'stuby-and-fischer' ? 'active' : ''}
+				>
+					<span>Stuby &amp; Fischer</span>
 				</Link>
 			</li>
 		</ul>
