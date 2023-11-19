@@ -6,12 +6,16 @@ interface StubyAndFischerPagePreviewType {
 	entry: {
 		getIn: (path: string[]) => unknown
 	}
+	document: Document
 }
 
-const StubyAndFischerPagePreview: FC<StubyAndFischerPagePreviewType> = ({ entry }) => {
+const StubyAndFischerPagePreview: FC<StubyAndFischerPagePreviewType> = ({
+	document: doc,
+	entry,
+}) => {
 	useEffect(() => {
-		document.body.classList.add('stuby-and-fischer')
-	})
+		doc.body.classList.add('stuby-and-fischer')
+	}, [doc])
 	return (
 		<Layout page="/stuby-and-fischer" isPreview>
 			<StubyAndFischer

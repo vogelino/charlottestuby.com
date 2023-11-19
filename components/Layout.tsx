@@ -47,7 +47,7 @@ const TemplateWrapper: FC<TemplateWrapperType> = ({
 			{!isPreview && <MetaTags />}
 			{!page.startsWith('/work/') && <Header />}
 			<article>
-				{!page.startsWith('/work/') && (
+				{!page.startsWith('/work/') && !isPreview && (
 					<Navigation page={page.replace('/', '')} isPreview={isPreview} />
 				)}
 				<section className="content">{children}</section>
