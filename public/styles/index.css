@@ -134,8 +134,8 @@ article section.content .work-thumbnail a:focus-visible {
 	background-color: var(--brandFocus, #e6e6ff);
 }
 .thumbnails-bullet-nav .thumbnails-bullet.active {
-	border-color: #f00;
-	background-color: #f00;
+	border-color: var(--brandAlt, #f00);
+	background-color: var(--brandAlt, #f00);
 	box-shadow: none;
 }
 .thumbnails-arrow-nav {

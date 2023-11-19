@@ -172,3 +172,71 @@ collections:
                 pattern:
                   - ^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$
                   - Must be an color string in HEX format (eg. \#BADASS)
+      - file: content/stubyAndFischer.md
+        label: Stuby & Fischer
+        name: stuby-and-fischer
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: stuby-and-fischer-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Intro Image
+            name: introImage
+            widget: image
+          - label: Intro Button Text
+            name: introButtonText
+            widget: string
+          - label: Intro Button Link
+            name: introButtonLink
+            widget: string
+          - label: Projects
+            name: projects
+            widget: list
+            fields:
+              - label: Project Title
+                name: projectTitle
+                widget: string
+              - label: Project Description
+                name: projectDescription
+                widget: markdown
+              - label: Project Button Text
+                name: projectButtonText
+                widget: string
+              - label: Project Button Link
+                name: projectButtonLink
+                widget: string
+              - label: Text Start X
+                name: textStartX
+                widget: number
+              - label: Text Start Y
+                name: textStartY
+                widget: number
+              - label: Text End X
+                name: textEndX
+                widget: number
+              - label: Text End Y
+                name: textEndY
+                widget: number
+              - label: Project Images
+                name: projetImages
+                widget: list
+                fields:
+                  - label: Project Image
+                    name: projectImage
+                    widget: image
+                  - label: Start X
+                    name: startX
+                    widget: number
+                  - label: Start Y
+                    name: startY
+                    widget: number
+                  - label: End X
+                    name: endX
+                    widget: number
+                  - label: End Y
+                    name: endY
+                    widget: number
+

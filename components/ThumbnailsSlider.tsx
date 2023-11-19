@@ -1,26 +1,20 @@
 import { Splide, SplideTrack } from '@splidejs/react-splide'
-import React, { FC, ReactNode, useEffect, useRef } from 'react'
+import React, { FC, ReactNode, useRef } from 'react'
 
 interface ThumbnailsSliderType {
 	className: string
-	setCurrentWorksSlide: (currentSlideIndex: number) => void
-	setWorksSliderDragState?: (isBeingDragged: boolean) => void
+	onSlideUpdate: (currentSlideIndex: number) => void
 	currentSlideIndex: number
 	children: ReactNode
 }
 
 const ThumbnailsSlider: FC<ThumbnailsSliderType> = ({
 	className,
-	setCurrentWorksSlide,
-	setWorksSliderDragState = () => undefined,
+	onSlideUpdate,
 	currentSlideIndex,
 	children,
 }) => {
 	const slider = useRef<Splide>(null)
-
-	useEffect(() => {
-		slider.current?.go(currentSlideIndex)
-	}, [currentSlideIndex])
 
 	return (
 		<Splide
@@ -43,8 +37,7 @@ const ThumbnailsSlider: FC<ThumbnailsSliderType> = ({
 				autoplay: false,
 				start: currentSlideIndex,
 			}}
-			onDrag={() => setWorksSliderDragState(true)}
-			onUpdated={(splide) => setCurrentWorksSlide(splide.index)}
+			onUpdated={(splide) => onSlideUpdate(splide.index)}
 		>
 			<SplideTrack>{children}</SplideTrack>
 		</Splide>

@@ -12,8 +12,9 @@ main.website-main {
 	-webkit-overflow-scrolling: touch;
 }
 body {
-	--brand: #00f;
 	--white: #fff;
+	--brand: #00f;
+	--brandAlt: var(--brandAlt, #f00);
 	--brandHover: #00c;
 	--brandActive: #66f;
 	--brandFocus: #33f;
@@ -298,6 +299,17 @@ nav.main-nav ul li a {
 nav.main-nav ul li a span {
 	display: inline-block;
 	margin-left: 6px;
+}
+nav.main-nav ul li.stuby-and-fischer a span {
+	margin-left: -12px;
+}
+nav.main-nav ul li.stuby-and-fischer a {
+	border-left: 8px solid var(--white, #fff);
+	border-image: url(/img/border-dotted-square-white.svg) 25% repeat;
+	padding-right: 8px;
+}
+nav.main-nav ul li.stuby-and-fischer a.active {
+	border-image: url(/img/border-dotted-square-red.svg) 25% repeat;
 }
 nav.main-nav ul li.stuby-and-fischer .lg {
 	display: none;

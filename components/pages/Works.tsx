@@ -27,7 +27,7 @@ const Works: FC<WorksType> = ({ works = [], forms = [] }) => {
 				<ThumbnailsSlider
 					className="work-thumbnails"
 					currentSlideIndex={currentSlideIndex}
-					setCurrentWorksSlide={setCurrentWorksSlide}
+					onSlideUpdate={setCurrentWorksSlide}
 				>
 					{works.map((item, index) => (
 						<WorkThumbnail key={index} {...item} />
