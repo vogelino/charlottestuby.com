@@ -186,6 +186,9 @@ collections:
           - label: Intro Image
             name: introImage
             widget: image
+          - label: Body
+            name: body
+            widget: markdown
           - label: Intro Button Text
             name: introButtonText
             widget: string
