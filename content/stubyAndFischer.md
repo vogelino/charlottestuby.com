@@ -13,6 +13,26 @@ projects:
         startY: 0
         endX: 4
         endY: 4
+      - projectImage: /img/stuby-and-fischer-bomber-jackets-2.png
+        startX: 4
+        startY: 2
+        endX: 7
+        endY: 6
+      - projectImage: /img/stuby-and-fischer-bomber-jackets-3.png
+        startX: 0
+        startY: 5
+        endX: 4
+        endY: 8
+      - projectImage: /img/stuby-and-fischer-bomber-jackets-4.png
+        startX: 4
+        endX: 7
+        startY: 7
+        endY: 11
+      - projectImage: /img/stuby-and-fischer-bomber-jackets-5.png
+        startX: 0
+        endX: 3
+        startY: 8
+        endY: 12
     textStartY: 0
     projectButtonLink: /shop
     textEndX: 7
