@@ -1,6 +1,6 @@
 ---
 title: Charlotte Stuby & Susanne Fischer
-introImage: /img/_dsc8464_low.jpg
+introImage: /img/stuby-and-fischer-handle-with-joy.png
 introButtonText: Open Shop
 introButtonLink: https://charlottestuby.com/shop
 projects:
