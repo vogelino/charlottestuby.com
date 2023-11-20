@@ -1,6 +1,6 @@
 import { FC, useEffect } from 'react'
 import Layout from '../Layout'
-import StubyAndFischer from '@components/pages/StubyAndFischer'
+import StubyAndFischer, { ProjectType } from '@components/pages/StubyAndFischer'
 
 interface StubyAndFischerPagePreviewType {
 	entry: {
@@ -16,6 +16,7 @@ const StubyAndFischerPagePreview: FC<StubyAndFischerPagePreviewType> = ({
 	useEffect(() => {
 		doc.body.classList.add('stuby-and-fischer')
 	}, [doc])
+	const projects = entry.getIn(['data', 'projects']) as { toJS: () => ProjectType[] }
 	return (
 		<Layout page="/stuby-and-fischer" isPreview>
 			<StubyAndFischer
@@ -24,6 +25,7 @@ const StubyAndFischerPagePreview: FC<StubyAndFischerPagePreviewType> = ({
 				introImage={entry.getIn(['data', 'introImage']) as string}
 				buttonText={entry.getIn(['data', 'introButtonText']) as string}
 				buttonLink={entry.getIn(['data', 'introButtonLink']) as string}
+				projects={projects.toJS()}
 			/>
 		</Layout>
 	)

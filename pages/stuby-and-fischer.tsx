@@ -4,7 +4,7 @@ import StubyAndFischer, { StubyAndFischerPageType } from '../components/pages/St
 import { attributes, react as MarkdownContent } from '../content/stubyAndFischer.md'
 
 const StubyAndFischerPage: FC<StubyAndFischerPageType> = () => {
-	const { title, buttonLink, buttonText, introImage } =
+	const { title, buttonLink, buttonText, introImage, projects } =
 		attributes as unknown as StubyAndFischerPageType
 
 	return (
@@ -15,6 +15,7 @@ const StubyAndFischerPage: FC<StubyAndFischerPageType> = () => {
 				buttonLink={buttonLink}
 				buttonText={buttonText}
 				introImage={introImage}
+				projects={projects}
 			/>
 		</Layout>
 	)

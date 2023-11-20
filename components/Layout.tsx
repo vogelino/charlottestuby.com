@@ -37,9 +37,7 @@ const TemplateWrapper: FC<TemplateWrapperType> = ({
 		setVh()
 		window.addEventListener('resize', setVh)
 
-		return () => {
-			window.removeEventListener('resize', setVh)
-		}
+		return () => window.removeEventListener('resize', setVh)
 	}, [page])
 
 	return (
