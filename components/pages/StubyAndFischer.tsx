@@ -34,8 +34,8 @@ export interface StubyAndFischerPageType {
 	title: string
 	text: ReactNode
 	introImage: string | null
-	buttonText: string | null
-	buttonLink: string | null
+	introButtonText: string | null
+	introButtonLink: string | null
 	projects: ProjectType[]
 }
 
@@ -43,8 +43,8 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 	title = '',
 	text = '',
 	introImage = null,
-	buttonText = null,
-	buttonLink = null,
+	introButtonText = null,
+	introButtonLink = null,
 	projects = [],
 }) => (
 	<>
@@ -56,10 +56,10 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 				<div className="intro-text">
 					{typeof text === 'string' ? <ReactMarkdown>{text}</ReactMarkdown> : text}
 				</div>
-				{buttonText && buttonLink && (
+				{introButtonText && introButtonLink && (
 					<div className="intro-button-container">
-						<Link className="btn" href={buttonLink}>
-							{buttonText}
+						<Link className="btn" href={introButtonLink}>
+							{introButtonText}
 						</Link>
 					</div>
 				)}
@@ -71,19 +71,49 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 			)}
 		</div>
 		{projects.map((project, index) => (
-			<section className="project" key={`project-${index}`}>
+			<section
+				className="project"
+				key={`project-${index}`}
+				style={{
+					height: `calc(var(--grid-size, 8vmin) * ${Math.max(
+						project.textEndY,
+						...(project.projetImages || []).map((image) => image.endY)
+					)})`,
+				}}
+			>
 				<header
 					className="project-text"
 					style={{
-						gridColumnStart: project.textStartX,
-						gridRowStart: project.textStartY,
-						gridColumnEnd: project.textEndX,
-						gridRowEnd: project.textEndY,
+						gridColumnStart: project.textStartX + 1,
+						gridRowStart: project.textStartY + 1,
+						gridColumnEnd: project.textEndX + 1,
+						gridRowEnd: project.textEndY + 1,
 					}}
 				>
 					<h2>{project.projectTitle}</h2>
 					<p>{project.projectDescription}</p>
 				</header>
+				{(project.projetImages || []).map((image, index) => (
+					<div
+						key={`project-image-${index}`}
+						style={{
+							position: 'relative',
+							gridColumnStart: image.startX + 1,
+							gridRowStart: image.startY + 1,
+							gridColumnEnd: image.endX + 1,
+							gridRowEnd: image.endY + 1,
+						}}
+					>
+						<Image
+							alt=""
+							src={image.projectImage}
+							fill
+							style={{
+								objectFit: 'cover',
+							}}
+						/>
+					</div>
+				))}
 			</section>
 		))}
 	</>

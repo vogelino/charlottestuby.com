@@ -1,16 +1,27 @@
 .stuby-and-fischer {
+	--grid-size: min(((1220px - 16vmin) / 7), (80vw / 7));
+
 	.content {
-		overflow: hidden;
+		overflow-x: hidden;
+		padding-bottom: 8vmin;
 	}
 
 	.intro {
 		display: grid;
 		grid-template-columns: 1fr;
+		margin-bottom: 8vmin;
 	}
 
 	.intro-picture {
 		order: -1;
 		position: relative;
+		min-height: 65vw;
+	}
+
+	@media screen and (min-width: 740px) {
+		.intro-picture {
+			min-height: 100%;
+		}
 	}
 
 	.intro-picture > img {
@@ -23,7 +34,7 @@
 	}
 
 	.intro-content {
-		padding: 10%;
+		padding: 8vmin;
 		display: flex;
 		flex-direction: column;
 		gap: 1.5rem;
@@ -70,12 +81,25 @@
 	}
 
 	@media screen and (min-width: 740px) {
+		.intro,
 		.project {
 			display: grid;
 			gap: 0;
-			padding: 0 10%;
+			padding: 0 8vmin;
 			grid-template-columns: repeat(7, 1fr);
-			grid-auto-rows: min(calc((1220px - 20%) / 7), calc(80vw / 7));
+			grid-auto-rows: var(--grid-size, 8vmin);
+		}
+
+		.intro {
+			grid-template-rows: minmax(min-content, max-content);
+		}
+
+		.intro-content {
+			padding: 8vmin 8vmin 8vmin 0;
+			grid-column: 1 / span 4;
+		}
+
+		.intro-picture {
 		}
 	}
 
