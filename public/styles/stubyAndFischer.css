@@ -90,6 +90,12 @@
 		line-height: 120%;
 	}
 
+	.project-text footer {
+		display: flex;
+		gap: 8px;
+		margin-top: 8px;
+	}
+
 	.project-picture {
 		aspect-ratio: var(--aspect-ratio, unset);
 	}

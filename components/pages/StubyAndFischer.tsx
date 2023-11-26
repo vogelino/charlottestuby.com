@@ -93,6 +93,13 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 				>
 					<h2>{project.projectTitle}</h2>
 					<p>{project.projectDescription}</p>
+					{project.projectButtonText && project.projectButtonLink && (
+						<footer>
+							<Link className="btn" href={project.projectButtonLink}>
+								{project.projectButtonText}
+							</Link>
+						</footer>
+					)}
 				</header>
 				{(project.projetImages || []).map((image, index) => (
 					<div

@@ -173,19 +173,13 @@ main.website-main.work {
 .maxWidthReached main.website-main {
 	margin: 0 auto;
 }
-@media (min-width: 1280px) {
-	body.about {
-		overflow: hidden;
-	}
-}
 body.works {
 	overflow: hidden;
 }
 .btn {
 	border: 1px solid var(--brand, #00f);
-	border-radius: 6px;
-	padding: 10px 15px 13px;
-	margin: 0 10px 10px 0;
+	border-radius: 4px;
+	padding: 6px 16px 9px;
 	white-space: nowrap;
 	font-size: 16px;
 }
