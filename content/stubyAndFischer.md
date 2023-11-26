@@ -39,6 +39,46 @@ projects:
     textEndY: 2
     projectButtonText: Contact us for purchase
     projectTitle: Bomber Jackets
+  - projectDescription: A collection of seven unique Bowling shirts, recycled and
+      embroidered cotton, Brussels, 2022
+    textStartX: 0
+    projetImages:
+      - projectImage: /img/stuby-and-fischer-bowling-shirts-1.png
+        startX: 3
+        startY: 1
+        endX: 6
+        endY: 5
+      - projectImage: /img/stuby-and-fischer-bowling-shirts-3.png
+        startX: 0
+        startY: 3
+        endX: 2
+        endY: 6
+      - projectImage: /img/stuby-and-fischer-bowling-shirts-6.png
+        startX: 2
+        startY: 4
+        endX: 4
+        endY: 7
+      - projectImage: /img/stuby-and-fischer-bowling-shirts-4.png
+        startX: 0
+        startY: 8
+        endY: 11
+        endX: 2
+      - startX: 2
+        startY: 7
+        endX: 6
+        endY: 13
+        projectImage: /img/stuby-and-fischer-bowling-shirts-2.png
+      - projectImage: /img/stuby-and-fischer-bowling-shirts-5.png
+        startX: 5
+        startY: 11
+        endX: 7
+        endY: 14
+    textStartY: 1
+    projectButtonLink: https://charlottestuby.com
+    textEndX: 2
+    textEndY: 3
+    projectButtonText: Open Shop
+    projectTitle: Bowling shirts
 ---
 Knowing each other from the small town of Vevey in Switzerland, the paths of Charlotte Stuby and Susanne Fischer crossed again in Brussels after having both studied and worked in the art and textile field. 
 
