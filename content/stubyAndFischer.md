@@ -35,10 +35,10 @@ projects:
         startY: 8
         endY: 12
     textStartY: 0
-    projectButtonLink: /shop
+    projectButtonLink: ""
     textEndX: 7
     textEndY: 2
-    projectButtonText: Contact us for purchase
+    projectButtonText: ""
     projectTitle: Bomber Jackets
   - projectDescription: A collection of seven unique Bowling shirts, recycled and
       embroidered cotton, Brussels, 2022
@@ -75,10 +75,10 @@ projects:
         endX: 7
         endY: 14
     textStartY: 1
-    projectButtonLink: https://charlottestuby.com
+    projectButtonLink: ""
     textEndX: 2
     textEndY: 3
-    projectButtonText: Open Shop
+    projectButtonText: ""
     projectTitle: Bowling shirts
   - projectDescription: A capsule collection of silver earrings and necklace, Brussels, 2023
     textStartX: 5
@@ -94,10 +94,10 @@ projects:
         endY: 6
         projectImage: /img/stuby-and-fischer-las-leman-2.png
     textStartY: 1
-    projectButtonLink: " "
+    projectButtonLink: ""
     textEndX: 7
     textEndY: 3
-    projectButtonText: " "
+    projectButtonText: ""
     projectTitle: Lac Léman
   - projectDescription: A composition of stools Brussels, 2023
     textStartX: 0
@@ -118,10 +118,10 @@ projects:
         endY: 6
         projectImage: /img/stuby-and-fischer-stools-2.png
     textStartY: 1
-    projectButtonLink: " "
+    projectButtonLink: ""
     textEndX: 2
     textEndY: 2
-    projectButtonText: " "
+    projectButtonText: ""
     projectTitle: Stools
   - projectDescription: A collection of handmade rain hoods and vests, Brussels, 2023
     textStartX: 0
@@ -142,10 +142,10 @@ projects:
         endX: 7
         endY: 9
     textStartY: 1
-    projectButtonLink: " "
+    projectButtonLink: ""
     textEndX: 2
     textEndY: 3
-    projectButtonText: " "
+    projectButtonText: ""
     projectTitle: Fun accessories  for rainy days
   - projectDescription: Exhibition, Brussels, 2023
     textStartX: 0
@@ -166,10 +166,10 @@ projects:
         endX: 7
         endY: 8
     textStartY: 0
-    projectButtonLink: " "
+    projectButtonLink: ""
     textEndX: 3
     textEndY: 1
-    projectButtonText: " "
+    projectButtonText: ""
     projectTitle: Handle with joy
 ---
 Knowing each other from the small town of Vevey in Switzerland, the paths of Charlotte Stuby and Susanne Fischer crossed again in Brussels after having both studied and worked in the art and textile field. 
