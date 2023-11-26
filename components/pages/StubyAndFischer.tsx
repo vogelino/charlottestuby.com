@@ -75,7 +75,8 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 				className="project"
 				key={`project-${index}`}
 				style={{
-					height: `calc(var(--grid-size, 8vmin) * ${Math.max(
+					// @ts-ignore
+					'--height': `calc(var(--grid-size, 8vmin) * ${Math.max(
 						project.textEndY,
 						...(project.projetImages || []).map((image) => image.endY)
 					)})`,
@@ -96,12 +97,15 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 				{(project.projetImages || []).map((image, index) => (
 					<div
 						key={`project-image-${index}`}
+						className="project-image"
 						style={{
 							position: 'relative',
 							gridColumnStart: image.startX + 1,
 							gridRowStart: image.startY + 1,
 							gridColumnEnd: image.endX + 1,
 							gridRowEnd: image.endY + 1,
+							// @ts-ignore
+							'--aspectRatio': `${image.endX - image.startX} / ${image.endY - image.startY}`,
 						}}
 					>
 						<Image

@@ -23,8 +23,8 @@ const StubyAndFischerPagePreview: FC<StubyAndFischerPagePreviewType> = ({
 				title={entry.getIn(['data', 'title']) as string}
 				text={entry.getIn(['data', 'body']) as string}
 				introImage={entry.getIn(['data', 'introImage']) as string}
-				buttonText={entry.getIn(['data', 'introButtonText']) as string}
-				buttonLink={entry.getIn(['data', 'introButtonLink']) as string}
+				introButtonText={entry.getIn(['data', 'introButtonText']) as string}
+				introButtonLink={entry.getIn(['data', 'introButtonLink']) as string}
 				projects={projects.toJS()}
 			/>
 		</Layout>

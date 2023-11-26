@@ -7,7 +7,6 @@ const StubyAndFischerPage: FC<StubyAndFischerPageType> = () => {
 	const { title, introButtonLink, introButtonText, introImage, projects } =
 		attributes as unknown as StubyAndFischerPageType
 
-	console.log(projects)
 	return (
 		<Layout page="/stuby-and-fischer">
 			<StubyAndFischer

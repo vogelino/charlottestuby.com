@@ -77,7 +77,21 @@
 	.project {
 		display: flex;
 		flex-direction: column;
-		gap: 24px;
+		gap: 6vmin;
+		padding: 8vmin;
+	}
+
+	.project-text h2 {
+		font-size: 20px;
+		line-height: 100%;
+	}
+	.project-text p {
+		font-size: 14px;
+		line-height: 120%;
+	}
+
+	.project-picture {
+		aspect-ratio: var(--aspect-ratio, unset);
 	}
 
 	@media screen and (min-width: 740px) {
@@ -90,6 +104,10 @@
 			grid-auto-rows: var(--grid-size, 8vmin);
 		}
 
+		.project {
+			height: var(--height, auto);
+		}
+
 		.intro {
 			grid-template-rows: minmax(min-content, max-content);
 		}
@@ -99,7 +117,8 @@
 			grid-column: 1 / span 4;
 		}
 
-		.intro-picture {
+		.project-picture {
+			aspect-ratio: unset;
 		}
 	}
 
