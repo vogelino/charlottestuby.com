@@ -192,9 +192,11 @@ collections:
           - label: Intro Button Text
             name: introButtonText
             widget: string
+            required: false
           - label: Intro Button Link
             name: introButtonLink
             widget: string
+            required: false
           - label: Projects
             name: projects
             widget: list
@@ -208,9 +210,11 @@ collections:
               - label: Project Button Text
                 name: projectButtonText
                 widget: string
+                required: false
               - label: Project Button Link
                 name: projectButtonLink
                 widget: string
+                required: false
               - label: Text Start X
                 name: textStartX
                 widget: number
