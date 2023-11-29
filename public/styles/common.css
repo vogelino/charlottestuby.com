@@ -10,6 +10,7 @@ main.website-main {
 	min-width: 320px;
 	margin: 0 auto;
 	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
 }
 body {
 	--white: #fff;
