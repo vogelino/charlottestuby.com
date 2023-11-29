@@ -3,9 +3,9 @@ import Link from '../../Link'
 import List from '../../List'
 import ListElement from '../../ListElement'
 import Icon from '../../Icon'
-import Image from 'next/image'
 import WorkLink from '../../WorkLink'
 import { WorkType } from '../../../types'
+import { Image } from '@components/Image'
 
 interface WorkPropType {
 	previousWork?: WorkType

@@ -183,15 +183,6 @@ body.works {
 	white-space: nowrap;
 	font-size: 16px;
 }
-img {
-	transition: opacity 400ms cubic-bezier(0.19, 1, 0.22, 1);
-}
-img.loading {
-	opacity: 0;
-}
-img.loaded {
-	opacity: 1;
-}
 .error-page {
 	position: absolute;
 	top: 0;
@@ -390,4 +381,23 @@ article section.content .interactive:hover:focus-visible {
 	width: 25px;
 	height: 25px;
 	fill: currentColor;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+img.lazyload {
+	animation-name: fadeIn;
+	animation-timing-function: cubic-bezier(0.54, 0.18, 0, 0.97);
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-play-state: paused;
+}
+img.lazyload.loaded {
+	animation-play-state: running;
 }

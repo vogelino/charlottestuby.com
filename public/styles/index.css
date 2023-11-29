@@ -52,6 +52,7 @@ article section.content .work-thumbnail a:focus-visible {
 }
 .work-thumbnails {
 	min-height: 420px;
+	border-top-left-radius: 6px;
 }
 .work-thumbnails .slider-frame {
 	border-top-left-radius: 6px;
@@ -62,6 +63,9 @@ article section.content .work-thumbnail a:focus-visible {
 }
 @media screen and (min-width: 1280px) {
 	.work-thumbnails .slider-frame {
+		border-top-right-radius: 6px;
+	}
+	.work-thumbnails {
 		border-top-right-radius: 6px;
 	}
 }
@@ -83,6 +87,7 @@ article section.content .work-thumbnail a:focus-visible {
 	left: 0;
 	width: 100%;
 	height: 100%;
+	background: var(--white, #fff);
 }
 .work-thumbnail .work-thumb-wrapper .gatsby-image-wrapper {
 	width: 100%;

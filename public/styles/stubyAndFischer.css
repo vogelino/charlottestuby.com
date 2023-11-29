@@ -4,6 +4,7 @@
 	.content {
 		overflow-x: hidden;
 		padding-bottom: 8vmin;
+		border-top-right-radius: 0;
 	}
 
 	.intro {
@@ -16,6 +17,7 @@
 		order: -1;
 		position: relative;
 		min-height: 65vw;
+		background: var(--brandFocus, #e6e6fe);
 	}
 
 	@media screen and (min-width: 740px) {
@@ -59,6 +61,8 @@
 		}
 		.intro-picture {
 			order: 1;
+			grid-column: -4 / span 4;
+			box-shadow: 200px 0 0 0 var(--brandFocus, #e6e6fe);
 		}
 	}
 
@@ -96,8 +100,9 @@
 		margin-top: 8px;
 	}
 
-	.project-picture {
+	.project-image {
 		aspect-ratio: var(--aspect-ratio, unset);
+		background: var(--brandFocus, #e6e6fe);
 	}
 
 	@media screen and (min-width: 740px) {
@@ -123,7 +128,7 @@
 			grid-column: 1 / span 4;
 		}
 
-		.project-picture {
+		.project-image {
 			aspect-ratio: unset;
 		}
 	}
@@ -132,5 +137,18 @@
 		display: flex;
 		flex-direction: column;
 		gap: 8px;
+	}
+
+	.floating-form {
+		position: absolute;
+		right: 0;
+		top: 0;
+		translate: 0 -50%;
+	}
+
+	@media screen and (max-width: 426px) {
+		.floating-form {
+			translate: 50% -50%;
+		}
 	}
 }
