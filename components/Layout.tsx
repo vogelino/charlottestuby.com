@@ -51,7 +51,7 @@ const TemplateWrapper: FC<TemplateWrapperType> = ({
 						className="floating-form"
 					>
 						<path
-							fill="red"
+							fill="white"
 							d="M110 0h22v22h-22zM154 0h22v22h-22zM88 22h22v22H88zM132 22h22v22h-22zM22 0h22v22H22zM66 0h22v22H66zM0 22h22v22H0zM44 22h22v22H44z"
 						/>
 					</svg>
