@@ -11,12 +11,13 @@ import '../public/styles/work.css'
 import '../public/styles/press.css'
 import '../public/styles/404.css'
 import { useRouter } from 'next/router'
+import { getPageClass } from '@utils/pageUtil'
 
 function MyApp({ Component, pageProps }: AppProps): ReactNode {
 	const { asPath } = useRouter()
 
 	useEffect(() => {
-		document.body.className = asPath.replace('/', '') || 'works'
+		document.body.className = getPageClass(asPath)
 	}, [asPath])
 
 	return <Component {...pageProps} />

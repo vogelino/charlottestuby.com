@@ -4,6 +4,7 @@ import ThumbnailsForms from './ThumbnailsForms'
 import MetaTags from './MetaTags'
 import Header from './Header'
 import { FormType } from '../types'
+import { getPageClass } from '@utils/pageUtil'
 
 interface TemplateWrapperType {
 	page?: string
@@ -11,14 +12,6 @@ interface TemplateWrapperType {
 	forms?: FormType[]
 	isPreview?: boolean
 	children: React.ReactNode
-}
-
-const getPageClass = (page: string): string => {
-	if (page.startsWith('/work/')) return 'work without-navs'
-	if (page.includes('about')) return 'about'
-	if (page.includes('press')) return 'press'
-	if (page.includes('stuby-and-fischer')) return 'stuby-and-fischer'
-	return 'home'
 }
 
 const setVh = (): void => {
