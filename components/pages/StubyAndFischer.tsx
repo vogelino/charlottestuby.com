@@ -37,6 +37,7 @@ export interface StubyAndFischerPageType {
 	introButtonText: string | null
 	introButtonLink: string | null
 	projects: ProjectType[]
+	showPreviewGrid?: boolean
 }
 
 const StubyAndFischer: FC<StubyAndFischerPageType> = ({
@@ -46,6 +47,7 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 	introButtonText = null,
 	introButtonLink = null,
 	projects = [],
+	showPreviewGrid = false,
 }) => (
 	<>
 		<div className="intro">
@@ -70,63 +72,96 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 				</section>
 			)}
 		</div>
-		{projects.map((project, index) => (
-			<section
-				className="project"
-				key={`project-${index}`}
-				style={{
-					// @ts-ignore
-					'--height': `calc(var(--grid-size, 8vmin) * ${Math.max(
-						project.textEndY,
-						...(project.projetImages || []).map((image) => image.endY)
-					)})`,
-				}}
-			>
-				<header
-					className="project-text"
+		{projects.map((project, index) => {
+			const lastRow = Math.max(
+				project.textEndY,
+				...(project.projetImages || []).map((image) => image.endY)
+			)
+			return (
+				<section
+					className="project"
+					key={`project-${index}`}
 					style={{
-						gridColumnStart: project.textStartX + 1,
-						gridRowStart: project.textStartY + 1,
-						gridColumnEnd: project.textEndX + 1,
-						gridRowEnd: project.textEndY + 1,
+						// @ts-ignore
+						'--height': `calc(var(--grid-size, 8vmin) * ${
+							showPreviewGrid ? lastRow || 3 : lastRow
+						})`,
 					}}
 				>
-					<h2>{project.projectTitle}</h2>
-					<p>{project.projectDescription}</p>
-					{project.projectButtonText && project.projectButtonLink && (
-						<footer>
-							<Link className="btn" href={project.projectButtonLink}>
-								{project.projectButtonText}
-							</Link>
-						</footer>
-					)}
-				</header>
-				{(project.projetImages || []).map((image, index) => (
-					<div
-						key={`project-image-${index}`}
-						className="project-image"
+					<header
+						className="project-text"
 						style={{
-							position: 'relative',
-							gridColumnStart: image.startX + 1,
-							gridRowStart: image.startY + 1,
-							gridColumnEnd: image.endX + 1,
-							gridRowEnd: image.endY + 1,
-							// @ts-ignore
-							'--aspectRatio': `${image.endX - image.startX} / ${image.endY - image.startY}`,
+							gridColumnStart: project.textStartX + 1,
+							gridRowStart: project.textStartY + 1,
+							gridColumnEnd: project.textEndX + 1,
+							gridRowEnd: project.textEndY + 1,
 						}}
 					>
-						<Image
-							alt=""
-							src={image.projectImage}
-							fill
+						<h2>{project.projectTitle}</h2>
+						<p>{project.projectDescription}</p>
+						{project.projectButtonText && project.projectButtonLink && (
+							<footer>
+								<Link className="btn" href={project.projectButtonLink}>
+									{project.projectButtonText}
+								</Link>
+							</footer>
+						)}
+					</header>
+					{(project.projetImages || []).map((image, index) => (
+						<div
+							key={`project-image-${index}`}
+							className="project-image"
 							style={{
-								objectFit: 'cover',
+								position: 'relative',
+								gridColumnStart: image.startX + 1,
+								gridRowStart: image.startY + 1,
+								gridColumnEnd: image.endX + 1,
+								gridRowEnd: image.endY + 1,
+								// @ts-ignore
+								'--aspectRatio': `${image.endX - image.startX} / ${image.endY - image.startY}`,
 							}}
-						/>
-					</div>
-				))}
-			</section>
-		))}
+						>
+							<Image
+								alt=""
+								src={image.projectImage}
+								fill
+								style={{
+									objectFit: 'cover',
+								}}
+							/>
+						</div>
+					))}
+					{showPreviewGrid && (
+						<div className="preview-grid">
+							{[...Array((lastRow || 3) + 1)].map((_, index) => (
+								<div
+									key={`preview-grid-row-${index}`}
+									className="preview-grid-row"
+									style={{
+										// @ts-ignore
+										'--offset': `calc((var(--height, 8vmin) / ${lastRow || 3}) * ${index})`,
+									}}
+								>
+									<span>{index}</span>
+								</div>
+							))}
+							{[...Array(8)].map((_, index) => (
+								<div
+									key={`preview-grid-col-${index}`}
+									className="preview-grid-col"
+									style={{
+										// @ts-ignore
+										'--offset': `calc((100% / 7) * ${index})`,
+									}}
+								>
+									<span>{index}</span>
+								</div>
+							))}
+						</div>
+					)}
+				</section>
+			)
+		})}
 	</>
 )
 

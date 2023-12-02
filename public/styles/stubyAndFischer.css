@@ -83,6 +83,7 @@
 		flex-direction: column;
 		gap: 6vmin;
 		padding: 8vmin;
+		position: relative;
 	}
 
 	.project-text h2 {
@@ -150,5 +151,72 @@
 		.floating-form {
 			translate: 50% -50%;
 		}
+	}
+
+	.preview-grid {
+		position: absolute;
+		inset: 0 8vmin;
+		width: calc(100% - 16vmin);
+		height: 100%;
+	}
+
+	@media screen and (max-width: 740px) {
+		.preview-grid {
+			display: none;
+		}
+	}
+
+	.preview-grid-col,
+	.preview-grid-row {
+		position: absolute;
+		background: rgba(255, 0, 0, 0.3);
+	}
+
+	.preview-grid-col > span,
+	.preview-grid-row > span {
+		padding: 3px 5px;
+		border-radius: 2px;
+		background: red;
+		color: white;
+		font-weight: bold;
+		display: inline-block;
+		transform: translate(-50%, -50%);
+		position: relative;
+		z-index: 1;
+	}
+
+	.preview-grid-col {
+		top: 0;
+		left: var(--offset, 0);
+		width: 1px;
+		height: 100%;
+	}
+
+	.preview-grid-row {
+		top: var(--offset, 0);
+		left: 0;
+		width: 100%;
+		height: 1px;
+	}
+
+	.preview-grid-row:first-child {
+		background: red;
+		height: 2px;
+	}
+
+	/* odd projects have blue as color */
+	.project:nth-child(odd) .preview-grid-col,
+	.project:nth-child(odd) .preview-grid-row {
+		background: rgba(0, 0, 255, 0.3);
+	}
+
+	.project:nth-child(odd) .preview-grid-row:first-child {
+		background: blue;
+		height: 2px;
+	}
+
+	.project:nth-child(odd) .preview-grid-col > span,
+	.project:nth-child(odd) .preview-grid-row > span {
+		background: blue;
 	}
 }

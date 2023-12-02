@@ -197,6 +197,12 @@ collections:
             name: introButtonLink
             widget: string
             required: false
+          - label: Grid Preview
+            name: showPreviewGrid
+            hint: Show/hide grid in the preview (has no effect on the live site)
+            widget: boolean
+            default: true
+            required: false
           - label: Projects
             name: projects
             widget: list

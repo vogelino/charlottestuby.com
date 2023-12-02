@@ -16,6 +16,7 @@ const StubyAndFischerPage: FC<StubyAndFischerPageType> = () => {
 				introButtonText={introButtonText}
 				introImage={introImage}
 				projects={projects}
+				showPreviewGrid={false}
 			/>
 		</Layout>
 	)

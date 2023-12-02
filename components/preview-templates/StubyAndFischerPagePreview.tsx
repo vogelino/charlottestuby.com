@@ -26,6 +26,7 @@ const StubyAndFischerPagePreview: FC<StubyAndFischerPagePreviewType> = ({
 				introButtonText={entry.getIn(['data', 'introButtonText']) as string}
 				introButtonLink={entry.getIn(['data', 'introButtonLink']) as string}
 				projects={projects.toJS()}
+				showPreviewGrid={entry.getIn(['data', 'showPreviewGrid']) as boolean}
 			/>
 		</Layout>
 	)
