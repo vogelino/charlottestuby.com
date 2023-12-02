@@ -3,16 +3,14 @@ import React, { FC, ReactNode, useEffect, useRef } from 'react'
 
 interface ThumbnailsSliderType {
 	className: string
-	setCurrentWorksSlide: (currentSlideIndex: number) => void
-	setWorksSliderDragState?: (isBeingDragged: boolean) => void
+	onSlideUpdate: (currentSlideIndex: number) => void
 	currentSlideIndex: number
 	children: ReactNode
 }
 
 const ThumbnailsSlider: FC<ThumbnailsSliderType> = ({
 	className,
-	setCurrentWorksSlide,
-	setWorksSliderDragState = () => undefined,
+	onSlideUpdate,
 	currentSlideIndex,
 	children,
 }) => {
@@ -43,8 +41,7 @@ const ThumbnailsSlider: FC<ThumbnailsSliderType> = ({
 				autoplay: false,
 				start: currentSlideIndex,
 			}}
-			onDrag={() => setWorksSliderDragState(true)}
-			onUpdated={(splide) => setCurrentWorksSlide(splide.index)}
+			onMoved={(splide) => onSlideUpdate(splide.index)}
 		>
 			<SplideTrack>{children}</SplideTrack>
 		</Splide>
