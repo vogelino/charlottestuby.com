@@ -1,5 +1,5 @@
 import { Splide, SplideTrack } from '@splidejs/react-splide'
-import React, { FC, ReactNode, useRef } from 'react'
+import React, { FC, ReactNode, useEffect, useRef } from 'react'
 
 interface ThumbnailsSliderType {
 	className: string
@@ -15,6 +15,12 @@ const ThumbnailsSlider: FC<ThumbnailsSliderType> = ({
 	children,
 }) => {
 	const slider = useRef<Splide>(null)
+
+	useEffect(() => {
+		if (slider.current) {
+			slider.current.go(currentSlideIndex)
+		}
+	}, [currentSlideIndex])
 
 	return (
 		<Splide
@@ -37,7 +43,7 @@ const ThumbnailsSlider: FC<ThumbnailsSliderType> = ({
 				autoplay: false,
 				start: currentSlideIndex,
 			}}
-			onUpdated={(splide) => onSlideUpdate(splide.index)}
+			onMoved={(splide) => onSlideUpdate(splide.index)}
 		>
 			<SplideTrack>{children}</SplideTrack>
 		</Splide>
