@@ -102,7 +102,7 @@
 	}
 
 	.project-image {
-		aspect-ratio: var(--aspect-ratio, unset);
+		aspect-ratio: var(--aspectRatio, unset);
 		background: var(--brandFocus, #e6e6fe);
 	}
 

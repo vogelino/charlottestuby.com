@@ -118,7 +118,7 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 								gridColumnEnd: image.endX + 1,
 								gridRowEnd: image.endY + 1,
 								// @ts-ignore
-								'--aspectRatio': `${image.endX - image.startX} / ${image.endY - image.startY}`,
+								'--aspectRatio': `${image.endX - image.startX}/${image.endY - image.startY}`,
 							}}
 						>
 							<Image
