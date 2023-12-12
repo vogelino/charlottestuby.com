@@ -1,8 +1,8 @@
 ---
 title: Charlotte Stuby & Susanne Fischer
-introImage: /img/stuby-and-fischer-handle-with-joy.png
-introButtonText: Open Shop
-introButtonLink: https://charlottestuby.com/shop
+introImage: /img/siege-bleue_handle-with-joy-stuby-fischer-2023.jpg
+introButtonText: ""
+introButtonLink: ""
 projects:
   - projectDescription: Two handmade reversible bomber jackets, recycled nylon, hand
       knitted cotton cuff and collar, Brussels, 2021
