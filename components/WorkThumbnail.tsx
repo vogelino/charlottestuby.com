@@ -1,7 +1,7 @@
 import { FC } from 'react'
-import Image from 'next/image'
 import Link from './Link'
 import { SplideSlide } from '@splidejs/react-splide'
+import { Image } from './Image'
 
 interface WorkThumbnailType {
 	thumbnail: string

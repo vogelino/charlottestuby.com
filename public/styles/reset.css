@@ -78,6 +78,15 @@ video {
 body {
 	line-height: 1;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figcaption {
+	text-wrap: balance;
+}
 article,
 aside,
 details,
@@ -107,7 +116,6 @@ q:after {
 }
 a {
 	background: transparent;
-	font-size: 100%;
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
@@ -159,4 +167,10 @@ button {
 	text-align: left;
 	margin: 0;
 	padding: 0;
+}
+p {
+	text-wrap: pretty;
+}
+*:focus {
+	outline: none;
 }

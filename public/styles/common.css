@@ -10,18 +10,39 @@ main.website-main {
 	min-width: 320px;
 	margin: 0 auto;
 	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
 }
 body {
+	--white: #fff;
+	--brand: #00f;
+	--brandAlt: var(--brandAlt, #f00);
+	--brandHover: #00c;
+	--brandActive: #66f;
+	--brandFocus: #33f;
+	--brandText: #09090c;
+
 	font-family: 'HKGrotesk', 'Akzident Grotesk', Arial, sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 300;
 	line-height: 25px;
-	color: #000030;
-	background: #00f;
 	-webkit-font-smoothing: antialiased;
+	color: var(--brandText, #000030);
+	background: var(--brand, #00f);
+	transition: background 400ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+html,
+body {
+	overflow-x: hidden;
 }
 body.work {
-	background: #fff;
+	background: var(--white, #fff);
+}
+
+body.stuby-and-fischer {
+	--brand: #293b51;
+	--brandHover: #455a76;
+	--brandActive: #293b51;
+	--brandFocus: #e6e6ff;
 }
 main.website-main h1,
 main.website-main h2 {
@@ -92,24 +113,20 @@ main.website-main a:visited:active:not(.active),
 main.website-main .interactive:active:not(.active) {
 	text-decoration: underline;
 }
-main.website-main a:focus,
-main.website-main a:visited:focus,
-main.website-main .interactive:focus,
-main.website-main a:visited:visited:focus,
-main.website-main .interactive:visited:focus,
-main.website-main a:hover:focus,
-main.website-main a:visited:hover:focus,
-main.website-main .interactive:hover:focus {
+main.website-main a:focus-visible,
+main.website-main a:visited:focus-visible,
+main.website-main .interactive:focus-visible,
+main.website-main a:visited:visited:focus-visible,
+main.website-main .interactive:visited:focus-visible,
+main.website-main a:hover:focus-visible,
+main.website-main a:visited:hover:focus-visible,
+main.website-main .interactive:hover:focus-visible {
 	outline: none;
 	border-radius: 6px;
-	background: #33f;
+	background: var(--brandFocus, #33f);
+	color: var(--white, #fff);
+	text-decoration-color: var(--white, #fff);
 	text-decoration: overline;
-}
-main.website-main a:active:focus,
-main.website-main a:visited:active:focus,
-main.website-main .interactive:active:focus {
-	background: none;
-	text-decoration: none;
 }
 main.website-main a.empty-link,
 main.website-main a:visited.empty-link,
@@ -121,26 +138,26 @@ nav.main-nav li a {
 	font-weight: 400;
 	line-height: 22px;
 	text-transform: lowercase;
-	color: #fff;
+	color: var(--white, #fff);
 }
 @media screen and (min-width: 1280px) {
 	nav.main-nav li a {
-		border-radius: 6px 6px 0 0;
+		border-radius: 0 6px 6px 0;
 	}
 }
 nav.main-nav li a.active,
 nav.main-nav li a.active:hover,
 nav.main-nav li a.active:active,
 nav.main-nav li a.active:visited {
-	background: #fff;
-	color: #00f;
+	background: var(--white, #fff);
+	color: var(--brand, #00f);
 	cursor: default;
 }
-nav.main-nav li a.active:focus,
-nav.main-nav li a.active:hover:focus,
-nav.main-nav li a.active:active:focus,
-nav.main-nav li a.active:visited:focus {
-	background: #e6e6ff;
+nav.main-nav li a.active:focus-visible,
+nav.main-nav li a.active:hover:focus-visible,
+nav.main-nav li a.active:active:focus-visible,
+nav.main-nav li a.active:visited:focus-visible {
+	background: var(--brandFocus, #e6e6ff);
 }
 main.website-main {
 	box-sizing: border-box;
@@ -157,30 +174,15 @@ main.website-main.work {
 .maxWidthReached main.website-main {
 	margin: 0 auto;
 }
-@media (min-width: 1280px) {
-	body.about {
-		overflow: hidden;
-	}
-}
 body.works {
 	overflow: hidden;
 }
 .btn {
-	border: 1px solid #00f;
-	border-radius: 6px;
-	padding: 10px 15px 13px;
-	margin: 0 10px 10px 0;
+	border: 1px solid var(--brand, #00f);
+	border-radius: 4px;
+	padding: 6px 16px 9px;
 	white-space: nowrap;
 	font-size: 16px;
-}
-img {
-	transition: opacity 400ms cubic-bezier(0.19, 1, 0.22, 1);
-}
-img.loading {
-	opacity: 0;
-}
-img.loaded {
-	opacity: 1;
 }
 .error-page {
 	position: absolute;
@@ -189,9 +191,9 @@ img.loaded {
 	width: 100%;
 	height: 100%;
 	min-height: 480px;
-	background: #fff;
+	background: var(--white, #fff);
 	box-sizing: border-box;
-	box-shadow: 0 500px 0 0 #fff;
+	box-shadow: 0 500px 0 0 var(--white, #fff);
 }
 .error-page .error-title {
 	text-align: center;
@@ -226,7 +228,7 @@ header.main-header h1 {
 	margin-left: 60px;
 }
 header.main-header a.logo {
-	color: #fff;
+	color: var(--white, #fff);
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 24px;
@@ -234,27 +236,15 @@ header.main-header a.logo {
 nav.main-nav {
 	top: 0;
 	left: 0;
-	position: absolute;
+	position: sticky;
 	height: 100%;
-	width: 60px;
+	flex-shrink: 0;
 }
 .maxWidthReached.about nav.main-nav {
-	position: absolute;
+	position: sticky;
 	top: 0;
 }
-nav.main-nav a,
-nav.main-nav li {
-	width: 120px;
-	height: 60px;
-}
-@media screen and (max-height: 580px) {
-	nav.main-nav a,
-	nav.main-nav li {
-		width: 100px;
-	}
-}
 nav.main-nav a {
-	padding: 15px 0;
 	text-align: center;
 	box-sizing: border-box;
 }
@@ -264,43 +254,65 @@ nav.main-nav a {
 	display: block;
 }
 nav.main-nav ul {
-	position: absolute;
+	position: sticky;
 	top: 0;
 	left: 0;
 	height: 100%;
-	width: 100%;
+	min-width: 60px;
+	display: flex;
+	flex-direction: row;
+	writing-mode: vertical-lr;
+	text-orientation: sideways-right;
+	align-items: stretch;
 }
 nav.main-nav ul li {
-	transform-origin: 0 0;
+	white-space: nowrap;
+	display: flex;
+	transform: scale(-1, -1);
 }
-nav.main-nav ul li:nth-child(1) {
-	transform: rotate(-90deg) translateX(-360px);
+nav.main-nav ul li a {
+	display: flex;
+	align-items: center;
+	place-content: center;
+	padding: 16px;
 }
-nav.main-nav ul li:nth-child(2) {
-	transform: rotate(-90deg) translateX(-180px);
-}
-nav.main-nav ul li:nth-child(3) {
-	transform: rotate(-90deg) translateX(0px);
-}
-@media screen and (max-height: 580px) {
-	nav.main-nav ul li:nth-child(1) {
-		transform: rotate(-90deg) translateX(-300px);
+@media screen and (min-height: 600px) {
+	nav.main-nav ul li a {
+		min-height: 120px;
+		padding: 24px 16px;
 	}
-	nav.main-nav ul li:nth-child(2) {
-		transform: rotate(-90deg) translateX(-140px);
+}
+nav.main-nav ul li a span {
+	display: inline-block;
+	margin-left: 6px;
+}
+nav.main-nav ul li.stuby-and-fischer a span {
+	margin-left: -12px;
+}
+nav.main-nav ul li.stuby-and-fischer a {
+	border-left: 8px solid var(--white, #fff);
+	border-image: url(/img/border-dotted-square-white.svg) 25% repeat;
+	padding-right: 8px;
+}
+nav.main-nav ul li.stuby-and-fischer a.active {
+	border-image: url(/img/border-dotted-square-red.svg) 25% repeat;
+}
+nav.main-nav ul li.stuby-and-fischer .lg {
+	display: none;
+}
+@media screen and (min-height: 720px) {
+	nav.main-nav ul li.stuby-and-fischer a span.lg {
+		display: inline;
 	}
-	nav.main-nav ul li:nth-child(3) {
-		transform: rotate(-90deg) translateX(20px);
+	nav.main-nav ul li.stuby-and-fischer a span.sm {
+		display: none;
 	}
 }
 
 article {
-	padding-left: 60px;
-	color: #000030;
+	color: var(--brandText, #000030);
 	position: relative;
-}
-.without-navs article {
-	padding-left: 0;
+	display: flex;
 }
 article,
 section.content {
@@ -319,7 +331,7 @@ section.content {
 }
 article section.content {
 	border-top-left-radius: 6px;
-	background: #fff;
+	background: var(--white, #fff);
 }
 .about article section.content {
 	border-top-left-radius: 0;
@@ -342,32 +354,51 @@ article section.content {
 }
 article section.content a,
 article section.content .interactive {
-	color: #00f;
+	color: var(--brand, #00f);
 }
 article section.content a:hover,
 article section.content .interactive:hover,
 article section.content a:visited:hover,
 article section.content .interactive:visited:hover {
-	color: #00c;
+	color: var(--brandHover, #00c);
 }
 article section.content a:active,
 article section.content .interactive:active,
 article section.content a:visited:active,
 article section.content .interactive:visited:active {
-	color: #66f;
+	color: var(--brandActive, #66f);
 }
-article section.content a:focus,
-article section.content .interactive:focus,
-article section.content a.active:focus,
-article section.content .interactive.active:focus,
-article section.content a:visited:focus,
-article section.content .interactive:visited:focus,
-article section.content a:hover:focus,
-article section.content .interactive:hover:focus {
-	background: #e6e6ff;
+article section.content a:focus-visible,
+article section.content .interactive:focus-visible,
+article section.content a.active:focus-visible,
+article section.content .interactive.active:focus-visible,
+article section.content a:visited:focus-visible,
+article section.content .interactive:visited:focus-visible,
+article section.content a:hover:focus-visible,
+article section.content .interactive:hover:focus-visible {
+	background: var(--brandFocus, #e6e6ff);
 }
 .svg-icon {
 	width: 25px;
 	height: 25px;
 	fill: currentColor;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+img.lazyload {
+	animation-name: fadeIn;
+	animation-timing-function: cubic-bezier(0.54, 0.18, 0, 0.97);
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-play-state: paused;
+}
+img.lazyload.loaded {
+	animation-play-state: running;
 }

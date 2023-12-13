@@ -3,9 +3,9 @@ import Link from '../../Link'
 import List from '../../List'
 import ListElement from '../../ListElement'
 import Icon from '../../Icon'
-import Image from 'next/image'
 import WorkLink from '../../WorkLink'
 import { WorkType } from '../../../types'
+import { Image } from '@components/Image'
 
 interface WorkPropType {
 	previousWork?: WorkType
@@ -68,7 +68,7 @@ const Work: FC<WorkPropType> = ({
 				<div className="work-head">
 					<h2 className="work-title">{title}</h2>
 					<h3 className="work-subtitle">{subtitle}</h3>
-					<div className="work-description">{description}</div>
+					<p className="work-description">{description}</p>
 					<Link href="/" className="work-close-button">
 						<Icon iconId="cross" />
 					</Link>

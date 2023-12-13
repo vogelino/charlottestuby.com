@@ -11,11 +11,9 @@ interface WorkCaptionType {
 const WorkCaption: FC<WorkCaptionType> = ({ title, subtitle, slug }) => (
 	<ListElement className="work-caption">
 		<h2>
-			<button>
-				<Link href={`/work/${slug}`} className="interactive">
-					{title}
-				</Link>
-			</button>
+			<Link href={`/work/${slug}`} className="interactive">
+				{title}
+			</Link>
 		</h2>
 		<h3>{subtitle}</h3>
 	</ListElement>

@@ -1,10 +1,11 @@
-import { FC } from 'react'
+import { FC, useCallback, useEffect } from 'react'
 import Head from 'next/head'
 import { NextPageContext } from 'next'
 import Layout from '../../components/Layout'
 import Work from '../../components/pages/Work'
 import { getAllWorksContents } from '../../utils/staticPathsUtil'
 import { WorkType } from '../../types'
+import { useRouter } from 'next/router'
 
 export const getStaticPaths = async (): Promise<{ paths: string[]; fallback: boolean }> => {
 	const allWorks = await getAllWorksContents()
@@ -38,14 +39,29 @@ export const getStaticProps = async (
 	}
 }
 
-const WorkTemplate: FC<WorkPageType> = ({ work, nextWork, prevWork }) => (
-	<Layout page={`/work/${work.slug}`}>
-		<Head>
-			<title>{`${work.title} | Projet`}</title>
-			<meta name="description" content={`${work.description}`} />
-		</Head>
-		<Work work={work} nextWork={nextWork} previousWork={prevWork} />
-	</Layout>
-)
+const WorkTemplate: FC<WorkPageType> = ({ work, nextWork, prevWork }) => {
+	const router = useRouter()
+	const onEscape = useCallback((e: KeyboardEvent) => {
+		if (e.key === 'Escape') {
+			router.push('/')
+		}
+	}, [])
+
+	useEffect(() => {
+		window.addEventListener('keyup', onEscape)
+		return () => window.removeEventListener('keyup', onEscape)
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [])
+
+	return (
+		<Layout page={`/work/${work.slug}`}>
+			<Head>
+				<title>{`${work.title} | Projet`}</title>
+				<meta name="description" content={`${work.description}`} />
+			</Head>
+			<Work work={work} nextWork={nextWork} previousWork={prevWork} />
+		</Layout>
+	)
+}
 
 export default WorkTemplate

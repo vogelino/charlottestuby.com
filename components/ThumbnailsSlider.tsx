@@ -17,7 +17,9 @@ const ThumbnailsSlider: FC<ThumbnailsSliderType> = ({
 	const slider = useRef<Splide>(null)
 
 	useEffect(() => {
-		slider.current?.go(currentSlideIndex)
+		if (slider.current) {
+			slider.current.go(currentSlideIndex)
+		}
 	}, [currentSlideIndex])
 
 	return (
