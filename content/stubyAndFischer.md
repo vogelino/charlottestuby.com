@@ -1,6 +1,7 @@
 ---
 title: Charlotte Stuby & Susanne Fischer
 templateKey: stuby-and-fischer
+showTabInNav: false
 introImage: /img/stuby-and-fischer-handle-with-joy.png
 introButtonText: Open Shop
 introButtonLink: https://charlottestuby.com/shop
@@ -146,7 +147,7 @@ projects:
     textEndX: 2
     textEndY: 3
     projectButtonText: ""
-    projectTitle: Fun accessories  for rainy days
+    projectTitle: Fun accessories for rainy days
   - projectDescription: Exhibition, Brussels, 2023
     textStartX: 0
     projetImages:

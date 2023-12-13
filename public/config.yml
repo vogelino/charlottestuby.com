@@ -183,6 +183,12 @@ collections:
           - label: Title
             name: title
             widget: string
+          - label: Show tab in navigation
+            name: showTabInNav
+            hint: Show/hide tab in navigation (to the wider public)
+            widget: boolean
+            default: false
+            required: false
           - label: Intro Image
             name: introImage
             widget: image

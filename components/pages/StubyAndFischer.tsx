@@ -38,6 +38,7 @@ export interface StubyAndFischerPageType {
 	introButtonLink: string | null
 	projects: ProjectType[]
 	showPreviewGrid?: boolean
+	showTabInNav?: boolean
 }
 
 const StubyAndFischer: FC<StubyAndFischerPageType> = ({
