@@ -1,10 +1,10 @@
 ---
 title: Charlotte Stuby & Susanne Fischer
-showFischerTab: true
-showTabInNav: true
-introImage: /img/siege-bleue_handle-with-joy-stuby-fischer-2023.jpg
-introButtonText: ""
-introButtonLink: ""
+templateKey: stuby-and-fischer
+showTabInNav: false
+introImage: /img/stuby-and-fischer-handle-with-joy.png
+introButtonText: Open Shop
+introButtonLink: https://charlottestuby.com/shop
 projects:
   - projectDescription: From quilting to embroidery, clothing to works of art, this
       exhibition by six hands is a joyful exploration of textile techniques

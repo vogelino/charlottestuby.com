@@ -2,6 +2,7 @@ import { FC, ReactNode, useEffect } from 'react'
 import AboutPagePreview from '../../components/preview-templates/AboutPagePreview'
 import PressPagePreview from '../../components/preview-templates/PressPagePreview'
 import WorkPreview from '../../components/preview-templates/WorkPreview'
+import StubyAndFischerPreview from '../../components/preview-templates/StubyAndFischerPagePreview'
 
 interface CMSType {
 	init: () => void
@@ -40,12 +41,14 @@ const initCMS = async (): Promise<void> => {
 	CMS.registerPreviewStyle('/styles/about.css')
 	CMS.registerPreviewStyle('/styles/press.css')
 	CMS.registerPreviewStyle('/styles/work.css')
+	CMS.registerPreviewStyle('/styles/stubyAndFischer.css')
 	CMS.registerPreviewTemplate('about', AboutPagePreview as unknown as ReactNode)
 	CMS.registerPreviewTemplate('press', PressPagePreview as unknown as ReactNode)
 	CMS.registerPreviewTemplate('work', WorkPreview as unknown as ReactNode)
+	CMS.registerPreviewTemplate('stuby-and-fischer', StubyAndFischerPreview as unknown as ReactNode)
 }
 
-const NetlifyCMS: FC = () => {
+const DecapCMS: FC = () => {
 	useEffect(() => {
 		initCMS()
 	}, [])
@@ -53,4 +56,4 @@ const NetlifyCMS: FC = () => {
 	return null
 }
 
-export default NetlifyCMS
+export default DecapCMS

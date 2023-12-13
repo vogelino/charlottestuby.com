@@ -16,6 +16,7 @@
 	margin: 0 auto 10px auto;
 	height: calc(100vh - 220px);
 	position: relative;
+	background: var(--white, #fff);
 }
 .work-container {
 	padding-top: 15px;
@@ -34,7 +35,7 @@
 .work-header {
 	z-index: 1;
 	height: 80px;
-	background: #fff;
+	background: var(--white, #fff);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -96,7 +97,7 @@
 .work-description {
 	font-size: 16px;
 	line-height: 18px;
-	color: #000030;
+	color: var(--brandText, #000030);
 	max-width: 1280px;
 	margin: 12px auto 0;
 }
@@ -117,16 +118,16 @@ a.work-close-button {
 a.work-close-button svg {
 	display: block;
 	float: left;
-	fill: #00f;
+	fill: var(--brand, #00f);
 }
-a.work-close-button:focus svg {
-	fill: #fff;
+a.work-close-button:focus-visible svg {
+	fill: var(--white, #fff);
 }
 a.work-close-button:hover svg {
-	fill: #00c;
+	fill: var(--brandHover, #00c);
 }
 a.work-close-button:active svg {
-	fill: #66f;
+	fill: var(--brandActive, #66f);
 }
 .work-links,
 .work-link,
@@ -135,9 +136,9 @@ a.work-close-button:active svg {
 }
 .work-links a.work-link:hover,
 .work-links a.work-link:active,
-.work-links a.work-link:focus,
-.work-links a.work-link:focus:hover,
-.work-links a.work-link:focus:active {
+.work-links a.work-link:focus-visible,
+.work-links a.work-link:focus-visible:hover,
+.work-links a.work-link:focus-visible:active {
 	background: none;
 	color: blue;
 }
@@ -181,6 +182,7 @@ a.work-close-button:active svg {
 	border-radius: 50%;
 	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
 	overflow: hidden;
+	background: var(--white, #fff);
 }
 .work-link .work-link-content {
 	grid-area: worklinkcontent;

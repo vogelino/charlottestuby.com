@@ -1,0 +1,2 @@
+export const placeholderColor =
+	'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN89uzffwAJTwPLhvEiuwAAAABJRU5ErkJggg=='

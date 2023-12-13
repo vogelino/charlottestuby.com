@@ -48,7 +48,8 @@
 	right: -40px;
 	border-radius: 50%;
 	overflow: hidden;
-	border: 20px solid #fff;
+	border: 20px solid var(--white, #fff);
+	background-color: var(--white, #fff);
 }
 .about-picture .img img {
 	display: block;
@@ -67,6 +68,7 @@
 		padding-bottom: 75%;
 		border: none;
 		left: 0;
+		top: 0;
 	}
 	.about-picture .img img {
 		display: block;
@@ -132,7 +134,6 @@
 }
 .about-content p {
 	margin-bottom: 14px;
-	font-size: 80%;
 }
 .about-content .about-text {
 	margin-bottom: 40px;
@@ -143,4 +144,8 @@
 		display: block;
 		text-align: center;
 	}
+}
+.about-buttons {
+	display: flex;
+	gap: 16px;
 }

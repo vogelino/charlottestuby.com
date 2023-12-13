@@ -1,7 +1,7 @@
 import { FC, ReactNode } from 'react'
 import Link from '../Link'
-import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
+import { Image } from '@components/Image'
 
 export interface FormType {
 	image: string
@@ -89,21 +89,27 @@ const About: FC<AboutPageType> = ({
 			<div className="about-text">
 				{typeof text === 'string' ? <ReactMarkdown>{text}</ReactMarkdown> : text}
 			</div>
-			{cvUrl && cvButtonText && (
-				<Link className="btn" href={`${cvUrl}`} target="__blank">
-					{cvButtonText}
-				</Link>
-			)}
-			{emailAddress && emailButtonText && (
-				<Link className="btn" href={`mailto:${emailAddress}`}>
-					{emailButtonText}
-				</Link>
-			)}
-			{instagramUsername && instagramButtonText && (
-				<Link className="btn" href={`https://instagram.com/${instagramUsername}`} target="__blank">
-					{instagramButtonText}
-				</Link>
-			)}
+			<div className="about-buttons">
+				{cvUrl && cvButtonText && (
+					<Link className="btn" href={`${cvUrl}`} target="__blank">
+						{cvButtonText}
+					</Link>
+				)}
+				{emailAddress && emailButtonText && (
+					<Link className="btn" href={`mailto:${emailAddress}`}>
+						{emailButtonText}
+					</Link>
+				)}
+				{instagramUsername && instagramButtonText && (
+					<Link
+						className="btn"
+						href={`https://instagram.com/${instagramUsername}`}
+						target="__blank"
+					>
+						{instagramButtonText}
+					</Link>
+				)}
+			</div>
 		</section>
 	</div>
 )
