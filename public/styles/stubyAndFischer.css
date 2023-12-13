@@ -33,6 +33,7 @@
 		bottom: 0;
 		left: 0;
 		aspect-ratio: 3 / 2;
+		object-fit: cover;
 	}
 
 	.intro-content {
