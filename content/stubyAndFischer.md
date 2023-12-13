@@ -1,6 +1,7 @@
 ---
 title: Charlotte Stuby & Susanne Fischer
 showFischerTab: true
+showTabInNav: true
 introImage: /img/siege-bleue_handle-with-joy-stuby-fischer-2023.jpg
 introButtonText: ""
 introButtonLink: ""
