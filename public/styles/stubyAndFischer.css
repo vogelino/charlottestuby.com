@@ -27,13 +27,14 @@
 	}
 
 	.intro-picture > img {
-		width: auto;
+		width: calc(100% + 8vmin);
 		height: 100%;
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		aspect-ratio: 3 / 2;
 		object-fit: cover;
+		object-position: center;
 	}
 
 	.intro-content {
