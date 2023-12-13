@@ -128,30 +128,7 @@ projects:
       - projectImage: /img/stuby-and-fischer-bomber-jackets-3.png
         startX: 0
         startY: 5
-<<<<<<< HEAD
-        endX: 7
-        endY: 9
-    textStartY: 1
-    projectButtonLink: ""
-    textEndX: 2
-    textEndY: 3
-    projectButtonText: ""
-    projectTitle: Fun accessories for rainy days
-  - projectDescription: Exhibition, Brussels, 2023
-    textStartX: 0
-    projetImages:
-      - projectImage: /img/stuby-and-fischer-handle-with-joy-1.png
-        startX: 0
-        startY: 1
-        endX: 7
-        endY: 5
-      - projectImage: /img/stuby-and-fischer-handle-with-joy-2.png
-        startX: 0
-        startY: 4
-        endX: 2
-=======
         endX: 4
->>>>>>> master
         endY: 8
       - projectImage: /img/stuby-and-fischer-bomber-jackets-4.png
         startX: 4
