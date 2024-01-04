@@ -17,7 +17,7 @@ images:
   - image: /img/aquarius-charlottestuby-brussels-2022.jpg
     caption: Aquarius, textile collage, 55x68cm, Galerie Vertige, Brussels, Spring 2022
   - image: /img/vesta_charlotte-stuby-2023-brussels.jpg
-    caption: Vesta (red), mixed textile, 55x68cm, brussels, 2023
+    caption: Vesta (red), mixed textile, 55x68cm, Brussels, 2023
   - image: /img/horse-cover-charlottestuby-balkkon-neuchatel-2021.jpg
     caption: Horse cover, proposal for a tailor-made cover. Between absurdity and
       functionality. Revealing, protecting or concealing the object? Combined
