@@ -22,7 +22,7 @@ description: "
 
   \  "
 thumbnail: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-8.jpg
-decorativeForm: /img/rond-vert.svg
+decorativeForm: /img/ovale-vert.svg
 images:
   - image: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-6.jpg
     caption: Vesta (blue) and Gabbiano (green), textile collages, 81x67cm and 145x88cm
