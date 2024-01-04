@@ -4,9 +4,22 @@ orderOfAppearance: 1
 title: Sulpting Surfaces
 subtitle: A duo show with João Freitas
 date: 2024-01-04T16:52:11.800Z
-description: |-
-  curated by Murmur, at Firma Brussels, Autumn 2023. 
+description: "curated by Murmur, at Firma Brussels, Autumn 2023.\ 
+
   Pictures by Silvia Cappellari
+
+  ---------------------------------------------------------------------------\
+  ----------
+
+  Both artists have a unique approach to exploring and transforming materials.
+  Charlotte uses fabric and threads as a medium for storytelling, while João
+  transforms materials he finds into new realities. They breathe new life and
+  meaning into the materials they work with, introducing new significance that
+  transcends their typical properties and original purpose. By adding or
+  removing layers and altering and shaping the texture, the artists achieve
+  depth in their works.
+
+  \  "
 thumbnail: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-7.jpg
 decorativeForm: /img/savon.svg
 images:
