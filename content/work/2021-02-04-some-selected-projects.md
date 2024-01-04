@@ -1,10 +1,10 @@
 ---
 templateKey: work
-orderOfAppearance: 4
+orderOfAppearance: 5
 title: Some selected projects
 subtitle: Belgium, Switzerland 2013-2023
 date: 2021-02-04T13:10:50.409Z
-description: ' '
+description: " "
 thumbnail: /img/chair-cover-charlottestuby-gent-2022jpg-copie.jpg
 decorativeForm: /img/boukle-en-feu.svg
 images:
@@ -48,6 +48,6 @@ images:
     caption: Toute une éternité en extra, residency with Romain Tallet, EEEEH, Nyon
       (CH), Summer 2020
   - image: /img/diplome2-2013-charlottestuby-lausanne.jpg
-    caption: 'Rafale interrompue, Diploma project, ECAL, Lausanne (CH), Spring 2013.
-      Pictures: Julien Gremaud'
+    caption: "Rafale interrompue, Diploma project, ECAL, Lausanne (CH), Spring 2013.
+      Pictures: Julien Gremaud"
 ---
