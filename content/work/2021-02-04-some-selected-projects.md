@@ -22,6 +22,9 @@ images:
       functionality. Revealing, protecting or concealing the object? Combined
       with an expressive face woven with reflective yarns, Le Balkkon, Neuchâtel
       (CH), 2021
+  - caption: Seule avec une étoile sur la front, tapestry, cotton, 24x35cm, Brussels
+      (BE), 2020
+    image: /img/seule-avec-une-etoile-sur-le-front-charlottestuby-tamat-2020.jpg
   - image: /img/ca-va-aller-charlottestuby-2020-2.jpg
     caption: Embroidery on textile, 30x42cm, for COVID-19 Valentin 61, Brussels
       (BE), Spring 2020
