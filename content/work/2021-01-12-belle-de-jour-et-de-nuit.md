@@ -4,11 +4,20 @@ orderOfAppearance: 8
 title: '"Belle de jour et de nuit"'
 subtitle: Des Seins à Dessein, collective show, Espace Arlaud, Lausanne (CH), Autumn 2020
 date: 2021-01-12T16:05:04.042Z
-description: >-
-  Pictures by Nicolas Lieber
-
-
-  This diptych, hand-woven from cotton, wool and silk threads, depicts two statues planted in an imaginary setting. Nailed to their pedestals, they seem to belong to no age, as if abandoned. Yet they are anything but inert. Like two idols, referring to the female body as an object exposed to the gaze, they come to life in a rumbling, disquieting landscape, but with vibrant colors that incite dreamlike adventure. They occupy a space all their own, under the midday and sunset sun. In a symbolic gesture of self-palpation, these two sculptures do more than recall the strict medical gesture of prevention and screening: they invite us on a journey. They also offer a gateway to self-exploration, to the knowledge - and reappropriation - of one's own body. Their swaying arms, swaying in a contrast of colors, encourage us to look inward, sometimes uncertainly. Touching, palpating, kneading, smelling and feeling to create, recreate, blossom and enjoy life. (A.S.) Pictures by Nicolas Lieber
+description: "This diptych, hand-woven from cotton, wool and silk threads,
+  depicts two statues planted in an imaginary setting. Nailed to their
+  pedestals, they seem to belong to no age, as if abandoned. Yet they are
+  anything but inert. Like two idols, referring to the female body as an object
+  exposed to the gaze, they come to life in a rumbling, disquieting landscape,
+  but with vibrant colors that incite dreamlike adventure. They occupy a space
+  all their own, under the midday and sunset sun. In a symbolic gesture of
+  self-palpation, these two sculptures do more than recall the strict medical
+  gesture of prevention and screening: they invite us on a journey. They also
+  offer a gateway to self-exploration, to the knowledge - and reappropriation -
+  of one's own body. Their swaying arms, swaying in a contrast of colors,
+  encourage us to look inward, sometimes uncertainly. Touching, palpating,
+  kneading, smelling and feeling to create, recreate, blossom and enjoy life.
+  (A.S.) Pictures by Nicolas Lieber"
 thumbnail: /img/page-accueil-tapisserie-charlottestuby.jpg
 decorativeForm: /img/soleil.svg
 images:
