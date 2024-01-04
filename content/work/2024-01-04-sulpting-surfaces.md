@@ -11,15 +11,15 @@ thumbnail: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-7.j
 decorativeForm: /img/savon.svg
 images:
   - image: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-6.jpg
-    caption: exhibition view
+    caption: ""
   - image: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-5.jpg
-    caption: exhibition view
+    caption: ""
   - image: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-4.jpg
-    caption: exhibition view
+    caption: ""
   - image: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-1.jpg
-    caption: exhibition view
+    caption: ""
   - image: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-2..jpg
-    caption: exhibition view
+    caption: ""
   - image: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-3.jpg
-    caption: exhibition view
+    caption: ""
 ---
