@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 1
+orderOfAppearance: 2
 title: '"Handle With Joy"'
 subtitle: at DBKA Paddock, Brussels, Winter 2023
 date: 2023-04-03T13:28:10.741Z
