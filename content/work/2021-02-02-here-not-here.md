@@ -9,8 +9,13 @@ thumbnail: /img/image_page-accueil-vespa-charlottestuby.jpg
 decorativeForm: /img/vase.svg
 images:
   - image: /img/vespa2-charlottestuby-ghent-2017.jpg
+    caption: Vespa (cover), embroidery on textile
   - image: /img/exhibition-view-charlottestuby-ghent-2017.jpg
+    caption: Fire extinguisher (cover) and Camera (cover), embroidery on textile
   - image: /img/camera-charlottestuby-ghent-2017.jpg
+    caption: Camera (cover), embroidery on textile
   - image: /img/frame-charlottestuby-ghent-2017.jpg
+    caption: Frame (cover), embroidery on textile
   - image: /img/clock-charlottestuby-ghent-2017.jpg
+    caption: Clock (cover), embroidery on textile
 ---
