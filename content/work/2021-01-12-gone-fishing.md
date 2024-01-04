@@ -10,7 +10,7 @@ description: 'part of "Can We Talk In Private?", an exhibition initiated by
 thumbnail: /img/4-gone-fishing-charlottestuby_carre.jpg
 decorativeForm: /img/patch.svg
 images:
+  - image: /img/mdc_dcdc_019_p3_017_cstuby_lr.jpg
   - image: /img/mdc_dcdc_019_p3_016_cstuby_lr.jpg
   - image: /img/mdc_dcdc_019_p3_015_cstuby_lr.jpg
-  - image: /img/mdc_dcdc_019_p3_017_cstuby_lr.jpg
 ---
