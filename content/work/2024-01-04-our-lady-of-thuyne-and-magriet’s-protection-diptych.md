@@ -11,7 +11,11 @@ thumbnail: /img/detail-charlottestuby-ieper-2023-2.jpg
 decorativeForm: /img/rond-vert.svg
 images:
   - image: /img/lady-of-garden-charlottestuby-ieper-2023.jpg
+    caption: Our lady of Thuyne, textile banner
   - image: /img/magriet-charlottestuby-ieper-2023.jpg
+    caption: Magriet's protection, textile banner
   - image: /img/detail-charlottestuby-ieper-2023.jpg
+    caption: Magriet's protection, detail
   - image: /img/detail-charlottestuby-ieper-2023-2.jpg
+    caption: Magriet's protection, detail
 ---
