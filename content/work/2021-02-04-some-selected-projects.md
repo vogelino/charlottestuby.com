@@ -9,15 +9,14 @@ thumbnail: /img/chair-cover-charlottestuby-gent-2022jpg-copie.jpg
 decorativeForm: /img/boukle-en-feu.svg
 images:
   - image: /img/chair-cover-charlottestuby-gent-2022jpg.jpg
-    caption: '"Chair cover", part of Speaking chairs, a proposition by Onbetaalbaar,
-      Ghent (BE), 2022'
+    caption: Chair cover, part of Speaking chairs, by Onbetaalbaar, Ghent (BE), 2022
   - image: /img/lada-white-charlottestuby-brussels-2023.jpg
     caption: Safrane (white), mixed textile, 31x40cm, Brussels, 2023. Picture by
       Mélanie Peduzzi
   - image: /img/aquarius-charlottestuby-brussels-2022.jpg
     caption: Aquarius, textile collage, 55x68cm, Galerie Vertige, Brussels, Spring 2022
   - image: /img/vesta_charlotte-stuby-2023-brussels.jpg
-    caption: Vesta (red), mixed textile, 55x68cm, Brussels, 2023
+    caption: Vesta (red), mixed textile, 55x68cm, Brussels, Winter 2023
   - image: /img/horse-cover-charlottestuby-balkkon-neuchatel-2021.jpg
     caption: Horse cover, proposal for a tailor-made cover. Between absurdity and
       functionality. Revealing, protecting or concealing the object? Combined
