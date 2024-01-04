@@ -11,6 +11,9 @@ thumbnail: /img/4-gone-fishing-charlottestuby_carre.jpg
 decorativeForm: /img/patch.svg
 images:
   - image: /img/mdc_dcdc_019_p3_017_cstuby_lr.jpg
+    caption: Gone fishing (car cover), embroidery on textile
   - image: /img/mdc_dcdc_019_p3_016_cstuby_lr.jpg
+    caption: Gone fishing (car cover), exhibition view
   - image: /img/mdc_dcdc_019_p3_015_cstuby_lr.jpg
+    caption: Gone fishing (car cover), exhibition view
 ---
