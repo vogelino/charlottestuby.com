@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 9
+orderOfAppearance: 10
 title: '"Into Limbo"'
 subtitle: Off the Grid, Leuven (BE), Autumn 2019
 date: 2020-10-22T18:24:51.324Z
