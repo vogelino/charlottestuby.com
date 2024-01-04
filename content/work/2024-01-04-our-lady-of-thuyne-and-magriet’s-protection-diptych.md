@@ -8,7 +8,7 @@ date: 2024-01-04T21:27:07.529Z
 description: Two banners made of cotton, 230x180cm, screenprinting, embroidery
   and sewing, with badges made of tin.
 thumbnail: /img/detail-charlottestuby-ieper-2023-2.jpg
-decorativeForm: /img/bricelet-orange.svg
+decorativeForm: /img/rond-blanc.svg
 images:
   - image: /img/lady-of-garden-charlottestuby-ieper-2023.jpg
     caption: Our lady of Thuyne, textile banner
