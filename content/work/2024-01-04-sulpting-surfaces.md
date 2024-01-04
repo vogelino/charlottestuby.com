@@ -1,8 +1,8 @@
 ---
 templateKey: work
 orderOfAppearance: 1
-title: Sulpting Surfaces
-subtitle: A duo show with João Freitas
+title: '"Sulpting Surfaces", at firma Brussels (BE), Autumn 2023'
+subtitle: A duo show with João Freitas curated by Murmur
 date: 2024-01-04T16:52:11.800Z
 description: "
 
@@ -17,8 +17,6 @@ description: "
   works.                                                                                                                                     \
   \ 
 
-
-  Curated by Murmur, at Firma Brussels, Autumn 2023.\ 
 
   Pictures by Silvia Cappellari.
 
