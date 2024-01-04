@@ -38,6 +38,6 @@ images:
     caption: Safrane (red), textile collage, 40x31cm
   - image: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-1.jpg
     caption: Safrane (green, blue, red, white), textile collage, 40x31cm
-  - image: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-10.jpg
-    caption: Vesta (blue), textile collage, 81x67cm
+  - image: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-9.jpg
+    caption: Vesta (red), textile collage, 81x67cm
 ---
