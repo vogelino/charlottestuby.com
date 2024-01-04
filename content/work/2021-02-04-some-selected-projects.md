@@ -6,7 +6,7 @@ subtitle: Belgium, Switzerland 2013-2023
 date: 2021-02-04T13:10:50.409Z
 description: " "
 thumbnail: /img/chair-cover-charlottestuby-gent-2022jpg-copie.jpg
-decorativeForm: /img/boukle-en-feu.svg
+decorativeForm: /img/boudin.svg
 images:
   - image: /img/chair-cover-charlottestuby-gent-2022jpg.jpg
     caption: Chair cover, part of Speaking chairs, by Onbetaalbaar, Ghent (BE), 2022
