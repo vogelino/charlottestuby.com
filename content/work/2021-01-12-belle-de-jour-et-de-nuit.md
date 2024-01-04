@@ -28,5 +28,5 @@ images:
   - image: /img/exhibition-view-des-seins-a-dessein-charlottestuby-lausanne-2020.jpg
     caption: Belle de jour et Belle de nuit, exhibition view
   - image: /img/working-progress-charlotte-stuby-lausanne-2020.jpg
-    caption: Belle de jour, ongoing work
+    caption: Belle de jour, ongoing project
 ---
