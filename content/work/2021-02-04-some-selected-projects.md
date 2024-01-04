@@ -22,12 +22,12 @@ images:
       functionality. Revealing, protecting or concealing the object? Combined
       with an expressive face woven with reflective yarns, Le Balkkon, Neuchâtel
       (CH), 2021
-  - image: /img/page-accueil-selected-projects-charlottestuby.jpg
+  - image: /img/ca-va-aller-charlottestuby-2020-2.jpg
     caption: Embroidery on textile, 30x42cm, for COVID-19 Valentin 61, Brussels
       (BE), Spring 2020
   - image: /img/nénie-charlotte-brussels-2017.jpg
-    caption: Nénie, waterproof fabric, lithography, embroidery, metal stick,
-      30x35cm, Brussels (BE), Spring 2017
+    caption: Nénie, waterproof fabric, lithography, embroidery, 30x35cm, Brussels
+      (BE), Spring 2017
   - image: /img/tapestry-brussels-2016-charlottestuby.jpg
     caption: Untitled (tapestry), cotton, ficelle, 30x25cm, Brussels (BE), Autumn 2016
   - image: /img/mat-charlottestuby-neuchatel-2017.jpg
