@@ -18,7 +18,7 @@ description: "curated by Murmur, at Firma Brussels, Autumn 2023.\
 
   \  "
 thumbnail: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-7.jpg
-decorativeForm: /img/savon.svg
+decorativeForm: /img/rond-vert.svg
 images:
   - image: /img/charlottestuby-sculpting-surfaces-firma-murmur-brussels-2023-6.jpg
     caption: ""
