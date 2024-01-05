@@ -19,19 +19,19 @@ projects:
     projetImages:
       - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
         startX: 4
-        startY: 0
+        startY: 2
         endX: 7
-        endY: 2
+        endY: 4
       - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
         startX: 3
         startY: 9
         endX: 7
         endY: 11
-      - projectImage: /img/handle-with-joy-6-stuby-fischer-margnetti-brussels-2023.jpg
+      - projectImage: /img/hand-with-joy-stuby-fischer-margnetti-brussels-2023-3.jpg
         startX: 0
-        startY: 0
+        startY: 2
         endX: 3
-        endY: 2
+        endY: 4
       - projectImage: /img/handle-with-joy-5-stuby-fischer-margnetti.jpg
         startX: 0
         startY: 4
@@ -47,9 +47,9 @@ projects:
         startY: 8
         endX: 3
         endY: 11
-    textStartY: 2
+    textStartY: 0
     projectButtonLink: ""
-    textEndX: 7
+    textEndX: 5
     textEndY: 5
     projectButtonText: ""
     projectTitle: Handle with joy, in collabroation with Sarah Margnetti,
