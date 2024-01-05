@@ -15,14 +15,14 @@ projects:
       makes the textile works dance in a ballet of hands, feet, and noses. The
       three artists connect with amusement and affinity between design and
       visual art to make light of these media as well as their status.
-    textStartX: 1
+    textStartX: 0
     projetImages:
       - projectImage: /img/hand-with-joy-2-stuby-fischer-margnetti-brussels-2023.jpg
         startX: 5
         startY: 1
         endX: 7
         endY: 3
-    textStartY: 1
+    textStartY: 0
     projectButtonLink: ""
     textEndX: 5
     textEndY: 3
