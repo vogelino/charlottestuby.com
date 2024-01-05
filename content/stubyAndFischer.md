@@ -1,10 +1,11 @@
 ---
-title: Charlotte Stuby & Susanne Fischer
 templateKey: stuby-and-fischer
+title: Charlotte Stuby & Susanne Fischer
 showTabInNav: false
-introImage: /img/stuby-and-fischer-handle-with-joy.png
+introImage: /img/bombers-jacket-stuby-fischer-brussels-2021-5.jpg
 introButtonText: Open Shop
 introButtonLink: https://charlottestuby.com/shop
+showPreviewGrid: true
 projects:
   - projectDescription: From quilting to embroidery, clothing to works of art, this
       exhibition by six hands is a joyful exploration of textile techniques
@@ -25,7 +26,7 @@ projects:
     projectButtonLink: ""
     textEndX: 2
     textEndY: 1
-    projectButtonText: ""
+    projectButtonText: dsjksfkjsdfjkjkasdf
     projectTitle: Handle with joy, in collabroation with Sarah Margnetti,
       DBKApaddok, Brussels, 2023
   - projectDescription: A capsule collection of silver earrings and necklace, Brussels, 2023
