@@ -18,20 +18,20 @@ projects:
     textStartX: 0
     projetImages:
       - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
-        startX: 4
-        startY: 2
-        endX: 7
-        endY: 4
+        startX: 0
+        startY: 8
+        endX: 5
+        endY: 10
       - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
         startX: 3
         startY: 9
         endX: 7
         endY: 11
       - projectImage: /img/hand-with-joy-stuby-fischer-margnetti-brussels-2023-3.jpg
-        startX: 0
-        startY: 2
-        endX: 3
-        endY: 4
+        startX: 3
+        startY: 0
+        endX: 5
+        endY: 3
       - projectImage: /img/handle-with-joy-5-stuby-fischer-margnetti.jpg
         startX: 0
         startY: 4
@@ -44,10 +44,10 @@ projects:
         endY: 9
       - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-1.jpg
         startX: 0
-        startY: 8
+        startY: 0
         endX: 3
-        endY: 11
-    textStartY: 0
+        endY: 3
+    textStartY: 3
     projectButtonLink: ""
     textEndX: 5
     textEndY: 5
