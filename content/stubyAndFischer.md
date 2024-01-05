@@ -2,7 +2,7 @@
 templateKey: stuby-and-fischer
 title: Charlotte Stuby & Susanne Fischer
 showTabInNav: true
-introImage: /img/bombers-jacket-stuby-fischer-brussels-2021-5.jpg
+introImage: /img/bombers-jacket-stuby-fischer-brussels-2021.jpg
 introButtonText: ""
 introButtonLink: ""
 showPreviewGrid: true
@@ -17,16 +17,46 @@ projects:
       visual art to make light of these media as well as their status.
     textStartX: 0
     projetImages:
-      - projectImage: /img/hand-with-joy-2-stuby-fischer-margnetti-brussels-2023.jpg
+      - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
         startX: 5
         startY: 1
         endX: 7
         endY: 3
+      - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
+        startX: 6
+        startY: 6
+        endX: 8
+        endY: 8
+      - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-1.jpg
+        startX: 4
+        startY: 4
+        endX: 6
+        endY: 6
+      - projectImage: /img/handle-with-joy-6-stuby-fischer-margnetti-brussels-2023.jpg
+        startX: 0
+        startY: 0
+        endX: 2
+        endY: 2
+      - projectImage: /img/handle-with-joy-3-stuby-fischer-margnetti-brussels-2023.jpg
+        endX: 7
+        startX: 5
+        startY: 5
+        endY: 7
+      - projectImage: /img/handle-with-joy-5-stuby-fischer-margnetti.jpg
+        startX: 3
+        startY: 3
+        endX: 5
+        endY: 5
+      - projectImage: /img/hand-with-joy-2-stuby-fischer-margnetti-brussels-2023.jpg
+        startX: 0
+        startY: 0
+        endX: 1
+        endY: 3
     textStartY: 0
     projectButtonLink: ""
     textEndX: 5
-    textEndY: 3
-    projectButtonText: dsjksfkjsdfjkjkasdf
+    textEndY: 5
+    projectButtonText: ""
     projectTitle: Handle with joy, in collabroation with Sarah Margnetti,
       DBKApaddok, Brussels, 2023
   - projectDescription: A capsule collection of silver earrings and necklace, Brussels, 2023
