@@ -3,8 +3,8 @@ templateKey: stuby-and-fischer
 title: Charlotte Stuby & Susanne Fischer
 showTabInNav: true
 introImage: /img/bombers-jacket-stuby-fischer-brussels-2021-5.jpg
-introButtonText: Open Shop
-introButtonLink: https://charlottestuby.com/shop
+introButtonText: ""
+introButtonLink: ""
 showPreviewGrid: true
 projects:
   - projectDescription: From quilting to embroidery, clothing to works of art, this
