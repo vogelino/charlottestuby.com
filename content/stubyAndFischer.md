@@ -49,9 +49,9 @@ projects:
         endY: 5
       - projectImage: /img/hand-with-joy-2-stuby-fischer-margnetti-brussels-2023.jpg
         startX: 0
-        startY: 0
-        endX: 1
-        endY: 3
+        startY: 3
+        endX: 5
+        endY: 7
     textStartY: 0
     projectButtonLink: ""
     textEndX: 5
@@ -59,29 +59,10 @@ projects:
     projectButtonText: ""
     projectTitle: Handle with joy, in collabroation with Sarah Margnetti,
       DBKApaddok, Brussels, 2023
-  - projectDescription: A capsule collection of silver earrings and necklace, Brussels, 2023
-    textStartX: 5
-    projetImages:
-      - projectImage: /img/stuby-and-fischer-las-leman-1.png
-        startX: 0
-        startY: 0
-        endX: 4
-        endY: 4
-      - startX: 3
-        startY: 3
-        endX: 7
-        endY: 6
-        projectImage: /img/stuby-and-fischer-las-leman-2.png
-    textStartY: 1
-    projectButtonLink: ""
-    textEndX: 7
-    textEndY: 3
-    projectButtonText: ""
-    projectTitle: Lac Léman
   - projectDescription: A collection of handmade rain hoods and vests, Brussels, 2023
     textStartX: 0
     projetImages:
-      - projectImage: /img/stuby-and-fischer-rainy-days-1.png
+      - projectImage: /img/capuche-desert-stuby-fischer-brussels-2023-2.jpg
         startX: 3
         startY: 1
         endX: 6
@@ -102,6 +83,25 @@ projects:
     textEndY: 3
     projectButtonText: ""
     projectTitle: Fun accessories  for rainy days
+  - projectDescription: A capsule collection of silver earrings and necklace, Brussels, 2023
+    textStartX: 5
+    projetImages:
+      - projectImage: /img/stuby-and-fischer-las-leman-1.png
+        startX: 0
+        startY: 0
+        endX: 4
+        endY: 4
+      - startX: 3
+        startY: 3
+        endX: 7
+        endY: 6
+        projectImage: /img/stuby-and-fischer-las-leman-2.png
+    textStartY: 1
+    projectButtonLink: ""
+    textEndX: 7
+    textEndY: 3
+    projectButtonText: ""
+    projectTitle: Lac Léman
   - projectDescription: A collection of seven unique Bowling shirts, recycled and
       embroidered cotton, Brussels, 2022
     textStartX: 0
