@@ -1,7 +1,7 @@
 ---
 templateKey: work
 orderOfAppearance: 11
-title: "\"l'âge de roseau\""
+title: "\"L'âge de roseau\""
 subtitle: in collaboration with Hugo Ruyant and Juliet Merie, Sagacity, Brussels
   (BE), Spring 2019
 date: 2021-02-02T12:50:33.297Z
