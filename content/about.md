@@ -4,7 +4,7 @@ templateKey: about-page
 title: ⚐
 subtitle: |
   Based between Brussels (BE) and Vevey (CH)
-portrait: /img/charlotte-stuby-portrait-lou-merie-2022.jpg
+portrait: /img/portrait_cs_bandw.jpg
 email: charlottestuby@gmail.com
 emailButtonText: Email
 cv: /img/cv-english-charlottestuby-2024.pdf
@@ -12,18 +12,18 @@ cvButtonText: Curriculum
 instagramUsername: charlottestuby
 instagramButtonText: Instagram
 forms:
+  - image: /img/ovale.svg
+    posX: 0
+    posY: 17
   - image: /img/support-assiette-noir.svg
-    posX: 81
-    posY: 30
+    posX: 0
+    posY: 10
   - image: /img/boudin-noir.svg
     posX: 80
     posY: 50
   - image: /img/patate.svg
-    posX: 5
-    posY: 50
-  - image: /img/ovale.svg
-    posX: 10
-    posY: 1
+    posX: 50
+    posY: 80
   - image: /img/tourbillon-noir.svg
     posX: 3
     posY: 20
