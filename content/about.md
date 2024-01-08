@@ -17,7 +17,7 @@ forms:
     posY: 17
   - image: /img/support-assiette-noir.svg
     posX: 0
-    posY: 20
+    posY: -20
   - image: /img/boudin.svg
     posX: 80
     posY: 40
