@@ -19,7 +19,7 @@ forms:
     posX: 0
     posY: 20
   - image: /img/boudin.svg
-    posX: 60
+    posX: 80
     posY: 40
   - image: /img/tourbillon-noir.svg
     posX: 6
