@@ -24,9 +24,6 @@ forms:
   - image: /img/tourbillon-noir.svg
     posX: 6
     posY: 20
-  - image: /img/mouette-rouge.svg
-    posX: 40
-    posY: 60
   - image: /img/trait-abstrait-bleu.svg
     posX: 40
     posY: 50
