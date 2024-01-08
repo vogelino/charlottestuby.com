@@ -18,15 +18,12 @@ forms:
   - image: /img/vague.svg
     posX: 80
     posY: 50
-  - image: /img/roseau.svg
-    posX: 2
-    posY: 1
   - image: /img/soleil.svg
     posX: 5
     posY: 60
-  - image: /img/ovale-rouge.svg
-    posX: 4
-    posY: 2
+  - image: /img/ovale-vert.svg
+    posX: 8
+    posY: 1
 ---
 My work consists mainly of textile installations. My compositions are functional while carrying narratives. Through the use of "appliqué", quilting, embroidery or tapestry, I recreate a world strewn with clues and traces, symbols, sometimes logos and references drawn from the popular imagination and from my own memories.
 
