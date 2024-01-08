@@ -19,11 +19,8 @@ forms:
     posX: 0
     posY: 20
   - image: /img/boudin.svg
-    posX: 80
+    posX: 60
     posY: 40
-  - image: /img/patate-verte.svg
-    posX: 30
-    posY: 45
   - image: /img/tourbillon-noir.svg
     posX: 6
     posY: 20
@@ -32,7 +29,7 @@ forms:
     posY: 60
   - image: /img/trait-abstrait-bleu.svg
     posX: 40
-    posY: 30
+    posY: 50
 ---
 My work consists mainly of textile installations. My compositions are functional while carrying narratives. Through the use of "appliqué", quilting, embroidery or tapestry, I recreate a world strewn with clues and traces, symbols, sometimes logos and references drawn from the popular imagination and from my own memories.
 
