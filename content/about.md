@@ -18,9 +18,9 @@ forms:
   - image: /img/support-assiette-noir.svg
     posX: 0
     posY: 10
-  - image: /img/boudin-noir.svg
+  - image: /img/boudin.svg
     posX: 80
-    posY: 60
+    posY: 40
   - image: /img/patate-verte.svg
     posX: 30
     posY: 50
