@@ -20,7 +20,7 @@ forms:
     posY: 10
   - image: /img/boudin-noir.svg
     posX: 80
-    posY: 50
+    posY: 30
   - image: /img/patate.svg
     posX: 50
     posY: 80
