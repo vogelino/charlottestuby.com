@@ -22,7 +22,7 @@ forms:
     posX: 80
     posY: 30
   - image: /img/patate.svg
-    posX: 50
+    posX: 0
     posY: 80
   - image: /img/tourbillon-noir.svg
     posX: 3
