@@ -4,7 +4,7 @@ templateKey: about-page
 title: ⚐
 subtitle: |
   Based between Brussels (BE) and Vevey (CH)
-portrait: /img/portrait_cs_bandw.jpg
+portrait: /img/portrait_cs_bandw_carré.jpg
 email: charlottestuby@gmail.com
 emailButtonText: Email
 cv: /img/cv-english-charlottestuby-2024.pdf
@@ -21,14 +21,17 @@ forms:
   - image: /img/boudin-noir.svg
     posX: 80
     posY: 30
-  - image: /img/patate.svg
-    posX: 0
-    posY: 80
+  - image: /img/patate-verte.svg
+    posX: 40
+    posY: 70
   - image: /img/tourbillon-noir.svg
-    posX: 3
+    posX: 6
     posY: 20
   - image: /img/mouette-rouge.svg
     posX: 50
+    posY: 70
+  - image: /img/trait-abstrait-bleu.svg
+    posX: 60
     posY: 70
 ---
 My work consists mainly of textile installations. My compositions are functional while carrying narratives. Through the use of "appliqué", quilting, embroidery or tapestry, I recreate a world strewn with clues and traces, symbols, sometimes logos and references drawn from the popular imagination and from my own memories.
