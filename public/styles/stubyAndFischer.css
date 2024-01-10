@@ -160,6 +160,7 @@
 		inset: 0 8vmin;
 		width: calc(100% - 16vmin);
 		height: 100%;
+		pointer-events: none;
 	}
 
 	@media screen and (max-width: 740px) {
