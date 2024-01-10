@@ -14,8 +14,8 @@ const ThumbnailsForms: FC<ThumbnailsFormsType> = ({ forms = [], currentSlide = 0
 		<List
 			className="thumbnail-forms-list"
 			style={{
-				height: `${forms.length}00vh`,
-				top: `calc(-${currentSlide} * (var(--vh, 1vh) * 100))`,
+				height: `${forms.length}00lvh`,
+				top: `calc(-${currentSlide} * 100lvh)`,
 			}}
 		>
 			{forms.map(({ decorativeForm, id }, index) => (

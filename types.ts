@@ -1,6 +1,8 @@
 interface WorkImageType {
 	image: string
 	caption?: string
+	width?: number
+	height?: number
 }
 
 export interface WorkType {
