@@ -75,24 +75,21 @@ const Work: FC<WorkPropType> = ({
 				</div>
 			) : null}
 			<List className="work-images">
-				{images.map(({ image, caption }) => (
-					<ListElement className="work-image" key={image}>
-						<figure>
-							<div className="work-image-loading-container">
-								<Image
-									alt=""
-									src={image}
-									fill
-									sizes="100vw"
-									style={{
-										objectFit: 'contain',
-									}}
-								/>
-							</div>
-							{caption ? <figcaption>{formatDescription(caption)}</figcaption> : null}
-						</figure>
-					</ListElement>
-				))}
+				{images.map(({ image, caption, width, height }) => {
+					return (
+						<ListElement className="work-image" key={image}>
+							<figure>
+								<div
+									className="work-image-loading-container"
+									style={(width && height && { aspectRatio: `${width} / ${height}` }) || {}}
+								>
+									<Image alt="" src={image} fill />
+								</div>
+								{caption ? <figcaption>{formatDescription(caption)}</figcaption> : null}
+							</figure>
+						</ListElement>
+					)
+				})}
 			</List>
 			<List className="work-links">
 				{previousWork && (

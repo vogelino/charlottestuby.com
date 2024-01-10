@@ -1,5 +1,6 @@
 const matter = require('gray-matter')
 const { getSorterByKey, mapWork } = require('./mapUtil')
+const probe = require('probe-image-size')
 
 const getWorksPath = () => {
 	const path = require('path')
@@ -16,7 +17,22 @@ const getWorkContentBySlug = async (slug) => {
 	const fileName = `${slug}.md`
 	const fileContents = fs.readFileSync(path.join(worksPath, fileName), 'utf8')
 	const { data } = matter(fileContents)
-	return mapWork(Object.assign({}, data, { slug }))
+	const work = mapWork(Object.assign({}, data, { slug }))
+	const imagesWithSizes = await Promise.all(
+		work.images.map(async (image) => {
+			const imageInfo = fs.createReadStream(path.join(process.cwd(), 'public', image.image))
+			const probedImg = await probe(imageInfo)
+			return {
+				...image,
+				width: probedImg.width,
+				height: probedImg.height,
+			}
+		})
+	)
+	return {
+		...work,
+		images: imagesWithSizes,
+	}
 }
 
 module.exports.getWorkContentBySlug = getWorkContentBySlug
@@ -24,7 +40,6 @@ module.exports.getAllWorksContents = async () => {
 	const fs = require('fs')
 	const worksPath = getWorksPath()
 
-	console.log(worksPath)
 	const paths = fs.readdirSync(worksPath)
 	const works = await Promise.all(
 		paths.map((file) => getWorkContentBySlug(markdowmFilepathToSlug(file)))
