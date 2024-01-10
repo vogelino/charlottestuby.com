@@ -75,7 +75,7 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 			)}
 		</div>
 		{projects.map((project, index) => {
-			const items = filterValidGridItem([
+			const items = [
 				...(project.projetImages || []),
 				{
 					startX: project.textStartX,
@@ -83,16 +83,20 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 					endX: project.textEndX,
 					endY: project.textEndY,
 				},
-			])
-			const lastRow = Math.max(project.textEndY, ...items.map((image) => image.endY))
-			const projectPos = normalizeStartEnd({
-				startX: project.textStartX ?? null,
-				startY: project.textStartY ?? null,
-				endX: project.textEndX ?? null,
-				endY: project.textEndY ?? null,
-			})
-			const projectHasValidPositions = isValidGridItem(projectPos)
-			const validProjectPos = projectPos as ValidGridItem
+			]
+			const validItems = filterValidGridItem(items)
+			const initialLastRow = Math.max(...validItems.map((image) => image.endY))
+			const normalizedItems = items.map((item) => normalizeStartEnd(item, initialLastRow))
+			const finalLastRow = Math.max(...normalizedItems.map((image) => image.endY))
+			const projectPos = normalizeStartEnd(
+				{
+					startX: project.textStartX ?? null,
+					startY: project.textStartY ?? null,
+					endX: project.textEndX ?? null,
+					endY: project.textEndY ?? null,
+				},
+				initialLastRow
+			)
 			return (
 				<section
 					className="project"
@@ -100,34 +104,31 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 					style={{
 						// @ts-ignore
 						'--height': `calc(var(--grid-size, 8vmin) * ${
-							showPreviewGrid ? lastRow || 3 : lastRow
+							showPreviewGrid ? finalLastRow || 3 : finalLastRow
 						})`,
 					}}
 				>
-					{projectHasValidPositions && (
-						<header
-							className="project-text"
-							style={{
-								gridColumnStart: validProjectPos.startX + 1,
-								gridRowStart: validProjectPos.startY + 1,
-								gridColumnEnd: validProjectPos.endX + 1,
-								gridRowEnd: validProjectPos.endY + 1,
-							}}
-						>
-							<h2>{project.projectTitle}</h2>
-							<p>{project.projectDescription}</p>
-							{project.projectButtonText && project.projectButtonLink && (
-								<footer>
-									<Link className="btn" href={project.projectButtonLink}>
-										{project.projectButtonText}
-									</Link>
-								</footer>
-							)}
-						</header>
-					)}
+					<header
+						className="project-text"
+						style={{
+							gridColumnStart: projectPos.startX + 1,
+							gridRowStart: projectPos.startY + 1,
+							gridColumnEnd: projectPos.endX + 1,
+							gridRowEnd: projectPos.endY + 1,
+						}}
+					>
+						<h2>{project.projectTitle}</h2>
+						<p>{project.projectDescription}</p>
+						{project.projectButtonText && project.projectButtonLink && (
+							<footer>
+								<Link className="btn" href={project.projectButtonLink}>
+									{project.projectButtonText}
+								</Link>
+							</footer>
+						)}
+					</header>
 					{(project.projetImages || []).map((image, index) => {
-						const imagePos = normalizeStartEnd(image)
-						if (!isValidGridItem(imagePos)) return null
+						const imagePos = normalizeStartEnd(image, initialLastRow)
 						const validPos = imagePos as ValidGridItem
 						return (
 							<div
@@ -164,13 +165,13 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 					})}
 					{showPreviewGrid && (
 						<div className="preview-grid">
-							{[...Array((lastRow || 3) + 1)].map((_, index) => (
+							{[...Array((finalLastRow || 3) + 1)].map((_, index) => (
 								<div
 									key={`preview-grid-row-${index}`}
 									className="preview-grid-row"
 									style={{
 										// @ts-ignore
-										'--offset': `calc((var(--height, 8vmin) / ${lastRow || 3}) * ${index})`,
+										'--offset': `calc((var(--height, 8vmin) / ${finalLastRow || 3}) * ${index})`,
 									}}
 								>
 									<span>{index}</span>
@@ -222,19 +223,14 @@ function isValidGridPosition(value: unknown) {
 	return typeof value === 'number' && value >= 0
 }
 
-function normalizeStartEnd(item: ValidGridItem): {
-	startX: number | null
-	startY: number | null
-	endX: number | null
-	endY: number | null
-} {
-	const startX = typeof item.startX === 'number' ? item.startX : null
-	const startY = typeof item.startY === 'number' ? item.startY : null
+function normalizeStartEnd(item: ValidGridItem, lastRow: number): ValidGridItem {
+	const startX = typeof item.startX === 'number' ? item.startX : 0
+	const startY = typeof item.startY === 'number' ? item.startY : lastRow
 	return {
 		startX,
 		startY,
-		endX: typeof item.endX === 'number' ? item.endX : startX ? startX + 1 : null,
-		endY: typeof item.endY === 'number' ? item.endY : startY ? startY + 1 : null,
+		endX: typeof item.endX === 'number' ? item.endX : startX ? startX + 1 : 0,
+		endY: typeof item.endY === 'number' ? item.endY : startY ? startY + 1 : lastRow,
 	}
 }
 
