@@ -74,10 +74,16 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 			)}
 		</div>
 		{projects.map((project, index) => {
-			const lastRow = Math.max(
-				project.textEndY,
-				...(project.projetImages || []).map((image) => image.endY)
-			)
+			const items = filterValidGridItem([
+				...(project.projetImages || []),
+				{
+					startX: project.textStartX,
+					startY: project.textStartY,
+					endX: project.textEndX,
+					endY: project.textEndY,
+				},
+			])
+			const lastRow = Math.max(project.textEndY, ...items.map((image) => image.endY))
 			return (
 				<section
 					className="project"
@@ -165,5 +171,27 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 		})}
 	</>
 )
+
+function filterValidGridItem(
+	items: {
+		startX: unknown
+		startY: unknown
+		endX: unknown
+		endY: unknown
+	}[]
+) {
+	return items.filter((item) =>
+		[item.startX, item.startY, item.endX, item.endY].every(isValidGridPosition)
+	) as {
+		startX: number
+		startY: number
+		endX: number
+		endY: number
+	}[]
+}
+
+function isValidGridPosition(value: unknown) {
+	return typeof value === 'number' && value >= 0
+}
 
 export default StubyAndFischer
