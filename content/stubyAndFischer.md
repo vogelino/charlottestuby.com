@@ -86,43 +86,43 @@ projects:
       have a little stock! "
     projectTitle: Fun accessories  for rainy days
   - projectDescription: A collection of seven unique Bowling shirts, recycled and
-      embroidered cotton, Brussels, 2022
-    textStartX: 0
+      embroidered cotton, Brussels, 2022.
+    textStartX: 4
     projetImages:
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-1.jpg
-        startX: 3
+        startX: 0
         startY: 1
-        endX: 6
+        endX: 3
         endY: 5
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-9.jpg
-        startX: 0
-        startY: 3
-        endX: 2
-        endY: 6
+        startX: 5
+        startY: 2
+        endX: 8
+        endY: 5
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-7.jpg
-        startX: 2
-        startY: 4
-        endX: 4
-        endY: 7
+        startX: 3
+        startY: 2
+        endX: 5
+        endY: 5
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-11.jpg
         startX: 0
-        startY: 8
-        endY: 11
+        startY: 5
+        endY: 8
         endX: 2
       - startX: 2
-        startY: 7
-        endX: 6
-        endY: 13
-        projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-9.jpg
-      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-6.jpg
+        startY: 5
+        endX: 5
+        endY: 9
+        projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-6.jpg
+      - projectImage: /img/stuby-and-fischer-bowling-shirts-3.png
         startX: 5
-        startY: 11
+        startY: 5
         endX: 7
-        endY: 14
+        endY: 8
     textStartY: 1
     projectButtonLink: ""
-    textEndX: 2
-    textEndY: 3
+    textEndX: 7
+    textEndY: 2
     projectButtonText: ""
     projectTitle: Bowling shirts
   - projectDescription: A capsule collection of silver earrings and necklace, Brussels, 2023
