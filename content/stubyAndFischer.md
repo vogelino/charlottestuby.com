@@ -162,7 +162,7 @@ projects:
     projectTitle: Lac Léman jewellery, 2023
   - projectDescription: >-
       This project is a joyful reflection and memory of our hometown, Vevey (CH)
-      with a blink to our current city, Brussels (BE)
+      with a blink to our current city, Brussels (BE). Pictures by Ugo Woatzi.
 
 
       Side 1: embroideries on dead stock nylon recycled nylon.
