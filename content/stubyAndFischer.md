@@ -162,7 +162,7 @@ projects:
     projetImages:
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-6.jpg
         startX: 1
-        startY: 0
+        startY: 1
         endX: 4
         endY: 4
       - projectImage: /img/stuby-and-fischer-bomber-jackets-2.png
@@ -170,22 +170,22 @@ projects:
         startY: 2
         endX: 7
         endY: 6
-      - projectImage: /img/stuby-and-fischer-bomber-jackets-3.png
+      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-8.jpg
         startX: 0
         startY: 5
         endX: 4
         endY: 8
-      - projectImage: /img/stuby-and-fischer-bomber-jackets-4.png
+      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-10.jpg
         startX: 4
         endX: 7
         startY: 7
         endY: 11
-      - projectImage: /img/stuby-and-fischer-bomber-jackets-5.png
+      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-12.jpg
         startX: 0
         endX: 3
         startY: 8
         endY: 12
-    textStartY: 0
+    textStartY: 1
     projectButtonLink: ""
     textEndX: 7
     textEndY: 2
