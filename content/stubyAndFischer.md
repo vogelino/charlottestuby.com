@@ -128,7 +128,7 @@ projects:
   - projectDescription: A capsule collection of silver earrings and necklace, Brussels, 2023
     textStartX: 5
     projetImages:
-      - projectImage: /img/stuby-and-fischer-las-leman-1.png
+      - projectImage: /img/lac-leman-4-stuby-fischer-brussels-2023.jpg
         startX: 0
         startY: 0
         endX: 4
