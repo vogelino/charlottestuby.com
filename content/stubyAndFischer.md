@@ -14,7 +14,8 @@ projects:
       memories of mountains, the lake, and friendship. Sarah Margnetti’s brush
       makes the textile works dance in a ballet of hands, feet, and noses. The
       three artists connect with amusement and affinity between design and
-      visual art to make light of these media as well as their status.
+      visual art to make light of these media as well as their status. Pictures
+      by Lola Pertsowsky
     textStartX: 0
     projetImages:
       - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
