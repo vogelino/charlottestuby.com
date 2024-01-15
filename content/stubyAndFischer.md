@@ -156,7 +156,7 @@ projects:
         endY: 8
     textStartY: 1
     projectButtonLink: ""
-    textEndX: 7
+    textEndX: 6
     textEndY: 2
     projectButtonText: ""
     projectTitle: Lac Léman jewellery, 2023
