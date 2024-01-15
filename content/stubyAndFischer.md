@@ -50,7 +50,7 @@ projects:
     projectTitle: Handle with joy, in collabroation with Sarah Margnetti,
       DBKApaddok, Brussels, 2023
   - projectDescription: A collection of handmade rain hoods, three different models
-      and in various colours. Brussels,  2023. Pictures by Mélanie Peduzzi
+      and in various colours. Brussels, 2023. Pictures by Mélanie Peduzzi.
     textStartX: 1
     projetImages:
       - projectImage: /img/capuche-desert-stuby-fischer-brussels-2023-2.jpg
@@ -64,15 +64,26 @@ projects:
         endX: 3
         endY: 7
       - projectImage: /img/stuby-and-fischer-rainy-days-3.png
+        startX: 0
+        startY: 7
+        endX: 3
+        endY: 11
+      - projectImage: /img/capuche-desert-stuby-fischer-brussels-2023.jpg
         startX: 3
         startY: 5
-        endX: 6
         endY: 9
+        endX: 6
+      - projectImage: /img/capuche-mer3-stuby-fischer-brussels-2023.jpg
+        startY: 9
+        startX: 3
+        endX: 6
+        endY: 13
     textStartY: 1
     projectButtonLink: ""
     textEndX: 3
     textEndY: 3
-    projectButtonText: ""
+    projectButtonText: "Write me an email if you are interested my one, we still
+      have a little stock! "
     projectTitle: Fun accessories  for rainy days
   - projectDescription: A capsule collection of silver earrings and necklace, Brussels, 2023
     textStartX: 5
