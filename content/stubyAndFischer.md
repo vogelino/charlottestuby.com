@@ -137,7 +137,7 @@ projects:
     projectButtonText: ""
     projectTitle: Bowling shirts, 2022
   - projectDescription: A capsule collection of silver earrings and necklace made of silver.
-    textStartX: 4
+    textStartX: 5
     projetImages:
       - projectImage: /img/lac-leman-4-stuby-fischer-brussels-2023.jpg
         startX: 0
@@ -156,7 +156,7 @@ projects:
         endY: 8
     textStartY: 1
     projectButtonLink: ""
-    textEndX: 6
+    textEndX: 7
     textEndY: 2
     projectButtonText: ""
     projectTitle: Lac Léman jewellery, 2023
