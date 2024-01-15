@@ -50,7 +50,7 @@ projects:
     projectTitle: '"Handle with joy", in collabroation with Sarah Margnetti,
       DBKApaddok, Brussels, 2023'
   - projectDescription: A collection of handmade rain hoods, three different models
-      and in various colours. Brussels, 2023. Pictures by Mélanie Peduzzi.
+      and in various colours. Pictures by Mélanie Peduzzi.
     textStartX: 1
     projetImages:
       - projectImage: /img/capuche-desert-stuby-fischer-brussels-2023-2.jpg
@@ -84,9 +84,9 @@ projects:
     textEndY: 3
     projectButtonText: "Write me an email if you are interested my one, we still
       have a little stock! "
-    projectTitle: Fun accessories  for rainy days
-  - projectDescription: A collection of seven unique Bowling shirts, recycled and
-      embroidered cotton, Brussels, 2022.
+    projectTitle: Fun accessories  for rainy days, 2023
+  - projectDescription: A collection of seven unique Bowling shirts, made out of
+      leftovers from previous project. Pictures by Ugo Woatzi
     textStartX: 4
     projetImages:
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-1.jpg
@@ -124,8 +124,8 @@ projects:
     textEndX: 7
     textEndY: 2
     projectButtonText: ""
-    projectTitle: Bowling shirts
-  - projectDescription: A capsule collection of silver earrings and necklace, Brussels, 2023
+    projectTitle: Bowling shirts, 2022
+  - projectDescription: A capsule collection of silver earrings and necklace made of silver.
     textStartX: 5
     projetImages:
       - projectImage: /img/lac-leman-4-stuby-fischer-brussels-2023.jpg
@@ -141,19 +141,26 @@ projects:
       - projectImage: /img/lac-leman-2-stuby-fischer-brussels-2023.jpg
         startY: 5
         startX: 0
-        endX: 3
+        endX: 4
         endY: 8
     textStartY: 1
     projectButtonLink: ""
     textEndX: 7
     textEndY: 3
     projectButtonText: ""
-    projectTitle: Lac Léman
-  - projectDescription: Two handmade reversible bomber jackets, recycled nylon, hand
-      knitted cotton cuff and collar, Brussels, 2021
+    projectTitle: Lac Léman jewellery, 2023
+  - projectDescription: >-
+      This project is a joyful reflection and memory of our hometown, Vevey (CH)
+      with a blink to our current city, Brussels (BE)
+
+
+      Side 1: embroideries on dead stock nylon recycled nylon.
+
+
+      Side 2: quilted recycled nylon and waxed cotton with embrodieries and  handknitted cotton cuff and collar
     textStartX: 5
     projetImages:
-      - projectImage: /img/stuby-and-fischer-bomber-jackets-1.png
+      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-6.jpg
         startX: 1
         startY: 0
         endX: 4
@@ -183,7 +190,7 @@ projects:
     textEndX: 7
     textEndY: 2
     projectButtonText: ""
-    projectTitle: Bomber Jackets
+    projectTitle: Handmade reversible bomber jackets, 2021
 ---
 Knowing each other from the small town of Vevey in Switzerland, the paths of Charlotte Stuby and Susanne Fischer crossed again in Brussels after having both studied and worked in the art and textile field. 
 
