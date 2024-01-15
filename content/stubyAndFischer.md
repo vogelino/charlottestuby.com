@@ -47,7 +47,7 @@ projects:
         startX: 0
         startY: 5
         endX: 3
-        endY: 8
+        endY: 7
     textStartY: 3
     projectButtonLink: ""
     textEndX: 3
