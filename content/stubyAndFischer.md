@@ -15,10 +15,10 @@ projects:
       makes the textile works dance in a ballet of hands, feet, and noses. The
       three artists connect with amusement and affinity between design and
       visual art to make light of these media as well as their status.
-    textStartX: 1
+    textStartX: 0
     projetImages:
       - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
-        startX: 0
+        startX: 1
         startY: 10
         endX: 5
         endY: 13
@@ -43,14 +43,14 @@ projects:
         endX: 2
         endY: 3
       - projectImage: /img/handle-with-joy-6-stuby-fischer-margnetti-brussels-2023.jpg
-        startX: 5
-        startY: 11
-        endX: 7
-        endY: 13
-    textStartY: 4
+        startX: 0
+        startY: 5
+        endX: 2
+        endY: 7
+    textStartY: 3
     projectButtonLink: ""
-    textEndX: 4
-    textEndY: 4
+    textEndX: 3
+    textEndY: 5
     projectButtonText: ""
     projectTitle: '"Handle with joy", in collabroation with Sarah Margnetti,
       DBKApaddok, Brussels, 2023'
