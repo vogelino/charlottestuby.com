@@ -98,7 +98,7 @@ projects:
     projectTitle: Fun accessories  for rainy days, 2023
   - projectDescription: A collection of seven unique Bowling shirts, made out of
       leftovers from previous project. Pictures by Ugo Woatzi
-    textStartX: 0
+    textStartX: 3
     projetImages:
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-1.jpg
         startX: 0
@@ -130,10 +130,10 @@ projects:
         startY: 7
         endX: 7
         endY: 10
-    textStartY: 8
+    textStartY: 1
     projectButtonLink: ""
-    textEndX: 2
-    textEndY: 10
+    textEndX: 5
+    textEndY: 3
     projectButtonText: ""
     projectTitle: Bowling shirts, 2022
   - projectDescription: A capsule collection of silver earrings and necklace made of silver.
