@@ -24,7 +24,7 @@ projects:
         endY: 12
       - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
         startX: 4
-        startY: 0
+        startY: 5
         endX: 8
         endY: 3
       - projectImage: /img/handle-with-joy-5-stuby-fischer-margnetti.jpg
@@ -32,8 +32,8 @@ projects:
         startY: 5
         endX: 7
         endY: 9
-      - projectImage: /img/hand-with-joy-stuby-fischer-margnetti-brussels-2023-3.jpg
-        endX: 4
+      - projectImage: /img/handle-with-joy-3-stuby-fischer-margnetti-brussels-2023.jpg
+        endX: 7
         startX: 2
         startY: 0
         endY: 3
@@ -47,8 +47,8 @@ projects:
     textEndX: 4
     textEndY: 4
     projectButtonText: ""
-    projectTitle: Handle with joy, in collabroation with Sarah Margnetti,
-      DBKApaddok, Brussels, 2023
+    projectTitle: '"Handle with joy", in collabroation with Sarah Margnetti,
+      DBKApaddok, Brussels, 2023'
   - projectDescription: A collection of handmade rain hoods, three different models
       and in various colours. Brussels, 2023. Pictures by Mélanie Peduzzi.
     textStartX: 1
@@ -85,25 +85,6 @@ projects:
     projectButtonText: "Write me an email if you are interested my one, we still
       have a little stock! "
     projectTitle: Fun accessories  for rainy days
-  - projectDescription: A capsule collection of silver earrings and necklace, Brussels, 2023
-    textStartX: 5
-    projetImages:
-      - projectImage: /img/stuby-and-fischer-las-leman-1.png
-        startX: 0
-        startY: 0
-        endX: 4
-        endY: 4
-      - startX: 3
-        startY: 3
-        endX: 7
-        endY: 6
-        projectImage: /img/stuby-and-fischer-las-leman-2.png
-    textStartY: 1
-    projectButtonLink: ""
-    textEndX: 7
-    textEndY: 3
-    projectButtonText: ""
-    projectTitle: Lac Léman
   - projectDescription: A collection of seven unique Bowling shirts, recycled and
       embroidered cotton, Brussels, 2022
     textStartX: 0
@@ -144,6 +125,25 @@ projects:
     textEndY: 3
     projectButtonText: ""
     projectTitle: Bowling shirts
+  - projectDescription: A capsule collection of silver earrings and necklace, Brussels, 2023
+    textStartX: 5
+    projetImages:
+      - projectImage: /img/stuby-and-fischer-las-leman-1.png
+        startX: 0
+        startY: 0
+        endX: 4
+        endY: 4
+      - startX: 3
+        startY: 3
+        endX: 7
+        endY: 6
+        projectImage: /img/stuby-and-fischer-las-leman-2.png
+    textStartY: 1
+    projectButtonLink: ""
+    textEndX: 7
+    textEndY: 3
+    projectButtonText: ""
+    projectTitle: Lac Léman
   - projectDescription: Two handmade reversible bomber jackets, recycled nylon, hand
       knitted cotton cuff and collar, Brussels, 2021
     textStartX: 5
