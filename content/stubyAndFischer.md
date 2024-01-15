@@ -18,8 +18,8 @@ projects:
       by Lola Pertsowsky
     textStartX: 0
     projetImages:
-      - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
-        startX: 1
+      - projectImage: /img/hand-with-joy-stuby-fischer-margnetti-brussels-2023-3.jpg
+        startX: 3
         startY: 10
         endX: 5
         endY: 13
