@@ -138,6 +138,11 @@ projects:
         endX: 7
         endY: 6
         projectImage: /img/stuby-and-fischer-las-leman-2.png
+      - projectImage: /img/lac-leman-2-stuby-fischer-brussels-2023.jpg
+        startY: 5
+        startX: 0
+        endX: 3
+        endY: 8
     textStartY: 1
     projectButtonLink: ""
     textEndX: 7
