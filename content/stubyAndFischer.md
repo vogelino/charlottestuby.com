@@ -59,30 +59,30 @@ projects:
     textStartX: 1
     projetImages:
       - projectImage: /img/capuche-desert-stuby-fischer-brussels-2023-2.jpg
-        startX: 3
+        startX: 4
         startY: 1
-        endX: 6
+        endX: 7
         endY: 5
       - projectImage: /img/stuby-and-fischer-rainy-days-2.png
-        startX: 0
+        startX: 1
         startY: 3
-        endX: 3
+        endX: 4
         endY: 7
-      - projectImage: /img/stuby-and-fischer-rainy-days-3.png
-        startX: 0
-        startY: 7
-        endX: 3
-        endY: 11
       - projectImage: /img/capuche-desert-stuby-fischer-brussels-2023.jpg
-        startX: 3
+        startX: 4
         startY: 5
         endY: 9
-        endX: 6
+        endX: 7
       - projectImage: /img/capuche-mer3-stuby-fischer-brussels-2023.jpg
         startY: 9
-        startX: 3
-        endX: 6
+        startX: 4
+        endX: 7
         endY: 13
+      - projectImage: /img/stuby-and-fischer-rainy-days-3.png
+        startX: 1
+        startY: 7
+        endX: 4
+        endY: 11
     textStartY: 1
     projectButtonLink: ""
     textEndX: 3
