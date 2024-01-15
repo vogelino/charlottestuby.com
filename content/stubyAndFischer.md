@@ -141,7 +141,7 @@ projects:
     projetImages:
       - projectImage: /img/lac-leman-4-stuby-fischer-brussels-2023.jpg
         startX: 0
-        startY: 0
+        startY: 1
         endX: 4
         endY: 4
       - startX: 3
