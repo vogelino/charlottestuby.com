@@ -12,7 +12,12 @@ const Link: FC<LinkType> = ({ children, href, className, target }) => {
 	const linkClassName = `${href === '#' ? 'empty-link' : ''} ${className}`
 	if (href.startsWith('/')) {
 		return (
-			<InternalLink href={`${href}#__next`} className={linkClassName} target={target || undefined}>
+			<InternalLink
+				href={`${href}`}
+				className={linkClassName}
+				target={target || undefined}
+				scroll={false}
+			>
 				{children}
 			</InternalLink>
 		)

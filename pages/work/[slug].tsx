@@ -53,6 +53,10 @@ const WorkTemplate: FC<WorkPageType> = ({ work, nextWork, prevWork }) => {
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [])
 
+	useEffect(() => {
+		document.body.scrollTo(0, 0)
+	}, [router.asPath])
+
 	return (
 		<Layout page={`/work/${work.slug}`}>
 			<Head>

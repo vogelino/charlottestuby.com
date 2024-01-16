@@ -14,7 +14,6 @@ main.website-main {
 	min-height: calc(var(--vh, 1vh) * 100);
 	margin: 0 auto;
 	-webkit-overflow-scrolling: touch;
-	scroll-behavior: smooth;
 }
 body {
 	--white: #fff;
