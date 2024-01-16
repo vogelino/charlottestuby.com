@@ -198,11 +198,6 @@ projects:
       Side 2: quilted recycled nylon and waxed cotton with embrodieries and  handknitted cotton cuff and collar
     textStartX: 5
     projetImages:
-      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-5.jpg
-        startX: 4
-        startY: 8
-        endX: 7
-        endY: 12
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-8.jpg
         startX: 0
         startY: 1
@@ -214,19 +209,24 @@ projects:
         startY: 7
         endY: 11
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-9.jpg
-        startX: 4
+        startX: 3
         startY: 4
         endX: 7
         endY: 8
-      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-6.jpg
-        startX: 0
-        endX: 2
-        startY: 11
-        endY: 14
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-13.jpg
         startX: 2
         startY: 11
         endX: 4
+        endY: 14
+      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-5.jpg
+        startX: 4
+        startY: 7
+        endX: 7
+        endY: 12
+      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-6.jpg
+        startX: 0
+        endX: 2
+        startY: 11
         endY: 14
     textStartY: 1
     projectButtonLink: ""
