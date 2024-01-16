@@ -122,7 +122,7 @@ projects:
         startY: 5
         endX: 3
         endY: 8
-    projectDescription: Handmade quilted and embrodered vests. Pictures by Mélanie Peduzzi
+    projectDescription: Handmade quilted and embroidered vests. Pictures by Mélanie Peduzzi
   - projectDescription: A capsule collection of silver earrings and necklace made of silver.
     textStartX: 5
     projetImages:
