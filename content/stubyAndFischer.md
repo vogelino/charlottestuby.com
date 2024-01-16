@@ -16,7 +16,7 @@ projects:
       three artists connect with amusement and affinity between design and
       visual art to make light of these media as well as their status. Pictures
       by Lola Pertsowsky
-    textStartX: 1
+    textStartX: 0
     projetImages:
       - projectImage: /img/hand-with-joy-stuby-fischer-margnetti-brussels-2023-3.jpg
         startX: 0
