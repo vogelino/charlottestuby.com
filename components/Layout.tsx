@@ -5,7 +5,6 @@ import MetaTags from './MetaTags'
 import Header from './Header'
 import { FormType } from '../types'
 import { getPageClass } from '@utils/pageUtil'
-import { useRouter } from 'next/router'
 
 interface TemplateWrapperType {
 	page?: string
@@ -27,17 +26,13 @@ const TemplateWrapper: FC<TemplateWrapperType> = ({
 	forms = [],
 	isPreview = false,
 }) => {
-	const { asPath } = useRouter()
 	useEffect(() => {
 		setVh()
 		window.addEventListener('resize', setVh)
+		document.body.scrollTo(0, 0)
 
 		return () => window.removeEventListener('resize', setVh)
 	}, [page])
-
-	useEffect(() => {
-		document.body.scrollTo(0, 0)
-	}, [asPath])
 
 	return (
 		<main className={`website-main ${getPageClass(page)}`}>
