@@ -16,18 +16,18 @@ projects:
       three artists connect with amusement and affinity between design and
       visual art to make light of these media as well as their status. Pictures
       by Lola Pertsowsky
-    textStartX: 0
+    textStartX: 1
     projetImages:
       - projectImage: /img/hand-with-joy-stuby-fischer-margnetti-brussels-2023-3.jpg
         startX: 0
-        startY: 10
+        startY: 11
         endX: 3
-        endY: 14
+        endY: 15
       - projectImage: /img/handle-with-joy-5-stuby-fischer-margnetti.jpg
         startX: 0
-        startY: 6
+        startY: 7
         endX: 7
-        endY: 10
+        endY: 11
       - projectImage: /img/handle-with-joy-3-stuby-fischer-margnetti-brussels-2023.jpg
         endX: 7
         startX: 2
@@ -40,23 +40,23 @@ projects:
         endY: 3
       - projectImage: /img/handle-with-joy-6-stuby-fischer-margnetti-brussels-2023.jpg
         startX: 0
-        startY: 5
+        startY: 6
         endX: 3
-        endY: 7
+        endY: 8
       - projectImage: /img/hand-with-joy-2-stuby-fischer-margnetti-brussels-2023.jpg
-        startY: 10
+        startY: 11
         endX: 7
-        endY: 14
+        endY: 15
         startX: 2
       - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
         startX: 4
-        startY: 5
+        startY: 3
         endX: 8
-        endY: 3
-    textStartY: 3
+        endY: 6
+    textStartY: 4
     projectButtonLink: ""
     textEndX: 4
-    textEndY: 5
+    textEndY: 6
     projectButtonText: ""
     projectTitle: '"Handle with joy", in collabroation with Sarah Margnetti,
       DBKApaddok, Brussels, 2023'
