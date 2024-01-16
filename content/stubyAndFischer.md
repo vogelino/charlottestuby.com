@@ -55,7 +55,7 @@ projects:
         endY: 6
     textStartY: 4
     projectButtonLink: ""
-    textEndX: 4
+    textEndX: 3
     textEndY: 6
     projectButtonText: ""
     projectTitle: '"Handle with joy", in collabroation with Sarah Margnetti,
