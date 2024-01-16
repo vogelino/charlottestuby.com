@@ -98,30 +98,30 @@ projects:
     projectTitle: Fun accessories  for rainy days, 2023
   - projectTitle: A collection of vests, 2023
     textStartX: 3
-    textStartY: 0
+    textStartY: 1
     textEndX: 7
     textEndY: 1
     projetImages:
       - projectImage: /img/gilet-stuby-fischer-brussels-2023-2.jpg
         startX: 0
-        startY: 0
+        startY: 1
         endX: 3
-        endY: 4
+        endY: 5
       - projectImage: /img/gilet-stuby-fischer-brussels-2023-1.jpg
         startX: 3
-        startY: 1
+        startY: 2
         endX: 7
-        endY: 6
-      - projectImage: /img/gilet-stuby-fischer-brussels-2023-3.jpg
-        startX: 0
-        startY: 5
-        endX: 3
-        endY: 10
+        endY: 5
       - projectImage: /img/gilet-stuby-fischer-brussels-2023-4.jpg
-        startX: 3
+        startX: 2
         startY: 6
         endX: 9
         endY: 10
+      - projectImage: /img/gilet-stuby-fischer-brussels-2023-3.jpg
+        startX: 1
+        startY: 5
+        endX: 3
+        endY: 8
     projectDescription: Handmade quilted and embrodered vests. Pictures by Mélanie Peduzzi
   - projectDescription: A capsule collection of silver earrings and necklace made of silver.
     textStartX: 5
