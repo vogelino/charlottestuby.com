@@ -97,7 +97,7 @@ projects:
       have a little stock! "
     projectTitle: Fun accessories  for rainy days, 2023
   - projectTitle: A collection of vests, 2023
-    textStartX: 3
+    textStartX: 4
     textStartY: 1
     textEndX: 7
     textEndY: 1
