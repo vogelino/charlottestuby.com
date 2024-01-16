@@ -151,6 +151,11 @@ projects:
       leftovers from previous project. Pictures by Ugo Woatzi
     textStartX: 4
     projetImages:
+      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-11.jpg
+        startX: 0
+        startY: 5
+        endY: 10
+        endX: 3
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-1.jpg
         startX: 0
         startY: 1
@@ -166,11 +171,6 @@ projects:
         startY: 3
         endX: 5
         endY: 6
-      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-11.jpg
-        startX: 0
-        startY: 5
-        endY: 8
-        endX: 2
       - startX: 2
         startY: 6
         endX: 5
