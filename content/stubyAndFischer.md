@@ -91,8 +91,8 @@ projects:
         endY: 11
     textStartY: 1
     projectButtonLink: ""
-    textEndX: 3
-    textEndY: 3
+    textEndX: 2
+    textEndY: 4
     projectButtonText: "Write me an email if you are interested my one, we still
       have a little stock! "
     projectTitle: Fun accessories  for rainy days, 2023
