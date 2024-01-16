@@ -149,7 +149,7 @@ projects:
     projectTitle: Lac Léman jewellery, 2023
   - projectDescription: A collection of seven unique Bowling shirts, made out of
       leftovers from previous project. Pictures by Ugo Woatzi
-    textStartX: 3
+    textStartX: 4
     projetImages:
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-1.jpg
         startX: 0
@@ -183,7 +183,7 @@ projects:
         endY: 10
     textStartY: 1
     projectButtonLink: ""
-    textEndX: 5
+    textEndX: 6
     textEndY: 3
     projectButtonText: ""
     projectTitle: Bowling shirts, 2022
