@@ -23,11 +23,6 @@ projects:
         startY: 10
         endX: 3
         endY: 14
-      - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
-        startX: 4
-        startY: 5
-        endX: 8
-        endY: 3
       - projectImage: /img/handle-with-joy-5-stuby-fischer-margnetti.jpg
         startX: 0
         startY: 6
@@ -53,6 +48,11 @@ projects:
         endX: 7
         endY: 14
         startX: 2
+      - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
+        startX: 4
+        startY: 5
+        endX: 8
+        endY: 3
     textStartY: 3
     projectButtonLink: ""
     textEndX: 3
