@@ -96,6 +96,57 @@ projects:
     projectButtonText: "Write me an email if you are interested my one, we still
       have a little stock! "
     projectTitle: Fun accessories  for rainy days, 2023
+  - projectTitle: A collection of vests, 2023
+    textStartX: 1
+    textStartY: 1
+    textEndX: 2
+    textEndY: 2
+    projetImages:
+      - projectImage: /img/gilet-stuby-fischer-brussels-2023-1.jpg
+        startX: 1
+        startY: 1
+        endX: 3
+        endY: 3
+      - projectImage: /img/gilet-stuby-fischer-brussels-2023-2.jpg
+        startX: 3
+        startY: 1
+        endX: 5
+        endY: 7
+      - projectImage: /img/gilet-stuby-fischer-brussels-2023-3.jpg
+        startX: 0
+        startY: 3
+        endX: 3
+        endY: 7
+      - projectImage: /img/gilet-stuby-fischer-brussels-2023-4.jpg
+        startX: 5
+        startY: 7
+        endX: 9
+        endY: 9
+    projectDescription: Handmade quilted and embrodered vests. Pictures by Mélanie Peduzzi
+  - projectDescription: A capsule collection of silver earrings and necklace made of silver.
+    textStartX: 5
+    projetImages:
+      - projectImage: /img/lac-leman-4-stuby-fischer-brussels-2023.jpg
+        startX: 0
+        startY: 1
+        endX: 4
+        endY: 4
+      - startX: 3
+        startY: 3
+        endX: 7
+        endY: 6
+        projectImage: /img/stuby-and-fischer-las-leman-2.png
+      - projectImage: /img/lac-leman-2-stuby-fischer-brussels-2023.jpg
+        startY: 5
+        startX: 0
+        endX: 4
+        endY: 8
+    textStartY: 2
+    projectButtonLink: ""
+    textEndX: 7
+    textEndY: 2
+    projectButtonText: ""
+    projectTitle: Lac Léman jewellery, 2023
   - projectDescription: A collection of seven unique Bowling shirts, made out of
       leftovers from previous project. Pictures by Ugo Woatzi
     textStartX: 3
@@ -136,30 +187,6 @@ projects:
     textEndY: 3
     projectButtonText: ""
     projectTitle: Bowling shirts, 2022
-  - projectDescription: A capsule collection of silver earrings and necklace made of silver.
-    textStartX: 5
-    projetImages:
-      - projectImage: /img/lac-leman-4-stuby-fischer-brussels-2023.jpg
-        startX: 0
-        startY: 1
-        endX: 4
-        endY: 4
-      - startX: 3
-        startY: 3
-        endX: 7
-        endY: 6
-        projectImage: /img/stuby-and-fischer-las-leman-2.png
-      - projectImage: /img/lac-leman-2-stuby-fischer-brussels-2023.jpg
-        startY: 5
-        startX: 0
-        endX: 4
-        endY: 8
-    textStartY: 2
-    projectButtonLink: ""
-    textEndX: 7
-    textEndY: 2
-    projectButtonText: ""
-    projectTitle: Lac Léman jewellery, 2023
   - projectDescription: >-
       This project is a joyful reflection and memory of our hometown, Vevey (CH)
       with a blink to our current city, Brussels (BE). Pictures by Ugo Woatzi.
