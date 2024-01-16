@@ -40,16 +40,11 @@ const About: FC<AboutPageType> = ({
 		<section className="about-picture">
 			<div className="img">
 				<Image
-					alt=""
+					alt="Photographic Portrait of Charlotte Stuby"
 					src={portrait}
-					width="400"
-					height="400"
-					sizes="100vw"
-					style={{
-						width: '100%',
-						height: 'auto',
-						objectFit: 'cover',
-					}}
+					width="640"
+					height="640"
+					sizes="640px"
 				/>
 			</div>
 			<div className="about-forms">

@@ -6,6 +6,7 @@ import Icon from '../../Icon'
 import WorkLink from '../../WorkLink'
 import { WorkType } from '../../../types'
 import { Image } from '@components/Image'
+import ReactMarkdown from 'react-markdown'
 
 interface WorkPropType {
 	previousWork?: WorkType
@@ -36,7 +37,7 @@ const Work: FC<WorkPropType> = ({
 	const [isScrollingUp, setIsScrollingUp] = useState(false)
 	useEffect(() => {
 		const handler = (): void => {
-			const currentScroll = window.pageYOffset
+			const currentScroll = window.scrollY
 			const isBelowMinDist = currentScroll <= MIN_SCROLL_DIS
 			const isGoingDown = currentScroll > LAST_SRCOLL_POS
 			const isGoingUp = currentScroll < LAST_SRCOLL_POS
@@ -68,7 +69,7 @@ const Work: FC<WorkPropType> = ({
 				<div className="work-head">
 					<h2 className="work-title">{title}</h2>
 					<h3 className="work-subtitle">{subtitle}</h3>
-					<p className="work-description">{description}</p>
+					<ReactMarkdown className="work-description">{description}</ReactMarkdown>
 					<Link href="/" className="work-close-button">
 						<Icon iconId="cross" />
 					</Link>
@@ -83,7 +84,17 @@ const Work: FC<WorkPropType> = ({
 									className="work-image-loading-container"
 									style={(width && height && { aspectRatio: `${width} / ${height}` }) || {}}
 								>
-									<Image alt="" src={image} fill />
+									<Image
+										alt={caption}
+										src={image}
+										sizes="960px"
+										width={width}
+										height={height}
+										style={{
+											width: '100%',
+											height: 'auto',
+										}}
+									/>
 								</div>
 								{caption ? <figcaption>{formatDescription(caption)}</figcaption> : null}
 							</figure>

@@ -14,7 +14,7 @@ const WorkLink: FC<WorkLinkType> = ({ title, slug, thumbnail }) => (
 		<div className="work-link-image">
 			<Image
 				src={thumbnail}
-				alt=""
+				alt={`Thumbnail of ${title}`}
 				width="60"
 				height="60"
 				style={{

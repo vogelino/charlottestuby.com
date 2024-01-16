@@ -70,7 +70,7 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 			</section>
 			{introImage && (
 				<section className="intro-picture">
-					<Image alt="" src={introImage} width={1328} height={1340} />
+					<Image alt="" src={introImage} width={664} height={670} sizes="540px" priority />
 				</section>
 			)}
 		</div>
@@ -118,7 +118,7 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 						}}
 					>
 						<h2>{project.projectTitle}</h2>
-						<p>{project.projectDescription}</p>
+						<ReactMarkdown>{project.projectDescription}</ReactMarkdown>
 						{project.projectButtonText && project.projectButtonLink && (
 							<footer>
 								<Link className="btn" href={project.projectButtonLink}>
@@ -146,7 +146,7 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 									}`,
 									background:
 										showPreviewGrid && !image.projectImage
-											? `var(--brandFocus, #e6e6ff) url(${newBg.src}) repeat center center`
+											? `var(--loadingPlaceholder, #e6e6ff) url(${newBg.src}) repeat center center`
 											: '',
 								}}
 							>
@@ -155,6 +155,7 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 										alt=""
 										src={image.projectImage}
 										fill
+										sizes="1100px"
 										style={{
 											objectFit: 'cover',
 										}}

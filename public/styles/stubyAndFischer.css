@@ -17,7 +17,7 @@
 		order: -1;
 		position: relative;
 		min-height: 65vw;
-		background: var(--brandFocus, #e6e6fe);
+		background: var(--loadingPlaceholder, #e6e6fe);
 	}
 
 	@media screen and (min-width: 740px) {
@@ -64,7 +64,7 @@
 		.intro-picture {
 			order: 1;
 			grid-column: -4 / span 4;
-			box-shadow: 200px 0 0 0 var(--brandFocus, #e6e6fe);
+			box-shadow: 200px 0 0 0 var(--loadingPlaceholder, #e6e6fe);
 		}
 	}
 
@@ -105,7 +105,7 @@
 
 	.project-image {
 		aspect-ratio: var(--aspectRatio, unset);
-		background: var(--brandFocus, #e6e6fe);
+		background: var(--loadingPlaceholder, #e6e6fe);
 	}
 
 	@media screen and (min-width: 740px) {

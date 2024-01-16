@@ -1,3 +1,8 @@
+:root {
+	--containerMaxWidth: 960px;
+	--homeContainerMaxWidth: 1280px;
+}
+
 html,
 body,
 #root,
@@ -18,6 +23,7 @@ body {
 	--brandHover: #00c;
 	--brandActive: #66f;
 	--brandFocus: #33f;
+	--loadingPlaceholder: #e6e6fe;
 	--brandText: #09090c;
 
 	font-family: 'HKGrotesk', 'Akzident Grotesk', Arial, sans-serif;
@@ -162,7 +168,7 @@ main.website-main {
 	box-sizing: border-box;
 	position: relative;
 	margin: 0 auto;
-	max-width: 1280px;
+	max-width: var(--homeContainerMaxWidth, 960px);
 }
 main.website-main.home {
 	overflow: hidden;

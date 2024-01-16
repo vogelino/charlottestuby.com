@@ -171,6 +171,9 @@ button {
 p {
 	text-wrap: pretty;
 }
+* {
+	box-sizing: border-box;
+}
 *:focus {
 	outline: none;
 }
