@@ -53,8 +53,12 @@ projects:
     projectButtonText: ""
     projectTitle: '"Handle with joy", in collabroation with Sarah Margnetti,
       DBKApaddok, Brussels, 2023'
-  - projectDescription: A collection of handmade rain hoods, three different models
-      and in various colours. Pictures by Mélanie Peduzzi.
+  - projectDescription: >-
+      A collection of handmade rain hoods, three different models and in various
+      colours. 
+
+
+      Pictures by Mélanie Peduzzi.
     textStartX: 1
     projetImages:
       - projectImage: /img/capuche-desert-stuby-fischer-brussels-2023-2.jpg
@@ -105,9 +109,14 @@ projects:
         startY: 4
         endX: 7
         endY: 9
-    projectDescription: Handmade quilted and embroidered vests. Pictures by Mélanie Peduzzi
-  - projectDescription: A capsule collection of silver earrings and necklace made of
-      silver. Pictures By Mélanie Peduzzi
+    projectDescription: |-
+      Handmade quilted and embroidered vests. 
+
+      Pictures by Mélanie Peduzzi
+  - projectDescription: |-
+      A capsule collection of silver earrings and necklace made of silver. 
+
+      Pictures By Mélanie Peduzzi
     textStartX: 5
     projetImages:
       - projectImage: /img/lac-leman-4-stuby-fischer-brussels-2023.jpg
@@ -131,8 +140,12 @@ projects:
     textEndY: 2
     projectButtonText: ""
     projectTitle: Lac Léman jewellery, 2023
-  - projectDescription: A collection of seven unique Bowling shirts, made out of
-      leftovers from previous projects. Pictures by Ugo Woatzi
+  - projectDescription: >-
+      A collection of seven unique Bowling shirts, made out of leftovers from
+      previous projects. 
+
+
+      Pictures by Ugo Woatzi
     textStartX: 3
     projetImages:
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-1.jpg
@@ -173,7 +186,10 @@ projects:
     projectTitle: Bowling shirts, 2022
   - projectDescription: >-
       This project is a joyful reflection and memory of our hometown, Vevey (CH)
-      with a blink to our current city, Brussels (BE). Pictures by Ugo Woatzi.
+      with a blink to our current city, Brussels (BE). 
+
+
+      Pictures by Ugo Woatzi.
 
 
       Side 1: embroideries on dead stock nylon recycled nylon.
