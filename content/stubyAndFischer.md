@@ -7,56 +7,43 @@ introButtonText: ""
 introButtonLink: ""
 showPreviewGrid: true
 projects:
-  - projectDescription: From quilting to embroidery, clothing to works of art, this
-      exhibition by six hands is a joyful exploration of textile techniques
-      taking the viewer on a stroll through a pictorial staging of the pieces.
-      The textile works, by the Charlotte Stuby and Susanne Fischer duo, invoke
-      memories of mountains, the lake, and friendship. Sarah Margnetti’s brush
-      makes the textile works dance in a ballet of hands, feet, and noses. The
-      three artists connect with amusement and affinity between design and
-      visual art to make light of these media as well as their status. Pictures
-      by Lola Pertsowsky
-    textStartX: 0
+  - projectDescription: >-
+      
+
+
+
+      From quilting to embroidery, clothing to works of art, this exhibition by six hands is a joyful exploration of textile techniques taking the viewer on a stroll through a pictorial staging of the pieces. The textile works, by the Charlotte Stuby and Susanne Fischer duo, invoke memories of mountains, the lake, and friendship. Sarah Margnetti’s brush makes the textile works dance in a ballet of hands, feet, and noses. The three artists connect with amusement and affinity between design and visual art to make light of these media as well as their status. Pictures by Lola Pertsowsky
+    textStartX: 1
     projetImages:
-      - projectImage: /img/hand-with-joy-stuby-fischer-margnetti-brussels-2023-3.jpg
-        startX: 0
-        startY: 11
-        endX: 3
-        endY: 15
       - projectImage: /img/handle-with-joy-5-stuby-fischer-margnetti.jpg
         startX: 0
-        startY: 7
+        startY: 0
         endX: 7
-        endY: 11
+        endY: 4
       - projectImage: /img/handle-with-joy-3-stuby-fischer-margnetti-brussels-2023.jpg
+        startX: 3
+        startY: 5
         endX: 7
-        startX: 2
-        startY: 0
-        endY: 3
-      - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-1.jpg
-        startX: 0
-        startY: 0
-        endX: 2
-        endY: 3
-      - projectImage: /img/handle-with-joy-6-stuby-fischer-margnetti-brussels-2023.jpg
-        startX: 0
-        startY: 6
-        endX: 3
         endY: 8
-      - projectImage: /img/hand-with-joy-2-stuby-fischer-margnetti-brussels-2023.jpg
-        startY: 11
-        endX: 7
-        endY: 15
-        startX: 2
-      - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
+      - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
+        startX: 0
+        startY: 8
+        endX: 4
+        endY: 11
+      - projectImage: /img/siege-bleue_handle-with-joy-stuby-fischer-2023.jpg
         startX: 4
         startY: 3
-        endX: 8
-        endY: 6
-    textStartY: 4
+        endX: 6
+        endY: 5
+      - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
+        startX: 5
+        startY: 8
+        endX: 7
+        endY: 10
+    textStartY: 5
     projectButtonLink: ""
     textEndX: 3
-    textEndY: 6
+    textEndY: 8
     projectButtonText: ""
     projectTitle: '"Handle with joy", in collabroation with Sarah Margnetti,
       DBKApaddok, Brussels, 2023'
