@@ -27,19 +27,19 @@ projects:
         endY: 7
       - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
         startX: 0
-        startY: 7
+        startY: 8
         endX: 7
-        endY: 11
+        endY: 12
       - projectImage: /img/siege-bleue_handle-with-joy-stuby-fischer-2023.jpg
-        startX: 1
-        startY: 11
+        startX: 0
+        startY: 12
         endX: 3
-        endY: 14
+        endY: 15
       - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
-        startX: 4
-        startY: 11
+        startX: 3
+        startY: 12
         endX: 7
-        endY: 14
+        endY: 15
     textStartY: 5
     projectButtonLink: ""
     textEndX: 2
@@ -178,37 +178,12 @@ projects:
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-8.jpg
         startX: 0
         startY: 1
-        endX: 4
-        endY: 6
-      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-12.jpg
-        startX: 0
-        endX: 3
-        startY: 7
-        endY: 11
-      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-9.jpg
-        startX: 3
-        startY: 4
-        endX: 7
+        endX: 5
         endY: 8
-      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-13.jpg
-        startX: 2
-        startY: 11
-        endX: 4
-        endY: 14
-      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-5.jpg
-        startX: 4
-        startY: 7
-        endX: 7
-        endY: 12
-      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-6.jpg
-        startX: 0
-        endX: 2
-        startY: 11
-        endY: 14
-    textStartY: 1
+    textStartY: 2
     projectButtonLink: ""
     textEndX: 7
-    textEndY: 2
+    textEndY: 3
     projectButtonText: ""
     projectTitle: Handmade reversible bomber jackets, 2021
 ---
