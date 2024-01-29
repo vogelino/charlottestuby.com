@@ -84,7 +84,7 @@ projects:
       have a little stock! "
     projectTitle: Fun accessories  for rainy days, 2023
   - projectTitle: A collection of vests, 2023
-    textStartX: 4
+    textStartX: 5
     textStartY: 3
     textEndX: 7
     textEndY: 3
@@ -196,9 +196,14 @@ projects:
         endX: 4
         endY: 13
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-12.jpg
-        startX: 1
+        startX: 2
         startY: 13
         endX: 7
+        endY: 17
+      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-9.jpg
+        startX: 0
+        startY: 14
+        endX: 2
         endY: 17
     textStartY: 9
     projectButtonLink: ""
