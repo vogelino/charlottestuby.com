@@ -144,11 +144,11 @@ projects:
         endX: 2
         endY: 14
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-7.jpg
-        startX: 3
+        startX: 2
         startY: 11
         endX: 5
         endY: 14
-      - startX: 1
+      - startX: 0
         startY: 6
         endX: 7
         endY: 11
@@ -156,7 +156,7 @@ projects:
       - projectImage: /img/stuby-and-fischer-bowling-shirts-3.png
         startX: 5
         startY: 3
-        endX: 7
+        endX: 8
         endY: 6
     textStartY: 2
     projectButtonLink: ""
