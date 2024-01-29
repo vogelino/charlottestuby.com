@@ -89,26 +89,16 @@ projects:
     textEndX: 7
     textEndY: 1
     projetImages:
-      - projectImage: /img/gilet-stuby-fischer-brussels-2023-2.jpg
+      - projectImage: /img/gilet-stuby-fischer-brussels-2023-6.jpg
         startX: 0
-        startY: 1
-        endX: 3
+        startY: 0
+        endX: 4
         endY: 5
       - projectImage: /img/gilet-stuby-fischer-brussels-2023-5.jpg
         startX: 3
-        startY: 2
+        startY: 4
         endX: 7
-        endY: 5
-      - projectImage: /img/gilet-stuby-fischer-brussels-2023-4.jpg
-        startX: 2
-        startY: 6
-        endX: 9
-        endY: 10
-      - projectImage: /img/gilet-stuby-fischer-brussels-2023-3.jpg
-        startX: 1
-        startY: 5
-        endX: 3
-        endY: 8
+        endY: 9
     projectDescription: Handmade quilted and embroidered vests. Pictures by Mélanie Peduzzi
   - projectDescription: A capsule collection of silver earrings and necklace made of silver.
     textStartX: 5
