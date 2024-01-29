@@ -100,7 +100,8 @@ projects:
         endX: 7
         endY: 9
     projectDescription: Handmade quilted and embroidered vests. Pictures by Mélanie Peduzzi
-  - projectDescription: A capsule collection of silver earrings and necklace made of silver.
+  - projectDescription: A capsule collection of silver earrings and necklace made of
+      silver. Pictures By Mélanie Peduzzi
     textStartX: 5
     projetImages:
       - projectImage: /img/lac-leman-4-stuby-fischer-brussels-2023.jpg
