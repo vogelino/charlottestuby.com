@@ -27,23 +27,23 @@ projects:
         endY: 7
       - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
         startX: 0
-        startY: 8
+        startY: 10
         endX: 7
-        endY: 12
+        endY: 13
       - projectImage: /img/siege-bleue_handle-with-joy-stuby-fischer-2023.jpg
         startX: 0
-        startY: 12
+        startY: 13
         endX: 3
-        endY: 15
+        endY: 16
       - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
         startX: 3
-        startY: 12
+        startY: 13
         endX: 7
-        endY: 15
+        endY: 16
     textStartY: 5
     projectButtonLink: ""
     textEndX: 2
-    textEndY: 7
+    textEndY: 9
     projectButtonText: ""
     projectTitle: '"Handle with joy", in collabroation with Sarah Margnetti,
       DBKApaddok, Brussels, 2023'
