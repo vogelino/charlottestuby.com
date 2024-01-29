@@ -24,22 +24,22 @@ projects:
         endY: 4
       - projectImage: /img/handle-with-joy-3-stuby-fischer-margnetti-brussels-2023.jpg
         startX: 3
-        startY: 5
+        startY: 4
         endX: 7
-        endY: 8
+        endY: 7
       - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
         startX: 0
-        startY: 8
+        startY: 7
         endX: 7
-        endY: 12
+        endY: 11
       - projectImage: /img/siege-bleue_handle-with-joy-stuby-fischer-2023.jpg
         startX: 2
-        startY: 12
+        startY: 11
         endX: 4
         endY: 14
       - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
-        startX: 5
-        startY: 12
+        startX: 4
+        startY: 11
         endX: 7
         endY: 14
     textStartY: 4
