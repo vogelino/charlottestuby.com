@@ -33,15 +33,15 @@ projects:
         endX: 7
         endY: 12
       - projectImage: /img/siege-bleue_handle-with-joy-stuby-fischer-2023.jpg
-        startX: 4
-        startY: 3
-        endX: 6
-        endY: 5
+        startX: 2
+        startY: 12
+        endX: 4
+        endY: 14
       - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
         startX: 5
-        startY: 8
+        startY: 12
         endX: 7
-        endY: 10
+        endY: 14
     textStartY: 4
     projectButtonLink: ""
     textEndX: 2
