@@ -13,7 +13,7 @@ projects:
 
 
       From quilting to embroidery, clothing to works of art, this exhibition by six hands is a joyful exploration of textile techniques taking the viewer on a stroll through a pictorial staging of the pieces. The textile works, by the Charlotte Stuby and Susanne Fischer duo, invoke memories of mountains, the lake, and friendship. Sarah Margnetti’s brush makes the textile works dance in a ballet of hands, feet, and noses. The three artists connect with amusement and affinity between design and visual art to make light of these media as well as their status. Pictures by Lola Pertsowsky
-    textStartX: 1
+    textStartX: 0
     projetImages:
       - projectImage: /img/handle-with-joy-5-stuby-fischer-margnetti.jpg
         startX: 0
@@ -28,8 +28,8 @@ projects:
       - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
         startX: 0
         startY: 8
-        endX: 4
-        endY: 11
+        endX: 7
+        endY: 12
       - projectImage: /img/siege-bleue_handle-with-joy-stuby-fischer-2023.jpg
         startX: 4
         startY: 3
@@ -42,8 +42,8 @@ projects:
         endY: 10
     textStartY: 5
     projectButtonLink: ""
-    textEndX: 3
-    textEndY: 8
+    textEndX: 2
+    textEndY: 7
     projectButtonText: ""
     projectTitle: '"Handle with joy", in collabroation with Sarah Margnetti,
       DBKApaddok, Brussels, 2023'
@@ -126,18 +126,18 @@ projects:
     projectTitle: Lac Léman jewellery, 2023
   - projectDescription: A collection of seven unique Bowling shirts, made out of
       leftovers from previous projects. Pictures by Ugo Woatzi
-    textStartX: 4
+    textStartX: 5
     projetImages:
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-11.jpg
         startX: 0
-        startY: 5
+        startY: 6
         endY: 10
         endX: 3
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-1.jpg
         startX: 0
-        startY: 1
-        endX: 3
-        endY: 5
+        startY: 0
+        endX: 4
+        endY: 6
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-9.jpg
         startX: 5
         startY: 2
@@ -160,7 +160,7 @@ projects:
         endY: 10
     textStartY: 1
     projectButtonLink: ""
-    textEndX: 6
+    textEndX: 7
     textEndY: 3
     projectButtonText: ""
     projectTitle: Bowling shirts, 2022
