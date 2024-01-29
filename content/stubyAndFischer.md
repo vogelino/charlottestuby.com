@@ -85,13 +85,13 @@ projects:
     projectTitle: Fun accessories  for rainy days, 2023
   - projectTitle: A collection of vests, 2023
     textStartX: 4
-    textStartY: 1
+    textStartY: 2
     textEndX: 7
-    textEndY: 1
+    textEndY: 3
     projetImages:
       - projectImage: /img/gilet-stuby-fischer-brussels-2023-6.jpg
         startX: 0
-        startY: 0
+        startY: 1
         endX: 4
         endY: 5
       - projectImage: /img/gilet-stuby-fischer-brussels-2023-5.jpg
