@@ -205,10 +205,10 @@ projects:
         startY: 14
         endX: 2
         endY: 17
-    textStartY: 9
+    textStartY: 10
     projectButtonLink: ""
     textEndX: 7
-    textEndY: 11
+    textEndY: 12
     projectButtonText: ""
     projectTitle: Handmade reversible bomber jackets, 2021
 ---
