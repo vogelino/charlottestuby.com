@@ -85,7 +85,7 @@ projects:
     projectTitle: Fun accessories  for rainy days, 2023
   - projectTitle: A collection of vests, 2023
     textStartX: 4
-    textStartY: 2
+    textStartY: 3
     textEndX: 7
     textEndY: 3
     projetImages:
