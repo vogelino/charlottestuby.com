@@ -4,7 +4,7 @@ templateKey: about-page
 title: ⚐
 subtitle: |
   Based between Brussels (BE) and Vevey (CH)
-portrait: /img/000031.jpg
+portrait: /img/portrait_cs_bandw_carré.jpg
 email: charlottestuby@gmail.com
 emailButtonText: Email
 cv: /img/cv-english-charlottestuby-2024.pdf
