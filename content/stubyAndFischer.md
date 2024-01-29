@@ -178,12 +178,27 @@ projects:
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-8.jpg
         startX: 0
         startY: 1
-        endX: 5
+        endX: 4
         endY: 8
-    textStartY: 2
+      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-5.jpg
+        startX: 5
+        startY: 5
+        endX: 8
+        endY: 8
+      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-13.jpg
+        startY: 1
+        startX: 5
+        endX: 8
+        endY: 5
+      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-10.jpg
+        startX: 0
+        startY: 8
+        endX: 4
+        endY: 13
+    textStartY: 9
     projectButtonLink: ""
     textEndX: 7
-    textEndY: 3
+    textEndY: 11
     projectButtonText: ""
     projectTitle: Handmade reversible bomber jackets, 2021
 ---
