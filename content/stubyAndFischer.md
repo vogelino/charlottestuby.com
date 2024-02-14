@@ -186,16 +186,16 @@ projects:
     projectTitle: Bowling shirts, 2022
   - projectDescription: >-
       This project is a joyful reflection and memory of our hometown, Vevey (CH)
-      with a blink to our current city, Brussels (BE). 
+      with a blink to our current city, Brussels (BE).
+
+
+      Side 1: Embroideries on dead stock recycled nylon.
+
+
+      Side 2: Quilted recycled nylon and waxed cotton with embroideries and handknitted cotton cuff and collar.
 
 
       Pictures by Ugo Woatzi.
-
-
-      Side 1: embroideries on dead stock nylon recycled nylon.
-
-
-      Side 2: quilted recycled nylon and waxed cotton with embrodieries and  handknitted cotton cuff and collar
     textStartX: 5
     projetImages:
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-8.jpg
