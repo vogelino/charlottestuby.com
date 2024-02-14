@@ -64,16 +64,16 @@ projects:
       Pictures by Mélanie Peduzzi.
     textStartX: 1
     projetImages:
+      - projectImage: /img/stuby-and-fischer-rainy-days-2.png
+        startX: 0
+        startY: 3
+        endX: 5
+        endY: 10
       - projectImage: /img/capuche-desert-stuby-fischer-brussels-2023-2.jpg
         startX: 4
         startY: 1
         endX: 7
         endY: 5
-      - projectImage: /img/stuby-and-fischer-rainy-days-2.png
-        startX: 0
-        startY: 3
-        endX: 3
-        endY: 7
       - projectImage: /img/capuche-desert-stuby-fischer-brussels-2023.jpg
         startX: 4
         startY: 5
@@ -85,9 +85,9 @@ projects:
         endX: 7
         endY: 13
       - projectImage: /img/stuby-and-fischer-rainy-days-3.png
-        startX: 0
+        startX: 1
         startY: 7
-        endX: 3
+        endX: 4
         endY: 11
     textStartY: 1
     projectButtonLink: ""
