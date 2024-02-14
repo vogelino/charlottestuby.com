@@ -51,7 +51,7 @@ projects:
     textEndX: 2
     textEndY: 9
     projectButtonText: ""
-    projectTitle: Handle with joy, an exhibition in collaboration with Sarah
+    projectTitle: HANDLE WITH JOY, an exhibition in collaboration with Sarah
       Margnetti, DBKApaddok, Brussels, 2023
   - projectDescription: >-
       A collection of handmade rain hoods, three different models and in various
