@@ -106,9 +106,9 @@ projects:
         endY: 5
       - projectImage: /img/gilet-stuby-fischer-brussels-2023-7.jpg
         startX: 3
-        startY: 4
+        startY: 3
         endX: 7
-        endY: 9
+        endY: 8
     projectDescription: |-
       Handmade quilted and embroidered vests. 
 
