@@ -104,7 +104,7 @@ projects:
         startY: 1
         endX: 4
         endY: 5
-      - projectImage: /img/gilet-stuby-fischer-brussels-2023-5.jpg
+      - projectImage: /img/gilet-stuby-fischer-brussels-2023-7.jpg
         startX: 3
         startY: 4
         endX: 7
