@@ -118,6 +118,8 @@ projects:
     projectDescription: |-
       Handmade quilted and embroidered vests. 
 
+      ❥ Thankas to Dani & Awoulath
+
       Pictures by Mélanie Peduzzi
   - projectDescription: |-
       A capsule collection of silver earrings and necklaces made of silver. 
