@@ -75,10 +75,10 @@ projects:
         endX: 3
         endY: 7
       - projectImage: /img/capuche-desert-stuby-fischer-brussels-2023.jpg
-        startX: 3
+        startX: 4
         startY: 5
         endY: 9
-        endX: 6
+        endX: 7
       - projectImage: /img/capuche-mer3-stuby-fischer-brussels-2023.jpg
         startY: 9
         startX: 4
