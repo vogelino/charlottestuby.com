@@ -145,6 +145,9 @@ projects:
       previous projects. 
 
 
+      <3 to our favourite models
+
+
       Pictures by Ugo Woatzi
     textStartX: 3
     projetImages:
