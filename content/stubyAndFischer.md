@@ -61,9 +61,6 @@ projects:
       ❤︎ Thanks to Sarah & Ot
 
 
-      \--> Write me an email if you are interested by one, we still have a little stock! 
-
-
       Pictures by Mélanie Peduzzi.
     textStartX: 1
     projetImages:
