@@ -58,6 +58,9 @@ projects:
       colours. 
 
 
+      ❤︎ Thanks to Sarah & Ot
+
+
       \--> Write me an email if you are interested by one, we still have a little stock! 
 
 
@@ -117,7 +120,7 @@ projects:
 
       Pictures by Mélanie Peduzzi
   - projectDescription: |-
-      A capsule collection of silver earrings and necklace made of silver. 
+      A capsule collection of silver earrings and necklaces made of silver. 
 
       Pictures By Mélanie Peduzzi
     textStartX: 5
