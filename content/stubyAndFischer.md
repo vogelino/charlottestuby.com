@@ -67,8 +67,8 @@ projects:
       - projectImage: /img/stuby-and-fischer-rainy-days-2.png
         startX: 0
         startY: 3
-        endX: 5
-        endY: 10
+        endX: 4
+        endY: 9
       - projectImage: /img/capuche-desert-stuby-fischer-brussels-2023-2.jpg
         startX: 4
         startY: 1
