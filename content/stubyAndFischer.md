@@ -150,7 +150,7 @@ projects:
       previous projects. 
 
 
-      <3 to our favourite models
+      ❤︎ to our favourite models
 
 
       Pictures by Ugo Woatzi
