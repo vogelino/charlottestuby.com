@@ -115,7 +115,7 @@ projects:
     projectDescription: |-
       Handmade quilted and embroidered vests. 
 
-      ❥ Thankas to Dani & Awoulath
+      ❥ Thanks to Dani & Awoulath
 
       Pictures by Mélanie Peduzzi
   - projectDescription: |-
