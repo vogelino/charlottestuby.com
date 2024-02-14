@@ -2,7 +2,7 @@
 templateKey: stuby-and-fischer
 title: Charlotte Stuby & Susanne Fischer
 showTabInNav: true
-introImage: /img/bombers-jacket-stuby-fischer-brussels-2021.jpg
+introImage: /img/photo-profile-carré.jpg
 introButtonText: ""
 introButtonLink: ""
 showPreviewGrid: true
