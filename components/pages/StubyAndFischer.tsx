@@ -130,6 +130,12 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 					{(project.projetImages || []).map((image, index) => {
 						const imagePos = normalizeStartEnd(image, initialLastRow)
 						const validPos = imagePos as ValidGridItem
+						const aspectratioW = validPos.endX - validPos.startX
+						const aspectratioH = validPos.endY - validPos.startY
+						const orientation = aspectratioW > aspectratioH ? 'landscape' : 'portrait'
+						const aspectratio =
+							orientation === 'portrait' ? aspectratioW / aspectratioH : aspectratioH / aspectratioW
+						const heightInPercent = aspectratio * 100
 						return (
 							<div
 								key={`project-image-${index}`}
@@ -141,13 +147,12 @@ const StubyAndFischer: FC<StubyAndFischerPageType> = ({
 									gridColumnEnd: validPos.endX + 1,
 									gridRowEnd: validPos.endY + 1,
 									// @ts-ignore
-									'--aspectRatio': `${validPos.endX - validPos.startX}/${
-										validPos.endY - validPos.startY
-									}`,
+									'--aspectratio': `${aspectratioW}/${aspectratioH}`,
 									background:
 										showPreviewGrid && !image.projectImage
-											? `var(--loadingPlaceholder, #e6e6ff) url(${newBg.src}) repeat center center`
+											? `var(--loadingplaceholder, #e6e6ff) url(${newBg.src}) repeat center center`
 											: '',
+									paddingBottom: `${heightInPercent}%`,
 								}}
 							>
 								{image.projectImage && (
