@@ -178,7 +178,7 @@ projects:
         startY: 7
         endY: 10
         endX: 2
-      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-12.jpg
+      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-7.jpg
         startX: 2
         startY: 13
         endX: 6
