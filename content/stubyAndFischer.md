@@ -33,7 +33,7 @@ projects:
         startX: 4
         startY: 4
         endX: 7
-        endY: 7
+        endY: 8
       - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
         startX: 0
         startY: 9
