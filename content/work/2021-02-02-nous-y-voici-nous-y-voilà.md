@@ -1,7 +1,7 @@
 ---
 templateKey: work
 orderOfAppearance: 17
-title: '"Nous y voici nous y voilà"'
+title: NOUS Y VOICI NOUS Y VOILA
 subtitle: Brussels (BE), Spring 2016
 date: 2021-02-02T13:15:58.935Z
 description: "Tapestry made of silk, cotton, wool and linen. 70x100cm each.
