@@ -29,7 +29,7 @@ projects:
         startY: 0
         endX: 7
         endY: 4
-      - projectImage: /img/dsc_2462.jpg
+      - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-10.jpg
         startX: 4
         startY: 5
         endX: 6
