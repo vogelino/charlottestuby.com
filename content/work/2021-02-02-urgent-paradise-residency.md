@@ -1,7 +1,7 @@
 ---
 templateKey: work
 orderOfAppearance: 16
-title: '"Urgent Paradise Residency"'
+title: URGENT PARADISE RESIDENCY
 subtitle: Lausanne (CH), Winter 2018
 date: 2021-02-02T13:07:15.012Z
 description: in collaboration with Vianney Fivel, Laure Marville, Marta
