@@ -24,12 +24,12 @@ projects:
       Pictures by Lola Pertsowsky
     textStartX: 0
     projetImages:
-      - projectImage: /img/handle-with-joy-5-stuby-fischer-margnetti.jpg
+      - projectImage: /img/handle-with-joy-3-stuby-fischer-margnetti-brussels-2023.jpg
         startX: 0
         startY: 0
         endX: 7
         endY: 4
-      - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-10.jpg
+      - projectImage: /img/stuby-and-fischer-handle-with-joy.png
         startX: 4
         startY: 4
         endX: 7
