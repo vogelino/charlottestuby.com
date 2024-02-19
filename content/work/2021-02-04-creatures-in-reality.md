@@ -4,11 +4,8 @@ orderOfAppearance: 12
 title: CREATURES IN REALITY (book)
 subtitle: Ghent (BE), Autumn 2018
 date: 2021-02-04T11:54:30.098Z
-description: >-
-  Edited by Grafische Cel. Graphic Design: Hugo Roger, 80 pages, 21 × 12 cm,
-  paperback, English, 10 euros
-
-  (if interested, send me an email! )
+description: "Edited by Grafische Cel. Graphic Design: Hugo Roger, 80 pages, 21
+  × 12 cm, paperback, English"
 thumbnail: /img/image_page-accueil-charlottestuby.jpg
 decorativeForm: /img/lune-bis.svg
 images:
