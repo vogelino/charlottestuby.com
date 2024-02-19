@@ -195,8 +195,9 @@ projects:
     projectButtonText: ""
     projectTitle: Bowling shirts, 2022
   - projectDescription: >-
-      This project is a joyful reflection and memory of our hometown, Vevey (CH)
-      with a blink to our current city, Brussels (BE).
+      
+
+      This project is a joyful reflection and memory of our hometown, Vevey (CH) with a blink to our current city, Brussels (BE).
 
 
       Side 1: Embroideries on dead stock recycled nylon.
@@ -225,30 +226,30 @@ projects:
         endY: 5
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-10.jpg
         startX: 5
-        startY: 11
+        startY: 12
         endX: 7
-        endY: 14
+        endY: 15
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-12.jpg
         startX: 2
-        startY: 14
+        startY: 15
         endX: 7
-        endY: 18
+        endY: 19
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-9.jpg
         startX: 0
-        startY: 15
+        startY: 14
         endX: 2
-        endY: 18
+        endY: 17
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-3.jpg
         startX: 0
         startY: 8
         endX: 4
         endY: 13
-    textStartY: 8
+    textStartY: 9
     projectButtonLink: ""
     textEndX: 7
-    textEndY: 11
+    textEndY: 12
     projectButtonText: ""
-    projectTitle: Handmade reversible bomber jackets, 2021
+    projectTitle: "              Handmade reversible bomber jackets, 2021"
 ---
 Knowing each other from the small town of Vevey in Switzerland, the paths of Charlotte Stuby and Susanne Fischer crossed again in Brussels after having both studied and worked in the art and textile field. 
 
