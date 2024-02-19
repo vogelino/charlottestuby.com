@@ -19,8 +19,8 @@ forms:
     posX: 0
     posY: -10
   - image: /img/boudin.svg
-    posX: 78
-    posY: 42
+    posX: 70
+    posY: 30
   - image: /img/tourbillon-noir.svg
     posX: 6
     posY: 20
