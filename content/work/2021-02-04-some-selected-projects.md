@@ -1,7 +1,7 @@
 ---
 templateKey: work
 orderOfAppearance: 5
-title: Some selected projects
+title: SOME SELECTED PROJECTS
 subtitle: Belgium, Switzerland 2013-2023
 date: 2021-02-04T13:10:50.409Z
 description: " "
