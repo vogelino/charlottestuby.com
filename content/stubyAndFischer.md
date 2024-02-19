@@ -18,6 +18,9 @@ projects:
       to make light of these media as well as their status. 
 
 
+      at DBKApaddok, Brussels
+
+
       Pictures by Lola Pertsowsky
     textStartX: 0
     projetImages:
@@ -51,8 +54,7 @@ projects:
     textEndX: 3
     textEndY: 9
     projectButtonText: ""
-    projectTitle: HANDLE WITH JOY, an exhibition in collaboration with Sarah
-      Margnetti, DBKApaddok, Brussels, 2023
+    projectTitle: HANDLE WITH JOY, an exhibition in collaboration with Sarah Margnetti, 2023
   - projectDescription: >-
       A collection of handmade rain hoods, three different models and in various
       colours. 
@@ -166,17 +168,17 @@ projects:
         endX: 7
         endY: 14
         projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-6.jpg
-      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-9.jpg
+      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-13.jpg
         startX: 0
         startY: 13
         endX: 2
         endY: 16
-      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-11.jpg
+      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-15.jpg
         startX: 0
         startY: 7
         endY: 10
         endX: 2
-      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-7.jpg
+      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-12.jpg
         startX: 2
         startY: 13
         endX: 6
