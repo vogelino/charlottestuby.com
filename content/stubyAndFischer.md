@@ -33,22 +33,22 @@ projects:
         endY: 7
       - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
         startX: 0
-        startY: 8
+        startY: 9
         endX: 7
-        endY: 11
+        endY: 12
       - projectImage: /img/siege-bleue_handle-with-joy-stuby-fischer-2023.jpg
         startX: 0
-        startY: 11
+        startY: 12
         endX: 3
-        endY: 14
+        endY: 15
       - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
         startX: 3
-        startY: 11
+        startY: 12
         endX: 7
-        endY: 14
+        endY: 15
     textStartY: 5
     projectButtonLink: ""
-    textEndX: 2
+    textEndX: 3
     textEndY: 9
     projectButtonText: ""
     projectTitle: HANDLE WITH JOY, an exhibition in collaboration with Sarah
@@ -91,7 +91,7 @@ projects:
         endY: 13
     textStartY: 1
     projectButtonLink: ""
-    textEndX: 2
+    textEndX: 3
     textEndY: 4
     projectButtonText: "Write me an email if you are interested my one, we still
       have a little stock! "
@@ -109,7 +109,7 @@ projects:
         endY: 5
       - projectImage: /img/gilet-stuby-fischer-brussels-2023-7.jpg
         startX: 3
-        startY: 3
+        startY: 4
         endX: 7
         endY: 8
     projectDescription: |-
@@ -119,7 +119,7 @@ projects:
 
       Pictures by Mélanie Peduzzi
   - projectDescription: |-
-      A capsule collection of silver earrings and necklaces made of silver. 
+      A capsule collection of earrings and necklaces made of silver. 
 
       Pictures By Mélanie Peduzzi
     textStartX: 5
@@ -139,7 +139,7 @@ projects:
         startX: 0
         endX: 4
         endY: 8
-    textStartY: 2
+    textStartY: 1
     projectButtonLink: ""
     textEndX: 7
     textEndY: 2
@@ -162,9 +162,9 @@ projects:
         endX: 5
         endY: 6
       - startX: 2
-        startY: 8
+        startY: 9
         endX: 7
-        endY: 13
+        endY: 14
         projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-6.jpg
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-9.jpg
         startX: 0
