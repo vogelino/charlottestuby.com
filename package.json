@@ -44,7 +44,7 @@
 		"@babel/core": "7.22.20",
 		"@babel/preset-react": "7.22.15",
 		"@types/node": "20.6.3",
-		"@types/react": "18.2.22",
+		"@types/react": "18.2.67",
 		"@typescript-eslint/eslint-plugin": "6.7.2",
 		"@typescript-eslint/parser": "6.7.2",
 		"babel-eslint": "10.1.0",
