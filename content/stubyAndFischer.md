@@ -18,41 +18,43 @@ projects:
       to make light of these media as well as their status. 
 
 
+      at DBKApaddok, Brussels
+
+
       Pictures by Lola Pertsowsky
     textStartX: 0
     projetImages:
-      - projectImage: /img/handle-with-joy-5-stuby-fischer-margnetti.jpg
+      - projectImage: /img/handle-with-joy-3-stuby-fischer-margnetti-brussels-2023.jpg
         startX: 0
         startY: 0
         endX: 7
         endY: 4
-      - projectImage: /img/handle-with-joy-3-stuby-fischer-margnetti-brussels-2023.jpg
-        startX: 3
+      - projectImage: /img/stuby-and-fischer-handle-with-joy.png
+        startX: 4
         startY: 4
         endX: 7
-        endY: 7
+        endY: 8
       - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
         startX: 0
-        startY: 8
+        startY: 9
         endX: 7
-        endY: 11
+        endY: 12
       - projectImage: /img/siege-bleue_handle-with-joy-stuby-fischer-2023.jpg
         startX: 0
-        startY: 11
+        startY: 12
         endX: 3
-        endY: 14
+        endY: 15
       - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
         startX: 3
-        startY: 11
+        startY: 12
         endX: 7
-        endY: 14
+        endY: 15
     textStartY: 5
     projectButtonLink: ""
-    textEndX: 2
+    textEndX: 3
     textEndY: 9
     projectButtonText: ""
-    projectTitle: HANDLE WITH JOY, an exhibition in collaboration with Sarah
-      Margnetti, DBKApaddok, Brussels, 2023
+    projectTitle: HANDLE WITH JOY, an exhibition in collaboration with Sarah Margnetti, 2023
   - projectDescription: >-
       A collection of handmade rain hoods, three different models and in various
       colours. 
@@ -91,7 +93,7 @@ projects:
         endY: 13
     textStartY: 1
     projectButtonLink: ""
-    textEndX: 2
+    textEndX: 3
     textEndY: 4
     projectButtonText: "Write me an email if you are interested my one, we still
       have a little stock! "
@@ -109,7 +111,7 @@ projects:
         endY: 5
       - projectImage: /img/gilet-stuby-fischer-brussels-2023-7.jpg
         startX: 3
-        startY: 3
+        startY: 4
         endX: 7
         endY: 8
     projectDescription: |-
@@ -119,7 +121,7 @@ projects:
 
       Pictures by Mélanie Peduzzi
   - projectDescription: |-
-      A capsule collection of silver earrings and necklaces made of silver. 
+      A capsule collection of earrings and necklaces made of silver. 
 
       Pictures By Mélanie Peduzzi
     textStartX: 5
@@ -139,7 +141,7 @@ projects:
         startX: 0
         endX: 4
         endY: 8
-    textStartY: 2
+    textStartY: 1
     projectButtonLink: ""
     textEndX: 7
     textEndY: 2
@@ -162,16 +164,16 @@ projects:
         endX: 5
         endY: 6
       - startX: 2
-        startY: 8
+        startY: 9
         endX: 7
-        endY: 13
+        endY: 14
         projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-6.jpg
-      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-9.jpg
+      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-13.jpg
         startX: 0
         startY: 13
         endX: 2
         endY: 16
-      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-11.jpg
+      - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-15.jpg
         startX: 0
         startY: 7
         endY: 10
@@ -193,8 +195,9 @@ projects:
     projectButtonText: ""
     projectTitle: Bowling shirts, 2022
   - projectDescription: >-
-      This project is a joyful reflection and memory of our hometown, Vevey (CH)
-      with a blink to our current city, Brussels (BE).
+      
+
+      This project is a joyful reflection and memory of our hometown, Vevey (CH) with a blink to our current city, Brussels (BE).
 
 
       Side 1: Embroideries on dead stock recycled nylon.
@@ -223,19 +226,19 @@ projects:
         endY: 5
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-10.jpg
         startX: 5
-        startY: 11
+        startY: 12
         endX: 7
-        endY: 14
+        endY: 15
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-12.jpg
         startX: 2
-        startY: 14
+        startY: 15
         endX: 7
-        endY: 18
+        endY: 19
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-9.jpg
         startX: 0
-        startY: 15
+        startY: 14
         endX: 2
-        endY: 18
+        endY: 17
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-3.jpg
         startX: 0
         startY: 8
@@ -244,9 +247,35 @@ projects:
     textStartY: 9
     projectButtonLink: ""
     textEndX: 7
-    textEndY: 11
+    textEndY: 12
     projectButtonText: ""
-    projectTitle: Handmade reversible bomber jackets, 2021
+    projectTitle: "              Handmade reversible bomber jackets, 2021"
+  - projectTitle: Brise bise, ADAF, 2023
+    projectDescription: >-
+      A californian blind with pictural illusion of a room with a view. This
+      composition made to be hung in a room, references our love for commun
+      domestic objects and sentimental scenery. 
+
+
+      150x250cm
+
+
+      Pictures by Antoine Grenez
+    textStartX: 4
+    textStartY: 0
+    textEndX: 7
+    textEndY: 3
+    projetImages:
+      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023.jpg
+        startX: 0
+        startY: 0
+        endX: 3
+        endY: 5
+      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-1.jpg
+        startX: 3
+        startY: 3
+        endX: 6
+        endY: 8
 ---
 Knowing each other from the small town of Vevey in Switzerland, the paths of Charlotte Stuby and Susanne Fischer crossed again in Brussels after having both studied and worked in the art and textile field. 
 

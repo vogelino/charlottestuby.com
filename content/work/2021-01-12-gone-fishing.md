@@ -1,7 +1,7 @@
 ---
 templateKey: work
 orderOfAppearance: 9
-title: '"Gone Fishing"'
+title: GONE FISHING
 subtitle: 019, Ghent (BE), Autumn 2019
 date: 2021-01-12T17:31:33.810Z
 description: 'Part of "Can We Talk In Private?", an exhibition initiated by

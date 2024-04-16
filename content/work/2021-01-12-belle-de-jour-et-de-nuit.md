@@ -1,7 +1,7 @@
 ---
 templateKey: work
 orderOfAppearance: 8
-title: '"Belle de jour et de nuit"'
+title: BELLE DE JOUR ET DE NUIT
 subtitle: Des Seins à Dessein, collective show, Espace Arlaud, Lausanne (CH), Autumn 2020
 date: 2021-01-12T16:05:04.042Z
 description: "This diptych, hand-woven from cotton, wool and silk threads,

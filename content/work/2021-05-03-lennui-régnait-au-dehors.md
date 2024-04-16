@@ -1,7 +1,7 @@
 ---
 templateKey: work
 orderOfAppearance: 7
-title: "\"L'ennui régnait au dehors\""
+title: L'ENNUI REGNAIT AU DEHORS
 subtitle: Pano, Vevey (CH), Spring 2021
 date: 2021-05-03T11:52:47.269Z
 description: with Genêt Mayor, Pictures by Julien Gremaud
