@@ -35,7 +35,7 @@ collections:
         widget: string
       - label: Publish Date
         name: date
-        widget: datetime
+        widget: datetimetime
       - label: Description
         name: description
         widget: text
@@ -143,7 +143,7 @@ collections:
             fields:
               - label: Date
                 name: date
-                widget: date
+                widget: datetime
                 format: MMM. YYYY
               - label: Title
                 name: title

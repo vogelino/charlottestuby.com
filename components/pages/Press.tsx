@@ -1,6 +1,6 @@
 import { FC, useEffect, useRef } from 'react'
-import Link from '../Link'
 import { createBlob } from '../../utils/blobUtil'
+import Link from '../Link'
 
 interface PressListType {
 	id: string
@@ -62,7 +62,7 @@ const PressLi: FC<PressListType> = ({ id, title, date, url, file, screenshot, co
 					<path ref={blobPathRef} fill="transparent" />
 				</svg>
 				<div className="press-link-content">
-					<h3 className="press-link-date">{date.toString()}</h3>
+					<h3 className="press-link-date">{(date || new Date()).toString()}</h3>
 					<h2 className="press-link-title">{title}</h2>
 					<h4 className="press-link-url">{url ? new URL(url).host : 'PDF'}</h4>
 				</div>

@@ -1,9 +1,9 @@
 import { FC } from 'react'
 import Layout from '../components/Layout'
+import useSiteMetadata from '../components/SiteMetadata'
 import Press from '../components/pages/Press'
 import { attributes } from '../content/press.md'
 import { PressLinkType } from '../types'
-import useSiteMetadata from '../components/SiteMetadata'
 
 const PressPage: FC = () => {
 	const pressList = attributes.pressList as PressLinkType[]
