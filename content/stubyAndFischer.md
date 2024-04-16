@@ -27,7 +27,12 @@ projects:
         startX: 0
         startY: 0
         endX: 3
-        endY: 4
+        endY: 5
+      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-1.jpg
+        startX: 3
+        startY: 3
+        endX: 6
+        endY: 8
   - projectDescription: >-
       From quilting to embroidery, clothing to works of art, this exhibition by
       six hands is a joyful exploration of textile techniques taking the viewer
