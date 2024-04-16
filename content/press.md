@@ -21,4 +21,8 @@ pressList:
     title: interview by Dorrell Merritt
     screenshot: /img/capture-d’écran-2021-02-04-à-16.01.27.png
     color: "#000FFF"
+  - title: Part of the collection of Ypermuseum
+    url: https://www.ypermuseum.be/diptiek-charlotte-stuby
+    color: "#000FFF"
+    screenshot: /img/lady-of-garden-charlottestuby-ieper-2023.jpg
 ---
