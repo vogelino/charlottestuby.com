@@ -7,32 +7,6 @@ introButtonText: ""
 introButtonLink: ""
 showPreviewGrid: true
 projects:
-  - projectTitle: Brise bise, ADAF, 2023
-    projectDescription: >-
-      A californian blind with pictural illusion of a room with a view. This
-      composition made to be hung in a room, references our love for commun
-      domestic objects and sentimental scenery. 
-
-
-      150x250cm
-
-
-      Pictures by Antoine Grenez
-    textStartX: 4
-    textStartY: 0
-    textEndX: 7
-    textEndY: 3
-    projetImages:
-      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023.jpg
-        startX: 0
-        startY: 0
-        endX: 3
-        endY: 5
-      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-1.jpg
-        startX: 3
-        startY: 3
-        endX: 6
-        endY: 8
   - projectDescription: >-
       From quilting to embroidery, clothing to works of art, this exhibition by
       six hands is a joyful exploration of textile techniques taking the viewer
@@ -276,6 +250,32 @@ projects:
     textEndY: 12
     projectButtonText: ""
     projectTitle: "              Handmade reversible bomber jackets, 2021"
+  - projectTitle: Brise bise, ADAF, 2023
+    projectDescription: >-
+      A californian blind with pictural illusion of a room with a view. This
+      composition made to be hung in a room, references our love for commun
+      domestic objects and sentimental scenery. 
+
+
+      150x250cm
+
+
+      Pictures by Antoine Grenez
+    textStartX: 4
+    textStartY: 0
+    textEndX: 7
+    textEndY: 3
+    projetImages:
+      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023.jpg
+        startX: 0
+        startY: 0
+        endX: 3
+        endY: 5
+      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-1.jpg
+        startX: 3
+        startY: 3
+        endX: 6
+        endY: 8
 ---
 Knowing each other from the small town of Vevey in Switzerland, the paths of Charlotte Stuby and Susanne Fischer crossed again in Brussels after having both studied and worked in the art and textile field. 
 
