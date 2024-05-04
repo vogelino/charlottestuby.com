@@ -7,6 +7,47 @@ introButtonText: ""
 introButtonLink: ""
 showPreviewGrid: true
 projects:
+  - projectTitle: Brise bise, ADAF, 2023
+    projectDescription: >-
+      A californian blind with pictural illusion of a room with a view. This
+      composition made to be hung in a room, references our love for commun
+      domestic objects and sentimental scenery. 
+
+
+      150x250cm
+
+
+      Pictures by Antoine Grenez
+    textStartX: 4
+    textStartY: 1
+    textEndX: 7
+    textEndY: 3
+    projetImages:
+      - projectImage: /img/brise-bise-detail-stuby-fischer-adaf-brussels-2023-2.jpg
+        startX: 0
+        startY: 12
+        endX: 4
+        endY: 15
+      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023.jpg
+        startX: 0
+        startY: 0
+        endX: 3
+        endY: 5
+      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-1.jpg
+        startX: 4
+        startY: 3
+        endX: 7
+        endY: 8
+      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-3.jpg
+        startX: 0
+        startY: 6
+        endX: 3
+        endY: 11
+      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-4.jpg
+        startX: 4
+        startY: 9
+        endX: 7
+        endY: 14
   - projectDescription: >-
       From quilting to embroidery, clothing to works of art, this exhibition by
       six hands is a joyful exploration of textile techniques taking the viewer
@@ -26,29 +67,29 @@ projects:
     projetImages:
       - projectImage: /img/handle-with-joy-3-stuby-fischer-margnetti-brussels-2023.jpg
         startX: 0
-        startY: 0
+        startY: 1
         endX: 7
-        endY: 4
+        endY: 5
       - projectImage: /img/stuby-and-fischer-handle-with-joy.png
         startX: 4
-        startY: 4
+        startY: 5
         endX: 7
-        endY: 8
+        endY: 9
       - projectImage: /img/handle-with-joy-stuby-fischer-marngetti-brussels-2023.jpg
         startX: 0
-        startY: 9
+        startY: 10
         endX: 7
-        endY: 12
+        endY: 13
       - projectImage: /img/siege-bleue_handle-with-joy-stuby-fischer-2023.jpg
         startX: 0
-        startY: 12
+        startY: 13
         endX: 3
-        endY: 15
+        endY: 16
       - projectImage: /img/handle-with-joy-stuby-fischer-brussels-2023-2.jpg
         startX: 3
-        startY: 12
+        startY: 13
         endX: 7
-        endY: 15
+        endY: 16
     textStartY: 5
     projectButtonLink: ""
     textEndX: 3
@@ -250,47 +291,6 @@ projects:
     textEndY: 12
     projectButtonText: ""
     projectTitle: "              Handmade reversible bomber jackets, 2021"
-  - projectTitle: Brise bise, ADAF, 2023
-    projectDescription: >-
-      A californian blind with pictural illusion of a room with a view. This
-      composition made to be hung in a room, references our love for commun
-      domestic objects and sentimental scenery. 
-
-
-      150x250cm
-
-
-      Pictures by Antoine Grenez
-    textStartX: 4
-    textStartY: 1
-    textEndX: 7
-    textEndY: 3
-    projetImages:
-      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023.jpg
-        startX: 0
-        startY: 1
-        endX: 3
-        endY: 6
-      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-1.jpg
-        startX: 4
-        startY: 3
-        endX: 7
-        endY: 8
-      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-3.jpg
-        startX: 1
-        startY: 6
-        endX: 4
-        endY: 11
-      - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-4.jpg
-        startX: 4
-        startY: 9
-        endX: 7
-        endY: 14
-      - projectImage: /img/brise-bise-detail-stuby-fischer-adaf-brussels-2023-1.jpg
-        startX: 0
-        startY: 12
-        endX: 4
-        endY: 15
 ---
 Knowing each other from the small town of Vevey in Switzerland, the paths of Charlotte Stuby and Susanne Fischer crossed again in Brussels after having both studied and worked in the art and textile field. 
 
