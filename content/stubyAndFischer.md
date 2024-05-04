@@ -26,7 +26,7 @@ projects:
     textEndX: 7
     textEndY: 3
     projetImages:
-      - projectImage: /img/brise-bise-detail-stuby-fischer-adaf-brussels-2023-2.jpg
+      - projectImage: /img/brise-bise-detail-stuby-fischer-adaf-brussels-2023-3.jpg
         startX: 0
         startY: 12
         endX: 3
