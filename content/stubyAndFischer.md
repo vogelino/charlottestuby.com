@@ -270,22 +270,27 @@ projects:
         startX: 0
         startY: 1
         endX: 3
-        endY: 5
+        endY: 6
       - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-1.jpg
-        startX: 3
+        startX: 4
         startY: 3
-        endX: 6
+        endX: 7
         endY: 8
       - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-3.jpg
-        startX: 0
+        startX: 1
         startY: 6
-        endX: 3
+        endX: 4
         endY: 11
       - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-4.jpg
-        startX: 3
+        startX: 4
         startY: 9
-        endX: 6
+        endX: 7
         endY: 14
+      - projectImage: /img/brise-bise-detail-stuby-fischer-adaf-brussels-2023-1.jpg
+        startX: 0
+        startY: 12
+        endX: 4
+        endY: 15
 ---
 Knowing each other from the small town of Vevey in Switzerland, the paths of Charlotte Stuby and Susanne Fischer crossed again in Brussels after having both studied and worked in the art and textile field. 
 
