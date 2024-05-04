@@ -7,11 +7,14 @@ introButtonText: ""
 introButtonLink: ""
 showPreviewGrid: true
 projects:
-  - projectTitle: Brise bise, ADAF, 2023
+  - projectTitle: Brise bise, 2023
     projectDescription: >-
       A californian blind with pictural illusion of a room with a view. This
       composition made to be hung in a room, references our love for commun
       domestic objects and sentimental scenery. 
+
+
+      Part of A domestic Art Fair (ADAF), Brussels, 2023
 
 
       150x250cm
@@ -49,9 +52,9 @@ projects:
         endX: 7
         endY: 14
       - projectImage: /img/brise-bise-detail-stuby-fischer-adaf-brussels-2023-4.jpg
-        startX: 0
+        startX: 3
         startY: 15
-        endX: 4
+        endX: 7
         endY: 18
   - projectDescription: >-
       From quilting to embroidery, clothing to works of art, this exhibition by
@@ -95,7 +98,7 @@ projects:
         startY: 13
         endX: 7
         endY: 16
-    textStartY: 5
+    textStartY: 6
     projectButtonLink: ""
     textEndX: 3
     textEndY: 9
