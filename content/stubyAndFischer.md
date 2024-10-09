@@ -2,7 +2,7 @@
 templateKey: stuby-and-fischer
 title: Charlotte Stuby & Susanne Fischer
 showTabInNav: true
-introImage: /img/portrait-stuby-fischer-par-celine-burnand-24.jpg
+introImage: /img/portrait-carré-stuby-fischer-par-celine-burnand-24.jpg
 introButtonText: ""
 introButtonLink: ""
 showPreviewGrid: true
