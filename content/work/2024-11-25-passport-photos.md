@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 1
+orderOfAppearance: 0
 title: Passport photos
 subtitle: illustrations for a cultural journal Rekto:Verso
 description: "«  In the topic of passport photos, the human face is transformed
