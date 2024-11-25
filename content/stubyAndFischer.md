@@ -51,7 +51,7 @@ projects:
         endX: 7
         endY: 17
     textEndX: 4
-    textEndY: 9
+    textEndY: 8
   - projectTitle: Brise bise, 2023
     projectDescription: >-
       A californian blind with pictural illusion of a room with a view. This
