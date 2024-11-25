@@ -7,7 +7,7 @@ introButtonText: ""
 introButtonLink: ""
 showPreviewGrid: true
 projects:
-  - projectTitle: Take the opportunity to elevate yourself
+  - projectTitle: Take the opportunity to elevate yourself, 2024
     projectDescription: >-
       Two bar stools and a bar bench inspired by motocross attire
 
@@ -18,19 +18,39 @@ projects:
       Throughout this project, considering these weird and challenging times, our aim was to give people the opportunity to feel uplifted, not only by sitting higher but also through cheering embroidered messages. 
 
 
-      Project mad for ADAF 2024
+      Part of A domestic Art Fair (ADAF), Brussels, 2024
 
 
-      Pictures made by Antoine Grenez
-    textStartX: 1
-    textStartY: 5
+      Pictures by Antoine Grenez
+    textStartX: 0
+    textStartY: 1
     projetImages:
       - projectImage: /img/bench2-stuby-fischer-adaf-brussels-2024.jpg
-        startX: 1
-        startY: 4
-        endX: 5
+        startX: 2
+        startY: 3
+        endX: 7
         endY: 6
-    textEndX: 0
+      - projectImage: /img/detail-stuby-fischer-adaf-brussels-2024.jpg
+        startX: 0
+        startY: 6
+        endX: 3
+        endY: 8
+      - projectImage: /img/2seats3-stuby-fischer-adaf-brussels-2024.jpg
+        startX: 4
+        startY: 8
+        endX: 7
+        endY: 10
+      - projectImage: /img/seat-detail2-stuby-fischer-adaf-brussels-2024.jpg
+        startX: 0
+        startY: 10
+        endX: 4
+        endY: 13
+      - projectImage: /img/1seat-stuby-fischer-adaf-brussels-2024.jpg
+        startX: 4
+        startY: 10
+        endX: 7
+        endY: 14
+    textEndX: 4
     textEndY: 4
   - projectTitle: Brise bise, 2023
     projectDescription: >-
