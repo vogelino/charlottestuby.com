@@ -34,12 +34,12 @@ projects:
         startX: 4
         startY: 5
         endX: 7
-        endY: 9
+        endY: 8
       - projectImage: /img/2seats3-stuby-fischer-adaf-brussels-2024.jpg
         startX: 0
-        startY: 9
+        startY: 8
         endX: 6
-        endY: 13
+        endY: 12
       - projectImage: /img/seat-detail2-stuby-fischer-adaf-brussels-2024.jpg
         startX: 0
         startY: 13
