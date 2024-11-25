@@ -13,7 +13,7 @@ description: >-
 
 
   https://www.rektoverso.be/artikel/passport-photo
-thumbnail: /img/2-rectangle-rekto-vero-charlottestuby-2024.jpg
+thumbnail: /img/8-rekto-verso-charlottestuby-2024.jpg
 decorativeForm: /img/rectangle.svg
 images:
   - image: /img/1-rekto-vero-charlottestuby-2024.jpg
