@@ -27,29 +27,29 @@ projects:
     projetImages:
       - projectImage: /img/bench2-stuby-fischer-adaf-brussels-2024.jpg
         startX: 0
-        startY: 0
+        startY: 1
         endX: 7
-        endY: 4
+        endY: 5
       - projectImage: /img/detail-stuby-fischer-adaf-brussels-2024.jpg
         startX: 4
-        startY: 5
+        startY: 6
         endX: 7
-        endY: 8
+        endY: 9
       - projectImage: /img/2seats3-stuby-fischer-adaf-brussels-2024.jpg
         startX: 0
-        startY: 8
+        startY: 9
         endX: 6
-        endY: 12
+        endY: 13
       - projectImage: /img/seat-detail2-stuby-fischer-adaf-brussels-2024.jpg
         startX: 0
-        startY: 13
+        startY: 14
         endX: 4
-        endY: 16
+        endY: 17
       - projectImage: /img/1seat-stuby-fischer-adaf-brussels-2024.jpg
         startX: 4
-        startY: 13
+        startY: 14
         endX: 7
-        endY: 16
+        endY: 17
     textEndX: 4
     textEndY: 6
   - projectTitle: Brise bise, 2023
