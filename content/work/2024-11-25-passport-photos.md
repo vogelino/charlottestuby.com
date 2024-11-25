@@ -10,7 +10,7 @@ description: "«  In the topic of passport photos, the human face is transformed
   landscape where personal expression is supposed to be muted. The face becomes
   a symbol of bureaucratic conformity, stripped of its nuances and complexities.
   » "
-thumbnail: /img/2-carre-rekto-vero-charlottestuby-2024.jpg
+thumbnail: /img/2-rectangle-rekto-vero-charlottestuby-2024.jpg
 decorativeForm: /img/rectangle.svg
 images:
   - image: /img/1-rekto-vero-charlottestuby-2024.jpg
