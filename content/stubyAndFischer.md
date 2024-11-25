@@ -192,28 +192,6 @@ projects:
     projectButtonText: "Write me an email if you are interested my one, we still
       have a little stock! "
     projectTitle: Fun accessories  for rainy days, 2023
-  - projectTitle: A collection of vests, 2023
-    textStartX: 5
-    textStartY: 2
-    textEndX: 7
-    textEndY: 3
-    projetImages:
-      - projectImage: /img/gilet-stuby-fischer-brussels-2023-6.jpg
-        startX: 0
-        startY: 1
-        endX: 4
-        endY: 5
-      - projectImage: /img/gilet-stuby-fischer-brussels-2023-7.jpg
-        startX: 3
-        startY: 4
-        endX: 7
-        endY: 8
-    projectDescription: |-
-      Handmade quilted and embroidered vests. 
-
-      ❥ Thanks to Dani & Awoulath
-
-      Pictures by Mélanie Peduzzi
   - projectDescription: |-
       A capsule collection of earrings and necklaces made of silver. 
 
