@@ -1,8 +1,8 @@
 ---
 templateKey: work
 orderOfAppearance: 0
-title: Passport photos
-subtitle: illustrations for a cultural journal Rekto:Verso
+title: PASSPORT PHOTOS
+subtitle: illustrations for a cultural journal Rekto:Verso, Spring 2024
 description: "«  In the topic of passport photos, the human face is transformed
   into an emblem of emotionless existence within a standardized frame. The
   requirement for a neutral expression demands the suppression of any hint of
