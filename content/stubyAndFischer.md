@@ -7,6 +7,31 @@ introButtonText: ""
 introButtonLink: ""
 showPreviewGrid: true
 projects:
+  - projectTitle: Take the opportunity to elevate yourself
+    projectDescription: >-
+      Two bar stools and a bar bench inspired by motocross attire
+
+
+      Upcycled chairs garnished with fabric remnants from pevious projects. A continuous joyful exploration of various textile techniques such as embroidery, patchwork and piping, adapted to new structures. 
+
+
+      Throughout this project, considering these weird and challenging times, our aim was to give people the opportunity to feel uplifted, not only by sitting higher but also through cheering embroidered messages. 
+
+
+      Project mad for ADAF 2024
+
+
+      Pictures made by Antoine Grenez
+    textStartX: 1
+    textStartY: 5
+    projetImages:
+      - projectImage: /img/bench2-stuby-fischer-adaf-brussels-2024.jpg
+        startX: 1
+        startY: 4
+        endX: 5
+        endY: 6
+    textEndX: 0
+    textEndY: 4
   - projectTitle: Brise bise, 2023
     projectDescription: >-
       A californian blind with pictural illusion of a room with a view. This
