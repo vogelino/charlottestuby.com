@@ -44,12 +44,12 @@ projects:
         startX: 0
         startY: 13
         endX: 4
-        endY: 17
+        endY: 16
       - projectImage: /img/1seat-stuby-fischer-adaf-brussels-2024.jpg
         startX: 4
         startY: 13
         endX: 7
-        endY: 17
+        endY: 16
     textEndX: 4
     textEndY: 6
   - projectTitle: Brise bise, 2023
@@ -67,40 +67,40 @@ projects:
 
       Pictures by Antoine Grenez
     textStartX: 4
-    textStartY: 1
+    textStartY: 2
     textEndX: 7
-    textEndY: 3
+    textEndY: 4
     projetImages:
       - projectImage: /img/brise-bise-detail-stuby-fischer-adaf-brussels-2023-3.jpg
         startX: 0
-        startY: 12
+        startY: 13
         endX: 3
-        endY: 15
+        endY: 16
       - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023.jpg
         startX: 0
-        startY: 0
+        startY: 1
         endX: 3
         endY: 5
       - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-1.jpg
         startX: 4
-        startY: 3
+        startY: 4
         endX: 7
-        endY: 8
+        endY: 9
       - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-3.jpg
         startX: 0
-        startY: 6
+        startY: 7
         endX: 3
-        endY: 11
+        endY: 12
       - projectImage: /img/brise-bise-stuby-fischer-adaf-brussels-2023-4.jpg
         startX: 4
-        startY: 9
+        startY: 10
         endX: 7
-        endY: 14
+        endY: 15
       - projectImage: /img/brise-bise-detail-stuby-fischer-adaf-brussels-2023-4.jpg
         startX: 3
-        startY: 15
+        startY: 16
         endX: 7
-        endY: 18
+        endY: 19
   - projectDescription: >-
       From quilting to embroidery, clothing to works of art, this exhibition by
       six hands is a joyful exploration of textile techniques taking the viewer
