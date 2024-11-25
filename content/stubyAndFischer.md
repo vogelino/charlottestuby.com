@@ -23,7 +23,7 @@ projects:
 
       Pictures by Antoine Grenez
     textStartX: 0
-    textStartY: 7
+    textStartY: 6
     projetImages:
       - projectImage: /img/bench2-stuby-fischer-adaf-brussels-2024.jpg
         startX: 0
