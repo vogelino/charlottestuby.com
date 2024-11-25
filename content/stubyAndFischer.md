@@ -23,35 +23,35 @@ projects:
 
       Pictures by Antoine Grenez
     textStartX: 0
-    textStartY: 1
+    textStartY: 5
     projetImages:
       - projectImage: /img/bench2-stuby-fischer-adaf-brussels-2024.jpg
-        startX: 2
-        startY: 3
-        endX: 7
-        endY: 6
-      - projectImage: /img/detail-stuby-fischer-adaf-brussels-2024.jpg
         startX: 0
-        startY: 6
-        endX: 3
+        startY: 0
+        endX: 7
+        endY: 4
+      - projectImage: /img/detail-stuby-fischer-adaf-brussels-2024.jpg
+        startX: 5
+        startY: 5
+        endX: 7
         endY: 8
       - projectImage: /img/2seats3-stuby-fischer-adaf-brussels-2024.jpg
-        startX: 4
+        startX: 2
         startY: 8
         endX: 7
-        endY: 10
+        endY: 11
       - projectImage: /img/seat-detail2-stuby-fischer-adaf-brussels-2024.jpg
         startX: 0
-        startY: 10
+        startY: 11
         endX: 4
-        endY: 13
+        endY: 14
       - projectImage: /img/1seat-stuby-fischer-adaf-brussels-2024.jpg
         startX: 4
-        startY: 10
+        startY: 13
         endX: 7
-        endY: 14
+        endY: 15
     textEndX: 4
-    textEndY: 4
+    textEndY: 6
   - projectTitle: Brise bise, 2023
     projectDescription: >-
       A californian blind with pictural illusion of a room with a view. This
