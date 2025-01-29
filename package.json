@@ -27,7 +27,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"@splidejs/react-splide": "0.7.12",
-		"decap-cms-app": "3.0.12",
+		"decap-cms-app": "3.6.0",
 		"decap-cms-media-library-cloudinary": "3.0.1",
 		"decap-cms-media-library-uploadcare": "3.0.0",
 		"eslint-config-next": "14.0.0",
