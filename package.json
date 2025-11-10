@@ -27,27 +27,32 @@
 	"license": "MIT",
 	"dependencies": {
 		"@splidejs/react-splide": "0.7.12",
-		"decap-cms-app": "3.0.12",
-		"decap-cms-media-library-cloudinary": "3.0.1",
-		"decap-cms-media-library-uploadcare": "3.0.0",
-		"eslint-config-next": "14.0.0",
+		"ajv-errors": "3.0.0",
+		"ajv-keywords": "5.1.0",
+		"decap-cms-app": "3.5.0",
+		"decap-cms-media-library-cloudinary": "3.1.0",
+		"decap-cms-media-library-uploadcare": "3.0.2",
+		"decap-cms-ui-auth": "3.3.0",
+		"eslint-config-next": "15.0.3",
 		"frontmatter-markdown-loader": "3.7.0",
 		"gray-matter": "4.0.3",
-		"gsap": "3.12.2",
+		"gsap": "3.12.5",
 		"probe-image-size": "7.2.3",
-		"react": "18.2.0",
-		"react-dom": "18.2.0",
-		"react-markdown": "8.0.7",
-		"sharp": "0.32.6"
+		"react": "18.3.1",
+		"react-dom": "18.3.1",
+		"react-markdown": "9.0.1",
+		"sharp": "0.33.5"
 	},
 	"devDependencies": {
-		"@babel/core": "7.22.20",
-		"@babel/preset-react": "7.22.15",
-		"@types/node": "20.6.3",
-		"@types/react": "18.2.22",
-		"@typescript-eslint/eslint-plugin": "6.7.2",
-		"@typescript-eslint/parser": "6.7.2",
+		"@babel/core": "7.26.0",
+		"@babel/preset-react": "7.25.9",
+		"@types/node": "22.10.1",
+		"@types/react": "18.3.12",
+		"@typescript-eslint/eslint-plugin": "8.15.0",
+		"@typescript-eslint/parser": "8.15.0",
 		"babel-eslint": "10.1.0",
-		"next": "13.5.2"
+		"eslint": "9.39.1",
+		"next": "15.0.3",
+		"typescript": "5.9.3"
 	}
 }
