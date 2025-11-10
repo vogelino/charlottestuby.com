@@ -27,6 +27,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"@splidejs/react-splide": "0.7.12",
+		"ajv": "8.17.1",
 		"ajv-errors": "3.0.0",
 		"ajv-keywords": "5.1.0",
 		"decap-cms-app": "3.5.0",
