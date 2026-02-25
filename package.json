@@ -38,11 +38,9 @@
 		"frontmatter-markdown-loader": "3.7.0",
 		"gray-matter": "4.0.3",
 		"gsap": "3.12.5",
-		"probe-image-size": "7.2.3",
 		"react": "18.3.1",
 		"react-dom": "18.3.1",
-		"react-markdown": "9.0.1",
-		"sharp": "0.33.5"
+		"react-markdown": "9.0.1"
 	},
 	"devDependencies": {
 		"@babel/core": "7.26.0",

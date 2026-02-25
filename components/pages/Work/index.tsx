@@ -88,8 +88,8 @@ const Work: FC<WorkPropType> = ({
 										alt={caption}
 										src={image}
 										sizes="960px"
-										width={width}
-										height={height}
+										width={width || 1200}
+										height={height || 1200}
 										style={{
 											width: '100%',
 											height: 'auto',
