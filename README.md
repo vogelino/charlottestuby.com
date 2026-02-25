@@ -18,3 +18,27 @@ $ cd charlottestuby.com
 $ npm install
 $ npm run dev # Or `vercel dev` if configured with vercel
 ```
+
+### CMS OAuth Setup
+
+The CMS GitHub login now uses an in-app OAuth endpoint at `/api/auth` (instead of Glitch).
+
+Set these environment variables where the site is deployed:
+
+```
+OAUTH_CLIENT_ID=...
+OAUTH_CLIENT_SECRET=...
+```
+
+Legacy fallback names are also supported:
+
+```
+GITHUB_CLIENT_ID=...
+GITHUB_CLIENT_SECRET=...
+```
+
+The GitHub OAuth app callback URL must be:
+
+```
+https://charlottestuby.com/api/auth
+```
