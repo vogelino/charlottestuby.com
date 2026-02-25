@@ -34,7 +34,7 @@
 		"decap-cms-media-library-cloudinary": "3.1.0",
 		"decap-cms-media-library-uploadcare": "3.0.2",
 		"decap-cms-ui-auth": "3.3.0",
-		"eslint-config-next": "15.0.3",
+		"eslint-config-next": "15.5.12",
 		"frontmatter-markdown-loader": "3.7.0",
 		"gray-matter": "4.0.3",
 		"gsap": "3.12.5",
@@ -53,7 +53,7 @@
 		"@typescript-eslint/parser": "8.15.0",
 		"babel-eslint": "10.1.0",
 		"eslint": "9.39.1",
-		"next": "15.0.3",
+		"next": "15.5.12",
 		"typescript": "5.9.3"
 	}
 }
