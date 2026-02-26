@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 5
+orderOfAppearance: 10
 title: SOME SELECTED PROJECTS
 subtitle: Belgium, Switzerland 2013-2026
 date: 2021-02-04T13:10:50.409Z
