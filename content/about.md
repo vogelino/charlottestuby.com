@@ -7,8 +7,8 @@ subtitle: |
 portrait: /img/portrait-charlotte-stuby-par-celine-burnand-24.jpg
 email: charlottestuby@riseup.net
 emailButtonText: ✎
-cv: ""
-cvButtonText: ▣
+cv: /img/cv-charlotte-stuby-26.pdf
+cvButtonText: (◕‿◕)
 instagramUsername: charlottestuby
 instagramButtonText: 𓆏
 forms:
