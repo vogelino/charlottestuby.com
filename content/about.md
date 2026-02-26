@@ -5,12 +5,12 @@ title: ⚐
 subtitle: |
   Based between Brussels (BE) and Vevey (CH)
 portrait: /img/portrait-charlotte-stuby-par-celine-burnand-24.jpg
-email: charlottestuby@gmail.com
-emailButtonText: Email
-cv: /img/cv-english-charlottestuby-2024.pdf
-cvButtonText: Curriculum
+email: charlottestuby@riseup.net
+emailButtonText: ✉
+cv: ""
+cvButtonText: (◕‿◕)
 instagramUsername: charlottestuby
-instagramButtonText: Instagram
+instagramButtonText: 𓆏
 forms:
   - image: /img/ovale.svg
     posX: 0
