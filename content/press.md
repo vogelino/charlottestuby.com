@@ -21,4 +21,10 @@ pressList:
     title: interview by Dorrell Merritt
     screenshot: /img/capture-d’écran-2021-02-04-à-16.01.27.png
     color: "#000FFF"
+  - title: Residency at MQC, Monthey (CH)
+    url: https://lecourrier.ch/2025/07/24/soigner-par-la-beaute/
+    pdfFile: /img/soigner-par-la-beauté-le-courrier.pdf
+    color: "#FF5C39"
+    screenshot: /img/charlotte-stuby-scaled.jpg
+    date: Jul. 2025
 ---
