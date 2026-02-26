@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 17
+orderOfAppearance: 18
 title: NOUS Y VOICI NOUS Y VOILA
 subtitle: Brussels (BE), Spring 2016
 date: 2021-02-02T13:15:58.935Z
