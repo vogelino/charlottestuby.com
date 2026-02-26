@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 1
+orderOfAppearance: 6
 title: SCULPTING SURFACES
 subtitle: A duo show with João Freitas, curated by Murmur, at firma Brussels
   (BE), Autumn 2023
