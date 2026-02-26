@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 11
+orderOfAppearance: 14
 title: L'AGE DE ROSEAU
 subtitle: in collaboration with Hugo Ruyant and Juliet Merie, Sagacity, Brussels
   (BE), Spring 2019
