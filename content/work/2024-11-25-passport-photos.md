@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 0
+orderOfAppearance: 5
 title: PASSPORT PHOTO
 subtitle: Illustrations for a cultural journal Rekto:Verso, Belgium Spring 2024
 description: >-
