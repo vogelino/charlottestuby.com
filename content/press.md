@@ -1,7 +1,7 @@
 ---
 templateKey: press-page
 pressList:
-  - title: Residency at MQC, Monthey (CH)
+  - title: Soigner par la beauté,  lecourrier.ch
     url: ""
     pdfFile: /img/soigner-par-la-beauté-le-courrier.pdf
     color: "#3E9A2C"
