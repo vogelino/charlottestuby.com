@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 16
+orderOfAppearance: 17
 title: HERE NOT HERE
 subtitle: LUCA School of Arts, Gent (BE), 2017
 date: 2021-02-02T11:59:48.272Z
