@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 2
+orderOfAppearance: 7
 title: OUR LADY OF THUYNE & MAGRIET'S PROTECTION
 subtitle: '"I try to imagine how your texture felt like", Ypres (BE), Autumn 2023'
 date: 2024-01-04T21:27:07.529Z
