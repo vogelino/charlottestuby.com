@@ -9,7 +9,7 @@ description: "Interpretation of images by materialising dreamlike elements
   fabric. These materials are assembled and brought to life using various
   embroidery techniques such as bouti, fil couché and quilting, to create
   landscapes that are both tangible and unreal. "
-thumbnail: /img/charlotte_stuby_bdf_ica©romyberger20.jpg
+thumbnail: /img/charlotte_stuby_bdf_ica©romyberger11mod.jpg
 decorativeForm: /img/trace.svg
 images:
   - image: /img/charlotte_stuby_bdf_ica©romyberger10mod.jpg
@@ -17,4 +17,5 @@ images:
   - image: /img/charlotte_stuby_bdf_ica©romyberger14.jpg
   - image: /img/charlotte_stuby_bdf_ica©romyberger13.jpg
   - image: /img/charlotte_stuby_bdf_ica©romyberger12.jpg
+  - image: /img/charlotte_stuby_bdf_ica©romyberger5mod.jpg
 ---
