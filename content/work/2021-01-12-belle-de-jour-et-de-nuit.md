@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 8
+orderOfAppearance: 11
 title: BELLE DE JOUR ET DE NUIT
 subtitle: Des Seins à Dessein, collective show, Espace Arlaud, Lausanne (CH), Autumn 2020
 date: 2021-01-12T16:05:04.042Z
