@@ -1,6 +1,6 @@
 ---
 templateKey: work
-orderOfAppearance: 7
+orderOfAppearance: 12
 title: L'ENNUI REGNAIT AU DEHORS
 subtitle: Pano, Vevey (CH), Spring 2021
 date: 2021-05-03T11:52:47.269Z
