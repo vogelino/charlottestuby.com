@@ -2,7 +2,7 @@
 templateKey: press-page
 pressList:
   - title: Residency at MQC, Monthey (CH)
-    url: https://lecourrier.ch/2025/07/24/soigner-par-la-beaute/
+    url: ""
     pdfFile: /img/soigner-par-la-beauté-le-courrier.pdf
     color: "#3E9A2C"
     screenshot: /img/charlotte-stuby-scaled.jpg
