@@ -2,7 +2,7 @@
 templateKey: work
 orderOfAppearance: 4
 title: ECHO D'UN HORIZON LOINTAIN
-subtitle: '"Bâtir des fictions" organised by ICA at "Le magasin de papier" in
+subtitle: '"Bâtir des fictions" organised by ICA at Le magasin de papier in
   Mons, Autumn 2025.'
 description: "Interpretation of images by materialising dreamlike elements
   through the use of leather, technical textiles, sailcloth and waterproof
