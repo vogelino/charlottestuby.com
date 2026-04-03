@@ -8,6 +8,7 @@ description: " "
 thumbnail: /img/chair-cover-charlottestuby-gent-2022jpg-copie.jpg
 decorativeForm: /img/boudin.svg
 images:
+  - image: /img/la-pisciniste-charlotte-stuby-2025.jpg
   - image: /img/chair-cover-charlottestuby-gent-2022jpg.jpg
     caption: Chair cover, part of Speaking chairs, by Onbetaalbaar, Ghent (BE), 2022
   - image: /img/aquarius-charlottestuby-brussels-2022.jpg
