@@ -33,7 +33,7 @@ forms:
 ---
 Currently: 
 
-Invited by Cutlture Vevey for a Carte Blanche for the year 2026
+Invited for a Carte Blanche for the year 2026, in Vevey (CH)
 
 \--> https://www.culturevevey.ch/carte-blanche-charlotte-stuby/
 
