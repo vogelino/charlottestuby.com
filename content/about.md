@@ -33,7 +33,9 @@ forms:
 ---
 Currently: 
 
-https://www.culturevevey.ch/carte-blanche-charlotte-stuby/
+Invited by Cutlture Vevey for a Carte Blanche for the year 2026
+
+\--> https://www.culturevevey.ch/carte-blanche-charlotte-stuby/
 
 For several years now, I have been developing a body of work based around textiles, seizing on this traditional, popular, classic and functional material and revisiting it, in particular by working in a frontal, massive and imposing way, in contrast to the meticulousness and introversion associated with traditional textile practices.
 
