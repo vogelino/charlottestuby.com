@@ -4,8 +4,6 @@ templateKey: about-page
 title: ⚐
 subtitle: |
   Based between Brussels (BE) and Vevey (CH)
-
-  Currently: https://www.culturevevey.ch/carte-blanche-charlotte-stuby/
 portrait: /img/portrait-charlotte-stuby-par-celine-burnand-24.jpg
 email: charlottestuby@gmail.com
 emailButtonText: ✎ MAIL
