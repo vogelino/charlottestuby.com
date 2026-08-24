@@ -315,6 +315,17 @@ projects:
     textStartY: 1
     textEndX: 3
     textEndY: 4
+    projetImages:
+      - projectImage: /img/susannecharlottebijoux1.jpg
+        startX: 2
+        startY: 4
+        endX: 6
+        endY: 8
+      - projectImage: /img/susannecharlottebijoux2.jpg
+        startX: 6
+        startY: 7
+        endX: 8
+        endY: 9
 ---
 Charlotte Stuby and Susanne Fischer are an artist duo whose collaborative practice bridges the realms of art, design, and textile craftsmanship. 
 
