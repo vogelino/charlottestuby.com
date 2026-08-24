@@ -3,7 +3,7 @@ templateKey: stuby-and-fischer
 title: Charlotte Stuby & Susanne Fischer
 showTabInNav: true
 introImage: /img/portrait-carré-stuby-fischer-par-celine-burnand-24.jpg
-introButtonText: Susanne's website
+introButtonText: Susanne Fischer's website
 introButtonLink: https://fischersusanne.com/stuby-x-fischer-about
 showPreviewGrid: true
 projects:
@@ -323,33 +323,13 @@ projects:
     projectButtonText: ""
     projectTitle: "              Handmade reversible bomber jackets, 2021"
 ---
-Charlotte Stuby and Susanne Fischer are an 
-artist duo whose collaborative practice bridges the realms of art, 
-design, and textile craftsmanship. Based between Brussels (BE) and Vevey
- (CH), their work transforms public spaces, interiors, objects, and 
-garments, creating immersive and thought-provoking pieces that blur the 
-boundaries between functionality and artistic expression.
+Charlotte Stuby and Susanne Fischer are an artist duo whose collaborative practice bridges the realms of art, design, and textile craftsmanship. Based between Brussels (BE) and Vevey (CH), their work transforms public spaces, interiors, objects, and garments, creating immersive and thought-provoking pieces that blur the boundaries between functionality and artistic expression.
 
-Susanne’s background in fashion design and costume 
-creation complements this vision, bringing expertise in blending 
-textiles with unconventional materials like metal. Her practice thrives 
-on juxtaposition, merging styles, shapes, and techniques to craft 
-dynamic, multi-dimensional works.
-Charlotte’s approach revisits traditional textile techniques such as 
-sewing, appliqué, and embroidery, transforming them into bold, 
-narrative-driven compositions. Her work explores the imaginary and 
-symbolic, questioning how material and form construct our daily lives 
-and identities. 
-Together, their projects, such as "Handle With Joy"
-co-curated with Sarah Margnetti, showcase a seamless fusion of textile 
-and painting within innovative scenographies. They also collaborate on 
-capsule collections and unique creations, from football jerseys for 
-women’s teams to reconstructed garments, continually pushing the limits 
-of craft and design.
+Charlotte’s approach revisits traditional textile techniques such as sewing, appliqué, and embroidery, transforming them into bold, narrative-driven compositions. Her work explores the imaginary and symbolic, questioning how material and form construct our daily lives and identities. Susanne’s background in fashion design and costume creation complements this vision, bringing expertise in blending textiles with unconventional materials like metal. Her practice thrives on juxtaposition, merging styles, shapes, and techniques to craft dynamic, multi-dimensional works.
 
-This duo’s work celebrates the intersections of tradition and 
-innovation, art and design, crafting a shared narrative that is both 
-deeply personal and universally resonant.
+
+Together, their projects, such as the Handle With Joy exhibition co-curated with Sarah Margnetti, showcase a seamless fusion of textile and painting within innovative scenographies. They also collaborate on capsule collections and unique creations, from football jerseys for women’s teams to reconstructed garments, continually pushing the limits of craft and design.
+This duo’s work celebrates the intersections of tradition and innovation, art and design, crafting a shared narrative that is both deeply personal and universally resonant.
 
 This is a selection of collaborative works.
 
