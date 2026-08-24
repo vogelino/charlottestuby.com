@@ -267,15 +267,20 @@ projects:
     projectButtonText: ""
     projectTitle: Bowling shirts, 2022
   - projectDescription: >-
-      
+      This project involved the design and production of two bomber jackets,
+      combining techniques such as knitting, embroidery, and quilting. Through
+      our shared research and experimentation, we discovered numerous synergies
+      that enriched the creative process. The project evolved into a complex and
+      multifaceted piece, blending our distinct practices and skills while
+      exploring the potential of different textiles with unique material
+      properties. Boundaries were constantly questioned and pushed in a natural,
+      stimulating manner. The playful imagery on the jackets serves as a tribute
+      to our native country, infused with a joyful and humorous spirit.
+
 
       This project is a joyful reflection and memory of our hometown, Vevey (CH) with a blink to our current city, Brussels (BE).
 
 
-      Side 1: Embroideries on dead stock recycled nylon.
-
-
-      Side 2: Quilted recycled nylon and waxed cotton with embroideries and handknitted cotton cuff and collar.
 
 
       Pictures by Ugo Woatzi.
@@ -330,7 +335,7 @@ Based between Brussels (BE) and Vevey (CH), their work transforms public spaces,
 Charlotte’s approach revisits traditional textile techniques such as sewing, appliqué, and embroidery, transforming them into bold, narrative-driven compositions. Her work explores the imaginary and symbolic, questioning how material and form construct our daily lives and identities. Susanne’s background in fashion design and costume creation complements this vision, bringing expertise in blending textiles with unconventional materials like metal. Her practice thrives on juxtaposition, merging styles, shapes, and techniques to craft dynamic, multi-dimensional works.
 
 
-Together, their projects, such as the Handle With Joy exhibition co-curated with Sarah Margnetti, showcase a seamless fusion of textile and painting within innovative scenographies. They also collaborate on capsule collections and unique creations, from football jerseys for women’s teams to reconstructed garments, continually pushing the limits of craft and design.
+Together, their projects, such as "Handle with joy" exhibition co-curated with Sarah Margnetti, showcase a seamless fusion of textile and painting within innovative scenographies. They also collaborate on capsule collections and unique creations, from football jerseys for women’s teams to reconstructed garments, continually pushing the limits of craft and design.
 This duo’s work celebrates the intersections of tradition and innovation, art and design, crafting a shared narrative that is both deeply personal and universally resonant.
 
 This is a selection of collaborative works.
