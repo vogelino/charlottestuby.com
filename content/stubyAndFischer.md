@@ -305,9 +305,9 @@ projects:
         endY: 5
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-10.jpg
         startX: 5
-        startY: 15
+        startY: 13
         endX: 7
-        endY: 18
+        endY: 16
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-12.jpg
         startX: 2
         startY: 18
