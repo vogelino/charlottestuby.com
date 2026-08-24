@@ -268,21 +268,15 @@ projects:
     projectButtonText: ""
     projectTitle: Bowling shirts, 2022
   - projectDescription: >-
-      This project involved the design and production of two bomber jackets,
-      combining  techniques such as knitting, embroidery, and quilting. Through
-      our shared  research and experimentation, we discovered numerous synergies
-      that enriched the creative process. 
+      
+      Léman is a capsule jewelry collection composed of a necklace and a pair of earrings, both shaped after the contours of Lake Léman — the body of water along which both artists grew up. Sculpted in recycled silver using the lost-wax technique, the pieces trace the lake’s sinuous form, their edges cut with a saw reminiscent of the surrounding mountain facades plunging into its depths.
 
-
-      The project evolved into a complex and multifaceted piece, blending our distinct practices and skills while exploring the potential of different textiles with unique material properties. Boundaries were constantly questioned and pushed in a natural, stimulating manner. The playful imagery on the jackets serves as a tribute to our native country, infused with a joyful and humorous spirit.
-
-
-      This jacket is ultimately a celebration of our hometown, Vevey (CH), with a subtle nod to our current city, Brussels (BE).
+      The mirror-polished surfaces reflect light like the lake itself, creating a dialogue between landscape and ornament, nature and craftsmanship. Minimal yet sculptural, each piece embodies a shared sense of origin and material sensitivity, transforming a familiar horizon into wearable memory.
 
 
 
 
-      Pictures by Ugo Woatzi.
+      Pictures by Simon Loiseau
     textStartX: 5
     projetImages:
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-8.jpg
