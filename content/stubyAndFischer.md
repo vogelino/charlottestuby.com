@@ -323,7 +323,9 @@ projects:
     projectButtonText: ""
     projectTitle: "              Handmade reversible bomber jackets, 2021"
 ---
-Charlotte Stuby and Susanne Fischer are an artist duo whose collaborative practice bridges the realms of art, design, and textile craftsmanship. Based between Brussels (BE) and Vevey (CH), their work transforms public spaces, interiors, objects, and garments, creating immersive and thought-provoking pieces that blur the boundaries between functionality and artistic expression.
+Charlotte Stuby and Susanne Fischer are an artist duo whose collaborative practice bridges the realms of art, design, and textile craftsmanship. 
+
+Based between Brussels (BE) and Vevey (CH), their work transforms public spaces, interiors, objects, and garments, creating immersive and thought-provoking pieces that blur the boundaries between functionality and artistic expression.
 
 Charlotte’s approach revisits traditional textile techniques such as sewing, appliqué, and embroidery, transforming them into bold, narrative-driven compositions. Her work explores the imaginary and symbolic, questioning how material and form construct our daily lives and identities. Susanne’s background in fashion design and costume creation complements this vision, bringing expertise in blending textiles with unconventional materials like metal. Her practice thrives on juxtaposition, merging styles, shapes, and techniques to craft dynamic, multi-dimensional works.
 
