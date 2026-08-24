@@ -54,15 +54,12 @@ projects:
     textEndY: 8
   - projectTitle: Brise bise, 2023
     projectDescription: >-
-      A californian blind with pictural illusion of a room with a view. This
-      composition made to be hung in a room, references our love for commun
-      domestic objects and sentimental scenery. 
+      This project reimagines the traditional Californian blind by adding a new
+      dimension to the space it occupies. While the blind divides and obstructs
+      light or air, its patchwork illustration creates the illusion of openness,
+      suggesting a new room or landscape.
 
-
-      Part of A domestic Art Fair (ADAF), Brussels, 2023
-
-
-      150x250cm
+      The composition, designed to be hung indoors, draws on references to familiar domestic objects and sentimental scenery, blending functionality with artistic expression.
 
 
       Pictures by Antoine Grenez
