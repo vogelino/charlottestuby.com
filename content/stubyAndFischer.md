@@ -220,8 +220,12 @@ projects:
     projectButtonText: ""
     projectTitle: Lac Léman jewellery, 2023
   - projectDescription: >-
-      A collection of seven unique Bowling shirts, made out of leftovers from
-      previous projects. 
+      This collaboration presents a series of seven handmade bowling shirts,
+      inspired by the bold aesthetics of 1980s and 1990s sportswear. Each piece
+      is one of a kind, featuring unique designs, color combinations, and
+      materials, all crafted from leftovers from our previous projects.
+
+      Embellished with embroidery inspired by vintage sports logos, they combine nostalgia with contemporary craftsmanship.
 
 
       ❤︎ to our favourite models
