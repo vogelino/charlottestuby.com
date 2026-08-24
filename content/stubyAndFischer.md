@@ -64,7 +64,7 @@ projects:
 
       Pictures by Antoine Grenez
     textStartX: 4
-    textStartY: 2
+    textStartY: 1
     textEndX: 7
     textEndY: 4
     projetImages:
