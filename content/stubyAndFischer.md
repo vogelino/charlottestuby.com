@@ -101,6 +101,30 @@ projects:
         startY: 16
         endX: 7
         endY: 19
+  - projectTitle: Léman
+    projectDescription: >-
+      
+      Léman is a capsule jewelry collection composed of a necklace and a pair of earrings, both shaped after the contours of Lake Léman — the body of water along which both artists grew up. Sculpted in recycled silver using the lost-wax technique, the pieces trace the lake’s sinuous form, their edges cut with a saw reminiscent of the surrounding mountain facades plunging into its depths.
+
+      The mirror-polished surfaces reflect light like the lake itself, creating a dialogue between landscape and ornament, nature and craftsmanship. Minimal yet sculptural, each piece embodies a shared sense of origin and material sensitivity, transforming a familiar horizon into wearable memory.
+
+
+      Pictures by Simon Loiseau
+    textStartX: 0
+    textStartY: 1
+    textEndX: 3
+    textEndY: 4
+    projetImages:
+      - projectImage: /img/susannecharlottebijoux1.jpg
+        startX: 4
+        startY: 1
+        endX: 7
+        endY: 5
+      - projectImage: /img/susannecharlottebijoux2.jpg
+        startX: 0
+        startY: 5
+        endX: 8
+        endY: 10
   - projectDescription: >-
       From quilting to embroidery, clothing to works of art, this exhibition by
       six hands is a joyful exploration of textile techniques taking the viewer
@@ -302,30 +326,6 @@ projects:
     textEndY: 12
     projectButtonText: ""
     projectTitle: "              Handmade reversible bomber jackets, 2021"
-  - projectTitle: Léman
-    projectDescription: >-
-      
-      Léman is a capsule jewelry collection composed of a necklace and a pair of earrings, both shaped after the contours of Lake Léman — the body of water along which both artists grew up. Sculpted in recycled silver using the lost-wax technique, the pieces trace the lake’s sinuous form, their edges cut with a saw reminiscent of the surrounding mountain facades plunging into its depths.
-
-      The mirror-polished surfaces reflect light like the lake itself, creating a dialogue between landscape and ornament, nature and craftsmanship. Minimal yet sculptural, each piece embodies a shared sense of origin and material sensitivity, transforming a familiar horizon into wearable memory.
-
-
-      Pictures by Simon Loiseau
-    textStartX: 0
-    textStartY: 1
-    textEndX: 3
-    textEndY: 4
-    projetImages:
-      - projectImage: /img/susannecharlottebijoux1.jpg
-        startX: 2
-        startY: 4
-        endX: 6
-        endY: 8
-      - projectImage: /img/susannecharlottebijoux2.jpg
-        startX: 6
-        startY: 7
-        endX: 8
-        endY: 9
 ---
 Charlotte Stuby and Susanne Fischer are an artist duo whose collaborative practice bridges the realms of art, design, and textile craftsmanship. 
 
