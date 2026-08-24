@@ -122,9 +122,9 @@ projects:
         endY: 5
       - projectImage: /img/susannecharlottebijoux2.jpg
         startX: 0
-        startY: 5
+        startY: 3
         endX: 5
-        endY: 8
+        endY: 6
   - projectDescription: >-
       From quilting to embroidery, clothing to works of art, this exhibition by
       six hands is a joyful exploration of textile techniques taking the viewer
