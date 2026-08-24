@@ -192,33 +192,6 @@ projects:
     projectButtonText: "Write me an email if you are interested my one, we still
       have a little stock! "
     projectTitle: Fun accessories  for rainy days, 2023
-  - projectDescription: |-
-      A capsule collection of earrings and necklaces made of silver. 
-
-      Pictures By Mélanie Peduzzi
-    textStartX: 5
-    projetImages:
-      - projectImage: /img/lac-leman-4-stuby-fischer-brussels-2023.jpg
-        startX: 0
-        startY: 1
-        endX: 4
-        endY: 4
-      - startX: 3
-        startY: 3
-        endX: 7
-        endY: 6
-        projectImage: /img/stuby-and-fischer-las-leman-2.png
-      - projectImage: /img/lac-leman-2-stuby-fischer-brussels-2023.jpg
-        startY: 5
-        startX: 0
-        endX: 4
-        endY: 8
-    textStartY: 1
-    projectButtonLink: ""
-    textEndX: 7
-    textEndY: 2
-    projectButtonText: ""
-    projectTitle: Lac Léman jewellery, 2023
   - projectDescription: >-
       This collaboration presents a series of seven handmade bowling shirts,
       inspired by the bold aesthetics of 1980s and 1990s sportswear. Each piece
@@ -305,14 +278,14 @@ projects:
         endY: 5
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-10.jpg
         startX: 5
-        startY: 13
+        startY: 12
         endX: 7
-        endY: 16
+        endY: 15
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-12.jpg
         startX: 2
-        startY: 16
+        startY: 15
         endX: 7
-        endY: 19
+        endY: 18
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-9.jpg
         startX: 0
         startY: 12
@@ -329,6 +302,19 @@ projects:
     textEndY: 12
     projectButtonText: ""
     projectTitle: "              Handmade reversible bomber jackets, 2021"
+  - projectTitle: Léman
+    projectDescription: >-
+      
+      Léman is a capsule jewelry collection composed of a necklace and a pair of earrings, both shaped after the contours of Lake Léman — the body of water along which both artists grew up. Sculpted in recycled silver using the lost-wax technique, the pieces trace the lake’s sinuous form, their edges cut with a saw reminiscent of the surrounding mountain facades plunging into its depths.
+
+      The mirror-polished surfaces reflect light like the lake itself, creating a dialogue between landscape and ornament, nature and craftsmanship. Minimal yet sculptural, each piece embodies a shared sense of origin and material sensitivity, transforming a familiar horizon into wearable memory.
+
+
+      Pictures by Simon Loiseau
+    textStartX: 0
+    textStartY: 1
+    textEndX: 3
+    textEndY: 4
 ---
 Charlotte Stuby and Susanne Fischer are an artist duo whose collaborative practice bridges the realms of art, design, and textile craftsmanship. 
 
