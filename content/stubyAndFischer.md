@@ -160,6 +160,37 @@ projects:
         endY: 17
     textEndX: 4
     textEndY: 8
+  - projectTitle: Léman, 2024
+    projectDescription: >-
+      *Léman* is a capsule jewelry collection composed of a necklace and a pair
+      of earrings, both shaped after the contours of Lake Léman — the body of
+      water along which both artists grew up. Sculpted in recycled silver using
+      the lost-wax technique, the pieces trace the lake’s sinuous form, their
+      edges cut with a saw reminiscent of the surrounding mountain facades
+      plunging into its depths.
+
+      The mirror-polished surfaces reflect light like the lake itself, creating a dialogue between landscape and ornament, nature and craftsmanship. Minimal yet sculptural, each piece embodies a shared sense of origin and material sensitivity, transforming a familiar horizon into wearable memory.
+
+
+
+      Brussels, Spring 2024
+
+      Pictures by Simon Loiseau
+    textStartX: 0
+    textStartY: 1
+    textEndX: 3
+    textEndY: 4
+    projetImages:
+      - projectImage: /img/susannecharlottebijoux1.jpg
+        startX: 4
+        startY: 1
+        endX: 7
+        endY: 5
+      - projectImage: /img/susannecharlottebijoux2.jpg
+        startX: 0
+        startY: 3
+        endX: 4
+        endY: 6
   - projectTitle: Brise bise, 2023
     projectDescription: >-
       This project reimagines the traditional Californian blind by adding a new
@@ -212,37 +243,6 @@ projects:
         startY: 16
         endX: 7
         endY: 19
-  - projectTitle: Léman, 2024
-    projectDescription: >-
-      *Léman* is a capsule jewelry collection composed of a necklace and a pair
-      of earrings, both shaped after the contours of Lake Léman — the body of
-      water along which both artists grew up. Sculpted in recycled silver using
-      the lost-wax technique, the pieces trace the lake’s sinuous form, their
-      edges cut with a saw reminiscent of the surrounding mountain facades
-      plunging into its depths.
-
-      The mirror-polished surfaces reflect light like the lake itself, creating a dialogue between landscape and ornament, nature and craftsmanship. Minimal yet sculptural, each piece embodies a shared sense of origin and material sensitivity, transforming a familiar horizon into wearable memory.
-
-
-
-      Brussels, Spring 2024
-
-      Pictures by Simon Loiseau
-    textStartX: 0
-    textStartY: 1
-    textEndX: 3
-    textEndY: 4
-    projetImages:
-      - projectImage: /img/susannecharlottebijoux1.jpg
-        startX: 4
-        startY: 1
-        endX: 7
-        endY: 5
-      - projectImage: /img/susannecharlottebijoux2.jpg
-        startX: 0
-        startY: 3
-        endX: 4
-        endY: 6
   - projectDescription: >-
       From quilting to embroidery, clothing to works of art, this exhibition by
       six hands is a joyful exploration of textile techniques taking the viewer
