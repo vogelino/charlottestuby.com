@@ -2,13 +2,14 @@
 templateKey: work
 orderOfAppearance: 7
 title: SOME SELECTED PROJECTS
-subtitle: Belgium, Switzerland 2013-2026
+subtitle: Belgium, Switzerland from 2013 until 2026
 date: 2021-02-04T13:10:50.409Z
 description: " "
 thumbnail: /img/ton-maillot-charlottestuby-2014.jpg
 decorativeForm: /img/boudin.svg
 images:
   - image: /img/la-pisciniste-charlotte-stuby.jpg
+    caption: La pisciniste, tapestry, 35x50cm, Belgium, Winter 2025
   - image: /img/chair-cover-charlottestuby-gent-2022jpg.jpg
     caption: Chair cover, part of Speaking chairs, by Onbetaalbaar, Ghent (BE), 2022
   - image: /img/aquarius-charlottestuby-brussels-2022.jpg
