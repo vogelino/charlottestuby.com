@@ -14,7 +14,7 @@ pressList:
     date: Jul. 2025
   - date: Jul. 2023
     title: Interview on Murmur
-    url: https://www.artemurmur.com/interview-with-charlotte-stuby
+    url: https://aabrahimia.wixsite.com/my-site-1/interview-with-charlotte-stuby
     screenshot: /img/capture-d’écran-2023-07-17-à-09.53.57.png
     color: "#0032AC"
   - date: Oct. 2020
