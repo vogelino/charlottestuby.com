@@ -13,11 +13,6 @@ projects:
 
 
       Handmade with love in our Brussels based atelier.
-
-
-
-
-      Brussels, Spring 2026
     textStartX: 1
     projetImages:
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion1.jpg
