@@ -1,6 +1,11 @@
 ---
 templateKey: press-page
 pressList:
+  - date: Aug. 2026
+    title: Carte blanche du service culturel de Vevey (CH), 2026
+    url: https://www.culturevevey.ch/carte-blanche-charlotte-stuby/
+    screenshot: /img/capture-d’écran-2026-08-25-à-14.41.54.png
+    color: "#000FFF"
   - title: Soigner par la beauté,  lecourrier.ch
     url: ""
     pdfFile: /img/soigner-par-la-beauté-le-courrier.pdf
@@ -26,10 +31,5 @@ pressList:
     url: https://dorrellmerritt.co.uk/Charlotte-Stuby-Interview
     title: interview by Dorrell Merritt
     screenshot: /img/capture-d’écran-2021-02-04-à-16.01.27.png
-    color: "#000FFF"
-  - date: Aug. 2026
-    title: Carte blanche du service culturel de Vevey (CH), 2026
-    url: https://www.culturevevey.ch/carte-blanche-charlotte-stuby/
-    screenshot: /img/capture-d’écran-2026-08-25-à-14.41.54.png
     color: "#000FFF"
 ---
