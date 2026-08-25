@@ -35,10 +35,10 @@ projects:
         endX: 4
         endY: 11
       - projectImage: /img/susanne-fischer-charlottestuby-chaises10.jpg
-        startX: 4
-        startY: 6
-        endX: 8
-        endY: 11
+        startX: 5
+        startY: 4
+        endX: 9
+        endY: 7
       - projectImage: /img/susanne-fischer-charlottestuby-chaises5.jpg
         startX: 4
         endX: 8
