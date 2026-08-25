@@ -44,17 +44,17 @@ projects:
         startX: 0
         startY: 7
         endX: 4
-        endY: 10
+        endY: 12
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion8.jpg
         startX: 0
-        startY: 10
+        startY: 12
         endX: 2
-        endY: 12
+        endY: 15
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion3.jpg
-        startX: 3
+        startX: 4
         startY: 10
-        endX: 5
-        endY: 12
+        endX: 9
+        endY: 15
     textStartY: 5
     projectButtonLink: ""
     textEndX: 1
