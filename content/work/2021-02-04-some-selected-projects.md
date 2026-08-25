@@ -5,7 +5,7 @@ title: SOME SELECTED PROJECTS
 subtitle: Belgium, Switzerland 2013-2026
 date: 2021-02-04T13:10:50.409Z
 description: " "
-thumbnail: /img/bike-cover-yellow-charlottestuby-brussels-2018.jpg
+thumbnail: /img/ton-maillot-charlottestuby-2014.jpg
 decorativeForm: /img/boudin.svg
 images:
   - image: /img/la-pisciniste-charlotte-stuby.jpg
