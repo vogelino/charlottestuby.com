@@ -21,7 +21,7 @@ forms:
   - image: /img/boudin.svg
     posX: 70
     posY: 30
-  - image: /img/tourbillon-noir.svg
+  - image: /img/baton.svg
     posX: 6
     posY: 20
   - image: /img/trait-abstrait-bleu.svg
