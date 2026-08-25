@@ -9,17 +9,15 @@ showPreviewGrid: true
 projects:
   - projectTitle: Take the opportunity to elevate yourself, 2024
     projectDescription: >-
-      Two bar stools and a bar bench inspired by motocross attire
+      This project features two bar stools and a bar bench inspired by motocross
+      attire, crafted from upcycled chairs and fabric remnants from previous
+      projects. It embodies a playful exploration of textile techniques such as
+      embroidery, patchwork, and piping, reimagined for new structural forms.
+
+      Amid challenging times, the aim was to uplift—both physically, by elevating the seating, and emotionally, through cheerful embroidered messages.
 
 
-      Upcycled chairs garnished with fabric remnants from pevious projects. A continuous joyful exploration of various textile techniques such as embroidery, patchwork and piping, adapted to new structures. 
-
-
-      Throughout this project, considering these weird and challenging times, our aim was to give people the opportunity to feel uplifted, not only by sitting higher but also through cheering embroidered messages. 
-
-
-      Part of A domestic Art Fair (ADAF), Brussels, 2024
-
+      Project shown at ADAF, Brussels, 2024
 
       Pictures by Antoine Grenez
     textStartX: 0
