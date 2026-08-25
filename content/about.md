@@ -18,7 +18,7 @@ forms:
   - image: /img/tete-lune.svg
     posX: 0
     posY: -10
-  - image: /img/boudin.svg
+  - image: /img/boudin-noir.svg
     posX: 70
     posY: 30
   - image: /img/baton.svg
