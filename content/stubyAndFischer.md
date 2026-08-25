@@ -165,9 +165,6 @@ projects:
       The mirror-polished surfaces reflect light like the lake itself, creating a dialogue between landscape and ornament, nature and craftsmanship. Minimal yet sculptural, each piece embodies a shared sense of origin and material sensitivity, transforming a familiar horizon into wearable memory.
 
 
-      Brussels
-
-
       Pictures by Simon Loiseau
     textStartX: 0
     textStartY: 1
