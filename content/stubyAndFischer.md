@@ -68,7 +68,7 @@ projects:
 
       Pictures by Antoine Grenez
     textStartX: 4
-    textStartY: 1
+    textStartY: 2
     textEndX: 7
     textEndY: 4
     projetImages:
@@ -104,13 +104,20 @@ projects:
         endY: 19
   - projectTitle: Léman
     projectDescription: >-
-      
-      Léman is a capsule jewelry collection composed of a necklace and a pair of earrings, both shaped after the contours of Lake Léman — the body of water along which both artists grew up. Sculpted in recycled silver using the lost-wax technique, the pieces trace the lake’s sinuous form, their edges cut with a saw reminiscent of the surrounding mountain facades plunging into its depths.
+      From quilting to embroidery, clothing to works of art, this exhibition by
+      six hands is a joyful exploration of textile techniques taking the viewer
+      on a stroll through a pictorial staging of the pieces. The textile works,
+      by the Charlotte Stuby and Susanne Fischer duo, invoke memories of
+      mountains, the lake, and friendship. Sarah Margnetti’s brush makes the
+      textile works dance in a ballet of hands, feet, and noses. The three
+      artists connect with amusement and affinity between design and visual art
+      to make light of these media as well as their status. 
 
-      The mirror-polished surfaces reflect light like the lake itself, creating a dialogue between landscape and ornament, nature and craftsmanship. Minimal yet sculptural, each piece embodies a shared sense of origin and material sensitivity, transforming a familiar horizon into wearable memory.
+
+      at DBKApaddok, Brussels, 2023
 
 
-      Pictures by Simon Loiseau
+      Pictures by Lola Pertsowsky
     textStartX: 0
     textStartY: 1
     textEndX: 3
