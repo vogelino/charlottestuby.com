@@ -57,7 +57,7 @@ projects:
         endY: 15
     textStartY: 5
     projectButtonLink: ""
-    textEndX: 3
+    textEndX: 2
     textEndY: 6
     projectButtonText: ""
     projectTitle: Your best companion
