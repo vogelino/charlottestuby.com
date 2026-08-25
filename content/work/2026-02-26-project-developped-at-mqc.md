@@ -15,11 +15,11 @@ decorativeForm: /img/axa.svg
 images:
   - image: /img/mqc11.charlottestuby-2025.jpg
   - image: /img/mqc9.charlottestuby-2025.jpg
+  - image: /img/mqc.charlottestuby-2026.jpg
   - image: /img/mqc13.charlottestuby-2025.jpg
   - image: /img/mqc10.charlottestuby-2025.jpg
-  - image: /img/mqc.charlottestuby-2026.jpg
-  - image: /img/mqc2.charlottestuby-2026.jpg
   - image: /img/mqc4.charlottestuby-2026.jpg
+  - image: /img/mqc2.charlottestuby-2026.jpg
   - image: /img/mqc5.charlottestuby-2025.jpg
   - image: /img/mqc12.charlottestuby-2025.jpg
 ---
