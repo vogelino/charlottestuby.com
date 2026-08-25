@@ -18,7 +18,7 @@ projects:
 
 
       Brussels, Spring 2026
-    textStartX: 0
+    textStartX: 1
     projetImages:
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion1.jpg
         startX: 0
@@ -52,8 +52,8 @@ projects:
         endY: 14
     textStartY: 5
     projectButtonLink: ""
-    textEndX: 2
-    textEndY: 7
+    textEndX: 3
+    textEndY: 6
     projectButtonText: ""
     projectTitle: Your best companion
   - projectDescription: >-
