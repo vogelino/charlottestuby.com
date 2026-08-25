@@ -15,7 +15,7 @@ description: >-
 
   Finally, the third part of the project will take the form of an exhibition bringing together works in pewter and textile, developed throughout a year-long work in progress.
 thumbnail: /img/image-carte-blanche-charlottestuby.jpg
-decorativeForm: /img/pied.svg
+decorativeForm: /img/main-collier.svg
 images:
   - image: /img/charlottestuby-carte-blanche9-2026.jpg
   - image: /img/charlottestuby-carte-blanche1-2026.jpg
