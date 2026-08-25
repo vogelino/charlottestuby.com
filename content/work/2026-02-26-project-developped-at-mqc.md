@@ -16,4 +16,5 @@ images:
   - image: /img/mqc2.charlottestuby-2026.jpg
   - image: /img/mqc4.charlottestuby-2026.jpg
   - image: /img/mqc5.charlottestuby-2025.jpg
+  - image: /img/mqc12.charlottestuby-2025.jpg
 ---
