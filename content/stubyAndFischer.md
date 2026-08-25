@@ -208,9 +208,10 @@ projects:
 
       150 X 250 cm
 
-      In collaboration with Charlotte Stuby
 
       Project shown at ADAF, Brussels, 2023
+
+
 
       Pictures by Antoine Grenez
     textStartX: 4
