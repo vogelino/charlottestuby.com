@@ -388,16 +388,22 @@ projects:
     textEndY: 9
     projectButtonText: ""
     projectTitle: Bowling shirts, 2022
-  - projectDescription: This project involved the design and production of two
-      bomber jackets, combining  techniques such as knitting, embroidery, and
-      quilting. Through our shared  research and experimentation, we discovered
-      numerous synergies that enriched the creative process. The project evolved
-      into a complex and multifaceted piece, blending our distinct practices and
-      skills while exploring the potential of different textiles with unique
-      material properties. Boundaries were constantly questioned and pushed in a
-      natural, stimulating manner. The playful imagery on the jackets serves as
-      a tribute to our native country, infused with a joyful and humorous
-      spirit.
+  - projectDescription: >-
+      This project involved the design and production of two bomber jackets,
+      combining  techniques such as knitting, embroidery, and quilting. Through
+      our shared  research and experimentation, we discovered numerous synergies
+      that enriched the creative process. The project evolved into a complex and
+      multifaceted piece, blending our distinct practices and skills while
+      exploring the potential of different textiles with unique material
+      properties. Boundaries were constantly questioned and pushed in a natural,
+      stimulating manner. The playful imagery on the jackets serves as a tribute
+      to our native country, infused with a joyful and humorous spirit.
+
+
+      Brussels, Autumn 2021
+
+
+      Pictures By Ugo Woatzi
     textStartX: 5
     projetImages:
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-8.jpg
