@@ -4,7 +4,7 @@ templateKey: about-page
 title: ⚐
 subtitle: |
   Based between Brussels (BE) and Vevey (CH)
-portrait: /img/portrait-charlotte-stuby-par-celine-burnand-24.jpg
+portrait: /img/charlotte-stuby-2026.jpg
 email: charlottestuby@gmail.com
 emailButtonText: ✎ MAIL
 cv: /img/cv-english-cha-dec2025.pdf
