@@ -328,6 +328,28 @@ projects:
     textEndY: 12
     projectButtonText: ""
     projectTitle: "              Handmade reversible bomber jackets, 2021"
+  - projectTitle: AS/MG
+    projectDescription: >-
+      This project extends the exploration initiated with *Take the Opportunity
+      to Elevate Yourself*, translating its playful spirit into a new domestic
+      setting. Four second-hand chairs were sourced, fully dismantled, and
+      reimagined through a meticulous process that combined restoration and
+      textile design.
+
+
+      The metallic tubular structures were thermo-lacquered, while the seats and backs were recovered with textile compositions inspired by motocross attire. Using techniques such as appliqué, embroidery and quilting, the new coverings reinterpret the dynamic language of sportswear into functional furniture.
+
+
+      This continuation of the series reinforces the dialogue between craftsmanship, reuse, and visual expression — transforming familiar objects into uplifting and expressive design pieces.
+
+
+      Pictures by Simon Loiseau
+    projectButtonText: ""
+    projectButtonLink: ""
+    textStartX: 5
+    textStartY: 1
+    textEndX: 7
+    textEndY: 3
 ---
 Charlotte Stuby and Susanne Fischer are an artist duo whose collaborative practice bridges the realms of art, design, and textile craftsmanship. 
 
