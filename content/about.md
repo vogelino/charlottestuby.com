@@ -15,7 +15,7 @@ forms:
   - image: /img/ovale.svg
     posX: 0
     posY: 17
-  - image: /img/support-assiette-noir.svg
+  - image: /img/tete-lune.svg
     posX: 0
     posY: -10
   - image: /img/boudin.svg
