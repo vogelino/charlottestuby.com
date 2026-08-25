@@ -12,7 +12,7 @@ cvButtonText: (◕‿◕) CV
 instagramUsername: charlottestuby
 instagramButtonText: 𓆏 IG
 forms:
-  - image: /img/ovale.svg
+  - image: /img/baton-violet.svg
     posX: 0
     posY: 17
   - image: /img/tete-lune.svg
