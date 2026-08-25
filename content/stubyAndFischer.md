@@ -119,8 +119,7 @@ projects:
       Amid challenging times, the aim was to uplift—both physically, by elevating the seating, and emotionally, through cheerful embroidered messages.
 
 
-      Project shown at ADAF, Brussels, 2024
-
+      Project shown at ADAF, Brussels 
 
 
       Pictures by Antoine Grenez
