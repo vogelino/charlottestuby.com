@@ -3,9 +3,17 @@ templateKey: work
 orderOfAppearance: 1
 title: Carte blanche from the Vevey Cultural Service (CH), 2026
 subtitle: "- ongoing project"
-description: Each year, a carte blanche is awarded to an artist from Vevey, with
-  the aim of offering a fresh perspective on the city while encouraging forms of
-  interactivity and social resonance.
+description: >-
+  For this Carte Blanche project, I have imagined a three-part project. It began
+  with a collection of pewter objects from the inhabitants of Vevey, followed by
+  a celebratory gathering around the transformed objects. The project is rooted
+  in a collective dimension and reflects on the connections woven throughout the
+  city. Joy is approached as a shared, diffuse and persistent force, capable of
+  creating a sense of togetherness and bringing people together through the
+  transformation of matter and the emergence of new forms.
+
+
+  Finally, the third part of the project will take the form of an exhibition bringing together works in pewter and textile, developed throughout a year-long work in progress.
 thumbnail: /img/charlottestuby-carte-blanche-2026.jpg
 decorativeForm: /img/pied.svg
 images:
