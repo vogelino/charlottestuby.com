@@ -386,6 +386,35 @@ projects:
     textEndY: 12
     projectButtonText: ""
     projectTitle: "              Handmade reversible bomber jackets, 2021"
+  - projectDescription: >-
+      A capsule collection of highneck embroidered sweatshirts from 100% cotton
+      jersey.  
+
+
+      Handmade with love in our Brussels based atelier.
+    textStartX: 0
+    projetImages:
+      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion4.jpg
+        startX: 0
+        startY: 1
+        endX: 2
+        endY: 4
+      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion5.jpg
+        startX: 2
+        startY: 5
+        endX: 6
+        endY: 7
+      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion6.jpg
+        startX: 8
+        startY: 1
+        endX: 10
+        endY: 3
+    textStartY: 2
+    projectButtonLink: ""
+    textEndX: 2
+    textEndY: 4
+    projectButtonText: ""
+    projectTitle: Your best companion
 ---
 Charlotte Stuby and Susanne Fischer are an artist duo whose collaborative practice bridges the realms of art, design, and textile craftsmanship. 
 
