@@ -18,7 +18,7 @@ forms:
   - image: /img/boudin-contour.svg
     posX: 70
     posY: 30
-  - image: /img/patate-trait-vert.svg
+  - image: /img/patate-trait-vert-pleine.svg
     posX: 6
     posY: 20
   - image: /img/papillon.svg
