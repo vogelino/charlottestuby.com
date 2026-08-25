@@ -26,20 +26,20 @@ projects:
         endX: 6
         endY: 4
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion5.jpg
-        startX: 2
-        startY: 4
-        endX: 6
-        endY: 7
+        startX: 8
+        startY: 19
+        endX: 10
+        endY: 14
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion6.jpg
         startX: 6
         startY: 5
         endX: 9
         endY: 6
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion1.jpg
-        startX: 5
-        startY: 7
-        endX: 7
-        endY: 10
+        startX: 2
+        startY: 4
+        endX: 6
+        endY: 7
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion7.jpg
         startX: 0
         startY: 7
