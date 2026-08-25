@@ -55,10 +55,10 @@ projects:
         startY: 10
         endX: 5
         endY: 12
-    textStartY: 4
+    textStartY: 5
     projectButtonLink: ""
     textEndX: 2
-    textEndY: 5
+    textEndY: 6
     projectButtonText: ""
     projectTitle: Your best companion
   - projectDescription: >-
