@@ -197,8 +197,7 @@ projects:
       150 X 250 cm
 
 
-      Project shown at ADAF, Brussels, 2023
-
+      Project shown at ADAF, Brussels
 
 
       Pictures by Antoine Grenez
