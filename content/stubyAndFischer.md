@@ -35,11 +35,6 @@ projects:
         startY: 8
         endX: 4
         endY: 11
-      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion5.jpg
-        startX: 0
-        startY: 14
-        endX: 10
-        endY: 18
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion7.jpg
         startX: 4
         startY: 4
