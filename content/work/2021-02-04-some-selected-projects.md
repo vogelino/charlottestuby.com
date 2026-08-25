@@ -5,7 +5,7 @@ title: SOME SELECTED PROJECTS
 subtitle: Belgium, Switzerland 2013-2026
 date: 2021-02-04T13:10:50.409Z
 description: " "
-thumbnail: /img/la-pisciniste-charlotte-stuby-2025.jpg
+thumbnail: /img/la-pisciniste-charlotte-stuby-2025-bleu.jpg
 decorativeForm: /img/boudin.svg
 images:
   - image: /img/la-pisciniste-charlotte-stuby.jpg
