@@ -14,7 +14,7 @@ description: >-
 
   Pictures by Romy Berger
 thumbnail: /img/charlotte_stuby_bdf_ica©romyberger11mod.jpg
-decorativeForm: /img/boudin.svg
+decorativeForm: /img/tete-verte.svg
 images:
   - image: /img/charlotte_stuby_bdf_ica©romyberger10mod.jpg
   - image: /img/charlotte_stuby_bdf_ica©romyberger11mod.jpg
