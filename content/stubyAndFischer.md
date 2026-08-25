@@ -35,6 +35,26 @@ projects:
         startY: 5
         endX: 9
         endY: 6
+      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion1.jpg
+        startX: 5
+        startY: 7
+        endX: 7
+        endY: 10
+      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion7.jpg
+        startX: 0
+        startY: 7
+        endX: 4
+        endY: 10
+      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion8.jpg
+        startX: 0
+        startY: 10
+        endX: 2
+        endY: 12
+      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion3.jpg
+        startX: 3
+        startY: 10
+        endX: 5
+        endY: 12
     textStartY: 3
     projectButtonLink: ""
     textEndX: 2
