@@ -13,13 +13,13 @@ description: >-
 
 
   I also experimented with casting tin, creating small objects that became integrated into my textile assemblages and subtly altered their perception. Inspired by clothing and other familiar forms, these objects introduce a different presence within the textile compositions, creating a dialogue between the softness of the fabric and the rigidity of the metal.
-thumbnail: /img/ravi-charlotte-stuby-2.jpg
+thumbnail: /img/image-ravi-charlotte-stuby.jpg
 decorativeForm: /img/damier.svg
 images:
-  - image: /img/exhibition-view-ravi-charlotte-stuby2.jpg
+  - image: /img/ravi-charlotte-stuby-3.jpg
   - image: /img/ravi-charlotte-stuby-2.jpg
   - image: /img/ravi-charlotte-stuby-4.jpg
-  - image: /img/ravi-charlotte-stuby-3.jpg
-  - image: /img/exhibition-view-ravi-charlotte-stuby.jpg
   - image: /img/ravi-charlotte-stuby.jpg
+  - image: /img/exhibition-view-ravi-charlotte-stuby.jpg
+  - image: /img/exhibition-view-ravi-charlotte-stuby2.jpg
 ---
