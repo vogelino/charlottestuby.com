@@ -65,9 +65,6 @@ projects:
       This continuation of the series reinforces the dialogue between craftsmanship, reuse, and visual expression — transforming familiar objects into uplifting and expressive design pieces.
 
 
-      Brussels, Spring 2025
-
-
       Pictures by Simon Loiseau
     textStartX: 5
     projetImages:
