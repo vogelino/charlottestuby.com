@@ -24,7 +24,7 @@ forms:
   - image: /img/baton.svg
     posX: 6
     posY: 20
-  - image: /img/trait-abstrait-bleu.svg
+  - image: /img/papillon.svg
     posX: 40
     posY: 50
   - image: /img/rond-vert.svg
