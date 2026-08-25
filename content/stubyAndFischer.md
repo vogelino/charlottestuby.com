@@ -443,7 +443,7 @@ projects:
     textEndX: 9
     textEndY: 12
     projectButtonText: ""
-    projectTitle: "              Handmade reversible bomber jackets, Autumn 2021"
+    projectTitle: Handmade reversible bomber jackets, Autumn 2021
 ---
 Charlotte Stuby and Susanne Fischer are an artist duo whose collaborative practice bridges the realms of art, design, and textile craftsmanship. 
 
