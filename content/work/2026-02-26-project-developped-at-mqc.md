@@ -11,7 +11,7 @@ description: >
 
   Text written by Matteo Michelini. 
 thumbnail: /img/image-charlottestuby-gravure2-2025.jpg
-decorativeForm: /img/axa.svg
+decorativeForm: /img/baton.svg
 images:
   - image: /img/mqc11.charlottestuby-2025.jpg
   - image: /img/mqc9.charlottestuby-2025.jpg
