@@ -129,6 +129,8 @@ projects:
 
       Project shown at ADAF, Brussels, 2024
 
+
+
       Pictures by Antoine Grenez
     textStartX: 0
     textStartY: 6
