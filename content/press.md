@@ -9,7 +9,7 @@ pressList:
   - title: Soigner par la beauté,  lecourrier.ch
     url: ""
     pdfFile: /img/soigner-par-la-beauté-le-courrier.pdf
-    color: "#3E9A2C"
+    color: "#0047BB"
     screenshot: /img/charlotte-stuby-scaled.jpg
     date: Jul. 2025
   - date: Jul. 2023
