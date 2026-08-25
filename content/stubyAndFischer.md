@@ -22,9 +22,9 @@ projects:
     projetImages:
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion1.jpg
         startX: 3
-        startY: 5
+        startY: 4
         endX: 7
-        endY: 8
+        endY: 7
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion4.jpg
         startX: 0
         startY: 1
@@ -58,7 +58,7 @@ projects:
     textStartY: 5
     projectButtonLink: ""
     textEndX: 2
-    textEndY: 6
+    textEndY: 7
     projectButtonText: ""
     projectTitle: Your best companion
   - projectDescription: >-
