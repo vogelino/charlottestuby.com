@@ -16,7 +16,7 @@ pressList:
     title: Interview on Murmur
     url: https://www.artemurmur.com/interview-with-charlotte-stuby
     screenshot: /img/capture-d’écran-2023-07-17-à-09.53.57.png
-    color: "#000FFF"
+    color: "#0032AC"
   - date: Oct. 2020
     title: Des Seins à Dessein, Espace Arlaud, Lausanne, Autumn 2020
     pdfFile: /img/121259228_1289646231407547_6082962902921635519_o.jpg
