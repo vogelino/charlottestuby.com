@@ -8,6 +8,35 @@ introButtonLink: https://fischersusanne.com/stuby-x-fischer-about
 showPreviewGrid: true
 projects:
   - projectDescription: >-
+      A capsule collection of highneck embroidered sweatshirts from 100% cotton
+      jersey.  
+
+
+      Handmade with love in our Brussels based atelier.
+    textStartX: 0
+    projetImages:
+      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion4.jpg
+        startX: 0
+        startY: 1
+        endX: 2
+        endY: 4
+      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion5.jpg
+        startX: 2
+        startY: 5
+        endX: 6
+        endY: 7
+      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion6.jpg
+        startX: 8
+        startY: 1
+        endX: 10
+        endY: 3
+    textStartY: 2
+    projectButtonLink: ""
+    textEndX: 2
+    textEndY: 4
+    projectButtonText: ""
+    projectTitle: Your best companion
+  - projectDescription: >-
       This project extends the exploration initiated with *Take the Opportunity
       to Elevate Yourself*, translating its playful spirit into a new domestic
       setting. Four second-hand chairs were sourced, fully dismantled, and
@@ -334,15 +363,14 @@ projects:
     projectButtonText: ""
     projectTitle: Bowling shirts, 2022
   - projectDescription: >-
-      
-      Léman is a capsule jewelry collection composed of a necklace and a pair of earrings, both shaped after the contours of Lake Léman — the body of water along which both artists grew up. Sculpted in recycled silver using the lost-wax technique, the pieces trace the lake’s sinuous form, their edges cut with a saw reminiscent of the surrounding mountain facades plunging into its depths.
-
-      The mirror-polished surfaces reflect light like the lake itself, creating a dialogue between landscape and ornament, nature and craftsmanship. Minimal yet sculptural, each piece embodies a shared sense of origin and material sensitivity, transforming a familiar horizon into wearable memory.
+      A capsule collection of highneck embroidered sweatshirts from 100% cotton
+      jersey.  
 
 
+      Handmade with love in our Brussels based atelier. 
 
 
-      Pictures by Simon Loiseau
+      Brussels, 2026
     textStartX: 5
     projetImages:
       - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-8.jpg
@@ -386,35 +414,6 @@ projects:
     textEndY: 12
     projectButtonText: ""
     projectTitle: "              Handmade reversible bomber jackets, 2021"
-  - projectDescription: >-
-      A capsule collection of highneck embroidered sweatshirts from 100% cotton
-      jersey.  
-
-
-      Handmade with love in our Brussels based atelier.
-    textStartX: 0
-    projetImages:
-      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion4.jpg
-        startX: 0
-        startY: 1
-        endX: 2
-        endY: 4
-      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion5.jpg
-        startX: 2
-        startY: 5
-        endX: 6
-        endY: 7
-      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion6.jpg
-        startX: 8
-        startY: 1
-        endX: 10
-        endY: 3
-    textStartY: 2
-    projectButtonLink: ""
-    textEndX: 2
-    textEndY: 4
-    projectButtonText: ""
-    projectTitle: Your best companion
 ---
 Charlotte Stuby and Susanne Fischer are an artist duo whose collaborative practice bridges the realms of art, design, and textile craftsmanship. 
 
