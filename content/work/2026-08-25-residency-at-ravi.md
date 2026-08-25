@@ -2,7 +2,7 @@
 templateKey: work
 orderOfAppearance: 2
 title: Residency at RAVI
-subtitle: Liege, 2026
+subtitle: Liege, Autumn 2025
 description: >-
   During my residency at RAVI in Liège, I continued my research into textiles
   through compositions that are both figurative and abstract, playing with
