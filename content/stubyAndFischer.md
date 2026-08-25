@@ -400,9 +400,6 @@ projects:
       to our native country, infused with a joyful and humorous spirit.
 
 
-      Brussels, Autumn 2021
-
-
       Pictures By Ugo Woatzi
     textStartX: 5
     projetImages:
