@@ -2,10 +2,14 @@
 templateKey: work
 orderOfAppearance: 4
 title: Project developped at MQC
-subtitle: Malevoz Quartie Culturel, Monthey (CH), Spring 2025
-description: |
-  Works made during a residency of two months
-  Text written by Matteo Michelini
+subtitle: Malévoz Quartier Culturel, Monthey (CH), Spring 2025
+description: >
+  Works made during a residency of two months. 
+
+  Engravings: etching, aquatint, soap-ground, soft-ground and chine-collé, then waxed to withstand the passage of time.
+
+
+  Text written by Matteo Michelini. 
 thumbnail: /img/image-charlottestuby-gravure2-2025.jpg
 decorativeForm: /img/axa.svg
 images:
