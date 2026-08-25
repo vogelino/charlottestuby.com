@@ -27,8 +27,8 @@ projects:
       - projectImage: /img/susanne-fischer-charlottestuby-chaises2.jpg
         startX: 0
         startY: 1
-        endX: 4
-        endY: 6
+        endX: 10
+        endY: 5
       - projectImage: /img/susanne-fischer-charlottestuby-chaises11.jpg
         startX: 0
         startY: 4
@@ -44,10 +44,10 @@ projects:
         endX: 12
         startY: 4
         endY: 6
-    textStartY: 2
+    textStartY: 4
     projectButtonLink: ""
     textEndX: 7
-    textEndY: 4
+    textEndY: 6
     projectButtonText: ""
     projectTitle: AS/MG
   - projectTitle: Take the opportunity to elevate yourself, 2024
