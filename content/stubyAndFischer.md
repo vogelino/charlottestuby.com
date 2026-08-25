@@ -7,6 +7,49 @@ introButtonText: Susanne Fischer's website
 introButtonLink: https://fischersusanne.com/stuby-x-fischer-about
 showPreviewGrid: true
 projects:
+  - projectDescription: >-
+      This project extends the exploration initiated with *Take the Opportunity
+      to Elevate Yourself*, translating its playful spirit into a new domestic
+      setting. Four second-hand chairs were sourced, fully dismantled, and
+      reimagined through a meticulous process that combined restoration and
+      textile design.
+
+
+      The metallic tubular structures were thermo-lacquered, while the seats and backs were recovered with textile compositions inspired by motocross attire. Using techniques such as appliqué, embroidery and quilting, the new coverings reinterpret the dynamic language of sportswear into functional furniture.
+
+
+      This continuation of the series reinforces the dialogue between craftsmanship, reuse, and visual expression — transforming familiar objects into uplifting and expressive design pieces.
+
+
+      Pictures by Simon Loiseau
+    textStartX: 5
+    projetImages:
+      - projectImage: /img/susanne-fischer-charlottestuby-chaises2.jpg
+        startX: 0
+        startY: 1
+        endX: 4
+        endY: 6
+      - projectImage: /img/susanne-fischer-charlottestuby-chaises11.jpg
+        startX: 0
+        startY: 4
+        endX: 4
+        endY: 8
+      - projectImage: /img/susanne-fischer-charlottestuby-chaises10.jpg
+        startX: 6
+        startY: 6
+        endX: 8
+        endY: 8
+      - projectImage: /img/susanne-fischer-charlottestuby-chaises6.jpg
+        startX: 8
+        endX: 8
+        startY: 10
+        endY: 10
+    textStartY: 2
+    projectButtonLink: ""
+    textEndX: 7
+    textEndY: 4
+    projectButtonText: ""
+    projectTitle: AS/MG
   - projectTitle: Take the opportunity to elevate yourself, 2024
     projectDescription: >-
       This project features two bar stools and a bar bench inspired by motocross
@@ -328,49 +371,6 @@ projects:
     textEndY: 12
     projectButtonText: ""
     projectTitle: "              Handmade reversible bomber jackets, 2021"
-  - projectDescription: >-
-      This project extends the exploration initiated with *Take the Opportunity
-      to Elevate Yourself*, translating its playful spirit into a new domestic
-      setting. Four second-hand chairs were sourced, fully dismantled, and
-      reimagined through a meticulous process that combined restoration and
-      textile design.
-
-
-      The metallic tubular structures were thermo-lacquered, while the seats and backs were recovered with textile compositions inspired by motocross attire. Using techniques such as appliqué, embroidery and quilting, the new coverings reinterpret the dynamic language of sportswear into functional furniture.
-
-
-      This continuation of the series reinforces the dialogue between craftsmanship, reuse, and visual expression — transforming familiar objects into uplifting and expressive design pieces.
-
-
-      Pictures by Simon Loiseau
-    textStartX: 5
-    projetImages:
-      - projectImage: /img/susanne-fischer-charlottestuby-chaises2.jpg
-        startX: 0
-        startY: 2
-        endX: 3
-        endY: 4
-      - projectImage: /img/susanne-fischer-charlottestuby-chaises11.jpg
-        startX: 2
-        startY: 4
-        endX: 6
-        endY: 6
-      - projectImage: /img/susanne-fischer-charlottestuby-chaises10.jpg
-        startX: 6
-        startY: 6
-        endX: 8
-        endY: 8
-      - projectImage: /img/susanne-fischer-charlottestuby-chaises6.jpg
-        startX: 8
-        endX: 8
-        startY: 10
-        endY: 10
-    textStartY: 1
-    projectButtonLink: ""
-    textEndX: 7
-    textEndY: 3
-    projectButtonText: ""
-    projectTitle: AS/MG
 ---
 Charlotte Stuby and Susanne Fischer are an artist duo whose collaborative practice bridges the realms of art, design, and textile craftsmanship. 
 
