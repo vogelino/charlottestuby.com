@@ -55,7 +55,7 @@ projects:
     textEndX: 2
     textEndY: 6
     projectButtonText: ""
-    projectTitle: Your best companion
+    projectTitle: Your best companion, 2026
   - projectDescription: >-
       This project extends the exploration initiated with *Take the Opportunity
       to Elevate Yourself*, translating its playful spirit into a new domestic
@@ -116,7 +116,7 @@ projects:
     textEndX: 7
     textEndY: 6
     projectButtonText: ""
-    projectTitle: AS/MG
+    projectTitle: AS/MG, 2025
   - projectTitle: Take the opportunity to elevate yourself, 2024
     projectDescription: >-
       This project features two bar stools and a bar bench inspired by motocross
