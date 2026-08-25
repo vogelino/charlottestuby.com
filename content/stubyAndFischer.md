@@ -40,10 +40,10 @@ projects:
         endX: 9
         endY: 7
       - projectImage: /img/susanne-fischer-charlottestuby-chaises5.jpg
-        startX: 4
+        startX: 5
         endX: 8
-        startY: 10
-        endY: 12
+        startY: 7
+        endY: 10
     textStartY: 1
     projectButtonLink: ""
     textEndX: 7
