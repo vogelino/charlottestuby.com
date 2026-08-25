@@ -13,24 +13,29 @@ projects:
 
 
       Handmade with love in our Brussels based atelier.
-    textStartX: 0
+
+
+
+
+      Brussels, Spring 2026
+    textStartX: 1
     projetImages:
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion4.jpg
         startX: 0
         startY: 1
-        endX: 2
+        endX: 6
         endY: 4
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion5.jpg
         startX: 2
-        startY: 5
+        startY: 4
         endX: 6
         endY: 7
       - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion6.jpg
-        startX: 8
-        startY: 1
-        endX: 10
-        endY: 3
-    textStartY: 2
+        startX: 6
+        startY: 5
+        endX: 9
+        endY: 6
+    textStartY: 3
     projectButtonLink: ""
     textEndX: 2
     textEndY: 4
