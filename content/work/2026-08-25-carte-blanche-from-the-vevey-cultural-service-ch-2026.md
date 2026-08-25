@@ -9,8 +9,8 @@ description: >-
   a celebratory gathering around the transformed objects. The project is rooted
   in a collective dimension and reflects on the connections woven throughout the
   city. Joy is approached as a shared, diffuse and persistent force, capable of
-  creating a sense of togetherness and bringing people together through the
-  transformation of matter and the emergence of new forms.
+  creating a sense of togetherness, transforming matter and giving rise to new
+  forms.
 
 
   Finally, the third part of the project will take the form of an exhibition bringing together works in pewter and textile, developed throughout a year-long work in progress.
