@@ -24,8 +24,8 @@ pressList:
     color: "#000FFF"
   - date: Jul. 2020
     title: les textiles de Charlotte Stuby ennoblissent l'ordinaire
-    pdfFile: /img/article_delaloye-24h-charlottestuby-2020.jpg
-    screenshot: /img/screenshot-article_delaloye-24h-charlottestuby-2020.jpg
+    pdfFile: /img/article_delaloye-24h-charlottestuby-2020-gomme.jpg
+    screenshot: /img/article_delaloye-24h-charlottestuby-2020-gomme.jpg
     color: "#000FFF"
   - date: Feb. 2020
     url: https://dorrellmerritt.co.uk/Charlotte-Stuby-Interview
