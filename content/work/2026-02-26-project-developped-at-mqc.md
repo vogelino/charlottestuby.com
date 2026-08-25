@@ -6,7 +6,7 @@ subtitle: Malevoz Quartie Culturel, Monthey (CH), Spring 2025
 description: |
   Works made during a residency of two months
   Text written by Matteo Michelini
-thumbnail: /img/image-charlottestuby-gravure-2025.jpg
+thumbnail: /img/image-charlottestuby-gravure2-2025.jpg
 decorativeForm: /img/axa.svg
 images:
   - image: /img/mqc11.charlottestuby-2025.jpg
