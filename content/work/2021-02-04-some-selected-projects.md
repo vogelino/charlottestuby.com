@@ -6,7 +6,7 @@ subtitle: Belgium, Switzerland from 2013 until 2026
 date: 2021-02-04T13:10:50.409Z
 description: " "
 thumbnail: /img/ton-maillot-charlottestuby-2014.jpg
-decorativeForm: /img/baton-rose.svg
+decorativeForm: /img/baton-violet.svg
 images:
   - image: /img/la-pisciniste-charlotte-stuby.jpg
     caption: La pisciniste, tapestry, 35x50cm, Belgium, Winter 2025
