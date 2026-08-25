@@ -12,9 +12,6 @@ cvButtonText: (◕‿◕) CV
 instagramUsername: charlottestuby
 instagramButtonText: 𓆏 IG
 forms:
-  - image: /img/mouette-rouge.svg
-    posX: 0
-    posY: 17
   - image: /img/tete-lune.svg
     posX: 0
     posY: -10
