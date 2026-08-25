@@ -55,7 +55,7 @@ projects:
     textEndX: 2
     textEndY: 6
     projectButtonText: ""
-    projectTitle: Your best companion, 2026
+    projectTitle: Your best companion, Spring 2026
   - projectDescription: >-
       This project extends the exploration initiated with *Take the Opportunity
       to Elevate Yourself*, translating its playful spirit into a new domestic
@@ -116,8 +116,8 @@ projects:
     textEndX: 7
     textEndY: 6
     projectButtonText: ""
-    projectTitle: AS/MG, 2025
-  - projectTitle: Take the opportunity to elevate yourself, 2024
+    projectTitle: AS/MG, Winter 2025
+  - projectTitle: Take the opportunity to elevate yourself, Summer 2024
     projectDescription: >-
       This project features two bar stools and a bar bench inspired by motocross
       attire, crafted from upcycled chairs and fabric remnants from previous
@@ -162,7 +162,7 @@ projects:
         endY: 17
     textEndX: 4
     textEndY: 8
-  - projectTitle: Léman, 2024
+  - projectTitle: Léman, Summer 2024
     projectDescription: >-
       *Léman* is a capsule jewelry collection composed of a necklace and a pair
       of earrings, both shaped after the contours of Lake Léman — the body of
@@ -193,7 +193,7 @@ projects:
         startY: 3
         endX: 4
         endY: 6
-  - projectTitle: Brise bise, 2023
+  - projectTitle: Brise bise, Summer 2023
     projectDescription: >-
       This project reimagines the traditional Californian blind by adding a new
       dimension to the space it occupies. While the blind divides and obstructs
@@ -293,7 +293,8 @@ projects:
     textEndX: 3
     textEndY: 9
     projectButtonText: ""
-    projectTitle: HANDLE WITH JOY, an exhibition in collaboration with Sarah Margnetti, 2023
+    projectTitle: HANDLE WITH JOY, an exhibition in collaboration with Sarah
+      Margnetti, Winter 2023
   - projectDescription: >-
       A collection of handmade rain hoods, three different models and in various
       colours. 
@@ -336,7 +337,7 @@ projects:
     textEndY: 4
     projectButtonText: "Write me an email if you are interested my one, we still
       have a little stock! "
-    projectTitle: Fun accessories  for rainy days, 2023
+    projectTitle: Fun accessories  for rainy days, Winter 2023
   - projectDescription: >-
       This collaboration presents a series of seven handmade bowling shirts,
       inspired by the bold aesthetics of 1980s and 1990s sportswear. Each piece
@@ -387,7 +388,7 @@ projects:
     textEndX: 6
     textEndY: 9
     projectButtonText: ""
-    projectTitle: Bowling shirts, 2022
+    projectTitle: Bowling shirts, Spring 2022
   - projectDescription: >-
       This project involved the design and production of two bomber jackets,
       combining  techniques such as knitting, embroidery, and quilting. Through
