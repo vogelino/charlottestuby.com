@@ -15,7 +15,7 @@ projects:
       Handmade with love in our Brussels based atelier.
     textStartX: 1
     projetImages:
-      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion1.jpg
+      - projectImage: /img/charlotte-stuby-susanne-fischer-your-best-compagnion9.jpg
         startX: 0
         startY: 11
         endX: 4
