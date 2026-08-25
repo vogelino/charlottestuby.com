@@ -55,12 +55,18 @@ projects:
   - projectTitle: Brise bise, 2023
     projectDescription: >-
       This project reimagines the traditional Californian blind by adding a new
-      dimension to the  space it occupies. While the blind divides and obstructs
-      light or air, its patchwork  illustration creates the illusion of
-      openness, suggesting a new room or landscape.
+      dimension to the space it occupies. While the blind divides and obstructs
+      light or air, its patchwork illustration creates the illusion of openness,
+      suggesting a new room or landscape.
 
       The composition, designed to be hung indoors, draws on references to familiar domestic objects and sentimental scenery, blending functionality with artistic expression.
 
+
+      150 X 250 cm
+
+      In collaboration with Charlotte Stuby
+
+      Project shown at ADAF, Brussels 2023
 
       Pictures by Antoine Grenez
     textStartX: 4
