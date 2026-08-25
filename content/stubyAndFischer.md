@@ -164,23 +164,20 @@ projects:
     textEndY: 8
   - projectTitle: Léman, 2024
     projectDescription: >-
-      This project reimagines the traditional Californian blind by adding a new
-      dimension to the space it occupies. While the blind divides and obstructs
-      light or air, its patchwork illustration creates the illusion of openness,
-      suggesting a new room or landscape.
+      *Léman* is a capsule jewelry collection composed of a necklace and a pair
+      of earrings, both shaped after the contours of Lake Léman — the body of
+      water along which both artists grew up. Sculpted in recycled silver using
+      the lost-wax technique, the pieces trace the lake’s sinuous form, their
+      edges cut with a saw reminiscent of the surrounding mountain facades
+      plunging into its depths.
 
-      The composition, designed to be hung indoors, draws on references to familiar domestic objects and sentimental scenery, blending functionality with artistic expression.
-
-
-      150 X 250 cm
-
-      In collaboration with Charlotte Stuby
-
-      Project shown at ADAF, Brussels, 2023
+      The mirror-polished surfaces reflect light like the lake itself, creating a dialogue between landscape and ornament, nature and craftsmanship. Minimal yet sculptural, each piece embodies a shared sense of origin and material sensitivity, transforming a familiar horizon into wearable memory.
 
 
+      Brussels, Spring 2024
 
-      Pictures by Antoine Grenez
+
+      Pictures by Simon Loiseau
     textStartX: 0
     textStartY: 1
     textEndX: 3
