@@ -22,4 +22,7 @@ images:
   - image: /img/charlotte_stuby_bdf_ica©romyberger13.jpg
   - image: /img/charlotte_stuby_bdf_ica©romyberger12.jpg
   - image: /img/charlotte_stuby_bdf_ica©romyberger5mod.jpg
+  - image: /img/charlotte_stuby_bdf_ica©romyberger16.jpg
+  - image: /img/charlotte_stuby_bdf_ica©romyberger20.jpg
+  - image: /img/charlotte_stuby_bdf_ica©romyberger1.jpg
 ---
