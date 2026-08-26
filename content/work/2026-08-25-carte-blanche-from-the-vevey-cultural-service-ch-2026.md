@@ -14,6 +14,9 @@ description: >-
 
 
   Finally, the third part of the project will take the form of an exhibition bringing together works in pewter and textile, developed throughout a year-long work in progress.
+
+
+  Pictures by Cécile Monnier
 thumbnail: /img/image-carte-blanche-charlottestuby.jpg
 decorativeForm: /img/main-collier.svg
 images:
