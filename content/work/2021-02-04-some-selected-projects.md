@@ -10,6 +10,9 @@ decorativeForm: /img/mouette-violet.svg
 images:
   - image: /img/la-pisciniste-charlotte-stuby.jpg
     caption: La pisciniste, tapestry, 35x50cm, Belgium, Winter 2025
+  - image: /img/dscf7281.jpg
+    caption: Beloved, in collaboration with Alice nataf and Aurélie Salavert,
+      Shifting Scales, Antwerp, Spring 2025
   - image: /img/chair-cover-charlottestuby-gent-2022jpg.jpg
     caption: Chair cover, part of Speaking chairs, by Onbetaalbaar, Ghent (BE), 2022
   - image: /img/aquarius-charlottestuby-brussels-2022.jpg
