@@ -21,7 +21,7 @@ images:
   - image: /img/ravi-charlotte-stuby-4.jpg
   - image: /img/ravi-charlotte-stuby.jpg
   - image: /img/exhibition-view-ravi-charlotte-stuby.jpg
-  - image: /img/exhibition-view-ravi-charlotte-stuby2.jpg
   - image: /img/ravi-charlotte-stuby-5.jpg
   - image: /img/ravi-charlotte-stuby-6.jpg
+  - image: /img/exhibition-view-ravi-charlotte-stuby2.jpg
 ---
