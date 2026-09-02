@@ -352,9 +352,9 @@ projects:
         projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-6.jpg
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-13.jpg
         startX: 0
-        startY: 13
+        startY: 14
         endX: 2
-        endY: 16
+        endY: 17
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-15.jpg
         startX: 0
         startY: 7
@@ -362,9 +362,9 @@ projects:
         endX: 2
       - projectImage: /img/bowling-shirt-stuby-fischer-brussels-2022-7.jpg
         startX: 2
-        startY: 13
+        startY: 14
         endX: 6
-        endY: 16
+        endY: 17
       - projectImage: /img/stuby-and-fischer-bowling-shirts-3.png
         startX: 5
         startY: 3
