@@ -436,6 +436,11 @@ projects:
         startY: 1
         endX: 4
         endY: 4
+      - projectImage: /img/bombers-jacket-stuby-fischer-brussels-2021-17.jpg
+        startX: 4
+        endX: 6
+        startY: 1
+        endY: 4
     textStartY: 9
     projectButtonLink: ""
     textEndX: 9
