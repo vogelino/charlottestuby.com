@@ -6,7 +6,7 @@ subtitle: Liège, Autumn 2025
 description: >-
   During my residency at RAVI in Liège, I continued my research into textiles
   through compositions that are both figurative and abstract, playing with
-  layers, patterns, fragments, and colour.
+  layers, patterns, fragments, and colours.
 
 
   The works presented here are part of an ongoing process, a series of attempts, adjustments, and shifts. Slowness, repetition, manipulation, and the act of making all play an important role in these explorations. Each piece carries visible traces of this process.
